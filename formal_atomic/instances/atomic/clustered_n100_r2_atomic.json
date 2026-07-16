@@ -1,0 +1,3514 @@
+{
+  "atomic_instance_hash": "805e7bc7c2660f3e1f8b4787bd05bf1abfb059462fc41cf79a59494aa39a93be",
+  "atomic_welds": [
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0000|half=lower|part=1of1|seg=1of1",
+      "end": [
+        2.659668669231,
+        3.800233573536,
+        0.1
+      ],
+      "euclidean_length_m": 0.7934299415799324,
+      "half_region": "lower",
+      "horizontal_length_m": 0.4507275530060002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0000",
+      "parent_weld_id": "clustered_n100_r2__weld_0000|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        3.110396222237,
+        3.147259037159,
+        0.1
+      ],
+      "weld_time_s": 73.46573533147522
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0001|half=upper|part=1of1|seg=1of1",
+      "end": [
+        6.614483515752,
+        9.984655073197,
+        0.1
+      ],
+      "euclidean_length_m": 0.8956080794640813,
+      "half_region": "upper",
+      "horizontal_length_m": 0.6499531186949996,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0001",
+      "parent_weld_id": "clustered_n100_r2__weld_0001|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        7.264436634447,
+        9.368477521269,
+        0.1
+      ],
+      "weld_time_s": 82.92667402445197
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0002|half=lower|part=1of1|seg=1of1",
+      "end": [
+        12.981504729819,
+        3.480508092257,
+        0.1
+      ],
+      "euclidean_length_m": 1.3349387522878404,
+      "half_region": "lower",
+      "horizontal_length_m": 1.2630419705290006,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0002",
+      "parent_weld_id": "clustered_n100_r2__weld_0002|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        14.244546700348,
+        3.048320108803,
+        0.1
+      ],
+      "weld_time_s": 123.60544002665189
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0003|half=upper|part=1of1|seg=1of1",
+      "end": [
+        17.046753513943,
+        11.37465283886,
+        0.1
+      ],
+      "euclidean_length_m": 1.8935749005533256,
+      "half_region": "upper",
+      "horizontal_length_m": 0.24132542364599985,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0003",
+      "parent_weld_id": "clustered_n100_r2__weld_0003|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        16.805428090297,
+        9.496518673283,
+        0.1
+      ],
+      "weld_time_s": 175.3310093104931
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0004|half=lower|part=1of1|seg=1of1",
+      "end": [
+        1.465999016303,
+        3.277960957529,
+        0.1
+      ],
+      "euclidean_length_m": 1.789817267591354,
+      "half_region": "lower",
+      "horizontal_length_m": 1.644148498431,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0004",
+      "parent_weld_id": "clustered_n100_r2__weld_0004|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        3.110147514734,
+        2.570697522538,
+        0.1
+      ],
+      "weld_time_s": 165.7238210732735
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0005|half=upper|part=1of1|seg=1of1",
+      "end": [
+        5.336819050854,
+        8.807262047544,
+        0.1
+      ],
+      "euclidean_length_m": 0.9772705019733908,
+      "half_region": "upper",
+      "horizontal_length_m": 0.6443081027419995,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0005",
+      "parent_weld_id": "clustered_n100_r2__weld_0005|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        5.981127153596,
+        8.072466359772,
+        0.1
+      ],
+      "weld_time_s": 90.48800944198062
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0006|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.913066108881,
+        1.727398873933,
+        0.1
+      ],
+      "euclidean_length_m": 1.1996115453114649,
+      "half_region": "lower",
+      "horizontal_length_m": 0.7952349223100015,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0006",
+      "parent_weld_id": "clustered_n100_r2__weld_0006|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        13.117831186571,
+        0.829251181188,
+        0.1
+      ],
+      "weld_time_s": 111.07514308439488
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0007|half=upper|part=1of1|seg=1of1",
+      "end": [
+        16.623215386319,
+        10.610362961467,
+        0.1
+      ],
+      "euclidean_length_m": 1.709748393523183,
+      "half_region": "upper",
+      "horizontal_length_m": 0.2593549512530018,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0007",
+      "parent_weld_id": "clustered_n100_r2__weld_0007|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        16.882570337572,
+        8.920400068852,
+        0.1
+      ],
+      "weld_time_s": 158.31003643733175
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0008|half=lower|part=1of1|seg=1of1",
+      "end": [
+        4.665800402084,
+        2.378786446606,
+        0.1
+      ],
+      "euclidean_length_m": 1.0873152117401086,
+      "half_region": "lower",
+      "horizontal_length_m": 0.23478600237599956,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0008",
+      "parent_weld_id": "clustered_n100_r2__weld_0008|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        4.431014399708,
+        1.317122703809,
+        0.1
+      ],
+      "weld_time_s": 100.67733442038042
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0009|half=upper|part=1of1|seg=1of1",
+      "end": [
+        4.892592440527,
+        10.005063535353,
+        0.1
+      ],
+      "euclidean_length_m": 0.9146886672724627,
+      "half_region": "upper",
+      "horizontal_length_m": 0.711120817117,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0009",
+      "parent_weld_id": "clustered_n100_r2__weld_0009|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        5.603713257644,
+        9.429770095881,
+        0.1
+      ],
+      "weld_time_s": 84.69339511782061
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0010|half=lower|part=1of1|seg=1of1",
+      "end": [
+        14.550529358434,
+        3.253751333954,
+        0.1
+      ],
+      "euclidean_length_m": 1.912816258109946,
+      "half_region": "lower",
+      "horizontal_length_m": 1.2732841674329993,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0010",
+      "parent_weld_id": "clustered_n100_r2__weld_0010|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        13.277245191001,
+        1.82630134665,
+        0.1
+      ],
+      "weld_time_s": 177.11261649166164
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0011|half=upper|part=1of1|seg=1of1",
+      "end": [
+        17.41476146436,
+        10.287681724471,
+        0.1
+      ],
+      "euclidean_length_m": 1.6224249991700466,
+      "half_region": "upper",
+      "horizontal_length_m": 1.1892506672810015,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0011",
+      "parent_weld_id": "clustered_n100_r2__weld_0011|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        16.225510797079,
+        9.184075939644,
+        0.1
+      ],
+      "weld_time_s": 150.22453696018948
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0012|half=lower|part=1of1|seg=1of1",
+      "end": [
+        2.598001174182,
+        3.316256618165,
+        0.1
+      ],
+      "euclidean_length_m": 1.9367467977567763,
+      "half_region": "lower",
+      "horizontal_length_m": 1.6068665626659997,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0012",
+      "parent_weld_id": "clustered_n100_r2__weld_0012|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        4.204867736848,
+        2.235068379047,
+        0.1
+      ],
+      "weld_time_s": 179.3284071997015
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0013|half=upper|part=1of1|seg=1of1",
+      "end": [
+        5.058207935892,
+        9.622359747159,
+        0.1
+      ],
+      "euclidean_length_m": 1.6328805821874104,
+      "half_region": "upper",
+      "horizontal_length_m": 1.0036132501930002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0013",
+      "parent_weld_id": "clustered_n100_r2__weld_0013|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        6.061821186085,
+        8.334314934382,
+        0.1
+      ],
+      "weld_time_s": 151.19264649883428
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0014|half=lower|part=1of1|seg=1of1",
+      "end": [
+        12.567960098738,
+        2.724861467693,
+        0.1
+      ],
+      "euclidean_length_m": 1.3924692015902502,
+      "half_region": "lower",
+      "horizontal_length_m": 1.1132449336150003,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0014",
+      "parent_weld_id": "clustered_n100_r2__weld_0014|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        13.681205032353,
+        1.888406929085,
+        0.1
+      ],
+      "weld_time_s": 128.9323334805787
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0015|half=upper|part=1of1|seg=1of1",
+      "end": [
+        14.364404550249,
+        8.647947279187,
+        0.1
+      ],
+      "euclidean_length_m": 1.97703878239425,
+      "half_region": "upper",
+      "horizontal_length_m": 1.9747168581360004,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0015",
+      "parent_weld_id": "clustered_n100_r2__weld_0015|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        16.339121408385,
+        8.552157523553,
+        0.1
+      ],
+      "weld_time_s": 183.05914651798608
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0016|half=lower|part=1of1|seg=1of1",
+      "end": [
+        2.83693520194,
+        3.690137862213,
+        0.1
+      ],
+      "euclidean_length_m": 1.3826107707875446,
+      "half_region": "lower",
+      "horizontal_length_m": 0.5377808997,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0016",
+      "parent_weld_id": "clustered_n100_r2__weld_0016|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        3.37471610164,
+        2.416401528659,
+        0.1
+      ],
+      "weld_time_s": 128.01951581366154
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0017|half=upper|part=1of1|seg=1of1",
+      "end": [
+        5.12995681155,
+        9.829831703801,
+        0.1
+      ],
+      "euclidean_length_m": 1.478395575269379,
+      "half_region": "upper",
+      "horizontal_length_m": 0.9152640635900005,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0017",
+      "parent_weld_id": "clustered_n100_r2__weld_0017|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        6.04522087514,
+        8.66882129434,
+        0.1
+      ],
+      "weld_time_s": 136.88847919160915
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0018|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.687420031049,
+        3.110482491135,
+        0.1
+      ],
+      "euclidean_length_m": 0.644514489605235,
+      "half_region": "lower",
+      "horizontal_length_m": 0.5100369307320012,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0018",
+      "parent_weld_id": "clustered_n100_r2__weld_0018|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        14.197456961781,
+        2.716450440915,
+        0.1
+      ],
+      "weld_time_s": 59.67726755604028
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0019|half=upper|part=1of1|seg=1of1",
+      "end": [
+        16.551548666522,
+        9.670461862115,
+        0.1
+      ],
+      "euclidean_length_m": 1.1899416908704077,
+      "half_region": "upper",
+      "horizontal_length_m": 1.1519112947269985,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0019",
+      "parent_weld_id": "clustered_n100_r2__weld_0019|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        15.399637371795,
+        9.372029965777,
+        0.1
+      ],
+      "weld_time_s": 110.17978619170441
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0020|half=lower|part=1of1|seg=1of1",
+      "end": [
+        2.571852033705,
+        2.961247663482,
+        0.1
+      ],
+      "euclidean_length_m": 0.6767985938838895,
+      "half_region": "lower",
+      "horizontal_length_m": 0.311234879568,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0020",
+      "parent_weld_id": "clustered_n100_r2__weld_0020|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        2.883086913273,
+        2.360257491829,
+        0.1
+      ],
+      "weld_time_s": 62.666536470730506
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0021|half=upper|part=1of1|seg=1of1",
+      "end": [
+        7.376298026546,
+        10.445901660827,
+        0.1
+      ],
+      "euclidean_length_m": 1.673599859345535,
+      "half_region": "upper",
+      "horizontal_length_m": 1.6457148974000004,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0021",
+      "parent_weld_id": "clustered_n100_r2__weld_0021|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        5.730583129146,
+        10.14166661078,
+        0.1
+      ],
+      "weld_time_s": 154.96294993940137
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0022|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.459604545642,
+        3.711321871053,
+        0.1
+      ],
+      "euclidean_length_m": 0.5212406319903382,
+      "half_region": "lower",
+      "horizontal_length_m": 0.40194656744299984,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0022",
+      "parent_weld_id": "clustered_n100_r2__weld_0022|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        13.861551113085,
+        3.379462332455,
+        0.1
+      ],
+      "weld_time_s": 48.26302148058687
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0023|half=upper|part=1of1|seg=1of1",
+      "end": [
+        16.776320216883,
+        10.71254479355,
+        0.1
+      ],
+      "euclidean_length_m": 1.9076988021578114,
+      "half_region": "upper",
+      "horizontal_length_m": 1.4246790146280013,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0023",
+      "parent_weld_id": "clustered_n100_r2__weld_0023|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        15.351641202255,
+        9.443842927455,
+        0.1
+      ],
+      "weld_time_s": 176.63877797757513
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0024|half=lower|part=1of1|seg=1of1",
+      "end": [
+        4.766250448044,
+        2.21742841398,
+        0.1
+      ],
+      "euclidean_length_m": 1.5321335374113683,
+      "half_region": "lower",
+      "horizontal_length_m": 1.4666234730180006,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0024",
+      "parent_weld_id": "clustered_n100_r2__weld_0024|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        3.299626975026,
+        1.774203003096,
+        0.1
+      ],
+      "weld_time_s": 141.86421642697854
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0025|half=upper|part=1of1|seg=1of1",
+      "end": [
+        5.073054659823,
+        8.560159652989,
+        0.1
+      ],
+      "euclidean_length_m": 1.49965704315316,
+      "half_region": "upper",
+      "horizontal_length_m": 1.4017644089440005,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0025",
+      "parent_weld_id": "clustered_n100_r2__weld_0025|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        6.474819068767,
+        8.02721707738,
+        0.1
+      ],
+      "weld_time_s": 138.8571336252926
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0026|half=lower|part=1of1|seg=1of1",
+      "end": [
+        14.286180530068,
+        2.631351685513,
+        0.1
+      ],
+      "euclidean_length_m": 1.8822948723956843,
+      "half_region": "lower",
+      "horizontal_length_m": 1.8747374003639994,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0026",
+      "parent_weld_id": "clustered_n100_r2__weld_0026|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        12.411443129704,
+        2.462847482825,
+        0.1
+      ],
+      "weld_time_s": 174.28656225885965
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0027|half=upper|part=1of1|seg=1of1",
+      "end": [
+        15.780267906387,
+        10.035273022673,
+        0.1
+      ],
+      "euclidean_length_m": 1.763801576408248,
+      "half_region": "upper",
+      "horizontal_length_m": 1.5387929062710022,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0027",
+      "parent_weld_id": "clustered_n100_r2__weld_0027|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        17.319060812658,
+        9.173233352733,
+        0.1
+      ],
+      "weld_time_s": 163.31496077854146
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0028|half=lower|part=1of1|seg=1of1",
+      "end": [
+        2.368619667968,
+        3.002465634071,
+        0.1
+      ],
+      "euclidean_length_m": 0.9047600053277405,
+      "half_region": "lower",
+      "horizontal_length_m": 0.763973421877,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0028",
+      "parent_weld_id": "clustered_n100_r2__weld_0028|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        3.132593089845,
+        2.517764408669,
+        0.1
+      ],
+      "weld_time_s": 83.77407456738338
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0029|half=upper|part=1of1|seg=1of1",
+      "end": [
+        4.702712050136,
+        9.696745713134,
+        0.1
+      ],
+      "euclidean_length_m": 1.9237932922052938,
+      "half_region": "upper",
+      "horizontal_length_m": 1.2169178941949994,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0029",
+      "parent_weld_id": "clustered_n100_r2__weld_0029|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        5.919629944331,
+        8.206748575579,
+        0.1
+      ],
+      "weld_time_s": 178.1290085375272
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0030|half=lower|part=1of1|seg=1of1",
+      "end": [
+        12.849810791014,
+        3.376364490808,
+        0.1
+      ],
+      "euclidean_length_m": 1.764059028620829,
+      "half_region": "lower",
+      "horizontal_length_m": 0.07744471770400096,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0030",
+      "parent_weld_id": "clustered_n100_r2__weld_0030|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        12.77236607331,
+        1.614006249088,
+        0.1
+      ],
+      "weld_time_s": 163.33879894637306
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0031|half=upper|part=1of1|seg=1of1",
+      "end": [
+        16.308867488641,
+        9.186970520427,
+        0.1
+      ],
+      "euclidean_length_m": 1.916828057300226,
+      "half_region": "upper",
+      "horizontal_length_m": 1.8778673225429987,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0031",
+      "parent_weld_id": "clustered_n100_r2__weld_0031|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        14.431000166098,
+        8.802465487718,
+        0.1
+      ],
+      "weld_time_s": 177.48407937965055
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0032|half=lower|part=1of1|seg=1of1",
+      "end": [
+        4.008418052172,
+        3.33350401348,
+        0.1
+      ],
+      "euclidean_length_m": 1.665456309546603,
+      "half_region": "lower",
+      "horizontal_length_m": 1.387442312843,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0032",
+      "parent_weld_id": "clustered_n100_r2__weld_0032|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        2.620975739329,
+        2.412228513132,
+        0.1
+      ],
+      "weld_time_s": 154.20891755061137
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0033|half=upper|part=1of1|seg=1of1",
+      "end": [
+        6.958569577541,
+        8.462266807138,
+        0.1
+      ],
+      "euclidean_length_m": 0.5218407481136248,
+      "half_region": "upper",
+      "horizontal_length_m": 0.39191303796800003,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0033",
+      "parent_weld_id": "clustered_n100_r2__weld_0033|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        6.566656539573,
+        8.117706308731,
+        0.1
+      ],
+      "weld_time_s": 48.318587788298586
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0034|half=lower|part=1of1|seg=1of1",
+      "end": [
+        14.308254183343,
+        3.789562404049,
+        0.1
+      ],
+      "euclidean_length_m": 1.8567202401693828,
+      "half_region": "lower",
+      "horizontal_length_m": 1.854634815600999,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0034",
+      "parent_weld_id": "clustered_n100_r2__weld_0034|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        12.453619367742,
+        3.70158654932,
+        0.1
+      ],
+      "weld_time_s": 171.9185407564243
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0035|half=upper|part=1of1|seg=1of1",
+      "end": [
+        16.565752384514,
+        10.324784388202,
+        0.1
+      ],
+      "euclidean_length_m": 0.6881343947603847,
+      "half_region": "upper",
+      "horizontal_length_m": 0.3923563735870026,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0035",
+      "parent_weld_id": "clustered_n100_r2__weld_0035|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        16.958108758101,
+        9.759465521227,
+        0.1
+      ],
+      "weld_time_s": 63.71614766299858
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0036|half=lower|part=1of1|seg=1of1",
+      "end": [
+        2.292016078751,
+        3.273882390816,
+        0.1
+      ],
+      "euclidean_length_m": 0.7084058229421132,
+      "half_region": "lower",
+      "horizontal_length_m": 0.423840437345,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0036",
+      "parent_weld_id": "clustered_n100_r2__weld_0036|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        2.715856516096,
+        2.706257432195,
+        0.1
+      ],
+      "weld_time_s": 65.59313175389937
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0037|half=upper|part=1of1|seg=1of1",
+      "end": [
+        5.335323436425,
+        9.206022830421,
+        0.1
+      ],
+      "euclidean_length_m": 0.9930075277986332,
+      "half_region": "upper",
+      "horizontal_length_m": 0.4847242256760005,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0037",
+      "parent_weld_id": "clustered_n100_r2__weld_0037|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        5.820047662101,
+        8.339358895953,
+        0.1
+      ],
+      "weld_time_s": 91.9451414628364
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0038|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.176993714193,
+        3.338788094812,
+        0.1
+      ],
+      "euclidean_length_m": 1.4173080104195386,
+      "half_region": "lower",
+      "horizontal_length_m": 1.23955725131,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0038",
+      "parent_weld_id": "clustered_n100_r2__weld_0038|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        11.937436462883,
+        2.651576470111,
+        0.1
+      ],
+      "weld_time_s": 131.2322231869943
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0039|half=upper|part=1of1|seg=1of1",
+      "end": [
+        16.561969079006,
+        9.612003164703,
+        0.1
+      ],
+      "euclidean_length_m": 1.325747916312338,
+      "half_region": "upper",
+      "horizontal_length_m": 0.19969248925399796,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0039",
+      "parent_weld_id": "clustered_n100_r2__weld_0039|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        16.76166156826,
+        8.301381004299,
+        0.1
+      ],
+      "weld_time_s": 122.75443669558685
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0040|half=lower|part=1of1|seg=1of1",
+      "end": [
+        3.270295802711,
+        2.622641014244,
+        0.1
+      ],
+      "euclidean_length_m": 0.9511002346726323,
+      "half_region": "lower",
+      "horizontal_length_m": 0.8801003678019996,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0040",
+      "parent_weld_id": "clustered_n100_r2__weld_0040|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        2.390195434909,
+        2.262065087442,
+        0.1
+      ],
+      "weld_time_s": 88.06483654376224
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0041|half=upper|part=1of1|seg=1of1",
+      "end": [
+        4.911457958877,
+        8.684379246368,
+        0.1
+      ],
+      "euclidean_length_m": 0.795063006662221,
+      "half_region": "upper",
+      "horizontal_length_m": 0.14779288730799944,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0041",
+      "parent_weld_id": "clustered_n100_r2__weld_0041|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        5.059250846185,
+        7.903173481525,
+        0.1
+      ],
+      "weld_time_s": 73.61694506131676
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0042|half=lower|part=1of1|seg=1of1",
+      "end": [
+        12.283273171804,
+        2.85508788125,
+        0.1
+      ],
+      "euclidean_length_m": 1.1120655577384295,
+      "half_region": "lower",
+      "horizontal_length_m": 0.8933218987369997,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0042",
+      "parent_weld_id": "clustered_n100_r2__weld_0042|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        13.176595070541,
+        2.1927693854,
+        0.1
+      ],
+      "weld_time_s": 102.96903312392865
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0043|half=upper|part=1of1|seg=1of1",
+      "end": [
+        15.143147294011,
+        11.279280665084,
+        0.1
+      ],
+      "euclidean_length_m": 1.6698141793546875,
+      "half_region": "upper",
+      "horizontal_length_m": 0.49065657269099994,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0043",
+      "parent_weld_id": "clustered_n100_r2__weld_0043|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        15.633803866702,
+        9.683180567581,
+        0.1
+      ],
+      "weld_time_s": 154.6124240143229
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0044|half=lower|part=1of1|seg=1of1",
+      "end": [
+        3.45075915426,
+        2.921739945631,
+        0.1
+      ],
+      "euclidean_length_m": 0.9794093217389667,
+      "half_region": "lower",
+      "horizontal_length_m": 0.8801945283989996,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0044",
+      "parent_weld_id": "clustered_n100_r2__weld_0044|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        4.330953682659,
+        2.49220506732,
+        0.1
+      ],
+      "weld_time_s": 90.68604830916358
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0045|half=upper|part=1of1|seg=1of1",
+      "end": [
+        4.983768623741,
+        9.390679117973,
+        0.1
+      ],
+      "euclidean_length_m": 0.7408111701272447,
+      "half_region": "upper",
+      "horizontal_length_m": 0.19393168829299956,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0045",
+      "parent_weld_id": "clustered_n100_r2__weld_0045|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        4.789836935448,
+        8.675702412016,
+        0.1
+      ],
+      "weld_time_s": 68.59362686363377
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0046|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.790717730886,
+        4.215681027089,
+        0.1
+      ],
+      "euclidean_length_m": 0.7326484396570189,
+      "half_region": "lower",
+      "horizontal_length_m": 0.11723523929899926,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0046",
+      "parent_weld_id": "clustered_n100_r2__weld_0046|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        13.673482491587,
+        3.492473149091,
+        0.1
+      ],
+      "weld_time_s": 67.83781848676101
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0047|half=upper|part=1of1|seg=1of1",
+      "end": [
+        17.609079418766,
+        9.337984614974,
+        0.1
+      ],
+      "euclidean_length_m": 1.7419110158285653,
+      "half_region": "upper",
+      "horizontal_length_m": 1.7286938418899993,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0047",
+      "parent_weld_id": "clustered_n100_r2__weld_0047|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        19.337773260656,
+        9.123808080133,
+        0.1
+      ],
+      "weld_time_s": 161.28805702116344
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0048|half=lower|part=1of1|seg=1of1",
+      "end": [
+        3.613539794117,
+        2.161029504551,
+        0.1
+      ],
+      "euclidean_length_m": 0.9320281779490288,
+      "half_region": "lower",
+      "horizontal_length_m": 0.8993554728380002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0048",
+      "parent_weld_id": "clustered_n100_r2__weld_0048|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        2.714184321279,
+        1.916414995645,
+        0.1
+      ],
+      "weld_time_s": 86.29890536565081
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0049|half=upper|part=1of1|seg=1of1",
+      "end": [
+        5.990899753265,
+        10.131164086632,
+        0.1
+      ],
+      "euclidean_length_m": 1.48009652314992,
+      "half_region": "upper",
+      "horizontal_length_m": 0.32421007281299996,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0049",
+      "parent_weld_id": "clustered_n100_r2__weld_0049|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        5.666689680452,
+        8.687012589549,
+        0.1
+      ],
+      "weld_time_s": 137.04597436573331
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0050|half=lower|part=1of1|seg=1of1",
+      "end": [
+        14.246913993691,
+        3.993494700831,
+        0.1
+      ],
+      "euclidean_length_m": 0.7909752364182717,
+      "half_region": "lower",
+      "horizontal_length_m": 0.7896191148010008,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0050",
+      "parent_weld_id": "clustered_n100_r2__weld_0050|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        13.45729487889,
+        3.947196988492,
+        0.1
+      ],
+      "weld_time_s": 73.23844781650664
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0051|half=upper|part=1of1|seg=1of1",
+      "end": [
+        16.847109055982,
+        9.173543401972,
+        0.1
+      ],
+      "euclidean_length_m": 1.4031292221306857,
+      "half_region": "upper",
+      "horizontal_length_m": 0.5880548754380008,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0051",
+      "parent_weld_id": "clustered_n100_r2__weld_0051|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        17.43516393142,
+        7.899587720847,
+        0.1
+      ],
+      "weld_time_s": 129.91937241950794
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0052|half=lower|part=1of1|seg=1of1",
+      "end": [
+        3.256912972258,
+        1.282056904363,
+        0.1
+      ],
+      "euclidean_length_m": 0.750771135885581,
+      "half_region": "lower",
+      "horizontal_length_m": 0.5862377526090001,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0052",
+      "parent_weld_id": "clustered_n100_r2__weld_0052|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        2.670675219649,
+        0.813033881586,
+        0.1
+      ],
+      "weld_time_s": 69.51584591533157
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0053|half=upper|part=1of1|seg=1of1",
+      "end": [
+        3.978467997037,
+        9.082536300193,
+        0.1
+      ],
+      "euclidean_length_m": 1.2542954279702674,
+      "half_region": "upper",
+      "horizontal_length_m": 0.9193015302180001,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0053",
+      "parent_weld_id": "clustered_n100_r2__weld_0053|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        4.897769527255,
+        8.229224096386,
+        0.1
+      ],
+      "weld_time_s": 116.13846555280253
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0054|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.030704270465,
+        3.042752708887,
+        0.1
+      ],
+      "euclidean_length_m": 1.1465920784984605,
+      "half_region": "lower",
+      "horizontal_length_m": 1.118002787131001,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0054",
+      "parent_weld_id": "clustered_n100_r2__weld_0054|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        14.148707057596,
+        2.788305931657,
+        0.1
+      ],
+      "weld_time_s": 106.16593319430189
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0055|half=upper|part=1of1|seg=1of1",
+      "end": [
+        16.980646210176,
+        9.734055471252,
+        0.1
+      ],
+      "euclidean_length_m": 1.4491997963261622,
+      "half_region": "upper",
+      "horizontal_length_m": 1.2013087497680015,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0055",
+      "parent_weld_id": "clustered_n100_r2__weld_0055|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        15.779337460408,
+        8.923477074425,
+        0.1
+      ],
+      "weld_time_s": 134.1851663264965
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0056|half=lower|part=1of1|seg=1of1",
+      "end": [
+        1.444763413644,
+        3.274979238283,
+        0.1
+      ],
+      "euclidean_length_m": 1.1247137843334332,
+      "half_region": "lower",
+      "horizontal_length_m": 0.7735074651840002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0056",
+      "parent_weld_id": "clustered_n100_r2__weld_0056|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        2.218270878828,
+        2.45848227076,
+        0.1
+      ],
+      "weld_time_s": 104.14016521605862
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0057|half=upper|part=1of1|seg=1of1",
+      "end": [
+        4.296615119476,
+        9.088657966962,
+        0.1
+      ],
+      "euclidean_length_m": 1.9069640742953486,
+      "half_region": "upper",
+      "horizontal_length_m": 1.7792461899690002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0057",
+      "parent_weld_id": "clustered_n100_r2__weld_0057|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        6.075861309445,
+        8.402512955952,
+        0.1
+      ],
+      "weld_time_s": 176.57074761993968
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0058|half=lower|part=1of1|seg=1of1",
+      "end": [
+        15.09962660967,
+        1.852935933643,
+        0.1
+      ],
+      "euclidean_length_m": 1.4158954834618551,
+      "half_region": "lower",
+      "horizontal_length_m": 0.5145804919900012,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0058",
+      "parent_weld_id": "clustered_n100_r2__weld_0058|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        14.58504611768,
+        0.53385787024,
+        0.1
+      ],
+      "weld_time_s": 131.10143365387546
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0059|half=upper|part=1of1|seg=1of1",
+      "end": [
+        17.175814757144,
+        9.765451513978,
+        0.1
+      ],
+      "euclidean_length_m": 0.5222667414891238,
+      "half_region": "upper",
+      "horizontal_length_m": 0.4692560392479983,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0059",
+      "parent_weld_id": "clustered_n100_r2__weld_0059|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        16.706558717896,
+        9.53618895948,
+        0.1
+      ],
+      "weld_time_s": 48.35803161936331
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0060|half=lower|part=1of1|seg=1of1",
+      "end": [
+        4.261616712259,
+        2.307851872644,
+        0.1
+      ],
+      "euclidean_length_m": 1.202860592936,
+      "half_region": "lower",
+      "horizontal_length_m": 1.1677078082970005,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0060",
+      "parent_weld_id": "clustered_n100_r2__weld_0060|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        3.093908903962,
+        2.019178908062,
+        0.1
+      ],
+      "weld_time_s": 111.37598082740739
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0061|half=upper|part=1of1|seg=1of1",
+      "end": [
+        6.058291363652,
+        9.273851498151,
+        0.1
+      ],
+      "euclidean_length_m": 0.5885676634316361,
+      "half_region": "upper",
+      "horizontal_length_m": 0.30529762020199946,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0061",
+      "parent_weld_id": "clustered_n100_r2__weld_0061|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        5.75299374345,
+        8.770656448954,
+        0.1
+      ],
+      "weld_time_s": 54.49700587329964
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0062|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.683078412918,
+        3.526988652541,
+        0.1
+      ],
+      "euclidean_length_m": 0.5768796664497253,
+      "half_region": "lower",
+      "horizontal_length_m": 0.20930072641700015,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0062",
+      "parent_weld_id": "clustered_n100_r2__weld_0062|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        13.473777686501,
+        2.989416931294,
+        0.1
+      ],
+      "weld_time_s": 53.41478393053012
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0063|half=upper|part=1of1|seg=1of1",
+      "end": [
+        14.557066893947,
+        9.156308651281,
+        0.1
+      ],
+      "euclidean_length_m": 0.6131493595370756,
+      "half_region": "upper",
+      "horizontal_length_m": 0.2916969420059985,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0063",
+      "parent_weld_id": "clustered_n100_r2__weld_0063|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        14.848763835953,
+        8.61698960737,
+        0.1
+      ],
+      "weld_time_s": 56.773088846025516
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0064|half=lower|part=1of1|seg=1of1",
+      "end": [
+        3.33736365472,
+        3.340517772189,
+        0.1
+      ],
+      "euclidean_length_m": 1.4784731814992678,
+      "half_region": "lower",
+      "horizontal_length_m": 0.9662660601219999,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0064",
+      "parent_weld_id": "clustered_n100_r2__weld_0064|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        2.371097594598,
+        2.221494604659,
+        0.1
+      ],
+      "weld_time_s": 136.8956649536359
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0065|half=upper|part=1of1|seg=1of1",
+      "end": [
+        6.801205963207,
+        8.617179787789,
+        0.1
+      ],
+      "euclidean_length_m": 1.4909064943827803,
+      "half_region": "upper",
+      "horizontal_length_m": 1.310176133372,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0065",
+      "parent_weld_id": "clustered_n100_r2__weld_0065|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        5.491029829835,
+        7.90567386755,
+        0.1
+      ],
+      "weld_time_s": 138.0468976280352
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0066|half=lower|part=1of1|seg=1of1",
+      "end": [
+        15.529440131392,
+        3.491347162434,
+        0.1
+      ],
+      "euclidean_length_m": 1.114702040117621,
+      "half_region": "lower",
+      "horizontal_length_m": 1.097307922693,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0066",
+      "parent_weld_id": "clustered_n100_r2__weld_0066|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        14.432132208699,
+        3.295194260244,
+        0.1
+      ],
+      "weld_time_s": 103.21315186274269
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0067|half=upper|part=1of1|seg=1of1",
+      "end": [
+        16.064623282045,
+        9.212704331771,
+        0.1
+      ],
+      "euclidean_length_m": 1.3604855487049523,
+      "half_region": "upper",
+      "horizontal_length_m": 1.188183340978,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0067",
+      "parent_weld_id": "clustered_n100_r2__weld_0067|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        17.252806623023,
+        8.550026977052,
+        0.1
+      ],
+      "weld_time_s": 125.97088413934743
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0068|half=lower|part=1of1|seg=1of1",
+      "end": [
+        3.722910457351,
+        3.358801627667,
+        0.1
+      ],
+      "euclidean_length_m": 0.671697719619632,
+      "half_region": "lower",
+      "horizontal_length_m": 0.23366375119399985,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0068",
+      "parent_weld_id": "clustered_n100_r2__weld_0068|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        3.489246706157,
+        2.729056379237,
+        0.1
+      ],
+      "weld_time_s": 62.19423329811407
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0069|half=upper|part=1of1|seg=1of1",
+      "end": [
+        5.183624798173,
+        10.101647602028,
+        0.1
+      ],
+      "euclidean_length_m": 0.559793651464644,
+      "half_region": "upper",
+      "horizontal_length_m": 0.14952934180900002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0069",
+      "parent_weld_id": "clustered_n100_r2__weld_0069|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        5.333154139982,
+        9.562194260062,
+        0.1
+      ],
+      "weld_time_s": 51.83274550598555
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0070|half=lower|part=1of1|seg=1of1",
+      "end": [
+        14.072526219752,
+        3.600821830677,
+        0.1
+      ],
+      "euclidean_length_m": 1.3894510216319333,
+      "half_region": "lower",
+      "horizontal_length_m": 0.3497877052839993,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0070",
+      "parent_weld_id": "clustered_n100_r2__weld_0070|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        13.722738514468,
+        2.25612011552,
+        0.1
+      ],
+      "weld_time_s": 128.65287237332714
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0071|half=upper|part=1of1|seg=1of1",
+      "end": [
+        15.962412203716,
+        10.092052963374,
+        0.1
+      ],
+      "euclidean_length_m": 0.5761282815442291,
+      "half_region": "upper",
+      "horizontal_length_m": 0.5481037964399995,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0071",
+      "parent_weld_id": "clustered_n100_r2__weld_0071|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        15.414308407276,
+        9.914553596831,
+        0.1
+      ],
+      "weld_time_s": 53.34521125409529
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0072|half=lower|part=1of1|seg=1of1",
+      "end": [
+        4.978045698541,
+        3.198512597325,
+        0.1
+      ],
+      "euclidean_length_m": 1.9925594826355797,
+      "half_region": "lower",
+      "horizontal_length_m": 1.520400449357,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0072",
+      "parent_weld_id": "clustered_n100_r2__weld_0072|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        3.457645249184,
+        1.910616729859,
+        0.1
+      ],
+      "weld_time_s": 184.4962483921833
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0073|half=upper|part=1of1|seg=1of1",
+      "end": [
+        4.534960763232,
+        9.258263341618,
+        0.1
+      ],
+      "euclidean_length_m": 0.9279148973687372,
+      "half_region": "upper",
+      "horizontal_length_m": 0.5990896300969997,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0073",
+      "parent_weld_id": "clustered_n100_r2__weld_0073|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        5.134050393329,
+        8.549660722466,
+        0.1
+      ],
+      "weld_time_s": 85.91804605266086
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0074|half=lower|part=1of1|seg=1of1",
+      "end": [
+        12.763429685567,
+        3.481004846112,
+        0.1
+      ],
+      "euclidean_length_m": 1.4723679381005796,
+      "half_region": "lower",
+      "horizontal_length_m": 1.4284637439059988,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0074",
+      "parent_weld_id": "clustered_n100_r2__weld_0074|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        14.191893429473,
+        3.124131370644,
+        0.1
+      ],
+      "weld_time_s": 136.33036463894254
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0075|half=upper|part=1of1|seg=1of1",
+      "end": [
+        15.206508936687,
+        11.453745915889,
+        0.1
+      ],
+      "euclidean_length_m": 1.4260964436608012,
+      "half_region": "upper",
+      "horizontal_length_m": 1.052381021058002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0075",
+      "parent_weld_id": "clustered_n100_r2__weld_0075|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        16.258889957745,
+        10.491329554256,
+        0.1
+      ],
+      "weld_time_s": 132.04596700562973
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0076|half=lower|part=1of1|seg=1of1",
+      "end": [
+        4.159123734146,
+        2.660725694869,
+        0.1
+      ],
+      "euclidean_length_m": 1.0548085090064543,
+      "half_region": "lower",
+      "horizontal_length_m": 0.3218607159140001,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0076",
+      "parent_weld_id": "clustered_n100_r2__weld_0076|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        4.48098445006,
+        1.656222499143,
+        0.1
+      ],
+      "weld_time_s": 97.66745453763465
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0077|half=upper|part=1of1|seg=1of1",
+      "end": [
+        5.945048670482,
+        9.449789811484,
+        0.1
+      ],
+      "euclidean_length_m": 1.5695023661807732,
+      "half_region": "upper",
+      "horizontal_length_m": 0.009099311088999862,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0077",
+      "parent_weld_id": "clustered_n100_r2__weld_0077|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        5.935949359393,
+        7.880313822504,
+        0.1
+      ],
+      "weld_time_s": 145.3242931648864
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0078|half=lower|part=1of1|seg=1of1",
+      "end": [
+        14.592719558541,
+        3.025309008289,
+        0.1
+      ],
+      "euclidean_length_m": 0.6598776753636563,
+      "half_region": "lower",
+      "horizontal_length_m": 0.6182868411879987,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0078",
+      "parent_weld_id": "clustered_n100_r2__weld_0078|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        15.211006399729,
+        2.794744638845,
+        0.1
+      ],
+      "weld_time_s": 61.0997847558941
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0079|half=upper|part=1of1|seg=1of1",
+      "end": [
+        17.913514894177,
+        10.664719868544,
+        0.1
+      ],
+      "euclidean_length_m": 1.7418129057417262,
+      "half_region": "upper",
+      "horizontal_length_m": 1.364774838511,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0079",
+      "parent_weld_id": "clustered_n100_r2__weld_0079|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        16.548740055666,
+        9.582452878021,
+        0.1
+      ],
+      "weld_time_s": 161.27897275386354
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0080|half=lower|part=1of2|seg=1of1",
+      "end": [
+        14.974840067708,
+        6.0,
+        0.1
+      ],
+      "euclidean_length_m": 1.461635618762079,
+      "half_region": "lower",
+      "horizontal_length_m": 0.5519850785325104,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "clustered_n100_r2__weld_0080",
+      "parent_weld_id": "clustered_n100_r2__weld_0080|half=lower|part=1of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        14.422854989175,
+        4.646600149582,
+        0.1
+      ],
+      "weld_time_s": 135.33663136685917
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0080|half=upper|part=2of2|seg=1of1",
+      "end": [
+        15.220991091312,
+        6.603532181363,
+        0.1
+      ],
+      "euclidean_length_m": 0.6517986041426586,
+      "half_region": "upper",
+      "horizontal_length_m": 0.24615102360448837,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "clustered_n100_r2__weld_0080",
+      "parent_weld_id": "clustered_n100_r2__weld_0080|half=upper|part=2of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        14.974840067708,
+        6.0,
+        0.1
+      ],
+      "weld_time_s": 60.35172260580171
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0081|half=upper|part=1of1|seg=1of1",
+      "end": [
+        17.466786914676,
+        10.205669668644,
+        0.1
+      ],
+      "euclidean_length_m": 2.2848388940765973,
+      "half_region": "upper",
+      "horizontal_length_m": 2.071209793307,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0081",
+      "parent_weld_id": "clustered_n100_r2__weld_0081|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        15.395577121369,
+        9.241004564064,
+        0.1
+      ],
+      "weld_time_s": 211.5591568589442
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0082|half=lower|part=1of2|seg=1of1",
+      "end": [
+        14.179397614685,
+        6.0,
+        0.1
+      ],
+      "euclidean_length_m": 0.5052270025050238,
+      "half_region": "lower",
+      "horizontal_length_m": 0.47457061386647226,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "clustered_n100_r2__weld_0082",
+      "parent_weld_id": "clustered_n100_r2__weld_0082|half=lower|part=1of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        13.704827000819,
+        5.826687979313,
+        0.1
+      ],
+      "weld_time_s": 46.78027800972443
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0082|half=upper|part=2of2|seg=1of1",
+      "end": [
+        15.661216107818,
+        6.541156468252,
+        0.1
+      ],
+      "euclidean_length_m": 1.5775412418445776,
+      "half_region": "upper",
+      "horizontal_length_m": 1.4818184931325273,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "clustered_n100_r2__weld_0082",
+      "parent_weld_id": "clustered_n100_r2__weld_0082|half=upper|part=2of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        14.179397614685,
+        6.0,
+        0.1
+      ],
+      "weld_time_s": 146.06863350412755
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0083|half=upper|part=1of1|seg=1of1",
+      "end": [
+        7.459003108208,
+        10.797911343989,
+        0.1
+      ],
+      "euclidean_length_m": 2.204266573173634,
+      "half_region": "upper",
+      "horizontal_length_m": 1.949988875272,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0083",
+      "parent_weld_id": "clustered_n100_r2__weld_0083|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        5.509014232936,
+        9.770129989845,
+        0.1
+      ],
+      "weld_time_s": 204.09875677533645
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0084|half=lower|part=1of2|seg=1of1",
+      "end": [
+        15.985151034936,
+        6.0,
+        0.1
+      ],
+      "euclidean_length_m": 0.22062648666250337,
+      "half_region": "lower",
+      "horizontal_length_m": 0.04635366944778063,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "clustered_n100_r2__weld_0084",
+      "parent_weld_id": "clustered_n100_r2__weld_0084|half=lower|part=1of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        16.031504704384,
+        5.784297927813,
+        0.1
+      ],
+      "weld_time_s": 20.428378394676237
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0084|half=upper|part=2of2|seg=1of1",
+      "end": [
+        15.79156398784,
+        6.900837575637,
+        0.1
+      ],
+      "euclidean_length_m": 0.9214034309047167,
+      "half_region": "upper",
+      "horizontal_length_m": 0.1935870470962211,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "clustered_n100_r2__weld_0084",
+      "parent_weld_id": "clustered_n100_r2__weld_0084|half=upper|part=2of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        15.985151034936,
+        6.0,
+        0.1
+      ],
+      "weld_time_s": 85.31513249117747
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0085|half=lower|part=1of1|seg=1of1",
+      "end": [
+        7.310564229717,
+        1.688024017938,
+        0.1
+      ],
+      "euclidean_length_m": 1.1347690502806216,
+      "half_region": "lower",
+      "horizontal_length_m": 1.1347552446839995,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0085",
+      "parent_weld_id": "clustered_n100_r2__weld_0085|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        8.445319474401,
+        1.682426506264,
+        0.1
+      ],
+      "weld_time_s": 105.07120835931681
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0086|half=upper|part=1of1|seg=1of1",
+      "end": [
+        1.6220638495,
+        11.171206987735,
+        0.1
+      ],
+      "euclidean_length_m": 2.492862622344223,
+      "half_region": "upper",
+      "horizontal_length_m": 0.9688630073330002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0086",
+      "parent_weld_id": "clustered_n100_r2__weld_0086|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        2.590926856833,
+        8.874324638353,
+        0.1
+      ],
+      "weld_time_s": 230.82061318002064
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0087|half=lower|part=1of1|seg=1of1",
+      "end": [
+        15.501091571518,
+        4.442960756888,
+        0.1
+      ],
+      "euclidean_length_m": 1.4502046042208883,
+      "half_region": "lower",
+      "horizontal_length_m": 0.42881266543099983,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0087",
+      "parent_weld_id": "clustered_n100_r2__weld_0087|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        15.929904236949,
+        3.057604090874,
+        0.1
+      ],
+      "weld_time_s": 134.27820409452667
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0088|half=lower|part=1of1|seg=1of1",
+      "end": [
+        12.894421013799,
+        2.375964848866,
+        0.1
+      ],
+      "euclidean_length_m": 2.717502221643558,
+      "half_region": "lower",
+      "horizontal_length_m": 2.473775630913,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0088",
+      "parent_weld_id": "clustered_n100_r2__weld_0088|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        15.368196644712,
+        1.251130437702,
+        0.1
+      ],
+      "weld_time_s": 251.6205760781072
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0089|half=lower|part=1of1|seg=1of1",
+      "end": [
+        3.119713453272,
+        5.374807397403,
+        0.1
+      ],
+      "euclidean_length_m": 0.8890883561680124,
+      "half_region": "lower",
+      "horizontal_length_m": 0.8886946877090001,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0089",
+      "parent_weld_id": "clustered_n100_r2__weld_0089|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        2.231018765563,
+        5.348352584772,
+        0.1
+      ],
+      "weld_time_s": 82.32299594148263
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0090|half=lower|part=1of1|seg=1of1",
+      "end": [
+        15.23086331131,
+        3.426680117038,
+        0.1
+      ],
+      "euclidean_length_m": 2.212036920866563,
+      "half_region": "lower",
+      "horizontal_length_m": 0.31114932666999984,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0090",
+      "parent_weld_id": "clustered_n100_r2__weld_0090|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        15.54201263798,
+        1.236635954061,
+        0.1
+      ],
+      "weld_time_s": 204.81823341357062
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0091|half=upper|part=1of1|seg=1of1",
+      "end": [
+        0.231621576182,
+        11.245242069161,
+        0.1
+      ],
+      "euclidean_length_m": 0.7957179085270774,
+      "half_region": "upper",
+      "horizontal_length_m": 0.649780897499,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0091",
+      "parent_weld_id": "clustered_n100_r2__weld_0091|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        0.881402473681,
+        10.785947201787,
+        0.1
+      ],
+      "weld_time_s": 73.67758412287753
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0092|half=lower|part=1of2|seg=1of1",
+      "end": [
+        8.055463022385,
+        6.0,
+        0.1
+      ],
+      "euclidean_length_m": 0.15741307574911875,
+      "half_region": "lower",
+      "horizontal_length_m": 0.027631671595237606,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "clustered_n100_r2__weld_0092",
+      "parent_weld_id": "clustered_n100_r2__weld_0092|half=lower|part=1of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        8.02783135079,
+        5.845031076852,
+        0.1
+      ],
+      "weld_time_s": 14.57528479158507
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0092|half=upper|part=2of2|seg=1of1",
+      "end": [
+        8.428024640182,
+        8.089467244761,
+        0.1
+      ],
+      "euclidean_length_m": 2.1224220894969186,
+      "half_region": "upper",
+      "horizontal_length_m": 0.37256161779676233,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "clustered_n100_r2__weld_0092",
+      "parent_weld_id": "clustered_n100_r2__weld_0092|half=upper|part=2of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        8.055463022385,
+        6.0,
+        0.1
+      ],
+      "weld_time_s": 196.52056384230727
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0093|half=lower|part=1of1|seg=1of1",
+      "end": [
+        0.95539500344,
+        2.962914807025,
+        0.1
+      ],
+      "euclidean_length_m": 2.7240008926399213,
+      "half_region": "lower",
+      "horizontal_length_m": 1.100121510769,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0093",
+      "parent_weld_id": "clustered_n100_r2__weld_0093|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        2.055516514209,
+        0.470944998892,
+        0.1
+      ],
+      "weld_time_s": 252.22230487406677
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0094|half=lower|part=1of1|seg=1of1",
+      "end": [
+        11.220512930808,
+        4.39419861143,
+        0.1
+      ],
+      "euclidean_length_m": 0.9533690810365653,
+      "half_region": "lower",
+      "horizontal_length_m": 0.18190237511600138,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0094",
+      "parent_weld_id": "clustered_n100_r2__weld_0094|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        11.038610555692,
+        3.458343852077,
+        0.1
+      ],
+      "weld_time_s": 88.27491491079307
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0095|half=lower|part=1of1|seg=1of1",
+      "end": [
+        15.861934948281,
+        0.95903007215,
+        0.1
+      ],
+      "euclidean_length_m": 0.7512240899997351,
+      "half_region": "lower",
+      "horizontal_length_m": 0.599216153795,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0095",
+      "parent_weld_id": "clustered_n100_r2__weld_0095|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        15.262718794486,
+        0.505954323045,
+        0.1
+      ],
+      "weld_time_s": 69.55778611108659
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0096|half=lower|part=1of1|seg=1of1",
+      "end": [
+        19.105398129291,
+        2.330538941367,
+        0.1
+      ],
+      "euclidean_length_m": 1.3998944065814765,
+      "half_region": "lower",
+      "horizontal_length_m": 1.399756597903,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0096",
+      "parent_weld_id": "clustered_n100_r2__weld_0096|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        17.705641531388,
+        2.310896736676,
+        0.1
+      ],
+      "weld_time_s": 129.6198524612478
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0097|half=lower|part=1of1|seg=1of1",
+      "end": [
+        10.793618133312,
+        4.246799381999,
+        0.1
+      ],
+      "euclidean_length_m": 2.4838341967966038,
+      "half_region": "lower",
+      "horizontal_length_m": 1.8469669127540005,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0097",
+      "parent_weld_id": "clustered_n100_r2__weld_0097|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        8.946651220558,
+        2.586032829961,
+        0.1
+      ],
+      "weld_time_s": 229.98464785153737
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0098|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.765006574036,
+        3.420224938632,
+        0.1
+      ],
+      "euclidean_length_m": 2.5687124667838304,
+      "half_region": "lower",
+      "horizontal_length_m": 1.657367661456,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0098",
+      "parent_weld_id": "clustered_n100_r2__weld_0098|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        12.10763891258,
+        1.457722410794,
+        0.1
+      ],
+      "weld_time_s": 237.84374692442873
+    },
+    {
+      "atomic_weld_id": "clustered_n100_r2__weld_0099|half=upper|part=1of1|seg=1of1",
+      "end": [
+        2.775684268888,
+        8.350248235703,
+        0.1
+      ],
+      "euclidean_length_m": 0.9909832234670551,
+      "half_region": "upper",
+      "horizontal_length_m": 0.740176410698,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "clustered_n100_r2__weld_0099",
+      "parent_weld_id": "clustered_n100_r2__weld_0099|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+      "start": [
+        3.515860679586,
+        7.691319840322,
+        0.1
+      ],
+      "weld_time_s": 91.75770587657918
+    }
+  ],
+  "boundary_events": {
+    "lower": [
+      {
+        "assignment_hash": "364b5204ac43c8cf1d440d7f29ad94f96ed6a4aba8448499f44cf18729fe4757",
+        "event_id": "lower_event_0000",
+        "event_index": 0,
+        "half_region": "lower",
+        "interval_kind": "point",
+        "interval_left": 0.0,
+        "interval_right": 0.0,
+        "left_atomic_ids": [],
+        "representative_x": 0.0,
+        "right_atomic_ids": [
+          "clustered_n100_r2__weld_0000|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0002|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0004|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0006|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0008|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0010|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0012|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0014|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0016|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0018|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0020|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0022|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0024|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0026|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0028|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0030|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0032|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0034|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0036|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0038|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0040|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0042|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0044|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0046|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0048|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0050|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0052|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0054|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0056|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0058|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0060|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0062|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0064|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0066|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0068|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0070|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0072|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0074|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0076|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0078|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0080|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0082|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0084|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0085|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0087|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0088|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0089|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0090|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0092|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0093|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0094|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0095|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0096|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0097|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0098|half=lower|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "039bec6eb364b662b54d5d580a4af5a46eb5075007c7610d296c60055167feff",
+        "event_id": "lower_event_0001",
+        "event_index": 1,
+        "half_region": "lower",
+        "interval_kind": "point",
+        "interval_left": 4.978045698541,
+        "interval_right": 4.978045698541,
+        "left_atomic_ids": [
+          "clustered_n100_r2__weld_0000|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0004|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0008|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0012|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0016|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0020|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0024|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0028|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0032|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0036|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0040|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0044|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0048|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0052|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0056|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0060|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0064|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0068|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0072|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0076|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0089|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0093|half=lower|part=1of1|seg=1of1"
+        ],
+        "representative_x": 4.978045698541,
+        "right_atomic_ids": [
+          "clustered_n100_r2__weld_0002|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0006|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0010|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0014|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0018|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0022|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0026|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0030|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0034|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0038|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0042|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0046|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0050|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0054|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0058|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0062|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0066|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0070|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0074|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0078|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0080|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0082|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0084|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0085|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0087|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0088|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0090|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0092|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0094|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0095|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0096|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0097|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0098|half=lower|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "02df6fda532df08ebb83e104671aaa71e89fb3475e6d0be20224a7431ae231f9",
+        "event_id": "lower_event_0002",
+        "event_index": 2,
+        "half_region": "lower",
+        "interval_kind": "point",
+        "interval_left": 8.445319474401,
+        "interval_right": 8.445319474401,
+        "left_atomic_ids": [
+          "clustered_n100_r2__weld_0000|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0004|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0008|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0012|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0016|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0020|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0024|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0028|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0032|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0036|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0040|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0044|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0048|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0052|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0056|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0060|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0064|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0068|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0072|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0076|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0085|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0089|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0092|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0093|half=lower|part=1of1|seg=1of1"
+        ],
+        "representative_x": 8.445319474401,
+        "right_atomic_ids": [
+          "clustered_n100_r2__weld_0002|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0006|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0010|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0014|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0018|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0022|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0026|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0030|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0034|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0038|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0042|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0046|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0050|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0054|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0058|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0062|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0066|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0070|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0074|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0078|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0080|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0082|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0084|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0087|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0088|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0090|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0094|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0095|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0096|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0097|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0098|half=lower|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "3eadcfaa989f7a4fb7533523ce0f01c8004b49df76d8b54a0f3277c043d1067b",
+        "event_id": "lower_event_0003",
+        "event_index": 3,
+        "half_region": "lower",
+        "interval_kind": "point",
+        "interval_left": 10.793618133312,
+        "interval_right": 10.793618133312,
+        "left_atomic_ids": [
+          "clustered_n100_r2__weld_0000|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0004|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0008|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0012|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0016|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0020|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0024|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0028|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0032|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0036|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0040|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0044|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0048|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0052|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0056|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0060|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0064|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0068|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0072|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0076|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0085|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0089|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0092|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0093|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0097|half=lower|part=1of1|seg=1of1"
+        ],
+        "representative_x": 10.793618133312,
+        "right_atomic_ids": [
+          "clustered_n100_r2__weld_0002|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0006|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0010|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0014|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0018|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0022|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0026|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0030|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0034|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0038|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0042|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0046|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0050|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0054|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0058|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0062|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0066|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0070|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0074|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0078|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0080|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0082|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0084|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0087|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0088|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0090|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0094|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0095|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0096|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0098|half=lower|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "fa7aa7a6ea76866da8f2583d432ca22a3b90e9fecd40ab0ab29d3d8c285f25bc",
+        "event_id": "lower_event_0004",
+        "event_index": 4,
+        "half_region": "lower",
+        "interval_kind": "point",
+        "interval_left": 11.220512930808,
+        "interval_right": 11.220512930808,
+        "left_atomic_ids": [
+          "clustered_n100_r2__weld_0000|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0004|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0008|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0012|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0016|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0020|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0024|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0028|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0032|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0036|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0040|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0044|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0048|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0052|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0056|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0060|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0064|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0068|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0072|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0076|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0085|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0089|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0092|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0093|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0094|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0097|half=lower|part=1of1|seg=1of1"
+        ],
+        "representative_x": 11.220512930808,
+        "right_atomic_ids": [
+          "clustered_n100_r2__weld_0002|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0006|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0010|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0014|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0018|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0022|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0026|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0030|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0034|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0038|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0042|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0046|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0050|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0054|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0058|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0062|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0066|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0070|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0074|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0078|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0080|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0082|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0084|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0087|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0088|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0090|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0095|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0096|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0098|half=lower|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "6ecda79d0ade5df583ed61d4ec181317c1d9fef6a3dbb409269addecdbc7d549",
+        "event_id": "lower_event_0005",
+        "event_index": 5,
+        "half_region": "lower",
+        "interval_kind": "point",
+        "interval_left": 15.929904236949,
+        "interval_right": 15.929904236949,
+        "left_atomic_ids": [
+          "clustered_n100_r2__weld_0000|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0002|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0004|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0006|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0008|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0010|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0012|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0014|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0016|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0018|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0020|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0022|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0024|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0026|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0028|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0030|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0032|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0034|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0036|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0038|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0040|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0042|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0044|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0046|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0048|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0050|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0052|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0054|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0056|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0058|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0060|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0062|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0064|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0066|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0068|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0070|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0072|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0074|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0076|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0078|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0080|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0082|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0085|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0087|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0088|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0089|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0090|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0092|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0093|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0094|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0095|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0097|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0098|half=lower|part=1of1|seg=1of1"
+        ],
+        "representative_x": 15.929904236949,
+        "right_atomic_ids": [
+          "clustered_n100_r2__weld_0084|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0096|half=lower|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "c066ae3ed2bc67a4bd0c3781f039a26dd61f7028850720d086a16ef9cd751b4a",
+        "event_id": "lower_event_0006",
+        "event_index": 6,
+        "half_region": "lower",
+        "interval_kind": "point",
+        "interval_left": 16.031504704384,
+        "interval_right": 16.031504704384,
+        "left_atomic_ids": [
+          "clustered_n100_r2__weld_0000|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0002|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0004|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0006|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0008|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0010|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0012|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0014|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0016|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0018|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0020|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0022|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0024|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0026|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0028|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0030|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0032|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0034|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0036|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0038|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0040|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0042|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0044|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0046|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0048|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0050|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0052|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0054|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0056|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0058|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0060|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0062|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0064|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0066|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0068|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0070|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0072|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0074|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0076|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0078|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0080|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0082|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0084|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0085|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0087|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0088|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0089|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0090|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0092|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0093|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0094|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0095|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0097|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0098|half=lower|part=1of1|seg=1of1"
+        ],
+        "representative_x": 16.031504704384,
+        "right_atomic_ids": [
+          "clustered_n100_r2__weld_0096|half=lower|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "1508e19ab405d5f7ca2b9f675274c1272315866bf8dce6e955863020151c01e1",
+        "event_id": "lower_event_0007",
+        "event_index": 7,
+        "half_region": "lower",
+        "interval_kind": "point",
+        "interval_left": 19.105398129291,
+        "interval_right": 19.105398129291,
+        "left_atomic_ids": [
+          "clustered_n100_r2__weld_0000|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0002|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0004|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0006|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0008|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0010|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0012|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0014|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0016|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0018|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0020|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0022|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0024|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0026|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0028|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0030|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0032|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0034|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0036|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0038|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0040|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0042|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0044|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0046|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0048|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0050|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0052|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0054|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0056|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0058|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0060|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0062|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0064|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0066|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0068|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0070|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0072|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0074|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0076|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0078|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0080|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0082|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0084|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0085|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0087|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0088|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0089|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0090|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0092|half=lower|part=1of2|seg=1of1",
+          "clustered_n100_r2__weld_0093|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0094|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0095|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0096|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0097|half=lower|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0098|half=lower|part=1of1|seg=1of1"
+        ],
+        "representative_x": 19.105398129291,
+        "right_atomic_ids": []
+      }
+    ],
+    "upper": [
+      {
+        "assignment_hash": "e55f6cb6af5ef45913076f01d5521131a36b2aea80d7adcf9eb0ae8f582a7a0c",
+        "event_id": "upper_event_0000",
+        "event_index": 0,
+        "half_region": "upper",
+        "interval_kind": "point",
+        "interval_left": 0.0,
+        "interval_right": 0.0,
+        "left_atomic_ids": [],
+        "representative_x": 0.0,
+        "right_atomic_ids": [
+          "clustered_n100_r2__weld_0001|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0003|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0005|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0007|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0009|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0011|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0013|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0015|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0017|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0019|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0021|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0023|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0025|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0027|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0029|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0031|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0033|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0035|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0037|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0039|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0041|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0043|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0045|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0047|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0049|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0051|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0053|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0055|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0057|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0059|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0061|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0063|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0065|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0067|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0069|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0071|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0073|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0075|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0077|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0079|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0080|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0081|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0082|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0083|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0084|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0086|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0091|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0092|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0099|half=upper|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "e31c57a3688c3393f0a9406595df6ff10fd59ae29a4f5f96bf2fab1c63c53989",
+        "event_id": "upper_event_0001",
+        "event_index": 1,
+        "half_region": "upper",
+        "interval_kind": "point",
+        "interval_left": 0.881402473681,
+        "interval_right": 0.881402473681,
+        "left_atomic_ids": [
+          "clustered_n100_r2__weld_0091|half=upper|part=1of1|seg=1of1"
+        ],
+        "representative_x": 0.881402473681,
+        "right_atomic_ids": [
+          "clustered_n100_r2__weld_0001|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0003|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0005|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0007|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0009|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0011|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0013|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0015|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0017|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0019|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0021|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0023|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0025|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0027|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0029|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0031|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0033|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0035|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0037|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0039|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0041|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0043|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0045|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0047|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0049|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0051|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0053|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0055|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0057|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0059|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0061|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0063|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0065|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0067|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0069|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0071|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0073|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0075|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0077|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0079|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0080|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0081|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0082|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0083|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0084|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0086|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0092|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0099|half=upper|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "1af7d6ed10cb4d573f6bed883fb1dca7b63915eea35065923ff29a00642e79fc",
+        "event_id": "upper_event_0002",
+        "event_index": 2,
+        "half_region": "upper",
+        "interval_kind": "point",
+        "interval_left": 2.590926856833,
+        "interval_right": 2.590926856833,
+        "left_atomic_ids": [
+          "clustered_n100_r2__weld_0086|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0091|half=upper|part=1of1|seg=1of1"
+        ],
+        "representative_x": 2.590926856833,
+        "right_atomic_ids": [
+          "clustered_n100_r2__weld_0001|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0003|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0005|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0007|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0009|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0011|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0013|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0015|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0017|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0019|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0021|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0023|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0025|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0027|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0029|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0031|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0033|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0035|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0037|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0039|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0041|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0043|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0045|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0047|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0049|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0051|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0053|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0055|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0057|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0059|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0061|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0063|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0065|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0067|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0069|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0071|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0073|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0075|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0077|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0079|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0080|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0081|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0082|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0083|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0084|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0092|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0099|half=upper|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "a6e6c8271ca5f513e7ea1dd5fdfbc0ff3a4753037f30496b5e9960f9337bcf61",
+        "event_id": "upper_event_0003",
+        "event_index": 3,
+        "half_region": "upper",
+        "interval_kind": "point",
+        "interval_left": 3.515860679586,
+        "interval_right": 3.515860679586,
+        "left_atomic_ids": [
+          "clustered_n100_r2__weld_0086|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0091|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0099|half=upper|part=1of1|seg=1of1"
+        ],
+        "representative_x": 3.515860679586,
+        "right_atomic_ids": [
+          "clustered_n100_r2__weld_0001|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0003|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0005|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0007|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0009|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0011|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0013|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0015|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0017|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0019|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0021|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0023|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0025|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0027|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0029|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0031|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0033|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0035|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0037|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0039|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0041|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0043|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0045|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0047|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0049|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0051|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0053|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0055|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0057|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0059|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0061|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0063|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0065|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0067|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0069|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0071|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0073|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0075|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0077|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0079|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0080|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0081|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0082|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0083|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0084|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0092|half=upper|part=2of2|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "71437c073d692541b1f31959a46c2df559dae26d76a664c0be0ce619af180eb8",
+        "event_id": "upper_event_0004",
+        "event_index": 4,
+        "half_region": "upper",
+        "interval_kind": "point",
+        "interval_left": 7.459003108208,
+        "interval_right": 7.459003108208,
+        "left_atomic_ids": [
+          "clustered_n100_r2__weld_0001|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0005|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0009|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0013|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0017|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0021|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0025|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0029|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0033|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0037|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0041|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0045|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0049|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0053|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0057|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0061|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0065|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0069|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0073|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0077|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0083|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0086|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0091|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0099|half=upper|part=1of1|seg=1of1"
+        ],
+        "representative_x": 7.459003108208,
+        "right_atomic_ids": [
+          "clustered_n100_r2__weld_0003|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0007|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0011|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0015|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0019|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0023|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0027|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0031|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0035|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0039|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0043|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0047|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0051|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0055|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0059|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0063|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0067|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0071|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0075|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0079|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0080|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0081|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0082|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0084|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0092|half=upper|part=2of2|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "2082150aa76d7952b10b475c8cfe4e10dc9b0b868f7e6de8394786f9902a093b",
+        "event_id": "upper_event_0005",
+        "event_index": 5,
+        "half_region": "upper",
+        "interval_kind": "point",
+        "interval_left": 8.428024640182,
+        "interval_right": 8.428024640182,
+        "left_atomic_ids": [
+          "clustered_n100_r2__weld_0001|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0005|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0009|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0013|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0017|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0021|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0025|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0029|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0033|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0037|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0041|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0045|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0049|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0053|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0057|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0061|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0065|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0069|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0073|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0077|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0083|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0086|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0091|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0092|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0099|half=upper|part=1of1|seg=1of1"
+        ],
+        "representative_x": 8.428024640182,
+        "right_atomic_ids": [
+          "clustered_n100_r2__weld_0003|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0007|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0011|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0015|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0019|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0023|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0027|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0031|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0035|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0039|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0043|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0047|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0051|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0055|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0059|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0063|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0067|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0071|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0075|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0079|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0080|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0081|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0082|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0084|half=upper|part=2of2|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "6ac311b70bd3addbd4681d9d57f516a3138e152dc2a648a81fbcf7befdd94419",
+        "event_id": "upper_event_0006",
+        "event_index": 6,
+        "half_region": "upper",
+        "interval_kind": "point",
+        "interval_left": 19.337773260656,
+        "interval_right": 19.337773260656,
+        "left_atomic_ids": [
+          "clustered_n100_r2__weld_0001|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0003|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0005|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0007|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0009|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0011|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0013|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0015|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0017|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0019|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0021|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0023|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0025|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0027|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0029|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0031|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0033|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0035|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0037|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0039|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0041|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0043|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0045|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0047|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0049|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0051|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0053|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0055|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0057|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0059|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0061|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0063|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0065|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0067|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0069|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0071|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0073|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0075|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0077|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0079|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0080|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0081|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0082|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0083|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0084|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0086|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0091|half=upper|part=1of1|seg=1of1",
+          "clustered_n100_r2__weld_0092|half=upper|part=2of2|seg=1of1",
+          "clustered_n100_r2__weld_0099|half=upper|part=1of1|seg=1of1"
+        ],
+        "representative_x": 19.337773260656,
+        "right_atomic_ids": []
+      }
+    ]
+  },
+  "metadata": {
+    "atomic_weld_count": 104,
+    "benchmark_suite_id": "atomic_benchmark_suite_v1",
+    "family": "clustered",
+    "fixed_y_cut_m": 6.0,
+    "lmax_m": 5.0,
+    "lmin_m": 1.0,
+    "model_id": "atomic_weld_partition_routing_v1",
+    "model_version": "1.0.0",
+    "post_time_s": 0.0,
+    "search_time_splitting": false,
+    "setup_time_s": 0.0,
+    "source_instance_file_sha256": "c5ad01a76ebe43382fc83889693b58a58c717063f194b75fdaa47e58e01e0060",
+    "source_instance_hash": "de0c8942c92ae73b0c8d934c84c9a61954e6f281d881458e268f486862518b5d",
+    "source_instance_path": "formal_atomic/instances/raw/clustered_n100_r2.json",
+    "source_weld_count": 100
+  },
+  "name": "clustered_n100_r2"
+}

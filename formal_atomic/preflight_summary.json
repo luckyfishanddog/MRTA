@@ -1,0 +1,58 @@
+{
+  "commands": [
+    {
+      "command": [
+        "C:\\Users\\Renjl\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-v"
+      ],
+      "returncode": 1,
+      "stderr_log": "formal_atomic/preflight_logs/command_01_stderr.log",
+      "stdout_log": "formal_atomic/preflight_logs/command_01_stdout.log"
+    },
+    {
+      "command": [
+        "C:\\Users\\Renjl\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "run_unified_experiments.py",
+        "--validate-protocol"
+      ],
+      "returncode": 2,
+      "stderr_log": "formal_atomic/preflight_logs/command_02_stderr.log",
+      "stdout_log": "formal_atomic/preflight_logs/command_02_stdout.log"
+    },
+    {
+      "command": [
+        "C:\\Users\\Renjl\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+        "run_unified_experiments.py",
+        "--self-check"
+      ],
+      "returncode": 2,
+      "stderr_log": "formal_atomic/preflight_logs/command_03_stderr.log",
+      "stdout_log": "formal_atomic/preflight_logs/command_03_stdout.log"
+    }
+  ],
+  "completed_at": "2026-07-16T13:35:27.415282+00:00",
+  "environment": {
+    "cpu": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+    "cpu_affinity": null,
+    "environment_variables": {
+      "MKL_NUM_THREADS": null,
+      "OMP_NUM_THREADS": null,
+      "OPENBLAS_NUM_THREADS": null,
+      "PYTHONHASHSEED": null
+    },
+    "logical_cpu_count": 8,
+    "operating_system": "Windows-10-10.0.19045-SP0",
+    "parallel": false,
+    "python_executable": "C:\\Users\\Renjl\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "python_version": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+    "sequential": true,
+    "source_repository_commit_sha": "bee15f8836356586f07849bfd51504e9890eb077",
+    "total_memory_bytes": null
+  },
+  "legacy_formal_run_approved_remains_false": true,
+  "legacy_user_approved_remains_false": true,
+  "passed": false
+}

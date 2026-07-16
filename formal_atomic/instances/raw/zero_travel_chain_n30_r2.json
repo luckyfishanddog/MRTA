@@ -1,0 +1,437 @@
+{
+  "family": "zero_travel_chain",
+  "generation_seed": 3026,
+  "instance_id": "zero_travel_chain_n30_r2",
+  "nominal_weld_count": 30,
+  "platform": {
+    "height_m": 12.0,
+    "width_m": 20.0
+  },
+  "replicate": 2,
+  "schema_version": "1.0.0",
+  "source_hash": "86a4a7f85bd04faed673daa5d4660916159521c58913c41993e93c3928254db6",
+  "source_type": "synthetic",
+  "suite_id": "atomic_benchmark_suite_v1",
+  "welds": [
+    {
+      "end": [
+        1.82,
+        8.58,
+        0.1
+      ],
+      "euclidean_length_m": 0.8395236744726142,
+      "start": [
+        1.0,
+        8.4,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0000"
+    },
+    {
+      "end": [
+        2.69,
+        8.4,
+        0.1
+      ],
+      "euclidean_length_m": 0.8884255736976506,
+      "start": [
+        1.82,
+        8.58,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0001"
+    },
+    {
+      "end": [
+        3.61,
+        8.58,
+        0.1
+      ],
+      "euclidean_length_m": 0.9374433316206371,
+      "start": [
+        2.69,
+        8.4,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0002"
+    },
+    {
+      "end": [
+        11.87,
+        8.62,
+        0.1
+      ],
+      "euclidean_length_m": 0.8884255736976504,
+      "start": [
+        11.0,
+        8.8,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0003"
+    },
+    {
+      "end": [
+        12.79,
+        8.8,
+        0.1
+      ],
+      "euclidean_length_m": 0.9374433316206374,
+      "start": [
+        11.87,
+        8.62,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0004"
+    },
+    {
+      "end": [
+        13.61,
+        8.62,
+        0.1
+      ],
+      "euclidean_length_m": 0.8395236744726149,
+      "start": [
+        12.79,
+        8.8,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0005"
+    },
+    {
+      "end": [
+        14.48,
+        8.8,
+        0.1
+      ],
+      "euclidean_length_m": 0.8884255736976521,
+      "start": [
+        13.61,
+        8.62,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0006"
+    },
+    {
+      "end": [
+        1.92,
+        2.58,
+        0.1
+      ],
+      "euclidean_length_m": 0.9374433316206372,
+      "start": [
+        1.0,
+        2.4,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0007"
+    },
+    {
+      "end": [
+        2.74,
+        2.4,
+        0.1
+      ],
+      "euclidean_length_m": 0.8395236744726146,
+      "start": [
+        1.92,
+        2.58,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0008"
+    },
+    {
+      "end": [
+        3.61,
+        2.58,
+        0.1
+      ],
+      "euclidean_length_m": 0.8884255736976505,
+      "start": [
+        2.74,
+        2.4,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0009"
+    },
+    {
+      "end": [
+        4.53,
+        2.4,
+        0.1
+      ],
+      "euclidean_length_m": 0.9374433316206376,
+      "start": [
+        3.61,
+        2.58,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0010"
+    },
+    {
+      "end": [
+        5.35,
+        2.58,
+        0.1
+      ],
+      "euclidean_length_m": 0.8395236744726137,
+      "start": [
+        4.53,
+        2.4,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0011"
+    },
+    {
+      "end": [
+        11.82,
+        2.62,
+        0.1
+      ],
+      "euclidean_length_m": 0.8395236744726144,
+      "start": [
+        11.0,
+        2.8,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0012"
+    },
+    {
+      "end": [
+        12.69,
+        2.8,
+        0.1
+      ],
+      "euclidean_length_m": 0.88842557369765,
+      "start": [
+        11.82,
+        2.62,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0013"
+    },
+    {
+      "end": [
+        13.61,
+        2.62,
+        0.1
+      ],
+      "euclidean_length_m": 0.9374433316206371,
+      "start": [
+        12.69,
+        2.8,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0014"
+    },
+    {
+      "end": [
+        14.43,
+        2.8,
+        0.1
+      ],
+      "euclidean_length_m": 0.8395236744726144,
+      "start": [
+        13.61,
+        2.62,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0015"
+    },
+    {
+      "end": [
+        15.3,
+        2.62,
+        0.1
+      ],
+      "euclidean_length_m": 0.8884255736976517,
+      "start": [
+        14.43,
+        2.8,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0016"
+    },
+    {
+      "end": [
+        16.22,
+        2.8,
+        0.1
+      ],
+      "euclidean_length_m": 0.9374433316206353,
+      "start": [
+        15.3,
+        2.62,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0017"
+    },
+    {
+      "end": [
+        17.04,
+        2.62,
+        0.1
+      ],
+      "euclidean_length_m": 0.8395236744726144,
+      "start": [
+        16.22,
+        2.8,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0018"
+    },
+    {
+      "end": [
+        17.91,
+        2.8,
+        0.1
+      ],
+      "euclidean_length_m": 0.8884255736976517,
+      "start": [
+        17.04,
+        2.62,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0019"
+    },
+    {
+      "end": [
+        14.697197497476,
+        5.378752860266,
+        0.1
+      ],
+      "euclidean_length_m": 1.668969419613449,
+      "start": [
+        16.278958910999,
+        4.846315301209,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0020"
+    },
+    {
+      "end": [
+        16.877759887166,
+        8.309838056721,
+        0.1
+      ],
+      "euclidean_length_m": 1.4037328799471687,
+      "start": [
+        18.203554476442,
+        7.84860633048,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0021"
+    },
+    {
+      "end": [
+        1.882503003508,
+        4.061349249107,
+        0.1
+      ],
+      "euclidean_length_m": 1.0294482236962224,
+      "start": [
+        1.127756786886,
+        3.361262258965,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0022"
+    },
+    {
+      "end": [
+        8.035073369632,
+        10.030874913572,
+        0.1
+      ],
+      "euclidean_length_m": 1.423247801505611,
+      "start": [
+        9.356949359395,
+        9.503354134665,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0023"
+    },
+    {
+      "end": [
+        17.022329193045,
+        0.806470949157,
+        0.1
+      ],
+      "euclidean_length_m": 0.9819874928477466,
+      "start": [
+        18.000208645093,
+        0.716742395331,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0024"
+    },
+    {
+      "end": [
+        10.665321680781,
+        10.083653124795,
+        0.1
+      ],
+      "euclidean_length_m": 0.7747726830314923,
+      "start": [
+        11.439473534339,
+        10.052643158582,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0025"
+    },
+    {
+      "end": [
+        10.90453502614,
+        2.215487482203,
+        0.1
+      ],
+      "euclidean_length_m": 0.9509301808497223,
+      "start": [
+        11.746658611954,
+        1.773790668691,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0026"
+    },
+    {
+      "end": [
+        11.204921132135,
+        9.369743308675,
+        0.1
+      ],
+      "euclidean_length_m": 1.5403654087336978,
+      "start": [
+        11.085403155175,
+        7.834021639359,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0027"
+    },
+    {
+      "end": [
+        8.577387613317,
+        5.423234291079,
+        0.1
+      ],
+      "euclidean_length_m": 2.4545475348475114,
+      "start": [
+        10.626463814153,
+        4.071905195709,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0028"
+    },
+    {
+      "end": [
+        13.922214733962,
+        9.813713919642,
+        0.1
+      ],
+      "euclidean_length_m": 0.7134586879605549,
+      "start": [
+        13.214031354703,
+        9.727113684263,
+        0.1
+      ],
+      "weld_id": "zero_travel_chain_n30_r2__weld_0029"
+    }
+  ]
+}

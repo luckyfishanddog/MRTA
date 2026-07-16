@@ -1,0 +1,2863 @@
+{
+  "atomic_instance_hash": "98363b7c52ab4ad9ae73fe369cc480f385b76936673f63ac123905d062653c4a",
+  "atomic_welds": [
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0000|half=upper|part=1of1|seg=1of1",
+      "end": [
+        15.952953830651,
+        6.751793571102,
+        0.1
+      ],
+      "euclidean_length_m": 2.1699212374712933,
+      "half_region": "upper",
+      "horizontal_length_m": 2.093941409255999,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0000",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0000|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        13.859012421395,
+        7.320975046057,
+        0.1
+      ],
+      "weld_time_s": 200.9186330991938
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0001|half=upper|part=1of1|seg=1of1",
+      "end": [
+        7.13959101793,
+        10.220381180442,
+        0.1
+      ],
+      "euclidean_length_m": 2.3162103304398673,
+      "half_region": "upper",
+      "horizontal_length_m": 2.3146723126540003,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0001",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0001|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        4.824918705276,
+        10.304775373781,
+        0.1
+      ],
+      "weld_time_s": 214.46391948517288
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0002|half=upper|part=1of1|seg=1of1",
+      "end": [
+        6.737359329892,
+        9.276227474343,
+        0.1
+      ],
+      "euclidean_length_m": 2.232091131003575,
+      "half_region": "upper",
+      "horizontal_length_m": 1.8781776581179992,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0002",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0002|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        4.859181671774,
+        8.070126524318,
+        0.1
+      ],
+      "weld_time_s": 206.67510472255324
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0003|half=upper|part=1of1|seg=1of1",
+      "end": [
+        6.124733863704,
+        10.218131724594,
+        0.1
+      ],
+      "euclidean_length_m": 1.940587028979514,
+      "half_region": "upper",
+      "horizontal_length_m": 1.796675994499,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0003",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0003|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        4.328057869205,
+        10.951502972895,
+        0.1
+      ],
+      "weld_time_s": 179.6839841647698
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0004|half=upper|part=1of1|seg=1of1",
+      "end": [
+        6.741841509223,
+        8.310013298722,
+        0.1
+      ],
+      "euclidean_length_m": 1.9549238034860723,
+      "half_region": "upper",
+      "horizontal_length_m": 1.834256120209,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0004",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0004|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        4.907585389014,
+        7.63382429932,
+        0.1
+      ],
+      "weld_time_s": 181.01146328574742
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0005|half=upper|part=1of1|seg=1of1",
+      "end": [
+        13.684786871984,
+        7.137511800654,
+        0.1
+      ],
+      "euclidean_length_m": 2.337195148917808,
+      "half_region": "upper",
+      "horizontal_length_m": 2.159342834906001,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0005",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0005|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        11.525444037078,
+        8.031782277336,
+        0.1
+      ],
+      "weld_time_s": 216.40695823313038
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0006|half=upper|part=1of1|seg=1of1",
+      "end": [
+        6.63181474623,
+        10.723137368039,
+        0.1
+      ],
+      "euclidean_length_m": 2.386410685968578,
+      "half_region": "upper",
+      "horizontal_length_m": 2.019878833111,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0006",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0006|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        4.611935913119,
+        9.452292978802,
+        0.1
+      ],
+      "weld_time_s": 220.96395240449795
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0007|half=upper|part=1of1|seg=1of1",
+      "end": [
+        5.105581666614,
+        9.09958540431,
+        0.1
+      ],
+      "euclidean_length_m": 1.8393782779193315,
+      "half_region": "upper",
+      "horizontal_length_m": 1.7038649228320004,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0007",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0007|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        3.401716743782,
+        8.406651948613,
+        0.1
+      ],
+      "weld_time_s": 170.3128035110492
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0008|half=upper|part=1of1|seg=1of1",
+      "end": [
+        5.265810810747,
+        9.369756652485,
+        0.1
+      ],
+      "euclidean_length_m": 1.8517403584544014,
+      "half_region": "upper",
+      "horizontal_length_m": 1.6263512113510004,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0008",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0008|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        3.639459599396,
+        8.484361773086,
+        0.1
+      ],
+      "weld_time_s": 171.45744059762976
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0009|half=upper|part=1of1|seg=1of1",
+      "end": [
+        5.075971728675,
+        8.401524013518,
+        0.1
+      ],
+      "euclidean_length_m": 1.8010014505686383,
+      "half_region": "upper",
+      "horizontal_length_m": 1.4494653186680004,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0009",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0009|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        3.626506410007,
+        7.332572885108,
+        0.1
+      ],
+      "weld_time_s": 166.7593935711702
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0010|half=upper|part=1of1|seg=1of1",
+      "end": [
+        15.469558753532,
+        11.176424083811,
+        0.1
+      ],
+      "euclidean_length_m": 2.094424807658833,
+      "half_region": "upper",
+      "horizontal_length_m": 1.9295219860240014,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0010",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0010|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        13.540036767508,
+        10.361832050713,
+        0.1
+      ],
+      "weld_time_s": 193.92822293137343
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0011|half=upper|part=1of1|seg=1of1",
+      "end": [
+        5.240134939579,
+        7.112273198955,
+        0.1
+      ],
+      "euclidean_length_m": 2.13835683453343,
+      "half_region": "upper",
+      "horizontal_length_m": 1.8974355961749998,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0011",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0011|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        3.342699343404,
+        8.098330048312,
+        0.1
+      ],
+      "weld_time_s": 197.99600319753978
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0012|half=upper|part=1of1|seg=1of1",
+      "end": [
+        3.559106947051,
+        8.387839913314,
+        0.1
+      ],
+      "euclidean_length_m": 2.4163803946119047,
+      "half_region": "upper",
+      "horizontal_length_m": 2.412878175807,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0012",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0012|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        1.146228771244,
+        8.517890365751,
+        0.1
+      ],
+      "weld_time_s": 223.7389254270282
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0013|half=upper|part=1of1|seg=1of1",
+      "end": [
+        7.46550688012,
+        8.063921424002,
+        0.1
+      ],
+      "euclidean_length_m": 2.144529246148861,
+      "half_region": "upper",
+      "horizontal_length_m": 2.1004904803210005,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0013",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0013|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        5.365016399799,
+        7.631549558973,
+        0.1
+      ],
+      "weld_time_s": 198.5675227915612
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0014|half=upper|part=1of1|seg=1of1",
+      "end": [
+        9.360325900007,
+        10.206565130258,
+        0.1
+      ],
+      "euclidean_length_m": 2.431263588272332,
+      "half_region": "upper",
+      "horizontal_length_m": 2.428003947245,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0014",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0014|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        6.932321952762,
+        10.332420077803,
+        0.1
+      ],
+      "weld_time_s": 225.1169989141048
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0015|half=upper|part=1of1|seg=1of1",
+      "end": [
+        13.94898073436,
+        9.737337911718,
+        0.1
+      ],
+      "euclidean_length_m": 2.0578355250953426,
+      "half_region": "upper",
+      "horizontal_length_m": 2.057808998421999,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0015",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0015|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        11.891171735938,
+        9.726889258318,
+        0.1
+      ],
+      "weld_time_s": 190.5403263977169
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0016|half=upper|part=1of1|seg=1of1",
+      "end": [
+        5.902592517251,
+        9.228724773352,
+        0.1
+      ],
+      "euclidean_length_m": 2.257121342092638,
+      "half_region": "upper",
+      "horizontal_length_m": 2.0956508869149997,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0016",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0016|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        3.806941630336,
+        10.067082759598,
+        0.1
+      ],
+      "weld_time_s": 208.99271686042943
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0017|half=upper|part=1of1|seg=1of1",
+      "end": [
+        9.234527493802,
+        8.531307273625,
+        0.1
+      ],
+      "euclidean_length_m": 2.1101176496201157,
+      "half_region": "upper",
+      "horizontal_length_m": 2.049239960857,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0017",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0017|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        7.185287532945,
+        8.028105447252,
+        0.1
+      ],
+      "weld_time_s": 195.38126385371442
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0018|half=upper|part=1of1|seg=1of1",
+      "end": [
+        5.950636176157,
+        7.209490701333,
+        0.1
+      ],
+      "euclidean_length_m": 2.4339338081095496,
+      "half_region": "upper",
+      "horizontal_length_m": 2.1696371595710002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0018",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0018|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        3.780999016586,
+        8.312535749401,
+        0.1
+      ],
+      "weld_time_s": 225.36424149162497
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0019|half=upper|part=1of1|seg=1of1",
+      "end": [
+        6.89534059707,
+        7.595875910612,
+        0.1
+      ],
+      "euclidean_length_m": 2.4308140100933278,
+      "half_region": "upper",
+      "horizontal_length_m": 2.3172800603829993,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0019",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0019|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        4.578060536687,
+        6.861662131514,
+        0.1
+      ],
+      "weld_time_s": 225.07537130493773
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0020|half=upper|part=1of1|seg=1of1",
+      "end": [
+        14.672607815827,
+        7.768390641862,
+        0.1
+      ],
+      "euclidean_length_m": 1.9209703797472957,
+      "half_region": "upper",
+      "horizontal_length_m": 1.574281113425,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0020",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0020|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        13.098326702402,
+        8.869193156294,
+        0.1
+      ],
+      "weld_time_s": 177.8676277543792
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0021|half=upper|part=1of1|seg=1of1",
+      "end": [
+        4.119984881155,
+        10.928980807765,
+        0.1
+      ],
+      "euclidean_length_m": 2.358672423382963,
+      "half_region": "upper",
+      "horizontal_length_m": 2.3502320586980003,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0021",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0021|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        1.769752822457,
+        10.729619650326,
+        0.1
+      ],
+      "weld_time_s": 218.39559475768172
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0022|half=upper|part=1of1|seg=1of1",
+      "end": [
+        8.496227327811,
+        8.627014481042,
+        0.1
+      ],
+      "euclidean_length_m": 1.8097695951577217,
+      "half_region": "upper",
+      "horizontal_length_m": 1.6989530981680003,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0022",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0022|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        6.797274229643,
+        9.250572303367,
+        0.1
+      ],
+      "weld_time_s": 167.57125881090016
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0023|half=upper|part=1of1|seg=1of1",
+      "end": [
+        4.660470851299,
+        10.187821132137,
+        0.1
+      ],
+      "euclidean_length_m": 2.1606322313514346,
+      "half_region": "upper",
+      "horizontal_length_m": 2.1232864166720002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0023",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0023|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        2.537184434627,
+        10.587804171691,
+        0.1
+      ],
+      "weld_time_s": 200.05853993994762
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0024|half=upper|part=1of1|seg=1of1",
+      "end": [
+        7.634271165406,
+        11.003553556189,
+        0.1
+      ],
+      "euclidean_length_m": 1.8568394805453141,
+      "half_region": "upper",
+      "horizontal_length_m": 1.694717871871,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0024",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0024|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        5.939553293535,
+        10.244749107551,
+        0.1
+      ],
+      "weld_time_s": 171.92958153197353
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0025|half=upper|part=1of1|seg=1of1",
+      "end": [
+        16.778685644406,
+        9.783103383227,
+        0.1
+      ],
+      "euclidean_length_m": 2.238218119114947,
+      "half_region": "upper",
+      "horizontal_length_m": 1.83655467116,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0025",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0025|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        14.942130973246,
+        11.062434180392,
+        0.1
+      ],
+      "weld_time_s": 207.24241843656915
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0026|half=upper|part=1of1|seg=1of1",
+      "end": [
+        3.872988516304,
+        11.116454927381,
+        0.1
+      ],
+      "euclidean_length_m": 1.9684384600136446,
+      "half_region": "upper",
+      "horizontal_length_m": 1.689308771885,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0026",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0026|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        2.183679744419,
+        10.106016485865,
+        0.1
+      ],
+      "weld_time_s": 182.26282037163375
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0027|half=upper|part=1of1|seg=1of1",
+      "end": [
+        4.212781507804,
+        7.442300478023,
+        0.1
+      ],
+      "euclidean_length_m": 2.140096230690023,
+      "half_region": "upper",
+      "horizontal_length_m": 2.137510462158,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0027",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0027|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        2.075271045646,
+        7.337129660879,
+        0.1
+      ],
+      "weld_time_s": 198.15705839722432
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0028|half=upper|part=1of1|seg=1of1",
+      "end": [
+        9.130389657604,
+        11.241556214022,
+        0.1
+      ],
+      "euclidean_length_m": 2.351947581533556,
+      "half_region": "upper",
+      "horizontal_length_m": 2.0529063567600003,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0028",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0028|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        7.077483300844,
+        10.093848534926,
+        0.1
+      ],
+      "weld_time_s": 217.77292421606998
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0029|half=upper|part=1of1|seg=1of1",
+      "end": [
+        6.155549861526,
+        8.920859706936,
+        0.1
+      ],
+      "euclidean_length_m": 2.098588635485425,
+      "half_region": "upper",
+      "horizontal_length_m": 1.8094195128339994,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0029",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0029|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        4.346130348692,
+        9.983909699911,
+        0.1
+      ],
+      "weld_time_s": 194.31376254494677
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0030|half=upper|part=1of1|seg=1of1",
+      "end": [
+        17.426031316897,
+        9.208199660966,
+        0.1
+      ],
+      "euclidean_length_m": 2.2639568297364545,
+      "half_region": "upper",
+      "horizontal_length_m": 1.8687088096500002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0030",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0030|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        15.557322507247,
+        7.930143358745,
+        0.1
+      ],
+      "weld_time_s": 209.62563238300504
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0031|half=upper|part=1of1|seg=1of1",
+      "end": [
+        4.491273238891,
+        6.814121007978,
+        0.1
+      ],
+      "euclidean_length_m": 1.9868006081389165,
+      "half_region": "upper",
+      "horizontal_length_m": 1.9394035520189998,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0031",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0031|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        2.551869686872,
+        7.245503111127,
+        0.1
+      ],
+      "weld_time_s": 183.9630192721219
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0032|half=upper|part=1of1|seg=1of1",
+      "end": [
+        6.72564659808,
+        8.085901839272,
+        0.1
+      ],
+      "euclidean_length_m": 2.08127997822388,
+      "half_region": "upper",
+      "horizontal_length_m": 2.0043703454840003,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0032",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0032|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        4.721276252596,
+        7.525343308965,
+        0.1
+      ],
+      "weld_time_s": 192.7111090948037
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0033|half=upper|part=1of1|seg=1of1",
+      "end": [
+        7.53066150889,
+        7.348759736107,
+        0.1
+      ],
+      "euclidean_length_m": 2.4016908874371414,
+      "half_region": "upper",
+      "horizontal_length_m": 2.3475146828769997,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0033",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0033|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        5.183146826013,
+        6.841518242856,
+        0.1
+      ],
+      "weld_time_s": 222.3787858738094
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0034|half=upper|part=1of1|seg=1of1",
+      "end": [
+        3.669964196884,
+        8.312948062426,
+        0.1
+      ],
+      "euclidean_length_m": 2.3180391068587083,
+      "half_region": "upper",
+      "horizontal_length_m": 2.2490588865339998,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0034",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0034|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        1.42090531035,
+        7.751664332189,
+        0.1
+      ],
+      "weld_time_s": 214.63325063506556
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0035|half=upper|part=1of1|seg=1of1",
+      "end": [
+        16.176510523139,
+        9.092697940657,
+        0.1
+      ],
+      "euclidean_length_m": 2.1908904613689577,
+      "half_region": "upper",
+      "horizontal_length_m": 1.9788565240700002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0035",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0035|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        14.197653999069,
+        10.032978681108,
+        0.1
+      ],
+      "weld_time_s": 202.8602279045331
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0036|half=upper|part=1of1|seg=1of1",
+      "end": [
+        6.314632872114,
+        10.923532772239,
+        0.1
+      ],
+      "euclidean_length_m": 1.9153721680545814,
+      "half_region": "upper",
+      "horizontal_length_m": 1.7897703555879998,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0036",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0036|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        4.524862516526,
+        10.241350526489,
+        0.1
+      ],
+      "weld_time_s": 177.34927481986864
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0037|half=upper|part=1of1|seg=1of1",
+      "end": [
+        9.648523327786,
+        7.24964196485,
+        0.1
+      ],
+      "euclidean_length_m": 2.4032718522506897,
+      "half_region": "upper",
+      "horizontal_length_m": 2.335652232467,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0037",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0037|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        7.312871095319,
+        7.815719914246,
+        0.1
+      ],
+      "weld_time_s": 222.52517150469347
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0038|half=upper|part=1of1|seg=1of1",
+      "end": [
+        2.887500312673,
+        8.363025237986,
+        0.1
+      ],
+      "euclidean_length_m": 2.3114792777480466,
+      "half_region": "upper",
+      "horizontal_length_m": 2.156258414596,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0038",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0038|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        0.731241898077,
+        9.195783366702,
+        0.1
+      ],
+      "weld_time_s": 214.02585905074505
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0039|half=upper|part=1of1|seg=1of1",
+      "end": [
+        5.283458138912,
+        7.415635412859,
+        0.1
+      ],
+      "euclidean_length_m": 1.9883260391478406,
+      "half_region": "upper",
+      "horizontal_length_m": 1.8754403885429998,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0039",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0039|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        3.408017750369,
+        8.076062386093,
+        0.1
+      ],
+      "weld_time_s": 184.1042628840593
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0040|half=upper|part=1of1|seg=1of1",
+      "end": [
+        16.817793071596,
+        9.515227978493,
+        0.1
+      ],
+      "euclidean_length_m": 2.4626738010011304,
+      "half_region": "upper",
+      "horizontal_length_m": 2.06863799954,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0040",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0040|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        14.749155072056,
+        8.179002295086,
+        0.1
+      ],
+      "weld_time_s": 228.0253519445491
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0041|half=upper|part=1of1|seg=1of1",
+      "end": [
+        8.453690135411,
+        10.550136941683,
+        0.1
+      ],
+      "euclidean_length_m": 2.3654965503503362,
+      "half_region": "upper",
+      "horizontal_length_m": 2.300981153806,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0041",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0041|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        6.152708981605,
+        10.001447904478,
+        0.1
+      ],
+      "weld_time_s": 219.02745836577185
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0042|half=upper|part=1of1|seg=1of1",
+      "end": [
+        2.507785382758,
+        7.007276327911,
+        0.1
+      ],
+      "euclidean_length_m": 2.25969977067046,
+      "half_region": "upper",
+      "horizontal_length_m": 1.8716396261080002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0042",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0042|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        0.63614575665,
+        8.273454894919,
+        0.1
+      ],
+      "weld_time_s": 209.23146024726478
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0043|half=upper|part=1of1|seg=1of1",
+      "end": [
+        3.947129198521,
+        7.698537567332,
+        0.1
+      ],
+      "euclidean_length_m": 2.292243814308146,
+      "half_region": "upper",
+      "horizontal_length_m": 2.180951013194,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0043",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0043|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        1.766178185327,
+        6.99296377085,
+        0.1
+      ],
+      "weld_time_s": 212.2447976211246
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0044|half=upper|part=1of1|seg=1of1",
+      "end": [
+        6.950239656062,
+        9.27330879372,
+        0.1
+      ],
+      "euclidean_length_m": 2.2474383614068163,
+      "half_region": "upper",
+      "horizontal_length_m": 2.0434232700950004,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0044",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0044|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        4.906816385967,
+        8.337680380536,
+        0.1
+      ],
+      "weld_time_s": 208.0961445747052
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0045|half=upper|part=1of1|seg=1of1",
+      "end": [
+        18.469312209944,
+        8.923733789988,
+        0.1
+      ],
+      "euclidean_length_m": 1.8580628025280732,
+      "half_region": "upper",
+      "horizontal_length_m": 1.8052741368979994,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0045",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0045|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        16.664038073046,
+        8.483980826626,
+        0.1
+      ],
+      "weld_time_s": 172.0428520859327
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0046|half=upper|part=1of1|seg=1of1",
+      "end": [
+        9.19071008754,
+        8.162750741557,
+        0.1
+      ],
+      "euclidean_length_m": 1.9296320347568574,
+      "half_region": "upper",
+      "horizontal_length_m": 1.6528449801419995,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0046",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0046|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        7.537865107398,
+        7.166968003617,
+        0.1
+      ],
+      "weld_time_s": 178.66963284785714
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0047|half=upper|part=1of1|seg=1of1",
+      "end": [
+        7.778643645388,
+        7.801545198535,
+        0.1
+      ],
+      "euclidean_length_m": 2.391066887310859,
+      "half_region": "upper",
+      "horizontal_length_m": 2.376688165548,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0047",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0047|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        5.40195547984,
+        7.539716584097,
+        0.1
+      ],
+      "weld_time_s": 221.39508215841286
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0048|half=upper|part=1of1|seg=1of1",
+      "end": [
+        6.538720941009,
+        10.21318499819,
+        0.1
+      ],
+      "euclidean_length_m": 1.8964271971524695,
+      "half_region": "upper",
+      "horizontal_length_m": 1.8827872248210005,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0048",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0048|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        4.655933716188,
+        10.440227681733,
+        0.1
+      ],
+      "weld_time_s": 175.59511084745088
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0049|half=upper|part=1of1|seg=1of1",
+      "end": [
+        8.482509867358,
+        9.223008313071,
+        0.1
+      ],
+      "euclidean_length_m": 1.9719605620415215,
+      "half_region": "upper",
+      "horizontal_length_m": 1.675019881972001,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0049",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0049|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        6.807489985386,
+        10.263650832501,
+        0.1
+      ],
+      "weld_time_s": 182.5889409297705
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0050|half=upper|part=1of1|seg=1of1",
+      "end": [
+        16.238390295193,
+        7.340140781375,
+        0.1
+      ],
+      "euclidean_length_m": 2.181879062524663,
+      "half_region": "upper",
+      "horizontal_length_m": 1.841702279731999,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0050",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0050|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        14.396688015461,
+        8.510067683499,
+        0.1
+      ],
+      "weld_time_s": 202.025839122654
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0051|half=upper|part=1of1|seg=1of1",
+      "end": [
+        8.45027427752,
+        9.134450212925,
+        0.1
+      ],
+      "euclidean_length_m": 2.18792483313324,
+      "half_region": "upper",
+      "horizontal_length_m": 1.8405864768529998,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0051",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0051|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        6.609687800667,
+        10.317351940317,
+        0.1
+      ],
+      "weld_time_s": 202.58563269752221
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0052|half=upper|part=1of1|seg=1of1",
+      "end": [
+        8.020041833156,
+        9.623790738139,
+        0.1
+      ],
+      "euclidean_length_m": 2.4888431174925336,
+      "half_region": "upper",
+      "horizontal_length_m": 2.488838289109,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0052",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0052|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        5.531203544047,
+        9.628693202309,
+        0.1
+      ],
+      "weld_time_s": 230.4484368048642
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0053|half=upper|part=1of1|seg=1of1",
+      "end": [
+        3.508472849933,
+        8.542609535477,
+        0.1
+      ],
+      "euclidean_length_m": 2.3686008353627437,
+      "half_region": "upper",
+      "horizontal_length_m": 2.1734414352039995,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0053",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0053|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        1.335031414729,
+        9.484109532832,
+        0.1
+      ],
+      "weld_time_s": 219.314892163217
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0054|half=upper|part=1of1|seg=1of1",
+      "end": [
+        8.097759059014,
+        8.544368627848,
+        0.1
+      ],
+      "euclidean_length_m": 1.99441880215996,
+      "half_region": "upper",
+      "horizontal_length_m": 1.9931097731190004,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0054",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0054|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        6.104649285895,
+        8.472120508795,
+        0.1
+      ],
+      "weld_time_s": 184.6684076074037
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0055|half=upper|part=1of1|seg=1of1",
+      "end": [
+        17.283793818354,
+        8.575148269254,
+        0.1
+      ],
+      "euclidean_length_m": 1.9805200681183421,
+      "half_region": "upper",
+      "horizontal_length_m": 1.9136788336669994,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0055",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0055|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        15.370114984687,
+        9.085337510413,
+        0.1
+      ],
+      "weld_time_s": 183.38148778873537
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0056|half=upper|part=1of1|seg=1of1",
+      "end": [
+        2.879842755646,
+        8.417295726412,
+        0.1
+      ],
+      "euclidean_length_m": 2.1031159311509326,
+      "half_region": "upper",
+      "horizontal_length_m": 1.856429834024,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0056",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0056|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        1.023412921622,
+        9.40560989266,
+        0.1
+      ],
+      "weld_time_s": 194.73295658804932
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0057|half=upper|part=1of1|seg=1of1",
+      "end": [
+        3.504816808449,
+        9.112237930231,
+        0.1
+      ],
+      "euclidean_length_m": 1.8934226570532002,
+      "half_region": "upper",
+      "horizontal_length_m": 1.878349760137,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0057",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0057|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        1.626467048312,
+        8.87380232711,
+        0.1
+      ],
+      "weld_time_s": 175.3169126901111
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0058|half=upper|part=1of1|seg=1of1",
+      "end": [
+        7.19993452372,
+        8.997490419491,
+        0.1
+      ],
+      "euclidean_length_m": 2.136475991476018,
+      "half_region": "upper",
+      "horizontal_length_m": 1.8540474984059996,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0058",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0058|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        5.345887025314,
+        7.935870178629,
+        0.1
+      ],
+      "weld_time_s": 197.82185106259425
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0059|half=upper|part=1of1|seg=1of1",
+      "end": [
+        7.106899498541,
+        8.630677089435,
+        0.1
+      ],
+      "euclidean_length_m": 2.365104492838372,
+      "half_region": "upper",
+      "horizontal_length_m": 1.902410775811,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0059",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0059|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        5.20448872273,
+        10.035864800071,
+        0.1
+      ],
+      "weld_time_s": 218.9911567442937
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0060|half=lower|part=1of1|seg=1of1",
+      "end": [
+        4.259293166594,
+        4.137513199828,
+        0.1
+      ],
+      "euclidean_length_m": 1.340539933227056,
+      "half_region": "lower",
+      "horizontal_length_m": 1.1046124375270003,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0060",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0060|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        3.154680729067,
+        3.377987903714,
+        0.1
+      ],
+      "weld_time_s": 124.12406789139406
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0061|half=lower|part=1of1|seg=1of1",
+      "end": [
+        15.926515730505,
+        1.791713268072,
+        0.1
+      ],
+      "euclidean_length_m": 1.4646443675185619,
+      "half_region": "lower",
+      "horizontal_length_m": 1.2620242273150009,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0061",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0061|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        14.66449150319,
+        1.048424647835,
+        0.1
+      ],
+      "weld_time_s": 135.61521921468164
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0062|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.116609461191,
+        4.44751756764,
+        0.1
+      ],
+      "euclidean_length_m": 1.7111893410623407,
+      "half_region": "lower",
+      "horizontal_length_m": 1.5691935757930011,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0062",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0062|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        11.547415885398,
+        5.130013342466,
+        0.1
+      ],
+      "weld_time_s": 158.44345750577227
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0063|half=lower|part=1of1|seg=1of1",
+      "end": [
+        17.408216976051,
+        3.200142231004,
+        0.1
+      ],
+      "euclidean_length_m": 1.572667343717998,
+      "half_region": "lower",
+      "horizontal_length_m": 1.563925779573001,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0063",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0063|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        15.844291196478,
+        3.034556211111,
+        0.1
+      ],
+      "weld_time_s": 145.61734664055538
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0064|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.824053443428,
+        3.789671489282,
+        0.1
+      ],
+      "euclidean_length_m": 1.2574227029906313,
+      "half_region": "lower",
+      "horizontal_length_m": 1.200989557510999,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0064",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0064|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        12.623063885917,
+        3.417198756393,
+        0.1
+      ],
+      "weld_time_s": 116.42802805468807
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0065|half=lower|part=1of1|seg=1of1",
+      "end": [
+        7.102085392148,
+        4.940957788241,
+        0.1
+      ],
+      "euclidean_length_m": 1.3605016896958888,
+      "half_region": "lower",
+      "horizontal_length_m": 1.1160443105229998,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0065",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0065|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        5.986041081625,
+        4.162876851182,
+        0.1
+      ],
+      "weld_time_s": 125.97237867554526
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0066|half=lower|part=1of1|seg=1of1",
+      "end": [
+        14.137568064446,
+        4.186720985591,
+        0.1
+      ],
+      "euclidean_length_m": 1.5572046102506008,
+      "half_region": "lower",
+      "horizontal_length_m": 1.554095322238,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0066",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0066|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        12.583472742208,
+        4.088364859276,
+        0.1
+      ],
+      "weld_time_s": 144.1856120602408
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0067|half=lower|part=1of1|seg=1of1",
+      "end": [
+        16.048775027502,
+        1.95542218784,
+        0.1
+      ],
+      "euclidean_length_m": 1.302191628045122,
+      "half_region": "lower",
+      "horizontal_length_m": 1.1594316543729999,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0067",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0067|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        14.889343373129,
+        2.548230145773,
+        0.1
+      ],
+      "weld_time_s": 120.57329889306685
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0068|half=lower|part=1of1|seg=1of1",
+      "end": [
+        15.843372994686,
+        3.307683660742,
+        0.1
+      ],
+      "euclidean_length_m": 1.607815305400637,
+      "half_region": "lower",
+      "horizontal_length_m": 1.586301291570999,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0068",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0068|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        14.257071703115,
+        3.569825356473,
+        0.1
+      ],
+      "weld_time_s": 148.871787537096
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0069|half=lower|part=1of1|seg=1of1",
+      "end": [
+        16.270088000284,
+        4.658495443646,
+        0.1
+      ],
+      "euclidean_length_m": 1.3808015072405204,
+      "half_region": "lower",
+      "horizontal_length_m": 1.3168625577530015,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0069",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0069|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        14.953225442531,
+        4.243181337955,
+        0.1
+      ],
+      "weld_time_s": 127.85199141115929
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0070|half=lower|part=1of1|seg=1of1",
+      "end": [
+        7.614539585088,
+        2.053474244566,
+        0.1
+      ],
+      "euclidean_length_m": 1.6882605100747086,
+      "half_region": "lower",
+      "horizontal_length_m": 1.4624296089120001,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0070",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0070|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        6.152109976176,
+        2.896992583937,
+        0.1
+      ],
+      "weld_time_s": 156.32041759951005
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0071|half=lower|part=1of1|seg=1of1",
+      "end": [
+        16.574693518287,
+        1.988876913667,
+        0.1
+      ],
+      "euclidean_length_m": 1.710400436466764,
+      "half_region": "lower",
+      "horizontal_length_m": 1.6133610924189998,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0071",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0071|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        14.961332425868,
+        1.420954701974,
+        0.1
+      ],
+      "weld_time_s": 158.3704107839596
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0072|half=lower|part=1of1|seg=1of1",
+      "end": [
+        14.083858243711,
+        3.367555967882,
+        0.1
+      ],
+      "euclidean_length_m": 1.3228867843766021,
+      "half_region": "lower",
+      "horizontal_length_m": 1.1137844081349986,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0072",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0072|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        12.970073835576,
+        2.653753658784,
+        0.1
+      ],
+      "weld_time_s": 122.4895170719076
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0073|half=lower|part=1of1|seg=1of1",
+      "end": [
+        15.982782389992,
+        3.975444801906,
+        0.1
+      ],
+      "euclidean_length_m": 1.2541851778560955,
+      "half_region": "lower",
+      "horizontal_length_m": 1.004466509337,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0073",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0073|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        14.978315880655,
+        3.224427164314,
+        0.1
+      ],
+      "weld_time_s": 116.12825720889772
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0074|half=lower|part=1of1|seg=1of1",
+      "end": [
+        12.907348059865,
+        2.168711130357,
+        0.1
+      ],
+      "euclidean_length_m": 1.5102838833015866,
+      "half_region": "lower",
+      "horizontal_length_m": 1.4877055068910003,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0074",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0074|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        11.419642552974,
+        2.42888363645,
+        0.1
+      ],
+      "weld_time_s": 139.84110030570244
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0075|half=lower|part=1of1|seg=1of1",
+      "end": [
+        4.543191515878,
+        4.829783837774,
+        0.1
+      ],
+      "euclidean_length_m": 1.253819224604236,
+      "half_region": "lower",
+      "horizontal_length_m": 1.2211473667290003,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0075",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0075|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        3.322044149149,
+        4.545421820764,
+        0.1
+      ],
+      "weld_time_s": 116.09437264854036
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0076|half=lower|part=1of1|seg=1of1",
+      "end": [
+        18.453079376694,
+        5.057749898875,
+        0.1
+      ],
+      "euclidean_length_m": 1.3487373264726514,
+      "half_region": "lower",
+      "horizontal_length_m": 1.2340205733539982,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0076",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0076|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        17.21905880334,
+        4.513428669857,
+        0.1
+      ],
+      "weld_time_s": 124.88308578450476
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0077|half=lower|part=1of1|seg=1of1",
+      "end": [
+        17.809138398391,
+        2.060269800847,
+        0.1
+      ],
+      "euclidean_length_m": 1.308517561304478,
+      "half_region": "lower",
+      "horizontal_length_m": 1.1159025762679988,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0077",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0077|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        16.693235822123,
+        1.376910708919,
+        0.1
+      ],
+      "weld_time_s": 121.15903345411832
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0078|half=lower|part=1of1|seg=1of1",
+      "end": [
+        15.364150843407,
+        4.452153595969,
+        0.1
+      ],
+      "euclidean_length_m": 1.4155918752359777,
+      "half_region": "lower",
+      "horizontal_length_m": 1.3720373929039997,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0078",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0078|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        13.992113450503,
+        4.103708837496,
+        0.1
+      ],
+      "weld_time_s": 131.07332178110903
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0079|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.759068715728,
+        2.368483539319,
+        0.1
+      ],
+      "euclidean_length_m": 1.630613862156383,
+      "half_region": "lower",
+      "horizontal_length_m": 1.542616212296,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0079",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0079|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        12.216452503432,
+        1.840054935799,
+        0.1
+      ],
+      "weld_time_s": 150.9827650144799
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0080|half=lower|part=1of1|seg=1of1",
+      "end": [
+        4.417523744873,
+        2.967534694656,
+        0.1
+      ],
+      "euclidean_length_m": 1.7254500667946802,
+      "half_region": "lower",
+      "horizontal_length_m": 1.6905978448349996,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0080",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0080|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        2.726925900038,
+        2.622488523773,
+        0.1
+      ],
+      "weld_time_s": 159.7638950735815
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0081|half=lower|part=1of1|seg=1of1",
+      "end": [
+        16.186795798972,
+        1.674657605362,
+        0.1
+      ],
+      "euclidean_length_m": 1.3613963252437984,
+      "half_region": "lower",
+      "horizontal_length_m": 1.3290694971360004,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0081",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0081|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        14.857726301836,
+        1.379743675257,
+        0.1
+      ],
+      "weld_time_s": 126.05521530035169
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0082|half=lower|part=1of1|seg=1of1",
+      "end": [
+        12.145886803788,
+        4.732259168085,
+        0.1
+      ],
+      "euclidean_length_m": 1.271033702903157,
+      "half_region": "lower",
+      "horizontal_length_m": 1.1661594831790012,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0082",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0082|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        10.979727320609,
+        5.23782690213,
+        0.1
+      ],
+      "weld_time_s": 117.6883058243664
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0083|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.50724506495,
+        1.6669445866,
+        0.1
+      ],
+      "euclidean_length_m": 1.6910350587193177,
+      "half_region": "lower",
+      "horizontal_length_m": 1.4722228663550005,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0083",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0083|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        12.035022198595,
+        0.83498340866,
+        0.1
+      ],
+      "weld_time_s": 156.57732025178868
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0084|half=lower|part=1of1|seg=1of1",
+      "end": [
+        14.003042224055,
+        4.732412166897,
+        0.1
+      ],
+      "euclidean_length_m": 1.5915597221011484,
+      "half_region": "lower",
+      "horizontal_length_m": 1.3792864372149989,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0084",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0084|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        12.62375578684,
+        3.938289208452,
+        0.1
+      ],
+      "weld_time_s": 147.3666409352915
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0085|half=lower|part=1of1|seg=1of1",
+      "end": [
+        6.184979506141,
+        1.809184142634,
+        0.1
+      ],
+      "euclidean_length_m": 1.283641686936588,
+      "half_region": "lower",
+      "horizontal_length_m": 1.2568464262519994,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0085",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0085|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        4.928133079889,
+        2.070092251475,
+        0.1
+      ],
+      "weld_time_s": 118.85571175338778
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0086|half=lower|part=1of1|seg=1of1",
+      "end": [
+        15.866082491395,
+        3.042613139948,
+        0.1
+      ],
+      "euclidean_length_m": 1.2538198398184606,
+      "half_region": "lower",
+      "horizontal_length_m": 1.1625624625129998,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0086",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0086|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        14.703520028882,
+        3.512200950137,
+        0.1
+      ],
+      "weld_time_s": 116.09442961282042
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0087|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.651475816991,
+        1.883001948961,
+        0.1
+      ],
+      "euclidean_length_m": 1.5918209378461285,
+      "half_region": "lower",
+      "horizontal_length_m": 1.4935937317440011,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0087",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0087|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        12.157882085247,
+        1.33248250093,
+        0.1
+      ],
+      "weld_time_s": 147.39082757834524
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0088|half=lower|part=1of1|seg=1of1",
+      "end": [
+        18.493488350189,
+        3.003458325236,
+        0.1
+      ],
+      "euclidean_length_m": 1.615966042818437,
+      "half_region": "lower",
+      "horizontal_length_m": 1.6067638606690018,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0088",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0088|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        16.88672448952,
+        2.831248721583,
+        0.1
+      ],
+      "weld_time_s": 149.62648544615158
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0089|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.926471797779,
+        4.073878673039,
+        0.1
+      ],
+      "euclidean_length_m": 1.3879126946893232,
+      "half_region": "lower",
+      "horizontal_length_m": 1.1422249054679998,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0089",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0089|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        12.784246892311,
+        4.862309972144,
+        0.1
+      ],
+      "weld_time_s": 128.51043469345584
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0090|half=lower|part=1of1|seg=1of1",
+      "end": [
+        4.563227092677,
+        4.430912731373,
+        0.1
+      ],
+      "euclidean_length_m": 1.6911052115970353,
+      "half_region": "lower",
+      "horizontal_length_m": 1.608812559814,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0090",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0090|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        2.954414532863,
+        3.909799515195,
+        0.1
+      ],
+      "weld_time_s": 156.58381588861437
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0091|half=lower|part=1of1|seg=1of1",
+      "end": [
+        18.552784015934,
+        1.060965517754,
+        0.1
+      ],
+      "euclidean_length_m": 1.5760341143976475,
+      "half_region": "lower",
+      "horizontal_length_m": 1.3109710751310004,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0091",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0091|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        17.241812940803,
+        1.935744558378,
+        0.1
+      ],
+      "weld_time_s": 145.92908466644883
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0092|half=lower|part=1of1|seg=1of1",
+      "end": [
+        16.479198451051,
+        4.309007701391,
+        0.1
+      ],
+      "euclidean_length_m": 1.6259616258569765,
+      "half_region": "lower",
+      "horizontal_length_m": 1.623689674047002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0092",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0092|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        14.855508777004,
+        4.223083018368,
+        0.1
+      ],
+      "weld_time_s": 150.55200239416448
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0093|half=lower|part=1of1|seg=1of1",
+      "end": [
+        15.050638495691,
+        2.046522000096,
+        0.1
+      ],
+      "euclidean_length_m": 1.48092105946934,
+      "half_region": "lower",
+      "horizontal_length_m": 1.4788711514050004,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0093",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0093|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        13.571767344286,
+        1.968629112604,
+        0.1
+      ],
+      "weld_time_s": 137.12232032123518
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0094|half=lower|part=1of1|seg=1of1",
+      "end": [
+        19.074132076705,
+        2.505371263465,
+        0.1
+      ],
+      "euclidean_length_m": 1.5843530396292935,
+      "half_region": "lower",
+      "horizontal_length_m": 1.4839056167670002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0094",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0094|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        17.590226459938,
+        1.950214821811,
+        0.1
+      ],
+      "weld_time_s": 146.69935552123087
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0095|half=lower|part=1of1|seg=1of1",
+      "end": [
+        6.293053668007,
+        3.224978370031,
+        0.1
+      ],
+      "euclidean_length_m": 1.2912762804959441,
+      "half_region": "lower",
+      "horizontal_length_m": 1.159331298413,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0095",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0095|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        5.133722369594,
+        2.656343713075,
+        0.1
+      ],
+      "weld_time_s": 119.56261856443926
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0096|half=lower|part=1of1|seg=1of1",
+      "end": [
+        18.798467512507,
+        4.530332307862,
+        0.1
+      ],
+      "euclidean_length_m": 1.438393955325073,
+      "half_region": "lower",
+      "horizontal_length_m": 1.3552925893109986,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0096",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0096|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        17.443174923196,
+        4.048503325676,
+        0.1
+      ],
+      "weld_time_s": 133.18462549306233
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0097|half=lower|part=1of1|seg=1of1",
+      "end": [
+        12.861929866642,
+        2.566358638345,
+        0.1
+      ],
+      "euclidean_length_m": 1.70848511785803,
+      "half_region": "lower",
+      "horizontal_length_m": 1.6719506821040007,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0097",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0097|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        11.189979184538,
+        2.214929677452,
+        0.1
+      ],
+      "weld_time_s": 158.1930664683361
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0098|half=lower|part=1of1|seg=1of1",
+      "end": [
+        12.174695747641,
+        2.443870709462,
+        0.1
+      ],
+      "euclidean_length_m": 1.2584633521322166,
+      "half_region": "lower",
+      "horizontal_length_m": 1.2556896799739992,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0098",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0098|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        10.919006067667,
+        2.527377812553,
+        0.1
+      ],
+      "weld_time_s": 116.52438445668672
+    },
+    {
+      "atomic_weld_id": "load_skewed_n100_r1__weld_0099|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.703258996781,
+        4.883487323123,
+        0.1
+      ],
+      "euclidean_length_m": 1.6851394031745335,
+      "half_region": "lower",
+      "horizontal_length_m": 1.6825981264200003,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "load_skewed_n100_r1__weld_0099",
+      "parent_weld_id": "load_skewed_n100_r1__weld_0099|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+      "start": [
+        12.020660870361,
+        4.975998690529,
+        0.1
+      ],
+      "weld_time_s": 156.03142621986422
+    }
+  ],
+  "boundary_events": {
+    "lower": [
+      {
+        "assignment_hash": "0b984d8f94c29e28ab189b40971ffdc67e72422f97bb464423e78b168199a47f",
+        "event_id": "lower_event_0000",
+        "event_index": 0,
+        "half_region": "lower",
+        "interval_kind": "point",
+        "interval_left": 0.0,
+        "interval_right": 0.0,
+        "left_atomic_ids": [],
+        "representative_x": 0.0,
+        "right_atomic_ids": [
+          "load_skewed_n100_r1__weld_0060|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0061|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0062|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0063|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0064|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0065|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0066|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0067|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0068|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0069|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0070|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0071|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0072|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0073|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0074|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0075|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0076|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0077|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0078|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0079|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0080|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0081|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0082|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0083|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0084|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0085|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0086|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0087|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0088|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0089|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0090|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0091|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0092|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0093|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0094|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0095|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0096|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0097|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0098|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0099|half=lower|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "c6fd29ff3322610992f43e54123fbd5fc0c490d9c5da9a40bc8737f742b2ad62",
+        "event_id": "lower_event_0001",
+        "event_index": 1,
+        "half_region": "lower",
+        "interval_kind": "point",
+        "interval_left": 4.563227092677,
+        "interval_right": 4.563227092677,
+        "left_atomic_ids": [
+          "load_skewed_n100_r1__weld_0060|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0075|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0080|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0090|half=lower|part=1of1|seg=1of1"
+        ],
+        "representative_x": 4.563227092677,
+        "right_atomic_ids": [
+          "load_skewed_n100_r1__weld_0061|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0062|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0063|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0064|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0065|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0066|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0067|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0068|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0069|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0070|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0071|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0072|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0073|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0074|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0076|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0077|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0078|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0079|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0081|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0082|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0083|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0084|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0085|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0086|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0087|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0088|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0089|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0091|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0092|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0093|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0094|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0095|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0096|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0097|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0098|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0099|half=lower|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "4a53a77696cf03697606bfde41966ab930edc255145618fd87a1aa096d7625d0",
+        "event_id": "lower_event_0002",
+        "event_index": 2,
+        "half_region": "lower",
+        "interval_kind": "point",
+        "interval_left": 7.614539585088,
+        "interval_right": 7.614539585088,
+        "left_atomic_ids": [
+          "load_skewed_n100_r1__weld_0060|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0065|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0070|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0075|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0080|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0085|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0090|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0095|half=lower|part=1of1|seg=1of1"
+        ],
+        "representative_x": 7.614539585088,
+        "right_atomic_ids": [
+          "load_skewed_n100_r1__weld_0061|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0062|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0063|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0064|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0066|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0067|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0068|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0069|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0071|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0072|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0073|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0074|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0076|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0077|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0078|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0079|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0081|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0082|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0083|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0084|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0086|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0087|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0088|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0089|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0091|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0092|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0093|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0094|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0096|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0097|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0098|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0099|half=lower|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "12e15cbef3e1ad5086ed3ec1cbb16c923ad5edb5aac9412fa37f04693b351c8a",
+        "event_id": "lower_event_0003",
+        "event_index": 3,
+        "half_region": "lower",
+        "interval_kind": "point",
+        "interval_left": 19.074132076705,
+        "interval_right": 19.074132076705,
+        "left_atomic_ids": [
+          "load_skewed_n100_r1__weld_0060|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0061|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0062|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0063|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0064|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0065|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0066|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0067|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0068|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0069|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0070|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0071|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0072|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0073|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0074|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0075|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0076|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0077|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0078|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0079|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0080|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0081|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0082|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0083|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0084|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0085|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0086|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0087|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0088|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0089|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0090|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0091|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0092|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0093|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0094|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0095|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0096|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0097|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0098|half=lower|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0099|half=lower|part=1of1|seg=1of1"
+        ],
+        "representative_x": 19.074132076705,
+        "right_atomic_ids": []
+      }
+    ],
+    "upper": [
+      {
+        "assignment_hash": "31c6c0fff14cdaa1472ab566ae16f1409216d30dfcc9793e4bb99daa4732c0fb",
+        "event_id": "upper_event_0000",
+        "event_index": 0,
+        "half_region": "upper",
+        "interval_kind": "point",
+        "interval_left": 0.0,
+        "interval_right": 0.0,
+        "left_atomic_ids": [],
+        "representative_x": 0.0,
+        "right_atomic_ids": [
+          "load_skewed_n100_r1__weld_0000|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0001|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0002|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0003|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0004|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0005|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0006|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0007|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0008|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0009|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0010|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0011|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0012|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0013|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0014|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0015|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0016|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0017|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0018|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0019|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0020|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0021|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0022|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0023|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0024|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0025|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0026|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0027|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0028|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0029|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0030|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0031|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0032|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0033|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0034|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0035|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0036|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0037|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0038|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0039|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0040|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0041|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0042|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0043|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0044|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0045|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0046|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0047|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0048|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0049|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0050|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0051|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0052|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0053|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0054|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0055|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0056|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0057|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0058|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0059|half=upper|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "34e165008c21953dfafe8a4a7bd3326793646ee0ffefce404db5095ad4e86883",
+        "event_id": "upper_event_0001",
+        "event_index": 1,
+        "half_region": "upper",
+        "interval_kind": "point",
+        "interval_left": 9.648523327786,
+        "interval_right": 9.648523327786,
+        "left_atomic_ids": [
+          "load_skewed_n100_r1__weld_0001|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0002|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0003|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0004|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0006|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0007|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0008|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0009|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0011|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0012|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0013|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0014|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0016|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0017|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0018|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0019|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0021|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0022|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0023|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0024|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0026|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0027|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0028|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0029|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0031|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0032|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0033|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0034|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0036|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0037|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0038|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0039|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0041|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0042|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0043|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0044|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0046|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0047|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0048|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0049|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0051|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0052|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0053|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0054|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0056|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0057|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0058|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0059|half=upper|part=1of1|seg=1of1"
+        ],
+        "representative_x": 9.648523327786,
+        "right_atomic_ids": [
+          "load_skewed_n100_r1__weld_0000|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0005|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0010|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0015|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0020|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0025|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0030|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0035|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0040|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0045|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0050|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0055|half=upper|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "91c45f1a62b01a8f16e019339d28568e2459a65c155f13a6fe9b8126ac9309f3",
+        "event_id": "upper_event_0002",
+        "event_index": 2,
+        "half_region": "upper",
+        "interval_kind": "point",
+        "interval_left": 18.469312209944,
+        "interval_right": 18.469312209944,
+        "left_atomic_ids": [
+          "load_skewed_n100_r1__weld_0000|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0001|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0002|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0003|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0004|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0005|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0006|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0007|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0008|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0009|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0010|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0011|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0012|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0013|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0014|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0015|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0016|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0017|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0018|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0019|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0020|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0021|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0022|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0023|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0024|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0025|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0026|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0027|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0028|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0029|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0030|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0031|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0032|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0033|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0034|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0035|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0036|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0037|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0038|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0039|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0040|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0041|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0042|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0043|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0044|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0045|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0046|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0047|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0048|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0049|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0050|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0051|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0052|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0053|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0054|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0055|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0056|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0057|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0058|half=upper|part=1of1|seg=1of1",
+          "load_skewed_n100_r1__weld_0059|half=upper|part=1of1|seg=1of1"
+        ],
+        "representative_x": 18.469312209944,
+        "right_atomic_ids": []
+      }
+    ]
+  },
+  "metadata": {
+    "atomic_weld_count": 100,
+    "benchmark_suite_id": "atomic_benchmark_suite_v1",
+    "family": "load_skewed",
+    "fixed_y_cut_m": 6.0,
+    "lmax_m": 5.0,
+    "lmin_m": 1.0,
+    "model_id": "atomic_weld_partition_routing_v1",
+    "model_version": "1.0.0",
+    "post_time_s": 0.0,
+    "search_time_splitting": false,
+    "setup_time_s": 0.0,
+    "source_instance_file_sha256": "1f9eb302c274698931a4bc4fc68d039d3053da045a88c554450dc40a495cec14",
+    "source_instance_hash": "8ad1e9480151bdee7306e999fa02da0be39cf4b1cc2153d8358d584b5a22ef3d",
+    "source_instance_path": "formal_atomic/instances/raw/load_skewed_n100_r1.json",
+    "source_weld_count": 100
+  },
+  "name": "load_skewed_n100_r1"
+}
