@@ -1,0 +1,182 @@
+{
+  "atomic_instance_hash": "abedd292f6159ecfb055a97368af7dc78540dd90ac520896c67cfec97a5502aa",
+  "baseline": {
+    "algorithm": "atomic_event_workload_balance_cheapest_insertion_v1",
+    "algorithm_version": "1.0.0",
+    "baseline_hash": "b239d5bbaa80873b9b2fc6e9f6d04612fa5b4003cd5ed6d763fb64ede140caaa",
+    "boundaries": {
+      "lower_event_index": 5,
+      "upper_event_index": 6,
+      "x_low": 11.254076975942,
+      "x_up": 9.220929034484
+    },
+    "direction_flags": [
+      [
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false
+      ],
+      [
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        false,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    ],
+    "metrics": {
+      "idle_distance": 85.41775185264805,
+      "load_imbalance": 886.6886983134586,
+      "makespan": 1995.687959562505
+    },
+    "robot_total_times": [
+      1108.9992612490464,
+      1953.229934486132,
+      1995.687959562505,
+      1957.0353664002175
+    ],
+    "routes": [
+      [
+        "inst0019|group=183-CM2B.dxf|row=0000|half=upper|part=1of1|seg=1of1",
+        "inst0014|group=804-FR314A|row=0000|half=upper|part=1of1|seg=1of1",
+        "inst0024|group=642-BL14A|row=0000|half=upper|part=1of1|seg=1of1",
+        "inst0009|group=642-BL14A|row=0000|half=upper|part=1of1|seg=1of1",
+        "inst0004|group=642-BL14A.dxf|row=0000|half=upper|part=1of1|seg=1of1",
+        "inst0015|group=165-SR1A|row=0000|half=upper|part=1of1|seg=1of1",
+        "inst0012|group=804-FR315A.dxf|row=0001|half=upper|part=1of1|seg=1of1",
+        "inst0025|group=804-FR314A|row=0000|half=upper|part=2of2|seg=1of1",
+        "inst0012|group=804-FR315A.dxf|row=0000|half=upper|part=1of1|seg=1of1",
+        "inst0012|group=804-FR315A.dxf|row=0002|half=upper|part=1of1|seg=1of1"
+      ],
+      [
+        "inst0003|group=804-FR315A|row=0000|half=upper|part=1of1|seg=1of1",
+        "inst0008|group=145-LB20A|row=0000|half=upper|part=1of1|seg=1of1",
+        "inst0007|group=143-GR14A|row=0000|half=upper|part=1of1|seg=1of1",
+        "inst0026|group=143-FR76A|row=0000|half=upper|part=1of1|seg=1of1",
+        "inst0002|group=143-FR65A|row=0000|half=upper|part=1of1|seg=1of1",
+        "inst0023|group=801-FR322A|row=0000|half=upper|part=1of1|seg=1of1",
+        "inst0021|group=145-LB20A|row=0000|half=upper|part=1of1|seg=1of1",
+        "inst0035|group=143-FR69B|row=0000|half=upper|part=1of1|seg=1of1",
+        "inst0020|group=145-LB17A|row=0000|half=upper|part=1of1|seg=1of1",
+        "inst0022|group=143-FR76A|row=0000|half=upper|part=1of1|seg=1of1",
+        "inst0017|group=143-FR76A|row=0000|half=upper|part=1of1|seg=1of1",
+        "inst0028|group=183-CM2B.dxf|row=0000|half=upper|part=1of1|seg=1of1",
+        "inst0010|group=804-FR314A|row=0000|half=upper|part=2of2|seg=1of1",
+        "inst0030|group=642-BL14A|row=0000|half=upper|part=1of2|seg=1of1"
+      ],
+      [
+        "inst0027|group=801-FR322A.dxf|row=0002|half=lower|part=1of1|seg=1of1",
+        "inst0027|group=801-FR322A.dxf|row=0003|half=lower|part=1of1|seg=1of1",
+        "inst0027|group=801-FR322A.dxf|row=0000|half=lower|part=1of1|seg=1of1",
+        "inst0027|group=801-FR322A.dxf|row=0001|half=lower|part=1of1|seg=1of1",
+        "inst0027|group=801-FR322A.dxf|row=0004|half=lower|part=1of1|seg=1of1",
+        "inst0001|group=804-FR313A|row=0000|half=lower|part=1of1|seg=1of1",
+        "inst0025|group=804-FR314A|row=0000|half=lower|part=1of2|seg=1of1",
+        "inst0029|group=143-FR69B|row=0000|half=lower|part=1of1|seg=1of1",
+        "inst0032|group=312-GR2C|row=0000|half=lower|part=1of1|seg=1of1",
+        "inst0000|group=804-FR313A|row=0000|half=lower|part=1of1|seg=1of1",
+        "inst0018|group=826BK312A|row=0000|half=lower|part=1of1|seg=1of1",
+        "inst0006|group=312-GR2C|row=0000|half=lower|part=1of1|seg=1of1",
+        "inst0011|group=804-FR313A.dxf|row=0000|half=lower|part=1of1|seg=1of1"
+      ],
+      [
+        "inst0031|group=183-CM2B.dxf|row=0000|half=lower|part=1of1|seg=1of1",
+        "inst0005|group=143-FR69B.dxf|row=0001|half=lower|part=1of1|seg=1of1",
+        "inst0005|group=143-FR69B.dxf|row=0002|half=lower|part=1of1|seg=1of1",
+        "inst0005|group=143-FR69B.dxf|row=0000|half=lower|part=1of1|seg=1of1",
+        "inst0005|group=143-FR69B.dxf|row=0003|half=lower|part=1of1|seg=1of1",
+        "inst0033|group=143-FR65A|row=0000|half=lower|part=1of1|seg=1of1",
+        "inst0016|group=642-BL14A.dxf|row=0000|half=lower|part=1of1|seg=1of1",
+        "inst0030|group=642-BL14A|row=0000|half=lower|part=2of2|seg=1of1",
+        "inst0010|group=804-FR314A|row=0000|half=lower|part=1of2|seg=1of1",
+        "inst0013|group=143-GR14A|row=0000|half=lower|part=1of1|seg=1of1",
+        "inst0034|group=183-CM2B.dxf|row=0000|half=lower|part=1of1|seg=1of1"
+      ]
+    ]
+  },
+  "floors": {
+    "epsilon_idle_distance": 2.3323807579381206e-08,
+    "epsilon_makespan": 1.6337983767912516e-06,
+    "load_imbalance": 81.68991883956258
+  },
+  "ideal": {
+    "idle_distance": 0.0,
+    "load_imbalance": 0.0,
+    "makespan": 1633.7983767912515
+  },
+  "instance": "w45",
+  "mode": "ideal_baseline_range_v1",
+  "scale": {
+    "idle_distance": 85.41775185264805,
+    "load_imbalance": 886.6886983134586,
+    "makespan": 361.8895827712536
+  },
+  "scientific_model": {
+    "acceleration": 0.5,
+    "assignment_mode": "event_driven_fixed_atomic_read_only",
+    "direction_mode": "exact_two_state_dp",
+    "fixed_y_cut_m": 6.0,
+    "long_weld_lmax_m": 5.0,
+    "long_weld_lmin_m": 1.0,
+    "model_id": "atomic_weld_partition_routing_v1",
+    "platform_height_m": 12.0,
+    "platform_width_m": 20.0,
+    "post_time_s": 0.0,
+    "route_type": "open",
+    "safe_z": 0.3,
+    "setup_time_s": 0.0,
+    "travel_speed": 0.2,
+    "weld_speed": 0.0108,
+    "zero_endpoint_tolerance_m": 1e-09
+  },
+  "scientific_model_hash": "8b2428d22ab1df6200eccaeb69b8fdad846c1d474cd2bf6ef9ecbf045669f12f",
+  "weights": [
+    0.7,
+    0.2,
+    0.1
+  ]
+}

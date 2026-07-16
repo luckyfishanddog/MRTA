@@ -1,0 +1,208 @@
+{
+  "atomic_instance_hash": "0d57443d60372166e091199df07db1ca1817fb068de7c73df39c26ea4e948d5d",
+  "baseline": {
+    "algorithm": "atomic_event_workload_balance_cheapest_insertion_v1",
+    "algorithm_version": "1.0.0",
+    "baseline_hash": "b3f0cd73968814b8cde3e458bfbad5c3da1cb2eba83d3ddd97682e8f3ac4dc1e",
+    "boundaries": {
+      "lower_event_index": 2,
+      "upper_event_index": 2,
+      "x_low": 4.275458141565,
+      "x_up": 8.106638711408
+    },
+    "direction_flags": [
+      [
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true
+      ],
+      [
+        false,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true
+      ],
+      [
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        true,
+        false,
+        true,
+        false
+      ],
+      [
+        true,
+        false,
+        false,
+        true,
+        true,
+        false,
+        false,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true
+      ]
+    ],
+    "metrics": {
+      "idle_distance": 69.14980366566104,
+      "load_imbalance": 820.5304107921017,
+      "makespan": 2315.7616394198785
+    },
+    "robot_total_times": [
+      2315.7616394198785,
+      1849.5600533981471,
+      1495.2312286277768,
+      2094.809560910487
+    ],
+    "routes": [
+      [
+        "clustered_n60_r2__weld_0048|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0050|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0037|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0025|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0021|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0005|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0033|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0041|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0001|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0013|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0017|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0029|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0009|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0045|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0059|half=upper|part=2of2|seg=1of1",
+        "clustered_n60_r2__weld_0052|half=upper|part=1of1|seg=1of1"
+      ],
+      [
+        "clustered_n60_r2__weld_0043|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0007|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0039|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0035|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0003|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0015|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0011|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0031|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0019|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0027|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0023|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0047|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0054|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0049|half=upper|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0057|half=upper|part=1of1|seg=1of1"
+      ],
+      [
+        "clustered_n60_r2__weld_0059|half=lower|part=1of2|seg=1of1",
+        "clustered_n60_r2__weld_0012|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0020|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0016|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0004|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0028|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0024|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0000|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0036|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0032|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0040|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0044|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0008|half=lower|part=1of1|seg=1of1"
+      ],
+      [
+        "clustered_n60_r2__weld_0056|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0053|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0051|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0042|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0038|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0018|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0014|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0026|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0030|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0046|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0006|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0022|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0002|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0010|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0058|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0034|half=lower|part=1of1|seg=1of1",
+        "clustered_n60_r2__weld_0055|half=lower|part=1of1|seg=1of1"
+      ]
+    ]
+  },
+  "floors": {
+    "epsilon_idle_distance": 2.3323807579381206e-08,
+    "epsilon_makespan": 1.8353046392978907e-06,
+    "load_imbalance": 91.76523196489454
+  },
+  "ideal": {
+    "idle_distance": 0.0,
+    "load_imbalance": 0.0,
+    "makespan": 1835.3046392978906
+  },
+  "instance": "clustered_n60_r2",
+  "mode": "ideal_baseline_range_v1",
+  "scale": {
+    "idle_distance": 69.14980366566104,
+    "load_imbalance": 820.5304107921017,
+    "makespan": 480.4570001219879
+  },
+  "scientific_model": {
+    "acceleration": 0.5,
+    "assignment_mode": "event_driven_fixed_atomic_read_only",
+    "direction_mode": "exact_two_state_dp",
+    "fixed_y_cut_m": 6.0,
+    "long_weld_lmax_m": 5.0,
+    "long_weld_lmin_m": 1.0,
+    "model_id": "atomic_weld_partition_routing_v1",
+    "platform_height_m": 12.0,
+    "platform_width_m": 20.0,
+    "post_time_s": 0.0,
+    "route_type": "open",
+    "safe_z": 0.3,
+    "setup_time_s": 0.0,
+    "travel_speed": 0.2,
+    "weld_speed": 0.0108,
+    "zero_endpoint_tolerance_m": 1e-09
+  },
+  "scientific_model_hash": "8b2428d22ab1df6200eccaeb69b8fdad846c1d474cd2bf6ef9ecbf045669f12f",
+  "weights": [
+    0.7,
+    0.2,
+    0.1
+  ]
+}

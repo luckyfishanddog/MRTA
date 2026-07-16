@@ -1,0 +1,3248 @@
+{
+  "atomic_instance_hash": "01a1ff4416e691326ed6937dd6d54acfcd0047ab0771937f8afbae7d946ee733",
+  "atomic_welds": [
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0000|half=lower|part=1of1|seg=1of1",
+      "end": [
+        2.8,
+        3.15,
+        0.1
+      ],
+      "euclidean_length_m": 0.8139410298049852,
+      "half_region": "lower",
+      "horizontal_length_m": 0.7999999999999998,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0000",
+      "parent_weld_id": "uniform_n100_r1__weld_0000|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        2.0,
+        3.0,
+        0.1
+      ],
+      "weld_time_s": 75.36491016712826
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0001|half=lower|part=1of1|seg=1of1",
+      "end": [
+        9.8,
+        3.15,
+        0.1
+      ],
+      "euclidean_length_m": 0.813941029804986,
+      "half_region": "lower",
+      "horizontal_length_m": 0.8000000000000007,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0001",
+      "parent_weld_id": "uniform_n100_r1__weld_0001|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        9.0,
+        3.0,
+        0.1
+      ],
+      "weld_time_s": 75.36491016712833
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0002|half=lower|part=1of1|seg=1of1",
+      "end": [
+        16.8,
+        3.15,
+        0.1
+      ],
+      "euclidean_length_m": 0.813941029804986,
+      "half_region": "lower",
+      "horizontal_length_m": 0.8000000000000007,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0002",
+      "parent_weld_id": "uniform_n100_r1__weld_0002|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        16.0,
+        3.0,
+        0.1
+      ],
+      "weld_time_s": 75.36491016712833
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0003|half=upper|part=1of1|seg=1of1",
+      "end": [
+        2.8,
+        9.15,
+        0.1
+      ],
+      "euclidean_length_m": 0.8139410298049852,
+      "half_region": "upper",
+      "horizontal_length_m": 0.7999999999999998,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0003",
+      "parent_weld_id": "uniform_n100_r1__weld_0003|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        2.0,
+        9.0,
+        0.1
+      ],
+      "weld_time_s": 75.36491016712826
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0004|half=upper|part=1of1|seg=1of1",
+      "end": [
+        9.8,
+        9.15,
+        0.1
+      ],
+      "euclidean_length_m": 0.8139410298049861,
+      "half_region": "upper",
+      "horizontal_length_m": 0.8000000000000007,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0004",
+      "parent_weld_id": "uniform_n100_r1__weld_0004|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        9.0,
+        9.0,
+        0.1
+      ],
+      "weld_time_s": 75.36491016712833
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0005|half=upper|part=1of1|seg=1of1",
+      "end": [
+        16.8,
+        9.15,
+        0.1
+      ],
+      "euclidean_length_m": 0.8139410298049861,
+      "half_region": "upper",
+      "horizontal_length_m": 0.8000000000000007,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0005",
+      "parent_weld_id": "uniform_n100_r1__weld_0005|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        16.0,
+        9.0,
+        0.1
+      ],
+      "weld_time_s": 75.36491016712833
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0006|half=lower|part=1of1|seg=1of1",
+      "end": [
+        5.912009835811,
+        3.64864912884,
+        0.1
+      ],
+      "euclidean_length_m": 2.714456413938336,
+      "half_region": "lower",
+      "horizontal_length_m": 2.3831572526020004,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0006",
+      "parent_weld_id": "uniform_n100_r1__weld_0006|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        8.295167088413,
+        2.349097232015,
+        0.1
+      ],
+      "weld_time_s": 251.33855684614218
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0007|half=lower|part=1of1|seg=1of1",
+      "end": [
+        12.433073805375,
+        4.729612946003,
+        0.1
+      ],
+      "euclidean_length_m": 2.495149764923962,
+      "half_region": "lower",
+      "horizontal_length_m": 2.3745007507419995,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0007",
+      "parent_weld_id": "uniform_n100_r1__weld_0007|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        14.807574556117,
+        3.96311536993,
+        0.1
+      ],
+      "weld_time_s": 231.0323856411076
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0008|half=upper|part=1of1|seg=1of1",
+      "end": [
+        10.538697540208,
+        9.273863234121,
+        0.1
+      ],
+      "euclidean_length_m": 2.9343471126880303,
+      "half_region": "upper",
+      "horizontal_length_m": 2.737476457485,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0008",
+      "parent_weld_id": "uniform_n100_r1__weld_0008|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        7.801221082723,
+        8.217162887544,
+        0.1
+      ],
+      "weld_time_s": 271.6988067303732
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0009|half=upper|part=1of1|seg=1of1",
+      "end": [
+        11.734404218058,
+        8.987893158884,
+        0.1
+      ],
+      "euclidean_length_m": 1.9956322988104302,
+      "half_region": "upper",
+      "horizontal_length_m": 1.6456327675919997,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0009",
+      "parent_weld_id": "uniform_n100_r1__weld_0009|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        10.088771450466,
+        7.858981706961,
+        0.1
+      ],
+      "weld_time_s": 184.78076840837315
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0010|half=lower|part=1of1|seg=1of1",
+      "end": [
+        16.020800250571,
+        5.711055591888,
+        0.1
+      ],
+      "euclidean_length_m": 1.7802426003109377,
+      "half_region": "lower",
+      "horizontal_length_m": 1.0210403716579997,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0010",
+      "parent_weld_id": "uniform_n100_r1__weld_0010|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        14.999759878913,
+        4.252720830797,
+        0.1
+      ],
+      "weld_time_s": 164.8372778065683
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0011|half=lower|part=1of1|seg=1of1",
+      "end": [
+        15.117282636193,
+        2.606738879556,
+        0.1
+      ],
+      "euclidean_length_m": 1.2614685121242037,
+      "half_region": "lower",
+      "horizontal_length_m": 0.33165075876400074,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0011",
+      "parent_weld_id": "uniform_n100_r1__weld_0011|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        14.785631877429,
+        1.389647847097,
+        0.1
+      ],
+      "weld_time_s": 116.80264001150034
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0012|half=upper|part=1of1|seg=1of1",
+      "end": [
+        9.514938044846,
+        11.403601608556,
+        0.1
+      ],
+      "euclidean_length_m": 2.3363678629617977,
+      "half_region": "upper",
+      "horizontal_length_m": 0.2579840903190007,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0012",
+      "parent_weld_id": "uniform_n100_r1__weld_0012|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        9.772922135165,
+        9.081520860558,
+        0.1
+      ],
+      "weld_time_s": 216.3303576816479
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0013|half=lower|part=1of1|seg=1of1",
+      "end": [
+        12.357718611808,
+        4.25537749247,
+        0.1
+      ],
+      "euclidean_length_m": 0.8694070135536679,
+      "half_region": "lower",
+      "horizontal_length_m": 0.4742043915229992,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0013",
+      "parent_weld_id": "uniform_n100_r1__weld_0013|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        12.831923003331,
+        3.526680881886,
+        0.1
+      ],
+      "weld_time_s": 80.5006494031174
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0014|half=lower|part=1of1|seg=1of1",
+      "end": [
+        18.218620724965,
+        5.969652049563,
+        0.1
+      ],
+      "euclidean_length_m": 1.3173285499845904,
+      "half_region": "lower",
+      "horizontal_length_m": 1.2100219380360002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0014",
+      "parent_weld_id": "uniform_n100_r1__weld_0014|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        19.428642663001,
+        5.448882025391,
+        0.1
+      ],
+      "weld_time_s": 121.97486573931391
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0015|half=upper|part=1of1|seg=1of1",
+      "end": [
+        12.561469374496,
+        11.615508587881,
+        0.1
+      ],
+      "euclidean_length_m": 2.2961430257520243,
+      "half_region": "upper",
+      "horizontal_length_m": 2.263679543598,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0015",
+      "parent_weld_id": "uniform_n100_r1__weld_0015|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        14.825148918094,
+        11.230764882792,
+        0.1
+      ],
+      "weld_time_s": 212.60583571778002
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0016|half=lower|part=1of1|seg=1of1",
+      "end": [
+        19.47793504308,
+        5.531888958212,
+        0.1
+      ],
+      "euclidean_length_m": 2.491499588299994,
+      "half_region": "lower",
+      "horizontal_length_m": 2.486676695028997,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0016",
+      "parent_weld_id": "uniform_n100_r1__weld_0016|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        16.991258348051,
+        5.376939892714,
+        0.1
+      ],
+      "weld_time_s": 230.69440632407353
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0017|half=upper|part=1of1|seg=1of1",
+      "end": [
+        19.941744465605,
+        9.249132681431,
+        0.1
+      ],
+      "euclidean_length_m": 2.5008510169404556,
+      "half_region": "upper",
+      "horizontal_length_m": 2.139873678626003,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0017",
+      "parent_weld_id": "uniform_n100_r1__weld_0017|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        17.801870786979,
+        7.954838878442,
+        0.1
+      ],
+      "weld_time_s": 231.56027934633846
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0018|half=lower|part=1of1|seg=1of1",
+      "end": [
+        18.017595268031,
+        3.862238042331,
+        0.1
+      ],
+      "euclidean_length_m": 2.749576785484651,
+      "half_region": "lower",
+      "horizontal_length_m": 1.8466904958629975,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0018",
+      "parent_weld_id": "uniform_n100_r1__weld_0018|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        16.170904772168,
+        1.82510606041,
+        0.1
+      ],
+      "weld_time_s": 254.59044310043063
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0019|half=lower|part=1of1|seg=1of1",
+      "end": [
+        12.519031039141,
+        1.827741450586,
+        0.1
+      ],
+      "euclidean_length_m": 1.0477665670979295,
+      "half_region": "lower",
+      "horizontal_length_m": 0.1530369819209998,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0019",
+      "parent_weld_id": "uniform_n100_r1__weld_0019|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        12.36599405722,
+        0.791211440749,
+        0.1
+      ],
+      "weld_time_s": 97.0154228794379
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0020|half=upper|part=1of1|seg=1of1",
+      "end": [
+        14.27912250463,
+        11.811993974733,
+        0.1
+      ],
+      "euclidean_length_m": 1.7678175863123458,
+      "half_region": "upper",
+      "horizontal_length_m": 0.5672740098270008,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0020",
+      "parent_weld_id": "uniform_n100_r1__weld_0020|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        14.846396514457,
+        10.137664492149,
+        0.1
+      ],
+      "weld_time_s": 163.6868135474394
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0021|half=lower|part=1of2|seg=1of1",
+      "end": [
+        7.390745640775,
+        6.0,
+        0.1
+      ],
+      "euclidean_length_m": 1.7482821241582276,
+      "half_region": "lower",
+      "horizontal_length_m": 1.088958517612273,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "uniform_n100_r1__weld_0021",
+      "parent_weld_id": "uniform_n100_r1__weld_0021|half=lower|part=1of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        8.479704158387,
+        4.632279366036,
+        0.1
+      ],
+      "weld_time_s": 161.87797445909513
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0021|half=upper|part=2of2|seg=1of1",
+      "end": [
+        7.316516955596,
+        6.093230460765,
+        0.1
+      ],
+      "euclidean_length_m": 0.11917137457383244,
+      "half_region": "upper",
+      "horizontal_length_m": 0.07422868517872683,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "uniform_n100_r1__weld_0021",
+      "parent_weld_id": "uniform_n100_r1__weld_0021|half=upper|part=2of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        7.390745640775,
+        6.0,
+        0.1
+      ],
+      "weld_time_s": 11.034386534614114
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0022|half=upper|part=1of1|seg=1of1",
+      "end": [
+        13.309977949776,
+        9.591968423753,
+        0.1
+      ],
+      "euclidean_length_m": 1.3114345507100735,
+      "half_region": "upper",
+      "horizontal_length_m": 1.1818811557550006,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0022",
+      "parent_weld_id": "uniform_n100_r1__weld_0022|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        14.491859105531,
+        9.023622125738,
+        0.1
+      ],
+      "weld_time_s": 121.42912506574754
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0023|half=lower|part=1of1|seg=1of1",
+      "end": [
+        5.819270518098,
+        2.902303510953,
+        0.1
+      ],
+      "euclidean_length_m": 0.9986091289894691,
+      "half_region": "lower",
+      "horizontal_length_m": 0.9982535059450006,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0023",
+      "parent_weld_id": "uniform_n100_r1__weld_0023|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        6.817524024043,
+        2.875655239534,
+        0.1
+      ],
+      "weld_time_s": 92.46380823976565
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0024|half=lower|part=1of1|seg=1of1",
+      "end": [
+        9.223324343298,
+        5.051923229564,
+        0.1
+      ],
+      "euclidean_length_m": 0.9099165913197438,
+      "half_region": "lower",
+      "horizontal_length_m": 0.8693592760269997,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0024",
+      "parent_weld_id": "uniform_n100_r1__weld_0024|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        8.353965067271,
+        4.783292158493,
+        0.1
+      ],
+      "weld_time_s": 84.25153623330961
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0025|half=upper|part=1of1|seg=1of1",
+      "end": [
+        9.4926784474,
+        9.183595490577,
+        0.1
+      ],
+      "euclidean_length_m": 2.971634348238229,
+      "half_region": "upper",
+      "horizontal_length_m": 2.1212488680479993,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0025",
+      "parent_weld_id": "uniform_n100_r1__weld_0025|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        7.371429579352,
+        7.102510691864,
+        0.1
+      ],
+      "weld_time_s": 275.15132854057674
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0026|half=upper|part=1of1|seg=1of1",
+      "end": [
+        2.193564844582,
+        10.869568422214,
+        0.1
+      ],
+      "euclidean_length_m": 1.5951029423426226,
+      "half_region": "upper",
+      "horizontal_length_m": 1.0861864076240002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0026",
+      "parent_weld_id": "uniform_n100_r1__weld_0026|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        1.107378436958,
+        9.701427812286,
+        0.1
+      ],
+      "weld_time_s": 147.69471688357615
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0027|half=lower|part=1of2|seg=1of1",
+      "end": [
+        5.593648541917,
+        6.0,
+        0.1
+      ],
+      "euclidean_length_m": 0.20469676542511187,
+      "half_region": "lower",
+      "horizontal_length_m": 0.05600042984768461,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "uniform_n100_r1__weld_0027",
+      "parent_weld_id": "uniform_n100_r1__weld_0027|half=lower|part=1of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        5.537648112069,
+        5.803112423875,
+        0.1
+      ],
+      "weld_time_s": 18.953404206028875
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0027|half=upper|part=2of2|seg=1of1",
+      "end": [
+        6.328607874253,
+        8.583986620955,
+        0.1
+      ],
+      "euclidean_length_m": 2.6864757727295223,
+      "half_region": "upper",
+      "horizontal_length_m": 0.7349593323363148,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "uniform_n100_r1__weld_0027",
+      "parent_weld_id": "uniform_n100_r1__weld_0027|half=upper|part=2of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        5.593648541917,
+        6.0,
+        0.1
+      ],
+      "weld_time_s": 248.74775673421502
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0028|half=lower|part=1of2|seg=1of1",
+      "end": [
+        18.271799062351,
+        6.0,
+        0.1
+      ],
+      "euclidean_length_m": 0.6752622500164052,
+      "half_region": "lower",
+      "horizontal_length_m": 0.03521954456499543,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "uniform_n100_r1__weld_0028",
+      "parent_weld_id": "uniform_n100_r1__weld_0028|half=lower|part=1of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        18.307018606916,
+        5.325656845532,
+        0.1
+      ],
+      "weld_time_s": 62.5242824089264
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0028|half=upper|part=2of2|seg=1of1",
+      "end": [
+        18.256859753444,
+        6.286040629382,
+        0.1
+      ],
+      "euclidean_length_m": 0.28643048826524975,
+      "half_region": "upper",
+      "horizontal_length_m": 0.014939308907003124,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "uniform_n100_r1__weld_0028",
+      "parent_weld_id": "uniform_n100_r1__weld_0028|half=upper|part=2of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        18.271799062351,
+        6.0,
+        0.1
+      ],
+      "weld_time_s": 26.521341506041644
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0029|half=lower|part=1of1|seg=1of1",
+      "end": [
+        12.114013296131,
+        4.40800264861,
+        0.1
+      ],
+      "euclidean_length_m": 2.32723164377406,
+      "half_region": "lower",
+      "horizontal_length_m": 1.3814253455289993,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0029",
+      "parent_weld_id": "uniform_n100_r1__weld_0029|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        13.49543864166,
+        2.53512487937,
+        0.1
+      ],
+      "weld_time_s": 215.48441146056112
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0030|half=lower|part=1of1|seg=1of1",
+      "end": [
+        3.320244607277,
+        2.013163266688,
+        0.1
+      ],
+      "euclidean_length_m": 2.0029129506604293,
+      "half_region": "lower",
+      "horizontal_length_m": 1.5957609942250004,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0030",
+      "parent_weld_id": "uniform_n100_r1__weld_0030|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        4.916005601502,
+        0.802705858419,
+        0.1
+      ],
+      "weld_time_s": 185.45490283892863
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0031|half=upper|part=1of1|seg=1of1",
+      "end": [
+        4.863595787226,
+        7.466681479083,
+        0.1
+      ],
+      "euclidean_length_m": 0.6277904119405203,
+      "half_region": "upper",
+      "horizontal_length_m": 0.6213300306719995,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0031",
+      "parent_weld_id": "uniform_n100_r1__weld_0031|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        5.484925817898,
+        7.376849445211,
+        0.1
+      ],
+      "weld_time_s": 58.12874184634447
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0032|half=upper|part=1of1|seg=1of1",
+      "end": [
+        6.674047865999,
+        11.462180277644,
+        0.1
+      ],
+      "euclidean_length_m": 1.1447248109912418,
+      "half_region": "upper",
+      "horizontal_length_m": 1.12051978518,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0032",
+      "parent_weld_id": "uniform_n100_r1__weld_0032|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        5.553528080819,
+        11.228021562412,
+        0.1
+      ],
+      "weld_time_s": 105.9930380547446
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0033|half=lower|part=1of1|seg=1of1",
+      "end": [
+        2.455487348777,
+        5.754676798162,
+        0.1
+      ],
+      "euclidean_length_m": 0.7310963060931523,
+      "half_region": "lower",
+      "horizontal_length_m": 0.592267554282,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0033",
+      "parent_weld_id": "uniform_n100_r1__weld_0033|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        1.863219794495,
+        5.326049975707,
+        0.1
+      ],
+      "weld_time_s": 67.69410241603262
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0034|half=upper|part=1of1|seg=1of1",
+      "end": [
+        3.748483418252,
+        10.080963043108,
+        0.1
+      ],
+      "euclidean_length_m": 1.2156762262988456,
+      "half_region": "upper",
+      "horizontal_length_m": 0.795761911899,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0034",
+      "parent_weld_id": "uniform_n100_r1__weld_0034|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        2.952721506353,
+        9.161924596274,
+        0.1
+      ],
+      "weld_time_s": 112.56261354618941
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0035|half=lower|part=1of2|seg=1of1",
+      "end": [
+        3.236186114033,
+        6.0,
+        0.1
+      ],
+      "euclidean_length_m": 1.4748243561771672,
+      "half_region": "lower",
+      "horizontal_length_m": 0.10659795615944656,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "uniform_n100_r1__weld_0035",
+      "parent_weld_id": "uniform_n100_r1__weld_0035|half=lower|part=1of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        3.129588157874,
+        4.529033053629,
+        0.1
+      ],
+      "weld_time_s": 136.55781075714512
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0035|half=upper|part=2of2|seg=1of1",
+      "end": [
+        3.253900724461,
+        6.244447523626,
+        0.1
+      ],
+      "euclidean_length_m": 0.2450885538524474,
+      "half_region": "upper",
+      "horizontal_length_m": 0.01771461042755318,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "uniform_n100_r1__weld_0035",
+      "parent_weld_id": "uniform_n100_r1__weld_0035|half=upper|part=2of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        3.236186114033,
+        6.0,
+        0.1
+      ],
+      "weld_time_s": 22.69338461596735
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0036|half=lower|part=1of1|seg=1of1",
+      "end": [
+        3.861925839752,
+        3.280869643951,
+        0.1
+      ],
+      "euclidean_length_m": 1.8978293161616469,
+      "half_region": "lower",
+      "horizontal_length_m": 0.18806551039100006,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0036",
+      "parent_weld_id": "uniform_n100_r1__weld_0036|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        4.049991350143,
+        1.392381498083,
+        0.1
+      ],
+      "weld_time_s": 175.72493668163395
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0037|half=upper|part=1of1|seg=1of1",
+      "end": [
+        5.097319850651,
+        10.500418649596,
+        0.1
+      ],
+      "euclidean_length_m": 2.535760221880009,
+      "half_region": "upper",
+      "horizontal_length_m": 1.1202297954110003,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0037",
+      "parent_weld_id": "uniform_n100_r1__weld_0037|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        6.217549646062,
+        8.225519726931,
+        0.1
+      ],
+      "weld_time_s": 234.79261313703785
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0038|half=upper|part=1of1|seg=1of1",
+      "end": [
+        6.300612104512,
+        10.356689704787,
+        0.1
+      ],
+      "euclidean_length_m": 1.0713783810547857,
+      "half_region": "upper",
+      "horizontal_length_m": 0.888907015509,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0038",
+      "parent_weld_id": "uniform_n100_r1__weld_0038|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        7.189519120021,
+        9.758612825807,
+        0.1
+      ],
+      "weld_time_s": 99.20170194951719
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0039|half=lower|part=1of1|seg=1of1",
+      "end": [
+        5.471056284717,
+        3.802536792895,
+        0.1
+      ],
+      "euclidean_length_m": 1.5077998938530217,
+      "half_region": "lower",
+      "horizontal_length_m": 1.4092617368919997,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0039",
+      "parent_weld_id": "uniform_n100_r1__weld_0039|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        6.880318021609,
+        3.266400731027,
+        0.1
+      ],
+      "weld_time_s": 139.6111012826872
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0040|half=lower|part=1of1|seg=1of1",
+      "end": [
+        8.028784695025,
+        2.403462375096,
+        0.1
+      ],
+      "euclidean_length_m": 2.267046229303194,
+      "half_region": "lower",
+      "horizontal_length_m": 2.2145691520909994,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0040",
+      "parent_weld_id": "uniform_n100_r1__weld_0040|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        5.814215542934,
+        1.918506628244,
+        0.1
+      ],
+      "weld_time_s": 209.91168789844386
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0041|half=upper|part=1of1|seg=1of1",
+      "end": [
+        5.132536007639,
+        11.788632784793,
+        0.1
+      ],
+      "euclidean_length_m": 2.3087027729868335,
+      "half_region": "upper",
+      "horizontal_length_m": 2.005026957446,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0041",
+      "parent_weld_id": "uniform_n100_r1__weld_0041|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        3.127509050193,
+        10.644091219837,
+        0.1
+      ],
+      "weld_time_s": 213.76877527655864
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0042|half=upper|part=1of1|seg=1of1",
+      "end": [
+        9.616447061426,
+        8.072370334375,
+        0.1
+      ],
+      "euclidean_length_m": 1.8742484454396662,
+      "half_region": "upper",
+      "horizontal_length_m": 0.9488521418359994,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0042",
+      "parent_weld_id": "uniform_n100_r1__weld_0042|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        8.66759491959,
+        6.456051415298,
+        0.1
+      ],
+      "weld_time_s": 173.54152272589502
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0043|half=upper|part=1of1|seg=1of1",
+      "end": [
+        4.895413787113,
+        11.726484807982,
+        0.1
+      ],
+      "euclidean_length_m": 1.6918961416219447,
+      "half_region": "upper",
+      "horizontal_length_m": 0.17032695270100007,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0043",
+      "parent_weld_id": "uniform_n100_r1__weld_0043|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        4.725086834412,
+        10.043184097111,
+        0.1
+      ],
+      "weld_time_s": 156.65705015018005
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0044|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.414155764553,
+        2.850955319943,
+        0.1
+      ],
+      "euclidean_length_m": 2.703503329279187,
+      "half_region": "lower",
+      "horizontal_length_m": 0.04364921047200099,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0044",
+      "parent_weld_id": "uniform_n100_r1__weld_0044|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        13.457804975025,
+        0.147804381159,
+        0.1
+      ],
+      "weld_time_s": 250.32438234066544
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0045|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.216512666941,
+        4.86929522436,
+        0.1
+      ],
+      "euclidean_length_m": 1.1543331950368925,
+      "half_region": "lower",
+      "horizontal_length_m": 0.5169889781420007,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0045",
+      "parent_weld_id": "uniform_n100_r1__weld_0045|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        13.733501645083,
+        3.837206312665,
+        0.1
+      ],
+      "weld_time_s": 106.8827032441567
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0046|half=lower|part=1of1|seg=1of1",
+      "end": [
+        15.691756251266,
+        5.262801606213,
+        0.1
+      ],
+      "euclidean_length_m": 0.6850749469988472,
+      "half_region": "lower",
+      "horizontal_length_m": 0.5134990295889992,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0046",
+      "parent_weld_id": "uniform_n100_r1__weld_0046|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        16.205255280855,
+        4.809319049088,
+        0.1
+      ],
+      "weld_time_s": 63.43286546285622
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0047|half=lower|part=1of1|seg=1of1",
+      "end": [
+        5.592071829264,
+        3.84457782326,
+        0.1
+      ],
+      "euclidean_length_m": 1.847076404920635,
+      "half_region": "lower",
+      "horizontal_length_m": 1.8469195679909998,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0047",
+      "parent_weld_id": "uniform_n100_r1__weld_0047|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        7.438991397255,
+        3.820508029192,
+        0.1
+      ],
+      "weld_time_s": 171.02559304820693
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0048|half=lower|part=1of1|seg=1of1",
+      "end": [
+        4.799531702302,
+        3.011564522354,
+        0.1
+      ],
+      "euclidean_length_m": 0.7588116757364354,
+      "half_region": "lower",
+      "horizontal_length_m": 0.7409785477509994,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0048",
+      "parent_weld_id": "uniform_n100_r1__weld_0048|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        4.058553154551,
+        2.848022628618,
+        0.1
+      ],
+      "weld_time_s": 70.26034034596624
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0049|half=upper|part=1of1|seg=1of1",
+      "end": [
+        11.281396849176,
+        11.415829527497,
+        0.1
+      ],
+      "euclidean_length_m": 2.5646339463632506,
+      "half_region": "upper",
+      "horizontal_length_m": 1.844640341701,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0049",
+      "parent_weld_id": "uniform_n100_r1__weld_0049|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        9.436756507475,
+        9.634074974084,
+        0.1
+      ],
+      "weld_time_s": 237.46610614474542
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0050|half=lower|part=1of2|seg=1of1",
+      "end": [
+        15.949045750916,
+        6.0,
+        0.1
+      ],
+      "euclidean_length_m": 0.6278431875815323,
+      "half_region": "lower",
+      "horizontal_length_m": 0.3694650362704941,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "uniform_n100_r1__weld_0050",
+      "parent_weld_id": "uniform_n100_r1__weld_0050|half=lower|part=1of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        15.579580714646,
+        5.492375478167,
+        0.1
+      ],
+      "weld_time_s": 58.13362847977151
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0050|half=upper|part=2of2|seg=1of1",
+      "end": [
+        17.461098167123,
+        8.077476376415,
+        0.1
+      ],
+      "euclidean_length_m": 2.569476717917159,
+      "half_region": "upper",
+      "horizontal_length_m": 1.512052416206508,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "uniform_n100_r1__weld_0050",
+      "parent_weld_id": "uniform_n100_r1__weld_0050|half=upper|part=2of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        15.949045750916,
+        6.0,
+        0.1
+      ],
+      "weld_time_s": 237.91451091825544
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0051|half=lower|part=1of1|seg=1of1",
+      "end": [
+        8.228571225036,
+        4.72144585312,
+        0.1
+      ],
+      "euclidean_length_m": 3.01417427340833,
+      "half_region": "lower",
+      "horizontal_length_m": 0.6453419230199993,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0051",
+      "parent_weld_id": "uniform_n100_r1__weld_0051|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        7.583229302016,
+        1.777166594478,
+        0.1
+      ],
+      "weld_time_s": 279.09021050077126
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0052|half=upper|part=1of1|seg=1of1",
+      "end": [
+        8.177228362055,
+        8.792940497537,
+        0.1
+      ],
+      "euclidean_length_m": 1.1378029696116,
+      "half_region": "upper",
+      "horizontal_length_m": 0.26350749601499857,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0052",
+      "parent_weld_id": "uniform_n100_r1__weld_0052|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        8.44073585807,
+        7.686071310505,
+        0.1
+      ],
+      "weld_time_s": 105.3521268158889
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0053|half=upper|part=1of1|seg=1of1",
+      "end": [
+        9.639044965884,
+        9.70989360616,
+        0.1
+      ],
+      "euclidean_length_m": 1.20416409053012,
+      "half_region": "upper",
+      "horizontal_length_m": 0.4880365388619996,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0053",
+      "parent_weld_id": "uniform_n100_r1__weld_0053|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        10.127081504746,
+        8.609061423828,
+        0.1
+      ],
+      "weld_time_s": 111.49667504908518
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0054|half=lower|part=1of1|seg=1of1",
+      "end": [
+        11.599165435746,
+        1.821881042006,
+        0.1
+      ],
+      "euclidean_length_m": 2.4939490524119394,
+      "half_region": "lower",
+      "horizontal_length_m": 2.191317199096,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0054",
+      "parent_weld_id": "uniform_n100_r1__weld_0054|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        13.790482634842,
+        0.631120440973,
+        0.1
+      ],
+      "weld_time_s": 230.92120855666104
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0055|half=lower|part=1of1|seg=1of1",
+      "end": [
+        0.241251597819,
+        3.287371549772,
+        0.1
+      ],
+      "euclidean_length_m": 2.9967630813143087,
+      "half_region": "lower",
+      "horizontal_length_m": 2.97427592847,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0055",
+      "parent_weld_id": "uniform_n100_r1__weld_0055|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        3.215527526289,
+        2.920940564657,
+        0.1
+      ],
+      "weld_time_s": 277.4780630846582
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0056|half=upper|part=1of1|seg=1of1",
+      "end": [
+        10.086347509079,
+        11.537342837581,
+        0.1
+      ],
+      "euclidean_length_m": 2.2298868989597445,
+      "half_region": "upper",
+      "horizontal_length_m": 2.184060435686999,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0056",
+      "parent_weld_id": "uniform_n100_r1__weld_0056|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        7.902287073392,
+        11.08759224512,
+        0.1
+      ],
+      "weld_time_s": 206.47100916293928
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0057|half=upper|part=1of1|seg=1of1",
+      "end": [
+        16.32026341517,
+        11.252200167642,
+        0.1
+      ],
+      "euclidean_length_m": 3.037561323565636,
+      "half_region": "upper",
+      "horizontal_length_m": 2.6723474809649996,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0057",
+      "parent_weld_id": "uniform_n100_r1__weld_0057|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        13.647915934205,
+        9.808130316353,
+        0.1
+      ],
+      "weld_time_s": 281.2556781079292
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0058|half=lower|part=1of1|seg=1of1",
+      "end": [
+        16.56612338065,
+        2.946882148592,
+        0.1
+      ],
+      "euclidean_length_m": 3.12996373889908,
+      "half_region": "lower",
+      "horizontal_length_m": 1.7600776790440023,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0058",
+      "parent_weld_id": "uniform_n100_r1__weld_0058|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        14.806045701606,
+        0.358678221048,
+        0.1
+      ],
+      "weld_time_s": 289.81145730547036
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0059|half=lower|part=1of2|seg=1of1",
+      "end": [
+        15.067310169298,
+        6.0,
+        0.1
+      ],
+      "euclidean_length_m": 2.17693632956113,
+      "half_region": "lower",
+      "horizontal_length_m": 0.33934927547928595,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "uniform_n100_r1__weld_0059",
+      "parent_weld_id": "uniform_n100_r1__weld_0059|half=lower|part=1of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        14.727960893819,
+        3.849675872759,
+        0.1
+      ],
+      "weld_time_s": 201.56817866306758
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0059|half=upper|part=2of2|seg=1of1",
+      "end": [
+        15.068261044665,
+        6.006025326679,
+        0.1
+      ],
+      "euclidean_length_m": 0.006099895536129053,
+      "half_region": "upper",
+      "horizontal_length_m": 0.0009508753667137881,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "uniform_n100_r1__weld_0059",
+      "parent_weld_id": "uniform_n100_r1__weld_0059|half=upper|part=2of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        15.067310169298,
+        6.0,
+        0.1
+      ],
+      "weld_time_s": 0.5648051422341716
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0060|half=lower|part=1of1|seg=1of1",
+      "end": [
+        9.609058467786,
+        3.571067850661,
+        0.1
+      ],
+      "euclidean_length_m": 2.780140813731323,
+      "half_region": "lower",
+      "horizontal_length_m": 0.3933100533270011,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0060",
+      "parent_weld_id": "uniform_n100_r1__weld_0060|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        10.002368521113,
+        0.818888687502,
+        0.1
+      ],
+      "weld_time_s": 257.42044571586325
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0061|half=lower|part=1of2|seg=1of1",
+      "end": [
+        18.311502610057,
+        6.0,
+        0.1
+      ],
+      "euclidean_length_m": 1.682180119343451,
+      "half_region": "lower",
+      "horizontal_length_m": 0.782983645687974,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "uniform_n100_r1__weld_0061",
+      "parent_weld_id": "uniform_n100_r1__weld_0061|half=lower|part=1of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        19.094486255745,
+        4.511152605369,
+        0.1
+      ],
+      "weld_time_s": 155.7574184577269
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0061|half=upper|part=2of2|seg=1of1",
+      "end": [
+        18.054968131065,
+        6.487801619847,
+        0.1
+      ],
+      "euclidean_length_m": 0.5511445901368055,
+      "half_region": "upper",
+      "horizontal_length_m": 0.25653447899202675,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "uniform_n100_r1__weld_0061",
+      "parent_weld_id": "uniform_n100_r1__weld_0061|half=upper|part=2of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        18.311502610057,
+        6.0,
+        0.1
+      ],
+      "weld_time_s": 51.03190649414866
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0062|half=upper|part=1of1|seg=1of1",
+      "end": [
+        10.401165268134,
+        8.405160768595,
+        0.1
+      ],
+      "euclidean_length_m": 1.326751737382221,
+      "half_region": "upper",
+      "horizontal_length_m": 0.9885134733220013,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0062",
+      "parent_weld_id": "uniform_n100_r1__weld_0062|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        11.389678741456,
+        7.52022501629,
+        0.1
+      ],
+      "weld_time_s": 122.8473830909464
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0063|half=lower|part=1of1|seg=1of1",
+      "end": [
+        5.484002198215,
+        5.707455888665,
+        0.1
+      ],
+      "euclidean_length_m": 1.969546000195728,
+      "half_region": "lower",
+      "horizontal_length_m": 1.8526544313779993,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0063",
+      "parent_weld_id": "uniform_n100_r1__weld_0063|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        7.336656629593,
+        5.039037602872,
+        0.1
+      ],
+      "weld_time_s": 182.36537038849332
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0064|half=upper|part=1of1|seg=1of1",
+      "end": [
+        4.381462438853,
+        8.577793408064,
+        0.1
+      ],
+      "euclidean_length_m": 0.6885086021372149,
+      "half_region": "upper",
+      "horizontal_length_m": 0.6825080553670002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0064",
+      "parent_weld_id": "uniform_n100_r1__weld_0064|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        3.698954383486,
+        8.487091425858,
+        0.1
+      ],
+      "weld_time_s": 63.75079649418656
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0065|half=lower|part=1of1|seg=1of1",
+      "end": [
+        9.879677173898,
+        4.620810862219,
+        0.1
+      ],
+      "euclidean_length_m": 2.071760057841194,
+      "half_region": "lower",
+      "horizontal_length_m": 1.5533604495089985,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0065",
+      "parent_weld_id": "uniform_n100_r1__weld_0065|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        8.326316724389,
+        3.249949435536,
+        0.1
+      ],
+      "weld_time_s": 191.8296349852957
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0066|half=upper|part=1of1|seg=1of1",
+      "end": [
+        9.678229589917,
+        9.58413264098,
+        0.1
+      ],
+      "euclidean_length_m": 2.4397696239982065,
+      "half_region": "upper",
+      "horizontal_length_m": 1.0032196875520007,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0066",
+      "parent_weld_id": "uniform_n100_r1__weld_0066|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        8.675009902365,
+        7.360166347015,
+        0.1
+      ],
+      "weld_time_s": 225.90459481464873
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0067|half=lower|part=1of1|seg=1of1",
+      "end": [
+        15.508606812264,
+        2.413489955582,
+        0.1
+      ],
+      "euclidean_length_m": 1.3954939967685744,
+      "half_region": "lower",
+      "horizontal_length_m": 0.05057790364999981,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0067",
+      "parent_weld_id": "uniform_n100_r1__weld_0067|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        15.458028908614,
+        1.018912825883,
+        0.1
+      ],
+      "weld_time_s": 129.21240710820132
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0068|half=upper|part=1of1|seg=1of1",
+      "end": [
+        11.99110630198,
+        8.588246481588,
+        0.1
+      ],
+      "euclidean_length_m": 0.6851461596629325,
+      "half_region": "upper",
+      "horizontal_length_m": 0.16143118393000044,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0068",
+      "parent_weld_id": "uniform_n100_r1__weld_0068|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        12.15253748591,
+        7.922389715492,
+        0.1
+      ],
+      "weld_time_s": 63.4394592280493
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0069|half=lower|part=1of1|seg=1of1",
+      "end": [
+        9.872270444967,
+        1.24538461609,
+        0.1
+      ],
+      "euclidean_length_m": 0.8895896622190973,
+      "half_region": "lower",
+      "horizontal_length_m": 0.5056736947780003,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0069",
+      "parent_weld_id": "uniform_n100_r1__weld_0069|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        10.377944139745,
+        0.513493994797,
+        0.1
+      ],
+      "weld_time_s": 82.36941316843493
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0070|half=upper|part=1of1|seg=1of1",
+      "end": [
+        11.369628839309,
+        8.336640724774,
+        0.1
+      ],
+      "euclidean_length_m": 2.1583137096035867,
+      "half_region": "upper",
+      "horizontal_length_m": 1.9625362999420002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0070",
+      "parent_weld_id": "uniform_n100_r1__weld_0070|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        13.332165139251,
+        7.438437328837,
+        0.1
+      ],
+      "weld_time_s": 199.84386200033208
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0071|half=lower|part=1of1|seg=1of1",
+      "end": [
+        3.418536654135,
+        3.863088960511,
+        0.1
+      ],
+      "euclidean_length_m": 1.4486160713985294,
+      "half_region": "lower",
+      "horizontal_length_m": 1.3437770730549996,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0071",
+      "parent_weld_id": "uniform_n100_r1__weld_0071|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        4.76231372719,
+        3.32202362227,
+        0.1
+      ],
+      "weld_time_s": 134.13111772208606
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0072|half=upper|part=1of1|seg=1of1",
+      "end": [
+        13.536592928854,
+        9.146990579432,
+        0.1
+      ],
+      "euclidean_length_m": 2.983305133488138,
+      "half_region": "upper",
+      "horizontal_length_m": 2.803518857549001,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0072",
+      "parent_weld_id": "uniform_n100_r1__weld_0072|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        10.733074071305,
+        8.126994729017,
+        0.1
+      ],
+      "weld_time_s": 276.2319568044572
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0073|half=lower|part=1of1|seg=1of1",
+      "end": [
+        9.969428394073,
+        1.966377400574,
+        0.1
+      ],
+      "euclidean_length_m": 2.1456829185998023,
+      "half_region": "lower",
+      "horizontal_length_m": 1.8261297901310005,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0073",
+      "parent_weld_id": "uniform_n100_r1__weld_0073|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        8.143298603942,
+        0.839787334593,
+        0.1
+      ],
+      "weld_time_s": 198.6743443147965
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0074|half=lower|part=1of1|seg=1of1",
+      "end": [
+        17.592882770158,
+        2.375881376423,
+        0.1
+      ],
+      "euclidean_length_m": 1.72942125422997,
+      "half_region": "lower",
+      "horizontal_length_m": 1.1515184093270001,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0074",
+      "parent_weld_id": "uniform_n100_r1__weld_0074|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        16.441364360831,
+        1.085570085469,
+        0.1
+      ],
+      "weld_time_s": 160.1315976138861
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0075|half=lower|part=1of2|seg=1of1",
+      "end": [
+        3.631823875569,
+        6.0,
+        0.1
+      ],
+      "euclidean_length_m": 0.2896081306294967,
+      "half_region": "lower",
+      "horizontal_length_m": 0.0969970284723427,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "uniform_n100_r1__weld_0075",
+      "parent_weld_id": "uniform_n100_r1__weld_0075|half=lower|part=1of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        3.534826847097,
+        5.727118256759,
+        0.1
+      ],
+      "weld_time_s": 26.815567650879323
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0075|half=upper|part=2of2|seg=1of1",
+      "end": [
+        3.861237265272,
+        6.64540869644,
+        0.1
+      ],
+      "euclidean_length_m": 0.6849692612192484,
+      "half_region": "upper",
+      "horizontal_length_m": 0.22941338970265734,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "uniform_n100_r1__weld_0075",
+      "parent_weld_id": "uniform_n100_r1__weld_0075|half=upper|part=2of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        3.631823875569,
+        6.0,
+        0.1
+      ],
+      "weld_time_s": 63.423079742522994
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0076|half=upper|part=1of1|seg=1of1",
+      "end": [
+        15.447894846028,
+        11.506386528437,
+        0.1
+      ],
+      "euclidean_length_m": 2.7754034121500237,
+      "half_region": "upper",
+      "horizontal_length_m": 0.005967313832000443,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0076",
+      "parent_weld_id": "uniform_n100_r1__weld_0076|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        15.45386215986,
+        8.730989531368,
+        0.1
+      ],
+      "weld_time_s": 256.9817974212985
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0077|half=upper|part=1of1|seg=1of1",
+      "end": [
+        11.822870933281,
+        9.403673360454,
+        0.1
+      ],
+      "euclidean_length_m": 2.6862253100435667,
+      "half_region": "upper",
+      "horizontal_length_m": 1.5029301818080008,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0077",
+      "parent_weld_id": "uniform_n100_r1__weld_0077|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        13.325801115089,
+        7.177239601069,
+        0.1
+      ],
+      "weld_time_s": 248.72456574477468
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0078|half=upper|part=1of1|seg=1of1",
+      "end": [
+        13.852429226648,
+        11.639224781224,
+        0.1
+      ],
+      "euclidean_length_m": 1.3287812215500336,
+      "half_region": "upper",
+      "horizontal_length_m": 1.1250050738789987,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0078",
+      "parent_weld_id": "uniform_n100_r1__weld_0078|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        14.977434300527,
+        10.932101652985,
+        0.1
+      ],
+      "weld_time_s": 123.03529829166978
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0079|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.524167196283,
+        1.545494651639,
+        0.1
+      ],
+      "euclidean_length_m": 1.7762250572761302,
+      "half_region": "lower",
+      "horizontal_length_m": 1.7699524057599998,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0079",
+      "parent_weld_id": "uniform_n100_r1__weld_0079|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        15.294119602043,
+        1.396350642574,
+        0.1
+      ],
+      "weld_time_s": 164.46528308112315
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0080|half=lower|part=1of1|seg=1of1",
+      "end": [
+        10.170640791695,
+        0.953879232869,
+        0.1
+      ],
+      "euclidean_length_m": 1.9623034254639202,
+      "half_region": "lower",
+      "horizontal_length_m": 1.9528815947999991,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0080",
+      "parent_weld_id": "uniform_n100_r1__weld_0080|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        8.217759196895,
+        0.761816195616,
+        0.1
+      ],
+      "weld_time_s": 181.69476161702963
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0081|half=upper|part=1of1|seg=1of1",
+      "end": [
+        1.231232984545,
+        9.773552981118,
+        0.1
+      ],
+      "euclidean_length_m": 0.6719155707535874,
+      "half_region": "upper",
+      "horizontal_length_m": 0.6176988168850001,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0081",
+      "parent_weld_id": "uniform_n100_r1__weld_0081|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        0.61353416766,
+        9.509131526164,
+        0.1
+      ],
+      "weld_time_s": 62.21440469940624
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0082|half=upper|part=1of1|seg=1of1",
+      "end": [
+        18.032749973447,
+        9.420056091351,
+        0.1
+      ],
+      "euclidean_length_m": 2.562679399918904,
+      "half_region": "upper",
+      "horizontal_length_m": 1.1323960562539988,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0082",
+      "parent_weld_id": "uniform_n100_r1__weld_0082|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        16.900353917193,
+        7.121142243781,
+        0.1
+      ],
+      "weld_time_s": 237.28512962212073
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0083|half=lower|part=1of1|seg=1of1",
+      "end": [
+        14.662398092169,
+        3.328597550098,
+        0.1
+      ],
+      "euclidean_length_m": 2.555750866916273,
+      "half_region": "lower",
+      "horizontal_length_m": 0.2534574889919998,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0083",
+      "parent_weld_id": "uniform_n100_r1__weld_0083|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        14.408940603177,
+        0.785445609097,
+        0.1
+      ],
+      "weld_time_s": 236.6435987885438
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0084|half=lower|part=1of2|seg=1of1",
+      "end": [
+        18.680918176838,
+        6.0,
+        0.1
+      ],
+      "euclidean_length_m": 1.739007029487351,
+      "half_region": "lower",
+      "horizontal_length_m": 0.5827593159798461,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "uniform_n100_r1__weld_0084",
+      "parent_weld_id": "uniform_n100_r1__weld_0084|half=lower|part=1of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        19.263677492818,
+        4.361544316057,
+        0.1
+      ],
+      "weld_time_s": 161.01916939697693
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0084|half=upper|part=2of2|seg=1of1",
+      "end": [
+        18.369018248968,
+        6.876921562002,
+        0.1
+      ],
+      "euclidean_length_m": 0.9307378744358881,
+      "half_region": "upper",
+      "horizontal_length_m": 0.3118999278701544,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "uniform_n100_r1__weld_0084",
+      "parent_weld_id": "uniform_n100_r1__weld_0084|half=upper|part=2of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        18.680918176838,
+        6.0,
+        0.1
+      ],
+      "weld_time_s": 86.17943281813778
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0085|half=upper|part=1of1|seg=1of1",
+      "end": [
+        15.228246074663,
+        9.340914501304,
+        0.1
+      ],
+      "euclidean_length_m": 2.2618923889454146,
+      "half_region": "upper",
+      "horizontal_length_m": 1.519040270306002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0085",
+      "parent_weld_id": "uniform_n100_r1__weld_0085|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        16.747286344969,
+        7.665004648013,
+        0.1
+      ],
+      "weld_time_s": 209.43448045790873
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0086|half=upper|part=1of1|seg=1of1",
+      "end": [
+        13.191262695799,
+        8.652616361918,
+        0.1
+      ],
+      "euclidean_length_m": 1.6155119233561273,
+      "half_region": "upper",
+      "horizontal_length_m": 1.307720156325999,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0086",
+      "parent_weld_id": "uniform_n100_r1__weld_0086|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        14.498982852125,
+        7.704066538638,
+        0.1
+      ],
+      "weld_time_s": 149.58443734778956
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0087|half=upper|part=1of1|seg=1of1",
+      "end": [
+        11.166926873192,
+        9.887228771706,
+        0.1
+      ],
+      "euclidean_length_m": 1.5036810108836005,
+      "half_region": "upper",
+      "horizontal_length_m": 1.4613694289179993,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0087",
+      "parent_weld_id": "uniform_n100_r1__weld_0087|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        12.62829630211,
+        9.533031122482,
+        0.1
+      ],
+      "weld_time_s": 139.229723229963
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0088|half=upper|part=1of1|seg=1of1",
+      "end": [
+        8.525376419506,
+        10.045097933001,
+        0.1
+      ],
+      "euclidean_length_m": 2.7224926166746806,
+      "half_region": "upper",
+      "horizontal_length_m": 2.5850915600509996,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0088",
+      "parent_weld_id": "uniform_n100_r1__weld_0088|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        5.940284859455,
+        9.19112622738,
+        0.1
+      ],
+      "weld_time_s": 252.08264969210003
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0089|half=lower|part=1of1|seg=1of1",
+      "end": [
+        9.371450367805,
+        4.688499220899,
+        0.1
+      ],
+      "euclidean_length_m": 1.5483571542167873,
+      "half_region": "lower",
+      "horizontal_length_m": 1.1379542099600002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0089",
+      "parent_weld_id": "uniform_n100_r1__weld_0089|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        8.233496157845,
+        3.638513462401,
+        0.1
+      ],
+      "weld_time_s": 143.36640316822104
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0090|half=lower|part=1of2|seg=1of1",
+      "end": [
+        14.835255426654,
+        6.0,
+        0.1
+      ],
+      "euclidean_length_m": 0.3866268984610575,
+      "half_region": "lower",
+      "horizontal_length_m": 0.26647403146931303,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "uniform_n100_r1__weld_0090",
+      "parent_weld_id": "uniform_n100_r1__weld_0090|half=lower|part=1of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        14.568781395185,
+        5.71987154881,
+        0.1
+      ],
+      "weld_time_s": 35.79878689454236
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0090|half=upper|part=2of2|seg=1of1",
+      "end": [
+        15.905775009028,
+        7.125374172205,
+        0.1
+      ],
+      "euclidean_length_m": 1.553215762124381,
+      "half_region": "upper",
+      "horizontal_length_m": 1.0705195823736862,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "uniform_n100_r1__weld_0090",
+      "parent_weld_id": "uniform_n100_r1__weld_0090|half=upper|part=2of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        14.835255426654,
+        6.0,
+        0.1
+      ],
+      "weld_time_s": 143.816274270776
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0091|half=lower|part=1of1|seg=1of1",
+      "end": [
+        11.26553189778,
+        5.462604147026,
+        0.1
+      ],
+      "euclidean_length_m": 0.796094470567063,
+      "half_region": "lower",
+      "horizontal_length_m": 0.09268099828500098,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0091",
+      "parent_weld_id": "uniform_n100_r1__weld_0091|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        11.172850899495,
+        4.671923023801,
+        0.1
+      ],
+      "weld_time_s": 73.71245097843175
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0092|half=upper|part=1of1|seg=1of1",
+      "end": [
+        18.826819154947,
+        9.707747014499,
+        0.1
+      ],
+      "euclidean_length_m": 2.8515999617670915,
+      "half_region": "upper",
+      "horizontal_length_m": 0.9128877457570006,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0092",
+      "parent_weld_id": "uniform_n100_r1__weld_0092|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        19.739706900704,
+        7.006218131515,
+        0.1
+      ],
+      "weld_time_s": 264.0370334969529
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0093|half=lower|part=1of1|seg=1of1",
+      "end": [
+        3.738050695304,
+        2.133748978183,
+        0.1
+      ],
+      "euclidean_length_m": 0.8266803317069172,
+      "half_region": "lower",
+      "horizontal_length_m": 0.4283630516739998,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0093",
+      "parent_weld_id": "uniform_n100_r1__weld_0093|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        4.166413746978,
+        1.426709045229,
+        0.1
+      ],
+      "weld_time_s": 76.54447515804789
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0094|half=lower|part=1of1|seg=1of1",
+      "end": [
+        11.593441446173,
+        2.912381812855,
+        0.1
+      ],
+      "euclidean_length_m": 1.4567589994743944,
+      "half_region": "lower",
+      "horizontal_length_m": 1.2670808932010011,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0094",
+      "parent_weld_id": "uniform_n100_r1__weld_0094|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        12.860522339374,
+        2.193596175384,
+        0.1
+      ],
+      "weld_time_s": 134.8850925439254
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0095|half=lower|part=1of1|seg=1of1",
+      "end": [
+        6.727464382275,
+        2.15407955652,
+        0.1
+      ],
+      "euclidean_length_m": 0.6926478786308076,
+      "half_region": "lower",
+      "horizontal_length_m": 0.6449921171169999,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0095",
+      "parent_weld_id": "uniform_n100_r1__weld_0095|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        7.372456499392,
+        1.901599354071,
+        0.1
+      ],
+      "weld_time_s": 64.13406283618588
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0096|half=upper|part=1of1|seg=1of1",
+      "end": [
+        10.217490092529,
+        8.77602102502,
+        0.1
+      ],
+      "euclidean_length_m": 2.275254744755716,
+      "half_region": "upper",
+      "horizontal_length_m": 2.131533776025,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0096",
+      "parent_weld_id": "uniform_n100_r1__weld_0096|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        8.085956316504,
+        7.980189437812,
+        0.1
+      ],
+      "weld_time_s": 210.67173562552927
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0097|half=lower|part=1of1|seg=1of1",
+      "end": [
+        4.962480998252,
+        5.739613055331,
+        0.1
+      ],
+      "euclidean_length_m": 3.017365661732564,
+      "half_region": "lower",
+      "horizontal_length_m": 2.1911225564590002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0097",
+      "parent_weld_id": "uniform_n100_r1__weld_0097|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        2.771358441793,
+        3.665130594769,
+        0.1
+      ],
+      "weld_time_s": 279.38570941968186
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0098|half=upper|part=1of1|seg=1of1",
+      "end": [
+        5.407044276954,
+        9.02474719952,
+        0.1
+      ],
+      "euclidean_length_m": 2.4245669109804413,
+      "half_region": "upper",
+      "horizontal_length_m": 1.5440499088430002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "uniform_n100_r1__weld_0098",
+      "parent_weld_id": "uniform_n100_r1__weld_0098|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        3.862994368111,
+        7.155406517669,
+        0.1
+      ],
+      "weld_time_s": 224.4969362018927
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0099|half=lower|part=1of2|seg=1of1",
+      "end": [
+        12.991516618897,
+        6.0,
+        0.1
+      ],
+      "euclidean_length_m": 1.7410702889161898,
+      "half_region": "lower",
+      "horizontal_length_m": 0.3490620471884647,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "uniform_n100_r1__weld_0099",
+      "parent_weld_id": "uniform_n100_r1__weld_0099|half=lower|part=1of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        12.642454571709,
+        4.294279789016,
+        0.1
+      ],
+      "weld_time_s": 161.21021193668423
+    },
+    {
+      "atomic_weld_id": "uniform_n100_r1__weld_0099|half=upper|part=2of2|seg=1of1",
+      "end": [
+        13.204198850333,
+        7.039289099456,
+        0.1
+      ],
+      "euclidean_length_m": 1.0608277729285098,
+      "half_region": "upper",
+      "horizontal_length_m": 0.21268223143553477,
+      "is_long_weld_split": false,
+      "is_y6_split": true,
+      "parent_original_id": "uniform_n100_r1__weld_0099",
+      "parent_weld_id": "uniform_n100_r1__weld_0099|half=upper|part=2of2",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+      "start": [
+        12.991516618897,
+        6.0,
+        0.1
+      ],
+      "weld_time_s": 98.22479378967682
+    }
+  ],
+  "boundary_events": {
+    "lower": [
+      {
+        "assignment_hash": "12b7da6dec5e34ad5029b46bb91273978cf35ae3f730471f0765469b1ef444fa",
+        "event_id": "lower_event_0000",
+        "event_index": 0,
+        "half_region": "lower",
+        "interval_kind": "point",
+        "interval_left": 0.0,
+        "interval_right": 0.0,
+        "left_atomic_ids": [],
+        "representative_x": 0.0,
+        "right_atomic_ids": [
+          "uniform_n100_r1__weld_0000|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0001|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0002|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0006|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0007|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0010|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0011|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0013|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0014|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0016|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0018|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0019|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0021|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0023|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0024|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0027|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0028|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0029|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0030|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0033|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0035|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0036|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0039|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0040|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0044|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0045|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0046|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0047|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0048|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0050|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0051|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0054|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0055|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0058|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0059|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0060|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0061|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0063|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0065|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0067|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0069|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0071|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0073|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0074|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0075|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0079|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0080|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0083|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0084|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0089|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0090|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0091|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0093|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0094|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0095|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0097|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0099|half=lower|part=1of2|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "d52df39f4dd9f5ed9069f617a7af2898ac7d6bed2be0459a1f571fd8cf29d5ae",
+        "event_id": "lower_event_0001",
+        "event_index": 1,
+        "half_region": "lower",
+        "interval_kind": "point",
+        "interval_left": 4.962480998252,
+        "interval_right": 4.962480998252,
+        "left_atomic_ids": [
+          "uniform_n100_r1__weld_0000|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0030|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0033|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0035|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0036|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0048|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0055|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0071|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0075|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0093|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0097|half=lower|part=1of1|seg=1of1"
+        ],
+        "representative_x": 4.962480998252,
+        "right_atomic_ids": [
+          "uniform_n100_r1__weld_0001|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0002|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0006|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0007|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0010|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0011|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0013|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0014|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0016|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0018|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0019|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0021|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0023|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0024|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0027|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0028|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0029|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0039|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0040|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0044|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0045|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0046|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0047|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0050|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0051|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0054|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0058|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0059|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0060|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0061|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0063|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0065|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0067|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0069|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0073|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0074|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0079|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0080|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0083|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0084|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0089|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0090|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0091|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0094|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0095|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0099|half=lower|part=1of2|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "8b17b0d85f5d61fb8e1e9f7310c0e9594d4162cf1452076d3b628bb16164ced0",
+        "event_id": "lower_event_0002",
+        "event_index": 2,
+        "half_region": "lower",
+        "interval_kind": "point",
+        "interval_left": 10.377944139745,
+        "interval_right": 10.377944139745,
+        "left_atomic_ids": [
+          "uniform_n100_r1__weld_0000|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0001|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0006|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0021|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0023|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0024|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0027|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0030|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0033|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0035|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0036|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0039|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0040|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0047|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0048|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0051|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0055|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0060|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0063|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0065|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0069|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0071|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0073|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0075|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0080|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0089|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0093|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0095|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0097|half=lower|part=1of1|seg=1of1"
+        ],
+        "representative_x": 10.377944139745,
+        "right_atomic_ids": [
+          "uniform_n100_r1__weld_0002|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0007|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0010|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0011|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0013|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0014|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0016|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0018|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0019|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0028|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0029|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0044|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0045|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0046|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0050|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0054|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0058|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0059|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0061|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0067|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0074|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0079|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0083|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0084|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0090|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0091|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0094|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0099|half=lower|part=1of2|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "9c3ca1dfc53ecd459b49cf05fbe1de31b93de1707e17aa48c154af041c502c18",
+        "event_id": "lower_event_0003",
+        "event_index": 3,
+        "half_region": "lower",
+        "interval_kind": "point",
+        "interval_left": 11.26553189778,
+        "interval_right": 11.26553189778,
+        "left_atomic_ids": [
+          "uniform_n100_r1__weld_0000|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0001|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0006|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0021|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0023|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0024|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0027|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0030|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0033|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0035|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0036|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0039|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0040|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0047|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0048|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0051|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0055|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0060|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0063|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0065|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0069|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0071|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0073|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0075|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0080|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0089|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0091|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0093|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0095|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0097|half=lower|part=1of1|seg=1of1"
+        ],
+        "representative_x": 11.26553189778,
+        "right_atomic_ids": [
+          "uniform_n100_r1__weld_0002|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0007|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0010|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0011|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0013|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0014|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0016|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0018|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0019|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0028|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0029|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0044|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0045|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0046|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0050|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0054|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0058|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0059|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0061|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0067|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0074|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0079|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0083|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0084|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0090|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0094|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0099|half=lower|part=1of2|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "3ddaa14d9524a893f128d99ea15774cdc4491d178e39a11bcb87d2a1d2c189b7",
+        "event_id": "lower_event_0004",
+        "event_index": 4,
+        "half_region": "lower",
+        "interval_kind": "point",
+        "interval_left": 19.47793504308,
+        "interval_right": 19.47793504308,
+        "left_atomic_ids": [
+          "uniform_n100_r1__weld_0000|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0001|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0002|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0006|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0007|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0010|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0011|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0013|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0014|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0016|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0018|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0019|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0021|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0023|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0024|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0027|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0028|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0029|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0030|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0033|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0035|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0036|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0039|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0040|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0044|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0045|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0046|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0047|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0048|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0050|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0051|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0054|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0055|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0058|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0059|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0060|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0061|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0063|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0065|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0067|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0069|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0071|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0073|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0074|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0075|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0079|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0080|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0083|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0084|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0089|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0090|half=lower|part=1of2|seg=1of1",
+          "uniform_n100_r1__weld_0091|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0093|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0094|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0095|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0097|half=lower|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0099|half=lower|part=1of2|seg=1of1"
+        ],
+        "representative_x": 19.47793504308,
+        "right_atomic_ids": []
+      }
+    ],
+    "upper": [
+      {
+        "assignment_hash": "0914343dda4e7433fdb7168f99167ab452b38bb4a00117e46d0a844d0c55180b",
+        "event_id": "upper_event_0000",
+        "event_index": 0,
+        "half_region": "upper",
+        "interval_kind": "point",
+        "interval_left": 0.0,
+        "interval_right": 0.0,
+        "left_atomic_ids": [],
+        "representative_x": 0.0,
+        "right_atomic_ids": [
+          "uniform_n100_r1__weld_0003|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0004|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0005|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0008|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0009|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0012|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0015|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0017|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0020|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0021|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0022|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0025|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0026|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0027|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0028|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0031|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0032|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0034|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0035|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0037|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0038|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0041|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0042|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0043|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0049|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0050|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0052|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0053|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0056|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0057|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0059|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0061|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0062|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0064|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0066|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0068|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0070|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0072|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0075|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0076|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0077|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0078|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0081|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0082|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0084|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0085|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0086|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0087|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0088|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0090|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0092|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0096|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0098|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0099|half=upper|part=2of2|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "cf2f13a57e29dff41ed06720a9316057b288a74c037f74d92d4b0b78d4733e9a",
+        "event_id": "upper_event_0001",
+        "event_index": 1,
+        "half_region": "upper",
+        "interval_kind": "point",
+        "interval_left": 2.8,
+        "interval_right": 2.8,
+        "left_atomic_ids": [
+          "uniform_n100_r1__weld_0003|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0026|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0081|half=upper|part=1of1|seg=1of1"
+        ],
+        "representative_x": 2.8,
+        "right_atomic_ids": [
+          "uniform_n100_r1__weld_0004|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0005|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0008|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0009|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0012|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0015|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0017|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0020|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0021|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0022|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0025|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0027|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0028|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0031|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0032|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0034|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0035|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0037|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0038|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0041|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0042|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0043|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0049|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0050|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0052|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0053|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0056|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0057|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0059|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0061|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0062|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0064|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0066|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0068|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0070|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0072|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0075|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0076|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0077|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0078|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0082|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0084|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0085|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0086|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0087|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0088|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0090|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0092|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0096|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0098|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0099|half=upper|part=2of2|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "399d139e6ecf9af67e485dee3165ab41754dd4ffc5799f8b4defb102dbe48581",
+        "event_id": "upper_event_0002",
+        "event_index": 2,
+        "half_region": "upper",
+        "interval_kind": "point",
+        "interval_left": 19.941744465605,
+        "interval_right": 19.941744465605,
+        "left_atomic_ids": [
+          "uniform_n100_r1__weld_0003|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0004|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0005|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0008|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0009|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0012|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0015|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0017|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0020|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0021|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0022|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0025|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0026|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0027|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0028|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0031|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0032|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0034|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0035|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0037|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0038|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0041|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0042|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0043|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0049|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0050|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0052|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0053|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0056|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0057|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0059|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0061|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0062|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0064|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0066|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0068|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0070|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0072|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0075|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0076|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0077|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0078|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0081|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0082|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0084|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0085|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0086|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0087|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0088|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0090|half=upper|part=2of2|seg=1of1",
+          "uniform_n100_r1__weld_0092|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0096|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0098|half=upper|part=1of1|seg=1of1",
+          "uniform_n100_r1__weld_0099|half=upper|part=2of2|seg=1of1"
+        ],
+        "representative_x": 19.941744465605,
+        "right_atomic_ids": []
+      }
+    ]
+  },
+  "metadata": {
+    "atomic_weld_count": 111,
+    "benchmark_suite_id": "atomic_benchmark_suite_v1",
+    "family": "uniform",
+    "fixed_y_cut_m": 6.0,
+    "lmax_m": 5.0,
+    "lmin_m": 1.0,
+    "model_id": "atomic_weld_partition_routing_v1",
+    "model_version": "1.0.0",
+    "post_time_s": 0.0,
+    "search_time_splitting": false,
+    "setup_time_s": 0.0,
+    "source_instance_file_sha256": "29ff4f0b6e68b3a3a31d65cf066d1c47a522ef060bd942ded24ed129016e7bae",
+    "source_instance_hash": "40aca3455b8b8c3247a2e59534840a0e7ae7d7eb01cd0a0ebfb0b8d7d412b50d",
+    "source_instance_path": "formal_atomic/instances/raw/uniform_n100_r1.json",
+    "source_weld_count": 100
+  },
+  "name": "uniform_n100_r1"
+}

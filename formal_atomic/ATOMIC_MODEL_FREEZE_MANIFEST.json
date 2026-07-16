@@ -1,0 +1,47 @@
+{
+  "atomic_welds_may_cross_region": false,
+  "boundary_selection": "legal_discrete_events_only",
+  "collision_policy": "separate_postprocess_not_in_search_objective",
+  "direction_mode": "exact_two_state_dynamic_programming",
+  "fixed_y_cut_m": 6.0,
+  "frozen_at": "2026-07-16T13:20:59.401486+00:00",
+  "frozen_file_hashes": {
+    "ATOMIC_WELD_MODEL_SPEC.md": "2aa02f5aae2033d8d44f9f63656c5089f00c3b2b8cbbd226c242ea1e52d261d5",
+    "atomic_problem_core.py": "e54872ff3442fb9acfa49a74f2d7b4a2ff1eaab9b31edb446a8fdbef51287826",
+    "atomic_route_evaluator.py": "84c5db37b908e96c45a55ca5e9f480949abc17bb1e1e4ca277ac6e6338f47612",
+    "atomic_weld_preprocessor.py": "b4d7a424e7550423b4158820d1f3b7db3ad722d2407fc69ffafe0ccd7b1650b4",
+    "build_atomic_normalization.py": "37c502d25410ae7db13809942416b0e319ee12fb4a606b9c7d40e0b1d9512a40"
+  },
+  "include_final_return": false,
+  "include_initial_positioning": false,
+  "long_weld_policy": {
+    "lmax_m": 5.0,
+    "lmin_m": 1.0,
+    "split_measure": "horizontal_projection"
+  },
+  "model_id": "atomic_weld_partition_routing_v1",
+  "model_version": "1.0.0",
+  "normalization_mode": "ideal_baseline_range_v1_per_instance",
+  "normalization_spec_path": "atomic_normalization_spec.json",
+  "normalization_spec_sha256": "031cfa7c8fe1668e38c463f6142807d09a3f159d6c627f2cf8d5164c4aaf4dcb",
+  "objective_weights": [
+    0.7,
+    0.2,
+    0.1
+  ],
+  "platform": {
+    "height_m": 12.0,
+    "width_m": 20.0
+  },
+  "post_processing_time_s": 0.0,
+  "preprocessing_order": [
+    "split_at_y_6",
+    "horizontal_projection_lmax_lmin_split"
+  ],
+  "route_type": "open",
+  "search_time_splitting": false,
+  "setup_time_s": 0.0,
+  "source_repository_commit_sha": "bee15f8836356586f07849bfd51504e9890eb077",
+  "status": "frozen_for_atomic_formal_evaluation",
+  "zero_travel_endpoint_tolerance_m": 1e-09
+}

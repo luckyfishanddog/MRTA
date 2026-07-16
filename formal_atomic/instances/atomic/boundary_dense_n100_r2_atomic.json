@@ -1,0 +1,3321 @@
+{
+  "atomic_instance_hash": "e53c31bcaaca78746cb651663a25bb33e8a90c3c5ed5f6abe3a8477e10e8f51e",
+  "atomic_welds": [
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0000|half=lower|part=1of1|seg=1of1",
+      "end": [
+        4.070344907236,
+        2.378169554344,
+        0.1
+      ],
+      "euclidean_length_m": 1.0067377287903574,
+      "half_region": "lower",
+      "horizontal_length_m": 0.9730292926340001,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0000",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0000|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        5.04337419987,
+        2.636500447282,
+        0.1
+      ],
+      "weld_time_s": 93.21645636947753
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0001|half=upper|part=1of1|seg=1of1",
+      "end": [
+        9.512132046457,
+        7.152792324379,
+        0.1
+      ],
+      "euclidean_length_m": 0.5638680766363262,
+      "half_region": "upper",
+      "horizontal_length_m": 0.5565430579879997,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0001",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0001|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        10.068675104445,
+        7.243384997675,
+        0.1
+      ],
+      "weld_time_s": 52.21000709595613
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0002|half=lower|part=1of1|seg=1of1",
+      "end": [
+        12.745660582313,
+        2.555167275539,
+        0.1
+      ],
+      "euclidean_length_m": 2.1889483787921638,
+      "half_region": "lower",
+      "horizontal_length_m": 2.185886590616999,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0002",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0002|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        14.93154717293,
+        2.439431291603,
+        0.1
+      ],
+      "weld_time_s": 202.68040544371885
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0003|half=upper|part=1of1|seg=1of1",
+      "end": [
+        6.586758653217,
+        7.367714172282,
+        0.1
+      ],
+      "euclidean_length_m": 1.6342963563027844,
+      "half_region": "upper",
+      "horizontal_length_m": 1.6082888490840004,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0003",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0003|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        4.978469804133,
+        7.07731520855,
+        0.1
+      ],
+      "weld_time_s": 151.32373669470223
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0004|half=lower|part=1of1|seg=1of1",
+      "end": [
+        11.146978143051,
+        0.440656371309,
+        0.1
+      ],
+      "euclidean_length_m": 1.2059073657297459,
+      "half_region": "lower",
+      "horizontal_length_m": 1.1898650506849986,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0004",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0004|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        9.957113092366,
+        0.636701610679,
+        0.1
+      ],
+      "weld_time_s": 111.6580894194209
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0005|half=upper|part=1of1|seg=1of1",
+      "end": [
+        17.170356149768,
+        10.605099745002,
+        0.1
+      ],
+      "euclidean_length_m": 2.142645571744785,
+      "half_region": "upper",
+      "horizontal_length_m": 2.126641355235,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0005",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0005|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        15.043714794533,
+        10.3437061867,
+        0.1
+      ],
+      "weld_time_s": 198.3931084948875
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0006|half=lower|part=1of1|seg=1of1",
+      "end": [
+        3.015548855543,
+        3.181171600519,
+        0.1
+      ],
+      "euclidean_length_m": 2.061049093380874,
+      "half_region": "lower",
+      "horizontal_length_m": 2.0442595030449997,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0006",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0006|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        5.059808358588,
+        3.443710073007,
+        0.1
+      ],
+      "weld_time_s": 190.83787901674756
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0007|half=upper|part=1of1|seg=1of1",
+      "end": [
+        7.813952855581,
+        8.481446925294,
+        0.1
+      ],
+      "euclidean_length_m": 2.1784181983553794,
+      "half_region": "upper",
+      "horizontal_length_m": 2.175085887291999,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0007",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0007|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        9.989038742873,
+        8.361000963016,
+        0.1
+      ],
+      "weld_time_s": 201.7053887366092
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0008|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.470660477549,
+        0.904128824247,
+        0.1
+      ],
+      "euclidean_length_m": 1.557165622697,
+      "half_region": "lower",
+      "horizontal_length_m": 1.5317241884559998,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0008",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0008|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        15.002384666005,
+        1.184460390447,
+        0.1
+      ],
+      "weld_time_s": 144.18200210157408
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0009|half=upper|part=1of1|seg=1of1",
+      "end": [
+        6.873864646545,
+        8.888461259765,
+        0.1
+      ],
+      "euclidean_length_m": 1.871028945520281,
+      "half_region": "upper",
+      "horizontal_length_m": 1.8428171099919997,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0009",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0009|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        5.031047536553,
+        9.212150020916,
+        0.1
+      ],
+      "weld_time_s": 173.2434208815075
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0010|half=lower|part=1of1|seg=1of1",
+      "end": [
+        11.983684169314,
+        2.470609056179,
+        0.1
+      ],
+      "euclidean_length_m": 2.0691254287186776,
+      "half_region": "lower",
+      "horizontal_length_m": 2.052660345064,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0010",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0010|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        9.93102382425,
+        2.210098888293,
+        0.1
+      ],
+      "weld_time_s": 191.585687844322
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0011|half=upper|part=1of1|seg=1of1",
+      "end": [
+        16.195323366867,
+        7.698794792337,
+        0.1
+      ],
+      "euclidean_length_m": 1.1294917130536153,
+      "half_region": "upper",
+      "horizontal_length_m": 1.1215505234560013,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0011",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0011|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        15.073772843411,
+        7.565093808076,
+        0.1
+      ],
+      "weld_time_s": 104.5825660234829
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0012|half=lower|part=1of1|seg=1of1",
+      "end": [
+        2.901473504988,
+        1.51512723851,
+        0.1
+      ],
+      "euclidean_length_m": 2.0850544600887435,
+      "half_region": "lower",
+      "horizontal_length_m": 2.0818259066650002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0012",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0012|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        4.983299411653,
+        1.63111428897,
+        0.1
+      ],
+      "weld_time_s": 193.06059815636513
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0013|half=upper|part=1of1|seg=1of1",
+      "end": [
+        8.576176689081,
+        7.454700933839,
+        0.1
+      ],
+      "euclidean_length_m": 1.4114108615481133,
+      "half_region": "upper",
+      "horizontal_length_m": 1.4005258441849993,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0013",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0013|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        9.976702533266,
+        7.279749569552,
+        0.1
+      ],
+      "weld_time_s": 130.68619088408457
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0014|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.112045590844,
+        3.140881875806,
+        0.1
+      ],
+      "euclidean_length_m": 1.9168913023934304,
+      "half_region": "lower",
+      "horizontal_length_m": 1.9125758059720006,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0014",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0014|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        15.024621396816,
+        3.269435567321,
+        0.1
+      ],
+      "weld_time_s": 177.4899354067991
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0015|half=upper|part=1of1|seg=1of1",
+      "end": [
+        6.305236151887,
+        10.351444734245,
+        0.1
+      ],
+      "euclidean_length_m": 1.3222732472275815,
+      "half_region": "upper",
+      "horizontal_length_m": 1.3208328432259995,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0015",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0015|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        4.984403308661,
+        10.289742703571,
+        0.1
+      ],
+      "weld_time_s": 122.43270807662792
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0016|half=lower|part=1of1|seg=1of1",
+      "end": [
+        11.150554690701,
+        4.600019836549,
+        0.1
+      ],
+      "euclidean_length_m": 1.1151408466996688,
+      "half_region": "lower",
+      "horizontal_length_m": 1.1001205457090002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0016",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0016|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        10.050434144992,
+        4.417608507715,
+        0.1
+      ],
+      "weld_time_s": 103.25378210182119
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0017|half=upper|part=1of1|seg=1of1",
+      "end": [
+        17.204435112565,
+        10.717548438954,
+        0.1
+      ],
+      "euclidean_length_m": 2.2053634116298984,
+      "half_region": "upper",
+      "horizontal_length_m": 2.182448179676001,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0017",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0017|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        15.021986932889,
+        11.034641044331,
+        0.1
+      ],
+      "weld_time_s": 204.20031589165725
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0018|half=lower|part=1of1|seg=1of1",
+      "end": [
+        3.894714757254,
+        0.79146356499,
+        0.1
+      ],
+      "euclidean_length_m": 1.1613645143562559,
+      "half_region": "lower",
+      "horizontal_length_m": 1.109121136088,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0018",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0018|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        5.003835893342,
+        1.135872973527,
+        0.1
+      ],
+      "weld_time_s": 107.53375132928295
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0019|half=upper|part=1of1|seg=1of1",
+      "end": [
+        8.166406039078,
+        7.527742985453,
+        0.1
+      ],
+      "euclidean_length_m": 1.8805150306935434,
+      "half_region": "upper",
+      "horizontal_length_m": 1.8795229404890001,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0019",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0019|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        10.045928979567,
+        7.466666829386,
+        0.1
+      ],
+      "weld_time_s": 174.121762101254
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0020|half=lower|part=1of1|seg=1of1",
+      "end": [
+        14.378922090255,
+        1.24865534034,
+        0.1
+      ],
+      "euclidean_length_m": 0.7095113749247454,
+      "half_region": "lower",
+      "horizontal_length_m": 0.6536033948640014,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0020",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0020|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        15.032525485119,
+        1.524715104467,
+        0.1
+      ],
+      "weld_time_s": 65.69549767821717
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0021|half=upper|part=1of1|seg=1of1",
+      "end": [
+        5.731851684599,
+        6.922214828874,
+        0.1
+      ],
+      "euclidean_length_m": 0.8722153903301132,
+      "half_region": "upper",
+      "horizontal_length_m": 0.8016677312640006,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0021",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0021|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        4.930183953335,
+        6.578574703483,
+        0.1
+      ],
+      "weld_time_s": 80.76068428982529
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0022|half=lower|part=1of1|seg=1of1",
+      "end": [
+        11.736993862333,
+        3.010994210682,
+        0.1
+      ],
+      "euclidean_length_m": 1.766041583493699,
+      "half_region": "lower",
+      "horizontal_length_m": 1.732845184815,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0022",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0022|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        10.004148677518,
+        3.351802720101,
+        0.1
+      ],
+      "weld_time_s": 163.52236884200917
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0023|half=upper|part=1of1|seg=1of1",
+      "end": [
+        16.962858014651,
+        10.778527535454,
+        0.1
+      ],
+      "euclidean_length_m": 2.027325024847931,
+      "half_region": "upper",
+      "horizontal_length_m": 2.0057800194200013,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0023",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0023|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        14.957077995231,
+        11.073304179831,
+        0.1
+      ],
+      "weld_time_s": 187.71528007851214
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0024|half=lower|part=1of1|seg=1of1",
+      "end": [
+        3.809494087482,
+        2.722208470337,
+        0.1
+      ],
+      "euclidean_length_m": 1.2312558007971315,
+      "half_region": "lower",
+      "horizontal_length_m": 1.208512185615,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0024",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0024|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        5.018006273097,
+        2.486647131793,
+        0.1
+      ],
+      "weld_time_s": 114.00516674047513
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0025|half=upper|part=1of1|seg=1of1",
+      "end": [
+        8.069416300593,
+        8.189192743149,
+        0.1
+      ],
+      "euclidean_length_m": 1.9086272587464677,
+      "half_region": "upper",
+      "horizontal_length_m": 1.8804793059470004,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0025",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0025|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        9.94989560654,
+        7.862611064644,
+        0.1
+      ],
+      "weld_time_s": 176.72474618022846
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0026|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.797888039051,
+        4.69792119157,
+        0.1
+      ],
+      "euclidean_length_m": 1.2779141583529952,
+      "half_region": "lower",
+      "horizontal_length_m": 1.2351695869810015,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0026",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0026|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        15.033057626032,
+        5.025672145064,
+        0.1
+      ],
+      "weld_time_s": 118.32538503268474
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0027|half=upper|part=1of1|seg=1of1",
+      "end": [
+        6.335148767372,
+        9.960265962037,
+        0.1
+      ],
+      "euclidean_length_m": 1.3940917410562257,
+      "half_region": "upper",
+      "horizontal_length_m": 1.382847964072,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0027",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0027|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        4.9523008033,
+        9.783564828076,
+        0.1
+      ],
+      "weld_time_s": 129.0825686163172
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0028|half=lower|part=1of1|seg=1of1",
+      "end": [
+        11.248889478926,
+        2.513231642193,
+        0.1
+      ],
+      "euclidean_length_m": 1.2253663352240614,
+      "half_region": "lower",
+      "horizontal_length_m": 1.216119411347,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0028",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0028|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        10.032770067579,
+        2.362977747583,
+        0.1
+      ],
+      "weld_time_s": 113.45984585407975
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0029|half=upper|part=1of1|seg=1of1",
+      "end": [
+        16.523834522753,
+        7.836022756021,
+        0.1
+      ],
+      "euclidean_length_m": 1.5142647151544721,
+      "half_region": "upper",
+      "horizontal_length_m": 1.5025191942609997,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0029",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0029|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        15.021315328492,
+        7.647784347509,
+        0.1
+      ],
+      "weld_time_s": 140.2096958476363
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0030|half=lower|part=1of1|seg=1of1",
+      "end": [
+        4.108119188778,
+        3.291652418924,
+        0.1
+      ],
+      "euclidean_length_m": 0.9237981947368888,
+      "half_region": "lower",
+      "horizontal_length_m": 0.90453671631,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0030",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0030|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        5.012655905088,
+        3.479312839488,
+        0.1
+      ],
+      "weld_time_s": 85.53686988304526
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0031|half=upper|part=1of1|seg=1of1",
+      "end": [
+        8.383903661993,
+        6.733584278492,
+        0.1
+      ],
+      "euclidean_length_m": 1.579633045837187,
+      "half_region": "upper",
+      "horizontal_length_m": 1.5749259477870012,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0031",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0031|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        9.95882960978,
+        6.855440006663,
+        0.1
+      ],
+      "weld_time_s": 146.2623190589988
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0032|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.154937412426,
+        2.766877991636,
+        0.1
+      ],
+      "euclidean_length_m": 1.833072380566509,
+      "half_region": "lower",
+      "horizontal_length_m": 1.830186492700001,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0032",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0032|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        14.985123905126,
+        2.664058954808,
+        0.1
+      ],
+      "weld_time_s": 169.7289241265286
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0033|half=upper|part=1of1|seg=1of1",
+      "end": [
+        6.286309292816,
+        9.281581917987,
+        0.1
+      ],
+      "euclidean_length_m": 1.3117940399238472,
+      "half_region": "upper",
+      "horizontal_length_m": 1.3081291241380004,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0033",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0033|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        4.978180168678,
+        9.379570681433,
+        0.1
+      ],
+      "weld_time_s": 121.46241110405992
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0034|half=lower|part=1of1|seg=1of1",
+      "end": [
+        11.622517410039,
+        4.841414367632,
+        0.1
+      ],
+      "euclidean_length_m": 1.655001738772436,
+      "half_region": "lower",
+      "horizontal_length_m": 1.6383550297100005,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0034",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0034|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        9.984162380329,
+        4.60727007032,
+        0.1
+      ],
+      "weld_time_s": 153.2409017381885
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0035|half=upper|part=1of1|seg=1of1",
+      "end": [
+        16.893976612993,
+        8.284980426169,
+        0.1
+      ],
+      "euclidean_length_m": 1.9582919947882924,
+      "half_region": "upper",
+      "horizontal_length_m": 1.942976617377001,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0035",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0035|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        14.950999995616,
+        8.040543519835,
+        0.1
+      ],
+      "weld_time_s": 181.3233328507678
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0036|half=lower|part=1of1|seg=1of1",
+      "end": [
+        3.353687787284,
+        0.209252897001,
+        0.1
+      ],
+      "euclidean_length_m": 1.6056771260810763,
+      "half_region": "lower",
+      "horizontal_length_m": 1.570271941707,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0036",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0036|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        4.923959728991,
+        0.544581187349,
+        0.1
+      ],
+      "weld_time_s": 148.67380797047002
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0037|half=upper|part=1of1|seg=1of1",
+      "end": [
+        9.141973185811,
+        10.339894865831,
+        0.1
+      ],
+      "euclidean_length_m": 0.940188484548758,
+      "half_region": "upper",
+      "horizontal_length_m": 0.9291231694580002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0037",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0037|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        10.071096355269,
+        10.196073718379,
+        0.1
+      ],
+      "weld_time_s": 87.05448931007018
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0038|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.162503507059,
+        1.47173225096,
+        0.1
+      ],
+      "euclidean_length_m": 1.8029715937883475,
+      "half_region": "lower",
+      "horizontal_length_m": 1.8029652311919993,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0038",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0038|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        14.965468738251,
+        1.466942353208,
+        0.1
+      ],
+      "weld_time_s": 166.9418142396618
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0039|half=upper|part=1of1|seg=1of1",
+      "end": [
+        5.667143737373,
+        9.01615755168,
+        0.1
+      ],
+      "euclidean_length_m": 0.6694039088413257,
+      "half_region": "upper",
+      "horizontal_length_m": 0.6692778541560003,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0039",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0039|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        4.997865883217,
+        9.003167281922,
+        0.1
+      ],
+      "weld_time_s": 61.98184341123386
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0040|half=lower|part=1of1|seg=1of1",
+      "end": [
+        10.832204690283,
+        5.547202538108,
+        0.1
+      ],
+      "euclidean_length_m": 0.9055587706446705,
+      "half_region": "lower",
+      "horizontal_length_m": 0.8992167250560001,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0040",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0040|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        9.932987965227,
+        5.440216705069,
+        0.1
+      ],
+      "weld_time_s": 83.84803431895097
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0041|half=upper|part=1of1|seg=1of1",
+      "end": [
+        16.923857816998,
+        8.546818543584,
+        0.1
+      ],
+      "euclidean_length_m": 1.912795523153977,
+      "half_region": "upper",
+      "horizontal_length_m": 1.8990217077050016,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0041",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0041|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        15.024836109293,
+        8.317682629631,
+        0.1
+      ],
+      "weld_time_s": 177.1106965883312
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0042|half=lower|part=1of1|seg=1of1",
+      "end": [
+        2.803454245579,
+        3.25036525973,
+        0.1
+      ],
+      "euclidean_length_m": 2.15008988866316,
+      "half_region": "lower",
+      "horizontal_length_m": 2.140839341166,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0042",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0042|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        4.944293586745,
+        3.449597397317,
+        0.1
+      ],
+      "weld_time_s": 199.0823970984407
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0043|half=upper|part=1of1|seg=1of1",
+      "end": [
+        8.765065022528,
+        10.876042591047,
+        0.1
+      ],
+      "euclidean_length_m": 1.311057875435168,
+      "half_region": "upper",
+      "horizontal_length_m": 1.300401392353999,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0043",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0043|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        10.065466414882,
+        11.042862768197,
+        0.1
+      ],
+      "weld_time_s": 121.39424772547852
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0044|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.633442526219,
+        4.539437824038,
+        0.1
+      ],
+      "euclidean_length_m": 1.4288525314888159,
+      "half_region": "lower",
+      "horizontal_length_m": 1.4048472156470009,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0044",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0044|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        15.038289741866,
+        4.278623987306,
+        0.1
+      ],
+      "weld_time_s": 132.3011603230385
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0045|half=upper|part=1of1|seg=1of1",
+      "end": [
+        6.98507833842,
+        10.181009259474,
+        0.1
+      ],
+      "euclidean_length_m": 1.9951516714719717,
+      "half_region": "upper",
+      "horizontal_length_m": 1.9912378556890005,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0045",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0045|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        4.993840482731,
+        10.056101316378,
+        0.1
+      ],
+      "weld_time_s": 184.7362658770344
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0046|half=lower|part=1of1|seg=1of1",
+      "end": [
+        11.433710669971,
+        1.061588444444,
+        0.1
+      ],
+      "euclidean_length_m": 1.3981664698075487,
+      "half_region": "lower",
+      "horizontal_length_m": 1.3737366495679986,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0046",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0046|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        10.059974020403,
+        1.321813529568,
+        0.1
+      ],
+      "weld_time_s": 129.45985831551377
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0047|half=upper|part=1of1|seg=1of1",
+      "end": [
+        16.762686119656,
+        11.403095710864,
+        0.1
+      ],
+      "euclidean_length_m": 1.7571607507521219,
+      "half_region": "upper",
+      "horizontal_length_m": 1.75652309046,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0047",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0047|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        15.006163029196,
+        11.355761403384,
+        0.1
+      ],
+      "weld_time_s": 162.70006951408536
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0048|half=lower|part=1of1|seg=1of1",
+      "end": [
+        3.97726581773,
+        5.30848877916,
+        0.1
+      ],
+      "euclidean_length_m": 1.0728258221786864,
+      "half_region": "lower",
+      "horizontal_length_m": 1.0426985836220002,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0048",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0048|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        5.019964401352,
+        5.0560310432,
+        0.1
+      ],
+      "weld_time_s": 99.3357242758043
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0049|half=upper|part=1of1|seg=1of1",
+      "end": [
+        8.278964066823,
+        7.627569348431,
+        0.1
+      ],
+      "euclidean_length_m": 1.6584503554353511,
+      "half_region": "upper",
+      "horizontal_length_m": 1.6447578227569988,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0049",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0049|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        9.92372188958,
+        7.414897568631,
+        0.1
+      ],
+      "weld_time_s": 153.56021809586585
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0050|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.71205849067,
+        4.635853905128,
+        0.1
+      ],
+      "euclidean_length_m": 2.503719545364593,
+      "half_region": "lower",
+      "horizontal_length_m": 1.3054095357449995,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0050",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0050|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        12.406648954925,
+        2.499380758602,
+        0.1
+      ],
+      "weld_time_s": 231.8258838300549
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0051|half=upper|part=1of1|seg=1of1",
+      "end": [
+        17.944513640999,
+        11.066000689344,
+        0.1
+      ],
+      "euclidean_length_m": 1.4753461474880292,
+      "half_region": "upper",
+      "horizontal_length_m": 0.19862592465500128,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0051",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0051|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        18.143139565654,
+        9.604086192199,
+        0.1
+      ],
+      "weld_time_s": 136.6061247674101
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0052|half=lower|part=1of1|seg=1of1",
+      "end": [
+        2.173186699074,
+        5.778052835792,
+        0.1
+      ],
+      "euclidean_length_m": 2.695108260583543,
+      "half_region": "lower",
+      "horizontal_length_m": 0.7200184362529998,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0052",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0052|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        1.453168262821,
+        3.180904016852,
+        0.1
+      ],
+      "weld_time_s": 249.54706116514285
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0053|half=upper|part=1of1|seg=1of1",
+      "end": [
+        12.894346034856,
+        10.78941022768,
+        0.1
+      ],
+      "euclidean_length_m": 0.9589216204979598,
+      "half_region": "upper",
+      "horizontal_length_m": 0.7291602178809988,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0053",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0053|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        12.165185816975,
+        10.166629326465,
+        0.1
+      ],
+      "weld_time_s": 88.78903893499627
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0054|half=lower|part=1of1|seg=1of1",
+      "end": [
+        15.679022049933,
+        1.804875411412,
+        0.1
+      ],
+      "euclidean_length_m": 2.419241679251834,
+      "half_region": "lower",
+      "horizontal_length_m": 1.9585279274830008,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0054",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0054|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        17.637549977416,
+        0.384699837795,
+        0.1
+      ],
+      "weld_time_s": 224.0038591899846
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0055|half=upper|part=1of1|seg=1of1",
+      "end": [
+        0.069481182041,
+        8.772186103717,
+        0.1
+      ],
+      "euclidean_length_m": 1.7181515608676716,
+      "half_region": "upper",
+      "horizontal_length_m": 0.867002236679,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0055",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0055|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        0.93648341872,
+        7.288827782978,
+        0.1
+      ],
+      "weld_time_s": 159.08810748774735
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0056|half=lower|part=1of1|seg=1of1",
+      "end": [
+        15.893997865036,
+        2.474517233596,
+        0.1
+      ],
+      "euclidean_length_m": 0.7932499185364404,
+      "half_region": "lower",
+      "horizontal_length_m": 0.2165019611820007,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0056",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0056|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        15.677495903854,
+        1.711383998792,
+        0.1
+      ],
+      "weld_time_s": 73.44906653115189
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0057|half=upper|part=1of1|seg=1of1",
+      "end": [
+        9.694738782723,
+        9.236128090495,
+        0.1
+      ],
+      "euclidean_length_m": 2.592231461466095,
+      "half_region": "upper",
+      "horizontal_length_m": 2.183565555017,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0057",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0057|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        7.511173227706,
+        7.839093582418,
+        0.1
+      ],
+      "weld_time_s": 240.021431617231
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0058|half=lower|part=1of1|seg=1of1",
+      "end": [
+        10.994938083276,
+        1.106634692416,
+        0.1
+      ],
+      "euclidean_length_m": 0.9573463072256942,
+      "half_region": "lower",
+      "horizontal_length_m": 0.25883596964300004,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0058",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0058|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        10.736102113633,
+        0.184942828083,
+        0.1
+      ],
+      "weld_time_s": 88.64317659497169
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0059|half=upper|part=1of1|seg=1of1",
+      "end": [
+        2.942563751673,
+        10.955794562977,
+        0.1
+      ],
+      "euclidean_length_m": 2.468717642829921,
+      "half_region": "upper",
+      "horizontal_length_m": 1.5200933420259997,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0059",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0059|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        4.462657093699,
+        9.01057400182,
+        0.1
+      ],
+      "weld_time_s": 228.5849669286964
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0060|half=lower|part=1of1|seg=1of1",
+      "end": [
+        14.340995698856,
+        1.7976826358,
+        0.1
+      ],
+      "euclidean_length_m": 1.564534502200264,
+      "half_region": "lower",
+      "horizontal_length_m": 0.33970112507300065,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0060",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0060|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        14.680696823929,
+        0.270472318195,
+        0.1
+      ],
+      "weld_time_s": 144.8643057592837
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0061|half=upper|part=1of1|seg=1of1",
+      "end": [
+        9.768961122007,
+        9.328502890334,
+        0.1
+      ],
+      "euclidean_length_m": 2.259013917254418,
+      "half_region": "upper",
+      "horizontal_length_m": 0.8414956902799986,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0061",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0061|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        8.927465431727,
+        7.232070472728,
+        0.1
+      ],
+      "weld_time_s": 209.167955301335
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0062|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.350054242191,
+        2.462201661362,
+        0.1
+      ],
+      "euclidean_length_m": 2.6353897535095587,
+      "half_region": "lower",
+      "horizontal_length_m": 2.626664132398,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0062",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0062|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        15.976718374589,
+        2.247924531278,
+        0.1
+      ],
+      "weld_time_s": 244.01756976940356
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0063|half=upper|part=1of1|seg=1of1",
+      "end": [
+        12.506991809604,
+        11.791217431379,
+        0.1
+      ],
+      "euclidean_length_m": 1.5280151746719575,
+      "half_region": "upper",
+      "horizontal_length_m": 0.6350151339390013,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0063",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0063|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        13.142006943543,
+        10.40140228047,
+        0.1
+      ],
+      "weld_time_s": 141.48288654369975
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0064|half=lower|part=1of1|seg=1of1",
+      "end": [
+        16.671793409433,
+        1.417620511962,
+        0.1
+      ],
+      "euclidean_length_m": 1.7079807350871588,
+      "half_region": "lower",
+      "horizontal_length_m": 1.4211162993609996,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0064",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0064|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        15.250677110072,
+        0.47018890223,
+        0.1
+      ],
+      "weld_time_s": 158.1463643599221
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0065|half=upper|part=1of1|seg=1of1",
+      "end": [
+        9.298661632258,
+        9.020500276928,
+        0.1
+      ],
+      "euclidean_length_m": 0.6913667718688843,
+      "half_region": "upper",
+      "horizontal_length_m": 0.6866988426430005,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0065",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0065|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        9.985360474901,
+        8.940296082791,
+        0.1
+      ],
+      "weld_time_s": 64.0154418397115
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0066|half=lower|part=1of1|seg=1of1",
+      "end": [
+        4.062834601213,
+        2.674614836053,
+        0.1
+      ],
+      "euclidean_length_m": 1.5253735978918843,
+      "half_region": "lower",
+      "horizontal_length_m": 1.0332839344160005,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0066",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0066|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        5.096118535629,
+        1.552523518903,
+        0.1
+      ],
+      "weld_time_s": 141.2382961011004
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0067|half=upper|part=1of1|seg=1of1",
+      "end": [
+        4.970214544371,
+        7.889337287154,
+        0.1
+      ],
+      "euclidean_length_m": 1.4399547245635214,
+      "half_region": "upper",
+      "horizontal_length_m": 1.0564901265849995,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0067",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0067|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        6.026704670956,
+        6.910921107187,
+        0.1
+      ],
+      "weld_time_s": 133.329141163289
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0068|half=lower|part=1of1|seg=1of1",
+      "end": [
+        9.965577698337,
+        3.587176747338,
+        0.1
+      ],
+      "euclidean_length_m": 1.6740910371601851,
+      "half_region": "lower",
+      "horizontal_length_m": 0.12830967016999928,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0068",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0068|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        10.093887368507,
+        1.918010060263,
+        0.1
+      ],
+      "weld_time_s": 155.0084293666838
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0069|half=upper|part=1of1|seg=1of1",
+      "end": [
+        4.980473540965,
+        10.351877578045,
+        0.1
+      ],
+      "euclidean_length_m": 2.491877251959227,
+      "half_region": "upper",
+      "horizontal_length_m": 0.666530030174,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0069",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0069|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        5.647003571139,
+        7.950796580305,
+        0.1
+      ],
+      "weld_time_s": 230.7293751814099
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0070|half=lower|part=1of1|seg=1of1",
+      "end": [
+        2.933055119946,
+        1.687723722989,
+        0.1
+      ],
+      "euclidean_length_m": 2.4051634650074463,
+      "half_region": "lower",
+      "horizontal_length_m": 2.15993615137,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0070",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0070|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        5.092991271316,
+        0.629665541502,
+        0.1
+      ],
+      "weld_time_s": 222.7003208340228
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0071|half=upper|part=1of1|seg=1of1",
+      "end": [
+        9.268315245051,
+        8.551358316901,
+        0.1
+      ],
+      "euclidean_length_m": 1.7384660378267476,
+      "half_region": "upper",
+      "horizontal_length_m": 0.4075957378959991,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0071",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0071|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        8.860719507155,
+        6.861349476946,
+        0.1
+      ],
+      "weld_time_s": 160.9690775765507
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0072|half=lower|part=1of1|seg=1of1",
+      "end": [
+        7.861038269947,
+        2.411185286244,
+        0.1
+      ],
+      "euclidean_length_m": 2.721218697377325,
+      "half_region": "lower",
+      "horizontal_length_m": 2.5212956894579994,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0072",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0072|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        5.339742580489,
+        1.387418103103,
+        0.1
+      ],
+      "weld_time_s": 251.96469420160417
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0073|half=upper|part=1of1|seg=1of1",
+      "end": [
+        5.657201927117,
+        8.850136971548,
+        0.1
+      ],
+      "euclidean_length_m": 1.9668061654600577,
+      "half_region": "upper",
+      "horizontal_length_m": 1.0028660146639998,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0073",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0073|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        4.654335912453,
+        7.158219051221,
+        0.1
+      ],
+      "weld_time_s": 182.11168198704237
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0074|half=lower|part=1of1|seg=1of1",
+      "end": [
+        10.018510443737,
+        3.222341963299,
+        0.1
+      ],
+      "euclidean_length_m": 2.524427963648031,
+      "half_region": "lower",
+      "horizontal_length_m": 2.507524293275001,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0074",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0074|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        12.526034737012,
+        2.930694123801,
+        0.1
+      ],
+      "weld_time_s": 233.74332996741026
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0075|half=upper|part=1of1|seg=1of1",
+      "end": [
+        16.947493056577,
+        7.80248572968,
+        0.1
+      ],
+      "euclidean_length_m": 0.6454958804525897,
+      "half_region": "upper",
+      "horizontal_length_m": 0.6124450131329979,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0075",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0075|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        16.335048043444,
+        7.598583700338,
+        0.1
+      ],
+      "weld_time_s": 59.76813707894348
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0076|half=lower|part=1of1|seg=1of1",
+      "end": [
+        18.75950685937,
+        2.603651157365,
+        0.1
+      ],
+      "euclidean_length_m": 2.142727626735778,
+      "half_region": "lower",
+      "horizontal_length_m": 0.9069664237230022,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0076",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0076|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        19.666473283093,
+        0.662338820667,
+        0.1
+      ],
+      "weld_time_s": 198.4007061792387
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0077|half=upper|part=1of1|seg=1of1",
+      "end": [
+        9.280728891759,
+        9.229274898429,
+        0.1
+      ],
+      "euclidean_length_m": 2.203709921418292,
+      "half_region": "upper",
+      "horizontal_length_m": 2.124736848566001,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0077",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0077|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        7.155992043193,
+        8.644611968098,
+        0.1
+      ],
+      "weld_time_s": 204.04721494613813
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0078|half=lower|part=1of1|seg=1of1",
+      "end": [
+        1.130880836273,
+        2.300636508454,
+        0.1
+      ],
+      "euclidean_length_m": 1.3740620200818372,
+      "half_region": "lower",
+      "horizontal_length_m": 0.797027406859,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0078",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0078|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        1.927908243132,
+        1.181353815053,
+        0.1
+      ],
+      "weld_time_s": 127.22796482239232
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0079|half=upper|part=1of1|seg=1of1",
+      "end": [
+        12.081787516463,
+        8.94020005483,
+        0.1
+      ],
+      "euclidean_length_m": 0.8793046538923462,
+      "half_region": "upper",
+      "horizontal_length_m": 0.290839438099999,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0079",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0079|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        12.372626954563,
+        8.110387367772,
+        0.1
+      ],
+      "weld_time_s": 81.41709758262465
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0080|half=lower|part=1of1|seg=1of1",
+      "end": [
+        13.555040245085,
+        5.133592879059,
+        0.1
+      ],
+      "euclidean_length_m": 1.8809951319472364,
+      "half_region": "lower",
+      "horizontal_length_m": 0.3109178498169989,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0080",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0080|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        13.244122395268,
+        3.278472188356,
+        0.1
+      ],
+      "weld_time_s": 174.1662159210404
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0081|half=upper|part=1of1|seg=1of1",
+      "end": [
+        0.588360569675,
+        11.342458148517,
+        0.1
+      ],
+      "euclidean_length_m": 0.7077406044021286,
+      "half_region": "upper",
+      "horizontal_length_m": 0.5270054918329999,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0081",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0081|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        0.061355077842,
+        10.870057921276,
+        0.1
+      ],
+      "weld_time_s": 65.53153744464153
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0082|half=lower|part=1of1|seg=1of1",
+      "end": [
+        19.795259308415,
+        4.307324593128,
+        0.1
+      ],
+      "euclidean_length_m": 2.373899957888617,
+      "half_region": "lower",
+      "horizontal_length_m": 1.9594208395780015,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0082",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0082|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        17.835838468837,
+        2.967148864542,
+        0.1
+      ],
+      "weld_time_s": 219.80555165635343
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0083|half=upper|part=1of1|seg=1of1",
+      "end": [
+        5.760579546704,
+        11.546992606399,
+        0.1
+      ],
+      "euclidean_length_m": 2.1459906019616426,
+      "half_region": "upper",
+      "horizontal_length_m": 2.092088533894,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0083",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0083|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        3.66849101281,
+        11.069037346927,
+        0.1
+      ],
+      "weld_time_s": 198.7028335149669
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0084|half=lower|part=1of1|seg=1of1",
+      "end": [
+        3.883181900599,
+        2.895547832819,
+        0.1
+      ],
+      "euclidean_length_m": 0.6722691592894582,
+      "half_region": "lower",
+      "horizontal_length_m": 0.18137007933300042,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0084",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0084|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        4.064551979932,
+        2.248206565129,
+        0.1
+      ],
+      "weld_time_s": 62.24714437865353
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0085|half=upper|part=1of1|seg=1of1",
+      "end": [
+        12.974596878002,
+        7.910585847854,
+        0.1
+      ],
+      "euclidean_length_m": 1.9570104661336438,
+      "half_region": "upper",
+      "horizontal_length_m": 1.9028653054170004,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0085",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0085|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        11.071731572585,
+        7.453427676105,
+        0.1
+      ],
+      "weld_time_s": 181.2046727901522
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0086|half=lower|part=1of1|seg=1of1",
+      "end": [
+        8.294442502784,
+        2.064167304392,
+        0.1
+      ],
+      "euclidean_length_m": 2.4739069511464193,
+      "half_region": "lower",
+      "horizontal_length_m": 1.8687060162039995,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0086",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0086|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        6.42573648658,
+        0.443009252895,
+        0.1
+      ],
+      "weld_time_s": 229.06545843948325
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0087|half=upper|part=1of1|seg=1of1",
+      "end": [
+        10.245100343082,
+        7.80384348295,
+        0.1
+      ],
+      "euclidean_length_m": 2.5814290608422414,
+      "half_region": "upper",
+      "horizontal_length_m": 2.5252517605570013,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0087",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0087|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        12.770352103639,
+        7.268232110811,
+        0.1
+      ],
+      "weld_time_s": 239.02120933724456
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0088|half=lower|part=1of1|seg=1of1",
+      "end": [
+        15.567686298791,
+        3.75006468451,
+        0.1
+      ],
+      "euclidean_length_m": 2.427983885405572,
+      "half_region": "lower",
+      "horizontal_length_m": 0.5156556028729984,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0088",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0088|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        15.052030695918,
+        1.377470103252,
+        0.1
+      ],
+      "weld_time_s": 224.81332272273815
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0089|half=upper|part=1of1|seg=1of1",
+      "end": [
+        14.381124463042,
+        10.847460185463,
+        0.1
+      ],
+      "euclidean_length_m": 1.5405453128773428,
+      "half_region": "upper",
+      "horizontal_length_m": 1.4622676453570005,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0089",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0089|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        15.843392108399,
+        10.362637337022,
+        0.1
+      ],
+      "weld_time_s": 142.64308452567988
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0090|half=lower|part=1of1|seg=1of1",
+      "end": [
+        10.070099065995,
+        1.703106147574,
+        0.1
+      ],
+      "euclidean_length_m": 1.7601311407951277,
+      "half_region": "lower",
+      "horizontal_length_m": 0.8004512533400003,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0090",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0090|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        10.870550319335,
+        0.135515823598,
+        0.1
+      ],
+      "weld_time_s": 162.97510562917847
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0091|half=upper|part=1of1|seg=1of1",
+      "end": [
+        0.726635977376,
+        9.195476710187,
+        0.1
+      ],
+      "euclidean_length_m": 0.8529678551942719,
+      "half_region": "upper",
+      "horizontal_length_m": 0.5218789222090001,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0091",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0091|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        0.204757055167,
+        8.520794153314,
+        0.1
+      ],
+      "weld_time_s": 78.97850511058073
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0092|half=lower|part=1of1|seg=1of1",
+      "end": [
+        3.993627618193,
+        5.666904340927,
+        0.1
+      ],
+      "euclidean_length_m": 0.854580076377675,
+      "half_region": "lower",
+      "horizontal_length_m": 0.4240472023609998,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0092",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0092|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        3.569580415832,
+        4.924953481967,
+        0.1
+      ],
+      "weld_time_s": 79.12778484978472
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0093|half=upper|part=1of1|seg=1of1",
+      "end": [
+        13.194335581553,
+        9.103196142547,
+        0.1
+      ],
+      "euclidean_length_m": 2.1391432684797094,
+      "half_region": "upper",
+      "horizontal_length_m": 1.9131310316899999,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0093",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0093|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        15.107466613243,
+        8.146188525719,
+        0.1
+      ],
+      "weld_time_s": 198.06882115552864
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0094|half=lower|part=1of1|seg=1of1",
+      "end": [
+        8.832950566965,
+        1.942158191653,
+        0.1
+      ],
+      "euclidean_length_m": 1.1474374727178616,
+      "half_region": "lower",
+      "horizontal_length_m": 1.0450264010439998,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0094",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0094|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        7.787924165921,
+        1.468309508086,
+        0.1
+      ],
+      "weld_time_s": 106.24421043683903
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0095|half=upper|part=1of1|seg=1of1",
+      "end": [
+        2.47759028185,
+        10.590373396245,
+        0.1
+      ],
+      "euclidean_length_m": 1.0964762172860143,
+      "half_region": "upper",
+      "horizontal_length_m": 0.31827070972000016,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0095",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0095|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        2.15931957213,
+        9.541105151034,
+        0.1
+      ],
+      "weld_time_s": 101.52557567463094
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0096|half=lower|part=1of1|seg=1of1",
+      "end": [
+        2.682434815881,
+        4.299562244009,
+        0.1
+      ],
+      "euclidean_length_m": 2.086820477804045,
+      "half_region": "lower",
+      "horizontal_length_m": 1.147928239673,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0096",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0096|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        1.534506576208,
+        2.556840102317,
+        0.1
+      ],
+      "weld_time_s": 193.22411831518934
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0097|half=upper|part=1of1|seg=1of1",
+      "end": [
+        7.442041393284,
+        7.693135947686,
+        0.1
+      ],
+      "euclidean_length_m": 0.6637689727979879,
+      "half_region": "upper",
+      "horizontal_length_m": 0.2490447393390003,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0097",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0097|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        7.691086132623,
+        7.077858801144,
+        0.1
+      ],
+      "weld_time_s": 61.46009007388776
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0098|half=lower|part=1of1|seg=1of1",
+      "end": [
+        0.707822923571,
+        3.737399005999,
+        0.1
+      ],
+      "euclidean_length_m": 1.1181596813150612,
+      "half_region": "lower",
+      "horizontal_length_m": 0.795594483294,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0098",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0098|half=lower|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        1.503417406865,
+        2.951707914621,
+        0.1
+      ],
+      "weld_time_s": 103.53330382546862
+    },
+    {
+      "atomic_weld_id": "boundary_dense_n100_r2__weld_0099|half=upper|part=1of1|seg=1of1",
+      "end": [
+        12.253234705004,
+        11.765838544181,
+        0.1
+      ],
+      "euclidean_length_m": 1.2312337593869094,
+      "half_region": "upper",
+      "horizontal_length_m": 0.986209315807999,
+      "is_long_weld_split": false,
+      "is_y6_split": false,
+      "parent_original_id": "boundary_dense_n100_r2__weld_0099",
+      "parent_weld_id": "boundary_dense_n100_r2__weld_0099|half=upper|part=1of1",
+      "segment_count": 1,
+      "segment_index": 1,
+      "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+      "start": [
+        11.267025389196,
+        11.028730848069,
+        0.1
+      ],
+      "weld_time_s": 114.00312586915827
+    }
+  ],
+  "boundary_events": {
+    "lower": [
+      {
+        "assignment_hash": "a2134b14ba7a5d5f169685930ce3ed2f48cfc3658522d0046e68bc713cb71bbe",
+        "event_id": "lower_event_0000",
+        "event_index": 0,
+        "half_region": "lower",
+        "interval_kind": "point",
+        "interval_left": 0.0,
+        "interval_right": 0.0,
+        "left_atomic_ids": [],
+        "representative_x": 0.0,
+        "right_atomic_ids": [
+          "boundary_dense_n100_r2__weld_0000|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0002|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0004|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0006|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0008|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0010|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0012|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0014|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0016|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0018|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0020|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0022|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0024|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0026|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0028|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0030|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0032|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0034|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0036|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0038|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0040|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0042|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0044|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0046|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0048|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0050|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0052|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0054|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0056|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0058|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0060|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0062|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0064|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0066|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0068|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0070|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0072|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0074|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0076|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0078|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0080|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0082|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0084|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0086|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0088|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0090|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0092|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0094|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0096|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0098|half=lower|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "d82d858605d1bc12a96aa557c5319e81bd53263b1911015deeecbc776a2ff38f",
+        "event_id": "lower_event_0001",
+        "event_index": 1,
+        "half_region": "lower",
+        "interval_kind": "point",
+        "interval_left": 2.682434815881,
+        "interval_right": 2.682434815881,
+        "left_atomic_ids": [
+          "boundary_dense_n100_r2__weld_0052|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0078|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0096|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0098|half=lower|part=1of1|seg=1of1"
+        ],
+        "representative_x": 2.682434815881,
+        "right_atomic_ids": [
+          "boundary_dense_n100_r2__weld_0000|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0002|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0004|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0006|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0008|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0010|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0012|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0014|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0016|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0018|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0020|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0022|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0024|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0026|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0028|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0030|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0032|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0034|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0036|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0038|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0040|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0042|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0044|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0046|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0048|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0050|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0054|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0056|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0058|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0060|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0062|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0064|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0066|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0068|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0070|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0072|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0074|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0076|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0080|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0082|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0084|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0086|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0088|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0090|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0092|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0094|half=lower|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "e18dd796b5d2f837c15c749a1d627dfd43265aa12ec39b2b7a530eb8a89bf28a",
+        "event_id": "lower_event_0002",
+        "event_index": 2,
+        "half_region": "lower",
+        "interval_kind": "point",
+        "interval_left": 5.096118535629,
+        "interval_right": 5.096118535629,
+        "left_atomic_ids": [
+          "boundary_dense_n100_r2__weld_0000|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0006|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0012|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0018|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0024|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0030|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0036|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0042|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0048|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0052|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0066|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0070|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0078|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0084|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0092|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0096|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0098|half=lower|part=1of1|seg=1of1"
+        ],
+        "representative_x": 5.096118535629,
+        "right_atomic_ids": [
+          "boundary_dense_n100_r2__weld_0002|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0004|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0008|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0010|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0014|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0016|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0020|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0022|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0026|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0028|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0032|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0034|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0038|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0040|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0044|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0046|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0050|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0054|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0056|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0058|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0060|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0062|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0064|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0068|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0072|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0074|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0076|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0080|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0082|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0086|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0088|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0090|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0094|half=lower|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "18452f857217e97f2823aa21021e7069d519b8e217eb4e477ee823b890684296",
+        "event_id": "lower_event_0003",
+        "event_index": 3,
+        "half_region": "lower",
+        "interval_kind": "point",
+        "interval_left": 8.832950566965,
+        "interval_right": 8.832950566965,
+        "left_atomic_ids": [
+          "boundary_dense_n100_r2__weld_0000|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0006|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0012|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0018|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0024|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0030|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0036|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0042|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0048|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0052|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0066|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0070|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0072|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0078|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0084|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0086|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0092|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0094|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0096|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0098|half=lower|part=1of1|seg=1of1"
+        ],
+        "representative_x": 8.832950566965,
+        "right_atomic_ids": [
+          "boundary_dense_n100_r2__weld_0002|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0004|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0008|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0010|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0014|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0016|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0020|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0022|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0026|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0028|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0032|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0034|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0038|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0040|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0044|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0046|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0050|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0054|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0056|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0058|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0060|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0062|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0064|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0068|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0074|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0076|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0080|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0082|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0088|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0090|half=lower|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "e0f3f990a9f011a9c8e5d090fdb122295868a61c1585ee62b10f745f9269437d",
+        "event_id": "lower_event_0004",
+        "event_index": 4,
+        "half_region": "lower",
+        "interval_kind": "point",
+        "interval_left": 17.637549977416,
+        "interval_right": 17.637549977416,
+        "left_atomic_ids": [
+          "boundary_dense_n100_r2__weld_0000|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0002|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0004|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0006|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0008|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0010|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0012|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0014|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0016|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0018|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0020|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0022|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0024|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0026|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0028|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0030|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0032|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0034|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0036|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0038|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0040|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0042|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0044|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0046|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0048|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0050|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0052|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0054|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0056|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0058|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0060|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0062|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0064|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0066|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0068|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0070|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0072|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0074|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0078|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0080|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0084|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0086|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0088|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0090|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0092|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0094|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0096|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0098|half=lower|part=1of1|seg=1of1"
+        ],
+        "representative_x": 17.637549977416,
+        "right_atomic_ids": [
+          "boundary_dense_n100_r2__weld_0076|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0082|half=lower|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "914334d73b9d20ce1bfb54bc587a9f23df41c702682c929c55a8ecf57416c94b",
+        "event_id": "lower_event_0005",
+        "event_index": 5,
+        "half_region": "lower",
+        "interval_kind": "point",
+        "interval_left": 19.795259308415,
+        "interval_right": 19.795259308415,
+        "left_atomic_ids": [
+          "boundary_dense_n100_r2__weld_0000|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0002|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0004|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0006|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0008|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0010|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0012|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0014|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0016|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0018|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0020|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0022|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0024|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0026|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0028|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0030|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0032|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0034|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0036|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0038|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0040|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0042|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0044|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0046|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0048|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0050|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0052|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0054|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0056|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0058|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0060|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0062|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0064|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0066|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0068|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0070|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0072|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0074|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0076|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0078|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0080|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0082|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0084|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0086|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0088|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0090|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0092|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0094|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0096|half=lower|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0098|half=lower|part=1of1|seg=1of1"
+        ],
+        "representative_x": 19.795259308415,
+        "right_atomic_ids": []
+      }
+    ],
+    "upper": [
+      {
+        "assignment_hash": "022c1121acf2ec4c77f07d57e0c1966c896c875a98729b58db4a0a442930c0af",
+        "event_id": "upper_event_0000",
+        "event_index": 0,
+        "half_region": "upper",
+        "interval_kind": "point",
+        "interval_left": 0.0,
+        "interval_right": 0.0,
+        "left_atomic_ids": [],
+        "representative_x": 0.0,
+        "right_atomic_ids": [
+          "boundary_dense_n100_r2__weld_0001|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0003|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0005|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0007|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0009|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0011|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0013|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0015|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0017|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0019|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0021|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0023|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0025|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0027|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0029|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0031|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0033|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0035|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0037|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0039|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0041|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0043|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0045|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0047|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0049|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0051|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0053|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0055|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0057|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0059|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0061|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0063|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0065|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0067|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0069|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0071|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0073|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0075|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0077|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0079|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0081|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0083|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0085|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0087|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0089|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0091|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0093|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0095|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0097|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0099|half=upper|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "87ef11b8014234bd659bc354bdf8be8c17a8d616be35067aea8b325137247b74",
+        "event_id": "upper_event_0001",
+        "event_index": 1,
+        "half_region": "upper",
+        "interval_kind": "point",
+        "interval_left": 0.93648341872,
+        "interval_right": 0.93648341872,
+        "left_atomic_ids": [
+          "boundary_dense_n100_r2__weld_0055|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0081|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0091|half=upper|part=1of1|seg=1of1"
+        ],
+        "representative_x": 0.93648341872,
+        "right_atomic_ids": [
+          "boundary_dense_n100_r2__weld_0001|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0003|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0005|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0007|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0009|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0011|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0013|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0015|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0017|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0019|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0021|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0023|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0025|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0027|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0029|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0031|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0033|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0035|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0037|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0039|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0041|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0043|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0045|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0047|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0049|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0051|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0053|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0057|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0059|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0061|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0063|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0065|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0067|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0069|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0071|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0073|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0075|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0077|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0079|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0083|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0085|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0087|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0089|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0093|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0095|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0097|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0099|half=upper|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "02d241abf3c852f2c2237b0587f089949925db2826bc2d454a461b3f27e469a1",
+        "event_id": "upper_event_0002",
+        "event_index": 2,
+        "half_region": "upper",
+        "interval_kind": "point",
+        "interval_left": 2.47759028185,
+        "interval_right": 2.47759028185,
+        "left_atomic_ids": [
+          "boundary_dense_n100_r2__weld_0055|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0081|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0091|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0095|half=upper|part=1of1|seg=1of1"
+        ],
+        "representative_x": 2.47759028185,
+        "right_atomic_ids": [
+          "boundary_dense_n100_r2__weld_0001|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0003|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0005|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0007|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0009|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0011|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0013|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0015|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0017|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0019|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0021|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0023|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0025|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0027|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0029|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0031|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0033|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0035|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0037|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0039|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0041|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0043|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0045|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0047|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0049|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0051|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0053|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0057|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0059|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0061|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0063|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0065|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0067|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0069|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0071|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0073|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0075|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0077|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0079|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0083|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0085|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0087|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0089|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0093|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0097|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0099|half=upper|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "3e99e29fc53d16fb6a1fafbb171fe4a185aadea7a8597a729c6bcd17ad8f3be4",
+        "event_id": "upper_event_0003",
+        "event_index": 3,
+        "half_region": "upper",
+        "interval_kind": "point",
+        "interval_left": 6.98507833842,
+        "interval_right": 6.98507833842,
+        "left_atomic_ids": [
+          "boundary_dense_n100_r2__weld_0003|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0009|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0015|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0021|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0027|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0033|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0039|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0045|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0055|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0059|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0067|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0069|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0073|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0081|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0083|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0091|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0095|half=upper|part=1of1|seg=1of1"
+        ],
+        "representative_x": 6.98507833842,
+        "right_atomic_ids": [
+          "boundary_dense_n100_r2__weld_0001|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0005|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0007|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0011|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0013|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0017|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0019|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0023|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0025|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0029|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0031|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0035|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0037|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0041|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0043|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0047|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0049|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0051|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0053|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0057|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0061|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0063|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0065|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0071|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0075|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0077|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0079|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0085|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0087|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0089|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0093|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0097|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0099|half=upper|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "2bf173e08c9a56c6a3a40cdf7167605043558f63a478f3c82508b10a30787df1",
+        "event_id": "upper_event_0004",
+        "event_index": 4,
+        "half_region": "upper",
+        "interval_kind": "point",
+        "interval_left": 10.071096355269,
+        "interval_right": 10.071096355269,
+        "left_atomic_ids": [
+          "boundary_dense_n100_r2__weld_0001|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0003|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0007|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0009|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0013|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0015|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0019|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0021|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0025|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0027|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0031|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0033|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0037|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0039|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0043|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0045|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0049|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0055|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0057|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0059|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0061|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0065|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0067|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0069|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0071|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0073|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0077|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0081|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0083|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0091|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0095|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0097|half=upper|part=1of1|seg=1of1"
+        ],
+        "representative_x": 10.071096355269,
+        "right_atomic_ids": [
+          "boundary_dense_n100_r2__weld_0005|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0011|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0017|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0023|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0029|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0035|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0041|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0047|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0051|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0053|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0063|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0075|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0079|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0085|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0087|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0089|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0093|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0099|half=upper|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "7e7a4b55d054f31bdebe357dcef47ef3852ae4b12a68575fec572fdfec14ba19",
+        "event_id": "upper_event_0005",
+        "event_index": 5,
+        "half_region": "upper",
+        "interval_kind": "point",
+        "interval_left": 13.142006943543,
+        "interval_right": 13.142006943543,
+        "left_atomic_ids": [
+          "boundary_dense_n100_r2__weld_0001|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0003|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0007|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0009|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0013|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0015|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0019|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0021|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0025|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0027|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0031|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0033|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0037|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0039|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0043|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0045|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0049|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0053|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0055|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0057|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0059|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0061|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0063|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0065|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0067|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0069|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0071|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0073|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0077|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0079|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0081|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0083|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0085|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0087|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0091|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0095|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0097|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0099|half=upper|part=1of1|seg=1of1"
+        ],
+        "representative_x": 13.142006943543,
+        "right_atomic_ids": [
+          "boundary_dense_n100_r2__weld_0005|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0011|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0017|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0023|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0029|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0035|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0041|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0047|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0051|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0075|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0089|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0093|half=upper|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "ca578a67d3d08bebf0b6701bec4e14049621f3207d2b7779c334a3b7d5d85ace",
+        "event_id": "upper_event_0006",
+        "event_index": 6,
+        "half_region": "upper",
+        "interval_kind": "point",
+        "interval_left": 17.204435112565,
+        "interval_right": 17.204435112565,
+        "left_atomic_ids": [
+          "boundary_dense_n100_r2__weld_0001|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0003|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0005|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0007|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0009|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0011|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0013|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0015|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0017|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0019|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0021|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0023|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0025|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0027|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0029|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0031|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0033|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0035|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0037|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0039|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0041|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0043|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0045|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0047|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0049|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0053|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0055|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0057|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0059|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0061|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0063|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0065|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0067|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0069|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0071|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0073|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0075|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0077|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0079|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0081|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0083|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0085|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0087|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0089|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0091|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0093|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0095|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0097|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0099|half=upper|part=1of1|seg=1of1"
+        ],
+        "representative_x": 17.204435112565,
+        "right_atomic_ids": [
+          "boundary_dense_n100_r2__weld_0051|half=upper|part=1of1|seg=1of1"
+        ]
+      },
+      {
+        "assignment_hash": "ef2cd9c2a1642485c69cc9664e1fcdb728f33ab072d562fd5f382e8d9455455c",
+        "event_id": "upper_event_0007",
+        "event_index": 7,
+        "half_region": "upper",
+        "interval_kind": "point",
+        "interval_left": 18.143139565654,
+        "interval_right": 18.143139565654,
+        "left_atomic_ids": [
+          "boundary_dense_n100_r2__weld_0001|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0003|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0005|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0007|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0009|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0011|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0013|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0015|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0017|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0019|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0021|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0023|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0025|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0027|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0029|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0031|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0033|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0035|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0037|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0039|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0041|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0043|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0045|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0047|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0049|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0051|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0053|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0055|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0057|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0059|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0061|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0063|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0065|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0067|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0069|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0071|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0073|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0075|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0077|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0079|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0081|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0083|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0085|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0087|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0089|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0091|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0093|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0095|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0097|half=upper|part=1of1|seg=1of1",
+          "boundary_dense_n100_r2__weld_0099|half=upper|part=1of1|seg=1of1"
+        ],
+        "representative_x": 18.143139565654,
+        "right_atomic_ids": []
+      }
+    ]
+  },
+  "metadata": {
+    "atomic_weld_count": 100,
+    "benchmark_suite_id": "atomic_benchmark_suite_v1",
+    "family": "boundary_dense",
+    "fixed_y_cut_m": 6.0,
+    "lmax_m": 5.0,
+    "lmin_m": 1.0,
+    "model_id": "atomic_weld_partition_routing_v1",
+    "model_version": "1.0.0",
+    "post_time_s": 0.0,
+    "search_time_splitting": false,
+    "setup_time_s": 0.0,
+    "source_instance_file_sha256": "c4f66095646fc3451d60b28dad6b6dae5bc3579199a3350ea4f8cc16c8186d2f",
+    "source_instance_hash": "7bf82d6145d986d3179deb7947945713becbf6093097001662861eee9bc6b58e",
+    "source_instance_path": "formal_atomic/instances/raw/boundary_dense_n100_r2.json",
+    "source_weld_count": 100
+  },
+  "name": "boundary_dense_n100_r2"
+}

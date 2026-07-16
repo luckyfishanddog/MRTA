@@ -1,0 +1,40 @@
+{
+  "algorithm_name": "EPRK-MA",
+  "byte_identical_to_candidate_profile": true,
+  "development_gate_evidence_paths": [
+    "EPRK_MA_DEVELOPMENT_REPORT.md",
+    "eprk_development_runs.csv",
+    "eprk_equal_time_runs.csv",
+    "eprk_development_outputs/development_gate_summary.json"
+  ],
+  "development_protocol_path": "EPRK_MA_DEVELOPMENT_PROTOCOL.json",
+  "development_protocol_sha256": "ef297073e9bfdbc3ee409cf7f50570a1bb9cd6428160c78f324301b3c3580b1f",
+  "formal_algorithm_name": "EPRK-MA-Frozen",
+  "freeze_timestamp": "2026-07-16T13:20:59.401486+00:00",
+  "future_change_policy": {
+    "may_reuse_this_formal_evidence": false,
+    "requires_new_algorithm_version": true,
+    "requires_new_development_gate": true,
+    "requires_new_holdout": true,
+    "requires_new_profile": true
+  },
+  "holdout_evidence_paths": [
+    "eprk_holdout_runs.csv",
+    "eprk_development_outputs/holdout_summary.json"
+  ],
+  "holdout_has_been_viewed": true,
+  "no_tuning_after_holdout": true,
+  "profile_path": "formal_atomic/eprk_ma_final_profile.json",
+  "profile_sha256": "de75ad629aeeff608cab96097fe96aed091237348b9f1fe3e6f94c68442771f2",
+  "solver_version": "EPRK-MA-v0.1-development",
+  "source_hashes": {
+    "MRTA_EPRK_MA.py": "284905668a363ed887afd60cea3463da818d42593f9fc0a9987e57d2806275ba",
+    "atomic_problem_core.py": "e54872ff3442fb9acfa49a74f2d7b4a2ff1eaab9b31edb446a8fdbef51287826",
+    "atomic_route_evaluator.py": "84c5db37b908e96c45a55ca5e9f480949abc17bb1e1e4ca277ac6e6338f47612",
+    "atomic_weld_preprocessor.py": "b4d7a424e7550423b4158820d1f3b7db3ad722d2407fc69ffafe0ccd7b1650b4",
+    "build_atomic_normalization.py": "37c502d25410ae7db13809942416b0e319ee12fb4a606b9c7d40e0b1d9512a40"
+  },
+  "source_repository": "luckyfishanddog/MRTA",
+  "source_repository_commit_sha": "bee15f8836356586f07849bfd51504e9890eb077",
+  "status": "frozen_for_atomic_formal_evaluation"
+}

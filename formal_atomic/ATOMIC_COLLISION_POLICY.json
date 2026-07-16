@@ -1,0 +1,29 @@
+{
+  "boundary_band_width_m": 0.5,
+  "collision_model_source": "collision_aware_schedule.py",
+  "collision_model_source_sha256": "d178756b498654da3c9761bed9b3bdddae4b728b715ed0d0f988c8afa16a4a00",
+  "collision_success_requires_zero_unresolved": true,
+  "included_in_algorithm_time": false,
+  "included_in_equal_time_limit": false,
+  "included_in_search_objective": false,
+  "included_in_solver_wall_clock_time": false,
+  "may_change_raw_fitness": false,
+  "may_change_routes_or_directions": false,
+  "motion_model_source": "MRTA_GA_ACO.py",
+  "motion_model_source_sha256": "842edd7cf89f30ea96a5de352651e269b2c8ed45b73cea673ba88b5a3efad4a2",
+  "policy_id": "atomic_collision_postprocess_v1",
+  "post_processing_only": true,
+  "raw_result_hash_must_remain_unchanged": true,
+  "required_outputs": [
+    "raw_makespan",
+    "collision_adjusted_makespan",
+    "added_waiting_time",
+    "conflict_count",
+    "unresolved_conflict_count",
+    "collision_audit_time_s",
+    "collision_audit_status"
+  ],
+  "safety_distance_m": 0.5,
+  "sampling_interval_s": 1.0,
+  "version": "1.0.0"
+}

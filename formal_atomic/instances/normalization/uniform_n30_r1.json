@@ -1,0 +1,152 @@
+{
+  "atomic_instance_hash": "97a527ba1a6fabf9b98a5a40c1eb4d3e6f0a17e5ba82c8d24bfcce3598ae1747",
+  "baseline": {
+    "algorithm": "atomic_event_workload_balance_cheapest_insertion_v1",
+    "algorithm_version": "1.0.0",
+    "baseline_hash": "447006f4fe9794788a246fcb596358def97caaa3cbd3c77ad351935c2d5f89b5",
+    "boundaries": {
+      "lower_event_index": 4,
+      "upper_event_index": 4,
+      "x_low": 9.8,
+      "x_up": 9.8
+    },
+    "direction_flags": [
+      [
+        true,
+        true,
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      [
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        true
+      ],
+      [
+        false,
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      [
+        false,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true
+      ]
+    ],
+    "metrics": {
+      "idle_distance": 65.42977816602001,
+      "load_imbalance": 874.9731270321784,
+      "makespan": 1836.6632509102021
+    },
+    "robot_total_times": [
+      1067.2771432471052,
+      1113.5558699096364,
+      961.6901238780238,
+      1836.6632509102021
+    ],
+    "routes": [
+      [
+        "uniform_n30_r1__weld_0010|half=upper|part=1of1|seg=1of1",
+        "uniform_n30_r1__weld_0011|half=upper|part=1of1|seg=1of1",
+        "uniform_n30_r1__weld_0004|half=upper|part=1of1|seg=1of1",
+        "uniform_n30_r1__weld_0025|half=upper|part=2of2|seg=1of1",
+        "uniform_n30_r1__weld_0028|half=upper|part=1of1|seg=1of1",
+        "uniform_n30_r1__weld_0022|half=upper|part=1of1|seg=1of1",
+        "uniform_n30_r1__weld_0003|half=upper|part=1of1|seg=1of1",
+        "uniform_n30_r1__weld_0029|half=upper|part=1of1|seg=1of1"
+      ],
+      [
+        "uniform_n30_r1__weld_0027|half=upper|part=1of1|seg=1of1",
+        "uniform_n30_r1__weld_0024|half=upper|part=1of1|seg=1of1",
+        "uniform_n30_r1__weld_0012|half=upper|part=2of2|seg=1of1",
+        "uniform_n30_r1__weld_0007|half=upper|part=2of2|seg=1of1",
+        "uniform_n30_r1__weld_0021|half=upper|part=1of1|seg=1of1",
+        "uniform_n30_r1__weld_0015|half=upper|part=1of1|seg=1of1",
+        "uniform_n30_r1__weld_0005|half=upper|part=1of1|seg=1of1",
+        "uniform_n30_r1__weld_0013|half=upper|part=1of1|seg=1of1",
+        "uniform_n30_r1__weld_0023|half=upper|part=1of1|seg=1of1"
+      ],
+      [
+        "uniform_n30_r1__weld_0025|half=lower|part=1of2|seg=1of1",
+        "uniform_n30_r1__weld_0001|half=lower|part=1of1|seg=1of1",
+        "uniform_n30_r1__weld_0006|half=lower|part=1of1|seg=1of1",
+        "uniform_n30_r1__weld_0019|half=lower|part=1of1|seg=1of1",
+        "uniform_n30_r1__weld_0000|half=lower|part=1of1|seg=1of1",
+        "uniform_n30_r1__weld_0014|half=lower|part=1of1|seg=1of1"
+      ],
+      [
+        "uniform_n30_r1__weld_0012|half=lower|part=1of2|seg=1of1",
+        "uniform_n30_r1__weld_0007|half=lower|part=1of2|seg=1of1",
+        "uniform_n30_r1__weld_0016|half=lower|part=1of1|seg=1of1",
+        "uniform_n30_r1__weld_0002|half=lower|part=1of1|seg=1of1",
+        "uniform_n30_r1__weld_0017|half=lower|part=1of1|seg=1of1",
+        "uniform_n30_r1__weld_0009|half=lower|part=1of1|seg=1of1",
+        "uniform_n30_r1__weld_0020|half=lower|part=1of1|seg=1of1",
+        "uniform_n30_r1__weld_0026|half=lower|part=1of1|seg=1of1",
+        "uniform_n30_r1__weld_0008|half=lower|part=1of1|seg=1of1",
+        "uniform_n30_r1__weld_0018|half=lower|part=1of1|seg=1of1"
+      ]
+    ]
+  },
+  "floors": {
+    "epsilon_idle_distance": 2.3323807579381206e-08,
+    "epsilon_makespan": 1.1543093742787168e-06,
+    "load_imbalance": 57.71546871393585
+  },
+  "ideal": {
+    "idle_distance": 0.0,
+    "load_imbalance": 0.0,
+    "makespan": 1154.3093742787169
+  },
+  "instance": "uniform_n30_r1",
+  "mode": "ideal_baseline_range_v1",
+  "scale": {
+    "idle_distance": 65.42977816602001,
+    "load_imbalance": 874.9731270321784,
+    "makespan": 682.3538766314853
+  },
+  "scientific_model": {
+    "acceleration": 0.5,
+    "assignment_mode": "event_driven_fixed_atomic_read_only",
+    "direction_mode": "exact_two_state_dp",
+    "fixed_y_cut_m": 6.0,
+    "long_weld_lmax_m": 5.0,
+    "long_weld_lmin_m": 1.0,
+    "model_id": "atomic_weld_partition_routing_v1",
+    "platform_height_m": 12.0,
+    "platform_width_m": 20.0,
+    "post_time_s": 0.0,
+    "route_type": "open",
+    "safe_z": 0.3,
+    "setup_time_s": 0.0,
+    "travel_speed": 0.2,
+    "weld_speed": 0.0108,
+    "zero_endpoint_tolerance_m": 1e-09
+  },
+  "scientific_model_hash": "8b2428d22ab1df6200eccaeb69b8fdad846c1d474cd2bf6ef9ecbf045669f12f",
+  "weights": [
+    0.7,
+    0.2,
+    0.1
+  ]
+}
