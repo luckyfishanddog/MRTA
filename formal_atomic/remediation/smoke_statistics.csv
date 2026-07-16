@@ -1,0 +1,5 @@
+﻿instance_id,mode,paired_seed_count,mean_fitness_delta_eprk_minus_hga,eprk_win_count_lower_is_better,bootstrap_resamples,bootstrap_mean_delta_ci_low,bootstrap_mean_delta_ci_high,wilcoxon_p_raw,wilcoxon_p_holm
+long_weld_rich_n60_r1,equal_primary,2,-0.04599522259354949,2,10000,-0.04665771880256653,-0.04533272638453245,0.5,1.0
+long_weld_rich_n60_r1,equal_time,2,-0.05951357376354438,2,10000,-0.06153139158222731,-0.05749575594486145,0.5,1.0
+real_w30,equal_primary,2,0.007141333080714907,0,10000,0.005667624788875725,0.008615041372554089,0.5,1.0
+real_w30,equal_time,2,0.00025664535662772714,1,10000,-0.002139946415387839,0.002653237128643293,1.0,1.0

@@ -1,0 +1,158 @@
+{
+  "baseline": {
+    "algorithm": "workload_balanced_cut_cheapest_insertion_2opt_dp_v1",
+    "algorithm_version": "1.0.0",
+    "assignment_stats": {
+      "assigned_subweld_count": 35,
+      "assignment_mode": "split_complete_segment",
+      "boundary_overlap_count": 0,
+      "cross_region_weld_count": 5,
+      "discarded_short_subweld_count": 0,
+      "max_length_error": 0.0,
+      "original_weld_count": 30,
+      "parent_id_count": 30,
+      "robot_0_task_count": 13,
+      "robot_1_task_count": 8,
+      "robot_2_task_count": 8,
+      "robot_3_task_count": 6,
+      "short_subweld_count": 0,
+      "split_segment_count": 10,
+      "split_weld_count": 5,
+      "subweld_count": 35,
+      "sum_length_error": 0.0,
+      "unassigned_subweld_count": 0,
+      "unassigned_subweld_ids": [],
+      "zero_length_subweld_count": 0
+    },
+    "baseline_hash": "49046c513cbc2d864ef7714411008e8fa00585e00855ed1a79ed2b194ba7d24c",
+    "boundaries": {
+      "fixed_y": 6.0,
+      "x_low": 13.732039329014828,
+      "x_up": 11.124509023430956
+    },
+    "direction_flags": [
+      [
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        false,
+        true,
+        false,
+        false,
+        false,
+        false,
+        true
+      ],
+      [
+        true,
+        false,
+        true,
+        true,
+        false,
+        true,
+        true,
+        false
+      ],
+      [
+        true,
+        true,
+        true,
+        false,
+        false,
+        false,
+        false,
+        false
+      ],
+      [
+        false,
+        false,
+        true,
+        true,
+        true,
+        true
+      ]
+    ],
+    "instance_hash": "2fab0e3e566477294710c7f5296eae3f19fffdaf771928347daa371758bb2a62",
+    "metrics": {
+      "idle_distance": 65.19580361771983,
+      "load_imbalance": 153.81691019450614,
+      "makespan": 1266.0934153406624
+    },
+    "robot_total_times": [
+      1266.0934153406624,
+      1223.0249564230423,
+      1184.2306016076755,
+      1112.2765051461563
+    ],
+    "routes": [
+      [
+        "inst0019|group=183-CM2B.dxf|row=0000",
+        "inst0014|group=804-FR314A|row=0000",
+        "inst0009|group=642-BL14A|row=0000",
+        "inst0024|group=642-BL14A|row=0000",
+        "inst0015|group=165-SR1A|row=0000",
+        "inst0004|group=642-BL14A.dxf|row=0000",
+        "inst0012|group=804-FR315A.dxf|row=0001",
+        "inst0020|group=145-LB17A|row=0000",
+        "inst0017|group=143-FR76A|row=0000_seg1",
+        "inst0022|group=143-FR76A|row=0000",
+        "inst0012|group=804-FR315A.dxf|row=0000",
+        "inst0012|group=804-FR315A.dxf|row=0002",
+        "inst0007|group=143-GR14A|row=0000_seg1"
+      ],
+      [
+        "inst0010|group=804-FR314A|row=0000_seg1",
+        "inst0017|group=143-FR76A|row=0000_seg0",
+        "inst0007|group=143-GR14A|row=0000_seg0",
+        "inst0023|group=801-FR322A|row=0000",
+        "inst0002|group=143-FR65A|row=0000",
+        "inst0021|group=145-LB20A|row=0000",
+        "inst0008|group=145-LB20A|row=0000",
+        "inst0003|group=804-FR315A|row=0000"
+      ],
+      [
+        "inst0010|group=804-FR314A|row=0000_seg0",
+        "inst0001|group=804-FR313A|row=0000",
+        "inst0005|group=143-FR69B.dxf|row=0000_seg1",
+        "inst0005|group=143-FR69B.dxf|row=0002_seg1",
+        "inst0000|group=804-FR313A|row=0000",
+        "inst0018|group=826BK312A|row=0000",
+        "inst0006|group=312-GR2C|row=0000",
+        "inst0011|group=804-FR313A.dxf|row=0000"
+      ],
+      [
+        "inst0005|group=143-FR69B.dxf|row=0001",
+        "inst0005|group=143-FR69B.dxf|row=0000_seg0",
+        "inst0005|group=143-FR69B.dxf|row=0002_seg0",
+        "inst0005|group=143-FR69B.dxf|row=0003",
+        "inst0016|group=642-BL14A.dxf|row=0000",
+        "inst0013|group=143-GR14A|row=0000"
+      ]
+    ],
+    "scientific_model_hash": "2d43fde39b82342a6c387ef379b2faa249a26c027f2e2ff7869f025725a08ab3"
+  },
+  "floors": {
+    "epsilon_idle_distance": 2.3323807579381206e-08,
+    "epsilon_makespan": 1.1056116151072345e-06,
+    "load_imbalance": 55.280580755361726
+  },
+  "ideal": {
+    "idle_distance": 0.0,
+    "load_imbalance": 0.0,
+    "makespan": 1105.6116151072345
+  },
+  "mode": "ideal_baseline_range_v1",
+  "scale": {
+    "idle_distance": 65.19580361771983,
+    "load_imbalance": 153.81691019450614,
+    "makespan": 160.48180023342798
+  },
+  "weights": [
+    0.7,
+    0.2,
+    0.1
+  ]
+}

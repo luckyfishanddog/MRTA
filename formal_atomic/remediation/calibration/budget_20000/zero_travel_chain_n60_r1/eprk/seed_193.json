@@ -1,0 +1,298 @@
+{
+  "algorithm_time_s": 0.804469499969855,
+  "assignment_cache_size": 39,
+  "atomic_instance_hash": "f5acbb125c9d9c8e1165f45b8107b7de2573681bf1182ea3ea48b09dfe521f63",
+  "best_trace": [
+    {
+      "elapsed_s": 0.02815159992314875,
+      "fitness": 5.204039889229677,
+      "primary_evaluations": 1
+    },
+    {
+      "elapsed_s": 0.028374699992127717,
+      "fitness": 2.1648893755230914,
+      "primary_evaluations": 2
+    },
+    {
+      "elapsed_s": 0.029367299983277917,
+      "fitness": 1.9438689656674693,
+      "primary_evaluations": 4
+    },
+    {
+      "elapsed_s": 0.031164299929514527,
+      "fitness": 1.5070193630174835,
+      "primary_evaluations": 9
+    },
+    {
+      "elapsed_s": 0.03162489994429052,
+      "fitness": 1.4481776610152925,
+      "primary_evaluations": 11
+    },
+    {
+      "elapsed_s": 0.03208299994003028,
+      "fitness": 1.4345181810194467,
+      "primary_evaluations": 13
+    },
+    {
+      "elapsed_s": 0.032308800029568374,
+      "fitness": 1.4191297561661944,
+      "primary_evaluations": 14
+    },
+    {
+      "elapsed_s": 0.03320910001639277,
+      "fitness": 1.0129720111879392,
+      "primary_evaluations": 15
+    },
+    {
+      "elapsed_s": 0.08782329992391169,
+      "fitness": 1.0126974172480223,
+      "primary_evaluations": 451
+    },
+    {
+      "elapsed_s": 0.1268302999669686,
+      "fitness": 1.012443867832056,
+      "primary_evaluations": 1573
+    },
+    {
+      "elapsed_s": 0.1582278999267146,
+      "fitness": 1.008391715271805,
+      "primary_evaluations": 2481
+    },
+    {
+      "elapsed_s": 0.19604880001861602,
+      "fitness": 1.0082991187414523,
+      "primary_evaluations": 3411
+    },
+    {
+      "elapsed_s": 0.2328528999350965,
+      "fitness": 1.0062749458678777,
+      "primary_evaluations": 4209
+    },
+    {
+      "elapsed_s": 0.30471830000169575,
+      "fitness": 1.003109746974331,
+      "primary_evaluations": 6022
+    },
+    {
+      "elapsed_s": 0.41526819998398423,
+      "fitness": 0.9985606739421016,
+      "primary_evaluations": 9220
+    },
+    {
+      "elapsed_s": 0.4236197000136599,
+      "fitness": 0.9973383119769781,
+      "primary_evaluations": 9432
+    },
+    {
+      "elapsed_s": 0.4277942000189796,
+      "fitness": 0.9972457154466253,
+      "primary_evaluations": 9552
+    },
+    {
+      "elapsed_s": 0.49921059992630035,
+      "fitness": 0.9972053055581214,
+      "primary_evaluations": 11152
+    },
+    {
+      "elapsed_s": 0.5754650000017136,
+      "fitness": 0.9964013855614602,
+      "primary_evaluations": 13422
+    },
+    {
+      "elapsed_s": 0.7479197999928147,
+      "fitness": 0.9956517448246215,
+      "primary_evaluations": 18440
+    }
+  ],
+  "calibration_budget": 20000,
+  "calibration_time_cap_s": 300.0,
+  "cross_validation_errors": [],
+  "cross_validation_passed": true,
+  "direction_dp_calls": 2080,
+  "direction_dp_per_primary": 0.104,
+  "direction_flags": [
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "finished_at": "2026-07-16T15:02:15.560343+00:00",
+  "fitness": 0.9956517448246215,
+  "generations": 88,
+  "global_transition_table_builds": 1,
+  "idle_distance": 70.1943000421801,
+  "instance_id": "zero_travel_chain_n60_r1",
+  "load_imbalance": 746.5691140805602,
+  "local_search_primary_requests": 13970,
+  "lower_boundary_x": 9.34640622086,
+  "lower_event_index": 6,
+  "makespan": 2583.2083430935545,
+  "migrations": 2,
+  "normalization_hash": "b326a31e95452a81abc0211b7631c27f7d468357d79991b47a425a8796370c89",
+  "normalized_components": {
+    "idle_distance": 1.0203733940667836,
+    "load_imbalance": 0.9886122084285851,
+    "makespan": 0.9941313767603229
+  },
+  "phase": "formal_resource_calibration",
+  "phenotype_cache_hits": 18119,
+  "phenotype_cache_size": 1881,
+  "primary_evaluations": 20000,
+  "profile_hash": "de75ad629aeeff608cab96097fe96aed091237348b9f1fe3e6f94c68442771f2",
+  "requested_primary_budget": 20000,
+  "restarts": 0,
+  "robot_total_times": [
+    1839.5064933804156,
+    1836.6392290129943,
+    1948.7250657020136,
+    2583.2083430935545
+  ],
+  "route_cache_hits": 5443,
+  "route_evaluation_requests": 7524,
+  "route_evaluations_per_primary": 0.3762,
+  "routes": [
+    [
+      "zero_travel_chain_n60_r1__weld_0055|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0000|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0001|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0002|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0045|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0025|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0037|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0049|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0023|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0027|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0041|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0043|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0031|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0033|half=upper|part=1of1|seg=1of1"
+    ],
+    [
+      "zero_travel_chain_n60_r1__weld_0003|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0004|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0005|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0006|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0035|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0053|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0029|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0047|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0021|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0057|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0039|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0051|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0059|half=upper|part=1of1|seg=1of1"
+    ],
+    [
+      "zero_travel_chain_n60_r1__weld_0052|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0007|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0008|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0009|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0010|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0011|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0058|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0024|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0022|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0050|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0040|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0046|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0048|half=lower|part=1of1|seg=1of1"
+    ],
+    [
+      "zero_travel_chain_n60_r1__weld_0012|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0013|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0014|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0015|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0016|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0017|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0018|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0019|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0056|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0044|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0020|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0038|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0028|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0030|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0034|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0042|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0036|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0054|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0026|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0032|half=lower|part=1of1|seg=1of1"
+    ]
+  ],
+  "rss_mb": NaN,
+  "seed": 193,
+  "solver": "EPRK-MA",
+  "solver_id": "eprk",
+  "solver_version": "EPRK-MA-v0.1-development",
+  "solver_wall_clock_time_s": 0.8055270999902859,
+  "started_at": "2026-07-16T15:02:14.703552+00:00",
+  "status": "success",
+  "stop_reason": "objective_budget",
+  "upper_boundary_x": 10.73424383924,
+  "upper_event_index": 4
+}

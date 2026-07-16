@@ -1,0 +1,260 @@
+{
+  "algorithm_time_s": 1.6434185999678448,
+  "atomic_instance_hash": "415cd8bac4d064479c994d7c3931fd0d9b1453ca37c13f18d3ec0743c6746673",
+  "best_trace": [
+    {
+      "elapsed_s": 0.04511369997635484,
+      "fitness": 1.2021836609823684,
+      "primary_evaluations": 1
+    },
+    {
+      "elapsed_s": 0.3919787999475375,
+      "fitness": 1.183533351436731,
+      "primary_evaluations": 466
+    },
+    {
+      "elapsed_s": 0.3920767999952659,
+      "fitness": 1.1762983001175753,
+      "primary_evaluations": 467
+    },
+    {
+      "elapsed_s": 0.3923107999144122,
+      "fitness": 1.1743161780672926,
+      "primary_evaluations": 472
+    },
+    {
+      "elapsed_s": 0.39254219993017614,
+      "fitness": 1.1730152543838037,
+      "primary_evaluations": 476
+    },
+    {
+      "elapsed_s": 0.39262840000446886,
+      "fitness": 1.1714601011851207,
+      "primary_evaluations": 477
+    },
+    {
+      "elapsed_s": 0.39281519991345704,
+      "fitness": 1.1683125618939303,
+      "primary_evaluations": 480
+    },
+    {
+      "elapsed_s": 0.4383562000002712,
+      "fitness": 1.1671315975008585,
+      "primary_evaluations": 833
+    },
+    {
+      "elapsed_s": 0.47069929994177073,
+      "fitness": 1.1645313913592552,
+      "primary_evaluations": 1083
+    },
+    {
+      "elapsed_s": 0.4839962999103591,
+      "fitness": 1.1637930508868068,
+      "primary_evaluations": 1292
+    },
+    {
+      "elapsed_s": 0.5250322999199852,
+      "fitness": 1.1628961135190268,
+      "primary_evaluations": 1656
+    },
+    {
+      "elapsed_s": 0.5616507999366149,
+      "fitness": 1.1626371778839355,
+      "primary_evaluations": 2046
+    },
+    {
+      "elapsed_s": 0.6095151999033988,
+      "fitness": 1.162053228636846,
+      "primary_evaluations": 2696
+    }
+  ],
+  "calibration_budget": 20000,
+  "calibration_time_cap_s": 300.0,
+  "cross_validation_errors": [],
+  "cross_validation_passed": true,
+  "crossover_primary_requests": 1514,
+  "direction_dp_calls": 552,
+  "direction_dp_per_primary": 0.0276,
+  "direction_flags": [
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "finished_at": "2026-07-16T15:01:37.576149+00:00",
+  "fitness": 1.162053228636846,
+  "generations": 152,
+  "global_transition_table_builds": 1,
+  "idle_distance": 92.59754619901057,
+  "instance_id": "boundary_dense_n60_r1",
+  "load_imbalance": 1713.3447601438174,
+  "local_search_primary_requests": 18466,
+  "lower_boundary_x": 6.361360029947,
+  "lower_event_index": 2,
+  "makespan": 2980.478564989923,
+  "normalization_hash": "874f552c21f21ee0c7213c025faa408844836c8030378cf2da7bc159e72f8d82",
+  "normalized_components": {
+    "idle_distance": 1.2166351482043403,
+    "load_imbalance": 1.080350581771145,
+    "makespan": 1.1775994249459756
+  },
+  "phase": "formal_resource_calibration",
+  "phenotype_cache_hits": 18382,
+  "primary_evaluations": 20000,
+  "profile_hash": "86f82ba9dd8f3326d846a1446d28a074c66287ec7d78fb49f7ab8298aa7af8ae",
+  "requested_primary_budget": 20000,
+  "robot_total_times": [
+    2980.478564989923,
+    1763.6529479945157,
+    1267.1338048461057,
+    2717.287145591769
+  ],
+  "route_cache_hits": 5919,
+  "route_evaluation_requests": 6472,
+  "route_evaluations_per_primary": 0.3236,
+  "routes": [
+    [
+      "boundary_dense_n60_r1__weld_0055|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0021|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0009|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0039|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0003|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0027|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0001|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0025|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0007|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0059|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0019|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0013|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0015|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0049|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0031|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0043|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0037|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0053|half=upper|part=1of1|seg=1of1"
+    ],
+    [
+      "boundary_dense_n60_r1__weld_0017|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0057|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0047|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0011|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0023|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0051|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0045|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0005|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0029|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0035|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0033|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0041|half=upper|part=1of1|seg=1of1"
+    ],
+    [
+      "boundary_dense_n60_r1__weld_0006|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0018|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0024|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0042|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0038|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0000|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0012|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0050|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0046|half=lower|part=1of1|seg=1of1"
+    ],
+    [
+      "boundary_dense_n60_r1__weld_0058|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0032|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0054|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0008|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0044|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0002|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0026|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0020|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0040|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0014|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0034|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0036|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0010|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0048|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0056|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0016|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0052|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0004|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0022|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0030|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0028|half=lower|part=1of1|seg=1of1"
+    ]
+  ],
+  "rss_mb": NaN,
+  "seed": 192,
+  "solver": "Paper-Aligned-HGA-Atomic-Control",
+  "solver_id": "hga_atomic",
+  "solver_version": "HGA-Atomic-Control-v0.1-development",
+  "solver_wall_clock_time_s": 1.6434375999961048,
+  "started_at": "2026-07-16T15:01:35.881233+00:00",
+  "status": "success",
+  "stop_reason": "objective_budget",
+  "upper_boundary_x": 13.203871854246,
+  "upper_event_index": 5
+}

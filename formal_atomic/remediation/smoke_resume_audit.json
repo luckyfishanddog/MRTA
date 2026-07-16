@@ -1,0 +1,36 @@
+{
+  "controlled_interruption_after_runs": 5,
+  "failed_results_preserved": true,
+  "first_five": [
+    {
+      "mtime_unchanged": true,
+      "run_id": "smoke__equal_primary__real_w30__hga_atomic__seed_194",
+      "sha256_unchanged": true
+    },
+    {
+      "mtime_unchanged": true,
+      "run_id": "smoke__equal_primary__real_w30__eprk__seed_194",
+      "sha256_unchanged": true
+    },
+    {
+      "mtime_unchanged": true,
+      "run_id": "smoke__equal_time__real_w30__hga_atomic__seed_194",
+      "sha256_unchanged": true
+    },
+    {
+      "mtime_unchanged": true,
+      "run_id": "smoke__equal_time__real_w30__eprk__seed_194",
+      "sha256_unchanged": true
+    },
+    {
+      "mtime_unchanged": true,
+      "run_id": "smoke__equal_primary__real_w30__eprk__seed_195",
+      "sha256_unchanged": true
+    }
+  ],
+  "manifest_status_updated": true,
+  "passed": true,
+  "previous_successes_resumed_without_reexecution": true,
+  "quarantine_policy_active": true,
+  "verified_at": "2026-07-16T15:14:48.647674+00:00"
+}

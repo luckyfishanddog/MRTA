@@ -75,7 +75,7 @@ def protected_paths() -> list[Path]:
     return sorted(paths, key=lambda path: path.relative_to(ROOT).as_posix())
 
 
-def snapshot(label: str) -> dict[str, object]:
+def snapshot(label: str, output_dir: Path = OUT) -> dict[str, object]:
     files = {
         path.relative_to(ROOT).as_posix(): sha256_file(path)
         for path in protected_paths()
@@ -88,8 +88,8 @@ def snapshot(label: str) -> dict[str, object]:
         "protected_file_count": len(files),
         "files": files,
     }
-    OUT.mkdir(parents=True, exist_ok=True)
-    target = OUT / f"protected_hashes_{label}.json"
+    output_dir.mkdir(parents=True, exist_ok=True)
+    target = output_dir / f"protected_hashes_{label}.json"
     target.write_text(
         json.dumps(payload, ensure_ascii=False, indent=2, sort_keys=True) + "\n",
         encoding="utf-8",
@@ -97,9 +97,9 @@ def snapshot(label: str) -> dict[str, object]:
     return payload
 
 
-def verify() -> None:
-    before_path = OUT / "protected_hashes_before.json"
-    after_path = OUT / "protected_hashes_after.json"
+def verify(output_dir: Path = OUT) -> None:
+    before_path = output_dir / "protected_hashes_before.json"
+    after_path = output_dir / "protected_hashes_after.json"
     before = json.loads(before_path.read_text(encoding="utf-8"))
     after = json.loads(after_path.read_text(encoding="utf-8"))
     if before["files"] != after["files"]:
@@ -114,12 +114,18 @@ def verify() -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("command", choices=("before", "after", "verify"))
+    parser.add_argument(
+        "--output-dir",
+        type=Path,
+        default=OUT,
+        help="snapshot directory (defaults to formal_atomic)",
+    )
     args = parser.parse_args()
     if args.command == "verify":
-        verify()
+        verify(args.output_dir)
         print("protected hashes match")
     else:
-        payload = snapshot(args.command)
+        payload = snapshot(args.command, args.output_dir)
         print(json.dumps({
             "snapshot": args.command,
             "protected_file_count": payload["protected_file_count"],

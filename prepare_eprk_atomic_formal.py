@@ -22,7 +22,8 @@ COLLISION_HASH_PATH = OUT / "ATOMIC_COLLISION_POLICY.sha256"
 MANIFEST_PATH = OUT / "formal_manifest.json"
 MANIFEST_CSV_PATH = OUT / "formal_manifest.csv"
 MANIFEST_HASH_PATH = OUT / "formal_manifest.sha256"
-TIME_LIMITS_PATH = OUT / "time_limits_by_instance.csv"
+REMEDIATION_DIR = OUT / "remediation"
+TIME_LIMITS_PATH = REMEDIATION_DIR / "time_limits_by_instance.csv"
 
 
 def sha256_file(path: Path) -> str:
@@ -339,30 +340,33 @@ def prepare_draft() -> dict[str, Any]:
 
 def finalize_protocol(calibration_summary: Mapping[str, Any], preflight: Mapping[str, Any]) -> dict[str, Any]:
     protocol = draft_protocol()
-    if not preflight.get("passed"):
+    preflight_passed = bool(
+        preflight.get("atomic_formal_preflight_passed", preflight.get("passed", False))
+    )
+    if not preflight_passed:
         raise RuntimeError("preflight did not pass")
     if not calibration_summary.get("completed"):
         raise RuntimeError("calibration did not complete")
     selected_budget = int(calibration_summary["selected_equal_primary_budget"])
     if selected_budget not in (10000, 20000):
         raise ValueError("unexpected selected primary budget")
-    protocol["status"] = "frozen_authorized_ready_for_formal_execution"
+    protocol["status"] = "calibrated_smoke_ready_full_formal_not_authorized"
     protocol["finalized_at"] = datetime.now(timezone.utc).isoformat()
     protocol["approval_gates"].update({
         "preflight_tests_passed": True,
         "calibration_completed": True,
         "formal_manifest_ready": True,
-        "user_approved_formal_execution": True,
-        "formal_run_approved": True,
+        "user_approved_formal_execution": False,
+        "formal_run_approved": False,
     })
     protocol["calibration"].update({
         "selected_equal_primary_budget": selected_budget,
         "completed": True,
-        "summary_path": "formal_atomic/calibration_summary.json",
-        "summary_sha256": sha256_file(OUT / "calibration_summary.json"),
+        "summary_path": "formal_atomic/remediation/calibration_summary.json",
+        "summary_sha256": sha256_file(REMEDIATION_DIR / "calibration_summary.json"),
     })
     protocol["equal_time"].update({
-        "time_limits_path": "formal_atomic/time_limits_by_instance.csv",
+        "time_limits_path": "formal_atomic/remediation/time_limits_by_instance.csv",
         "time_limits_sha256": sha256_file(TIME_LIMITS_PATH),
     })
     protocol["preflight"] = dict(preflight)
@@ -379,15 +383,17 @@ def _command_hash(command: Sequence[str]) -> str:
     return canonical_hash(list(command))
 
 
-def generate_manifest(protocol: Mapping[str, Any]) -> dict[str, Any]:
-    if not protocol["approval_gates"]["formal_run_approved"]:
-        raise RuntimeError("formal protocol is not approved")
+def generate_manifest(protocol: Mapping[str, Any], *, structural: bool = False) -> dict[str, Any]:
+    if not structural and not protocol["calibration"].get("completed"):
+        raise RuntimeError("resource calibration is incomplete")
     protocol_hash = sha256_file(PROTOCOL_PATH)
     benchmark = load_json(OUT / "atomic_benchmark_manifest.json")
     entries_by_id = {item["instance_id"]: item for item in benchmark["instances"]}
-    limits = {row["instance_id"]: int(row["time_limit_seconds"])
-              for row in csv.DictReader(TIME_LIMITS_PATH.open(encoding="utf-8-sig"))}
-    budget = int(protocol["calibration"]["selected_equal_primary_budget"])
+    limits = ({row["instance_id"]: int(row["time_limit_seconds"])
+               for row in csv.DictReader(TIME_LIMITS_PATH.open(encoding="utf-8-sig"))}
+              if not structural else {})
+    budget = (int(protocol["calibration"]["selected_equal_primary_budget"])
+              if not structural else int(protocol["calibration"]["initial_primary_budget"]))
     profile_hash = protocol["algorithms"]["eprk"]["profile_sha256"]
     hga_hash = protocol["algorithms"]["hga_atomic"]["implementation_sha256"]
     collision_hash = protocol["collision"]["policy_sha256"]
@@ -402,7 +408,7 @@ def generate_manifest(protocol: Mapping[str, Any]) -> dict[str, Any]:
                     order += 1
                     run_id = f"{mode}__{instance_id}__{solver}__seed_{seed}"
                     requested_primary = budget if mode == "equal_primary" else None
-                    time_limit = limits[instance_id] if mode == "equal_time" else None
+                    time_limit = limits[instance_id] if mode == "equal_time" and not structural else None
                     command = [
                         "python", "run_eprk_atomic_formal.py", "execute", "--run-id", run_id,
                     ]
@@ -453,6 +459,9 @@ def generate_manifest(protocol: Mapping[str, Any]) -> dict[str, Any]:
     if len(rows) != 4680 or len({row["run_id"] for row in rows}) != 4680:
         raise AssertionError("formal manifest must contain 4680 unique runs")
     manifest = {
+        "manifest_status": "structural_precalibration" if structural else "calibrated_full_matrix_locked_not_authorized",
+        "resource_calibration_pending": structural,
+        "formal_execution_authorized": False,
         "protocol_hash": protocol_hash,
         "run_count": len(rows),
         "instance_count": 39,
@@ -476,10 +485,20 @@ def generate_manifest(protocol: Mapping[str, Any]) -> dict[str, Any]:
     return manifest
 
 
+def prepare_structural_manifest() -> dict[str, Any]:
+    protocol = load_json(PROTOCOL_PATH)
+    if protocol["approval_gates"].get("formal_run_approved"):
+        raise RuntimeError("structural manifest cannot be generated from an execution-approved protocol")
+    return generate_manifest(protocol, structural=True)
+
+
 if __name__ == "__main__":
     import argparse
     parser = argparse.ArgumentParser()
-    parser.add_argument("command", choices=("draft",))
+    parser.add_argument("command", choices=("draft", "structural-manifest"))
     args = parser.parse_args()
     if args.command == "draft":
         prepare_draft()
+    else:
+        result = prepare_structural_manifest()
+        print(json.dumps({"manifest_status": result["manifest_status"], "run_count": result["run_count"]}))

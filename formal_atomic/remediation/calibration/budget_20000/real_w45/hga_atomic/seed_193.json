@@ -1,0 +1,226 @@
+{
+  "algorithm_time_s": 1.202485300018452,
+  "atomic_instance_hash": "abedd292f6159ecfb055a97368af7dc78540dd90ac520896c67cfec97a5502aa",
+  "best_trace": [
+    {
+      "elapsed_s": 0.025773299974389374,
+      "fitness": 5.578958861343266,
+      "primary_evaluations": 1
+    },
+    {
+      "elapsed_s": 0.033378400024957955,
+      "fitness": 5.5615866753996475,
+      "primary_evaluations": 2
+    },
+    {
+      "elapsed_s": 0.0438348000170663,
+      "fitness": 5.560447758110952,
+      "primary_evaluations": 3
+    },
+    {
+      "elapsed_s": 0.05583129997830838,
+      "fitness": 3.3625525995699523,
+      "primary_evaluations": 5
+    },
+    {
+      "elapsed_s": 0.06173890002537519,
+      "fitness": 2.5688790172429905,
+      "primary_evaluations": 6
+    },
+    {
+      "elapsed_s": 0.08891829999629408,
+      "fitness": 1.8818717187113436,
+      "primary_evaluations": 10
+    },
+    {
+      "elapsed_s": 0.11314989998936653,
+      "fitness": 1.0720045854010392,
+      "primary_evaluations": 14
+    },
+    {
+      "elapsed_s": 0.18040990002918988,
+      "fitness": 1.0697954157007434,
+      "primary_evaluations": 168
+    },
+    {
+      "elapsed_s": 0.21782340004574507,
+      "fitness": 1.069732416857674,
+      "primary_evaluations": 502
+    },
+    {
+      "elapsed_s": 0.24280780006665736,
+      "fitness": 1.0623987473246863,
+      "primary_evaluations": 659
+    },
+    {
+      "elapsed_s": 0.25560560007579625,
+      "fitness": 1.0618265338838218,
+      "primary_evaluations": 742
+    }
+  ],
+  "calibration_budget": 20000,
+  "calibration_time_cap_s": 300.0,
+  "cross_validation_errors": [],
+  "cross_validation_passed": true,
+  "crossover_primary_requests": 1526,
+  "direction_dp_calls": 364,
+  "direction_dp_per_primary": 0.0182,
+  "direction_flags": [
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ]
+  ],
+  "finished_at": "2026-07-16T15:01:54.325798+00:00",
+  "fitness": 1.0618265338838218,
+  "generations": 153,
+  "global_transition_table_builds": 1,
+  "idle_distance": 94.43500847997724,
+  "instance_id": "real_w45",
+  "load_imbalance": 893.6634950904636,
+  "local_search_primary_requests": 18454,
+  "lower_boundary_x": 10.03681575883,
+  "lower_event_index": 4,
+  "makespan": 2021.3803913558597,
+  "normalization_hash": "472c27abfc140ce091bac644cb34860ba033d750147f3b1e01a3f3edb5a1596f",
+  "normalized_components": {
+    "idle_distance": 1.1055665412838847,
+    "load_imbalance": 1.0078661166994363,
+    "makespan": 1.07099522345078
+  },
+  "phase": "formal_resource_calibration",
+  "phenotype_cache_hits": 19078,
+  "primary_evaluations": 20000,
+  "profile_hash": "86f82ba9dd8f3326d846a1446d28a074c66287ec7d78fb49f7ab8298aa7af8ae",
+  "requested_primary_budget": 20000,
+  "robot_total_times": [
+    1127.7168962653961,
+    1962.6222938221022,
+    1948.340535256505,
+    2021.3803913558597
+  ],
+  "route_cache_hits": 3323,
+  "route_evaluation_requests": 3688,
+  "route_evaluations_per_primary": 0.1844,
+  "routes": [
+    [
+      "inst0009|group=642-BL14A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0014|group=804-FR314A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0019|group=183-CM2B.dxf|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0024|group=642-BL14A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0004|group=642-BL14A.dxf|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0015|group=165-SR1A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0012|group=804-FR315A.dxf|row=0001|half=upper|part=1of1|seg=1of1",
+      "inst0012|group=804-FR315A.dxf|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0012|group=804-FR315A.dxf|row=0002|half=upper|part=1of1|seg=1of1",
+      "inst0025|group=804-FR314A|row=0000|half=upper|part=2of2|seg=1of1"
+    ],
+    [
+      "inst0020|group=145-LB17A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0017|group=143-FR76A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0035|group=143-FR69B|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0022|group=143-FR76A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0028|group=183-CM2B.dxf|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0010|group=804-FR314A|row=0000|half=upper|part=2of2|seg=1of1",
+      "inst0030|group=642-BL14A|row=0000|half=upper|part=1of2|seg=1of1",
+      "inst0021|group=145-LB20A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0002|group=143-FR65A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0023|group=801-FR322A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0007|group=143-GR14A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0026|group=143-FR76A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0008|group=145-LB20A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0003|group=804-FR315A|row=0000|half=upper|part=1of1|seg=1of1"
+    ],
+    [
+      "inst0025|group=804-FR314A|row=0000|half=lower|part=1of2|seg=1of1",
+      "inst0029|group=143-FR69B|row=0000|half=lower|part=1of1|seg=1of1",
+      "inst0032|group=312-GR2C|row=0000|half=lower|part=1of1|seg=1of1",
+      "inst0000|group=804-FR313A|row=0000|half=lower|part=1of1|seg=1of1",
+      "inst0006|group=312-GR2C|row=0000|half=lower|part=1of1|seg=1of1",
+      "inst0018|group=826BK312A|row=0000|half=lower|part=1of1|seg=1of1",
+      "inst0011|group=804-FR313A.dxf|row=0000|half=lower|part=1of1|seg=1of1",
+      "inst0027|group=801-FR322A.dxf|row=0002|half=lower|part=1of1|seg=1of1",
+      "inst0027|group=801-FR322A.dxf|row=0004|half=lower|part=1of1|seg=1of1",
+      "inst0027|group=801-FR322A.dxf|row=0003|half=lower|part=1of1|seg=1of1",
+      "inst0027|group=801-FR322A.dxf|row=0000|half=lower|part=1of1|seg=1of1",
+      "inst0027|group=801-FR322A.dxf|row=0001|half=lower|part=1of1|seg=1of1"
+    ],
+    [
+      "inst0005|group=143-FR69B.dxf|row=0001|half=lower|part=1of1|seg=1of1",
+      "inst0005|group=143-FR69B.dxf|row=0003|half=lower|part=1of1|seg=1of1",
+      "inst0005|group=143-FR69B.dxf|row=0000|half=lower|part=1of1|seg=1of1",
+      "inst0005|group=143-FR69B.dxf|row=0002|half=lower|part=1of1|seg=1of1",
+      "inst0033|group=143-FR65A|row=0000|half=lower|part=1of1|seg=1of1",
+      "inst0013|group=143-GR14A|row=0000|half=lower|part=1of1|seg=1of1",
+      "inst0034|group=183-CM2B.dxf|row=0000|half=lower|part=1of1|seg=1of1",
+      "inst0031|group=183-CM2B.dxf|row=0000|half=lower|part=1of1|seg=1of1",
+      "inst0016|group=642-BL14A.dxf|row=0000|half=lower|part=1of1|seg=1of1",
+      "inst0030|group=642-BL14A|row=0000|half=lower|part=2of2|seg=1of1",
+      "inst0010|group=804-FR314A|row=0000|half=lower|part=1of2|seg=1of1",
+      "inst0001|group=804-FR313A|row=0000|half=lower|part=1of1|seg=1of1"
+    ]
+  ],
+  "rss_mb": NaN,
+  "seed": 193,
+  "solver": "Paper-Aligned-HGA-Atomic-Control",
+  "solver_id": "hga_atomic",
+  "solver_version": "HGA-Atomic-Control-v0.1-development",
+  "solver_wall_clock_time_s": 1.2025079999584705,
+  "started_at": "2026-07-16T15:01:53.082711+00:00",
+  "status": "success",
+  "stop_reason": "objective_budget",
+  "upper_boundary_x": 9.220929034484,
+  "upper_event_index": 6
+}

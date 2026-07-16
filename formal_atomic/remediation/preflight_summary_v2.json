@@ -1,0 +1,1585 @@
+{
+  "atomic_formal_preflight_passed": true,
+  "branch": "fix/atomic-formal-preflight-normalization-waiver",
+  "checks": [
+    {
+      "check": "01_git_worktree_state",
+      "details": {
+        "branch": "fix/atomic-formal-preflight-normalization-waiver",
+        "dirty_allowed_before_commit": true,
+        "dirty_entry_count": 17
+      },
+      "status": "exact_hash_pass"
+    },
+    {
+      "check": "02_protected_hashes",
+      "details": {
+        "changed": [],
+        "protected_file_count": 164
+      },
+      "status": "exact_hash_pass"
+    },
+    {
+      "check": "03_eprk_frozen_profile_hash",
+      "details": {
+        "actual": "de75ad629aeeff608cab96097fe96aed091237348b9f1fe3e6f94c68442771f2",
+        "expected": "de75ad629aeeff608cab96097fe96aed091237348b9f1fe3e6f94c68442771f2",
+        "path": "formal_atomic/eprk_ma_final_profile.json"
+      },
+      "status": "exact_hash_pass"
+    },
+    {
+      "check": "04_eprk_source_hashes",
+      "details": [
+        {
+          "actual": "284905668a363ed887afd60cea3463da818d42593f9fc0a9987e57d2806275ba",
+          "expected": "284905668a363ed887afd60cea3463da818d42593f9fc0a9987e57d2806275ba",
+          "path": "MRTA_EPRK_MA.py"
+        },
+        {
+          "actual": "e54872ff3442fb9acfa49a74f2d7b4a2ff1eaab9b31edb446a8fdbef51287826",
+          "expected": "e54872ff3442fb9acfa49a74f2d7b4a2ff1eaab9b31edb446a8fdbef51287826",
+          "path": "atomic_problem_core.py"
+        },
+        {
+          "actual": "84c5db37b908e96c45a55ca5e9f480949abc17bb1e1e4ca277ac6e6338f47612",
+          "expected": "84c5db37b908e96c45a55ca5e9f480949abc17bb1e1e4ca277ac6e6338f47612",
+          "path": "atomic_route_evaluator.py"
+        },
+        {
+          "actual": "b4d7a424e7550423b4158820d1f3b7db3ad722d2407fc69ffafe0ccd7b1650b4",
+          "expected": "b4d7a424e7550423b4158820d1f3b7db3ad722d2407fc69ffafe0ccd7b1650b4",
+          "path": "atomic_weld_preprocessor.py"
+        },
+        {
+          "actual": "37c502d25410ae7db13809942416b0e319ee12fb4a606b9c7d40e0b1d9512a40",
+          "expected": "37c502d25410ae7db13809942416b0e319ee12fb4a606b9c7d40e0b1d9512a40",
+          "path": "build_atomic_normalization.py"
+        }
+      ],
+      "status": "exact_hash_pass"
+    },
+    {
+      "check": "05_atomic_model_freeze_manifest",
+      "details": {
+        "actual": "27e1a38c668621d830cbec6d3f7af0a0dddcb79a7d0765c673b37fc7f51002c8",
+        "expected": "27e1a38c668621d830cbec6d3f7af0a0dddcb79a7d0765c673b37fc7f51002c8",
+        "path": "formal_atomic/ATOMIC_MODEL_FREEZE_MANIFEST.json"
+      },
+      "status": "exact_hash_pass"
+    },
+    {
+      "check": "06_atomic_model_source_hashes",
+      "details": [
+        {
+          "actual": "2aa02f5aae2033d8d44f9f63656c5089f00c3b2b8cbbd226c242ea1e52d261d5",
+          "expected": "2aa02f5aae2033d8d44f9f63656c5089f00c3b2b8cbbd226c242ea1e52d261d5",
+          "path": "ATOMIC_WELD_MODEL_SPEC.md"
+        },
+        {
+          "actual": "e54872ff3442fb9acfa49a74f2d7b4a2ff1eaab9b31edb446a8fdbef51287826",
+          "expected": "e54872ff3442fb9acfa49a74f2d7b4a2ff1eaab9b31edb446a8fdbef51287826",
+          "path": "atomic_problem_core.py"
+        },
+        {
+          "actual": "84c5db37b908e96c45a55ca5e9f480949abc17bb1e1e4ca277ac6e6338f47612",
+          "expected": "84c5db37b908e96c45a55ca5e9f480949abc17bb1e1e4ca277ac6e6338f47612",
+          "path": "atomic_route_evaluator.py"
+        },
+        {
+          "actual": "b4d7a424e7550423b4158820d1f3b7db3ad722d2407fc69ffafe0ccd7b1650b4",
+          "expected": "b4d7a424e7550423b4158820d1f3b7db3ad722d2407fc69ffafe0ccd7b1650b4",
+          "path": "atomic_weld_preprocessor.py"
+        },
+        {
+          "actual": "37c502d25410ae7db13809942416b0e319ee12fb4a606b9c7d40e0b1d9512a40",
+          "expected": "37c502d25410ae7db13809942416b0e319ee12fb4a606b9c7d40e0b1d9512a40",
+          "path": "build_atomic_normalization.py"
+        }
+      ],
+      "status": "exact_hash_pass"
+    },
+    {
+      "check": "07_benchmark_suite_manifest",
+      "details": {
+        "actual": "f774de6585485539c1aa4ae0cdc7a22b3d80da53ad2fb5edced734d612aa6902",
+        "expected": "f774de6585485539c1aa4ae0cdc7a22b3d80da53ad2fb5edced734d612aa6902",
+        "path": "formal_atomic/atomic_benchmark_manifest.json"
+      },
+      "status": "exact_hash_pass"
+    },
+    {
+      "check": "08_39_raw_instance_hashes",
+      "details": [
+        {
+          "actual": "ff1ab92d53cb2888028a5806086e2bbbf027c282c63af3e8d7fff536b0776390",
+          "expected": "ff1ab92d53cb2888028a5806086e2bbbf027c282c63af3e8d7fff536b0776390",
+          "file_hash_match": true,
+          "instance_id": "real_w30",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/real_w30.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "dee5045696577b39e047b64426c830dad586e7386cb12cf80bcf505b191a77ea",
+          "expected": "dee5045696577b39e047b64426c830dad586e7386cb12cf80bcf505b191a77ea",
+          "file_hash_match": true,
+          "instance_id": "real_w45",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/real_w45.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "e9a9b1d8421ffeefa2912e343d8a0bdc3f1cb0d0928af7defc24d96a9a5bcda5",
+          "expected": "e9a9b1d8421ffeefa2912e343d8a0bdc3f1cb0d0928af7defc24d96a9a5bcda5",
+          "file_hash_match": true,
+          "instance_id": "real_w60",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/real_w60.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "3801779c7563974aa26a9a802b3a036437c379851ca221a699e6c9cf996bbbfc",
+          "expected": "3801779c7563974aa26a9a802b3a036437c379851ca221a699e6c9cf996bbbfc",
+          "file_hash_match": true,
+          "instance_id": "uniform_n30_r1",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/uniform_n30_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "35e69f99d60d358996d84a0348c50e290f8f6c0aea42c182d73be3d70dd59fba",
+          "expected": "35e69f99d60d358996d84a0348c50e290f8f6c0aea42c182d73be3d70dd59fba",
+          "file_hash_match": true,
+          "instance_id": "uniform_n30_r2",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/uniform_n30_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "372848943dd774963f5f79b3fb3d30d16f6b3aa6c54993c56f0eb8a907e73d7b",
+          "expected": "372848943dd774963f5f79b3fb3d30d16f6b3aa6c54993c56f0eb8a907e73d7b",
+          "file_hash_match": true,
+          "instance_id": "uniform_n60_r1",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/uniform_n60_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "e5ed062ba94f0abba8841ac13eba8949ed9302e1ce4c8ba657cb87efc3909f10",
+          "expected": "e5ed062ba94f0abba8841ac13eba8949ed9302e1ce4c8ba657cb87efc3909f10",
+          "file_hash_match": true,
+          "instance_id": "uniform_n60_r2",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/uniform_n60_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "29ff4f0b6e68b3a3a31d65cf066d1c47a522ef060bd942ded24ed129016e7bae",
+          "expected": "29ff4f0b6e68b3a3a31d65cf066d1c47a522ef060bd942ded24ed129016e7bae",
+          "file_hash_match": true,
+          "instance_id": "uniform_n100_r1",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/uniform_n100_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "af2d7b5982d7687ad5b1d4bc3bb6d6b2f905ee23bb2bbf90295636b8dc95124a",
+          "expected": "af2d7b5982d7687ad5b1d4bc3bb6d6b2f905ee23bb2bbf90295636b8dc95124a",
+          "file_hash_match": true,
+          "instance_id": "uniform_n100_r2",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/uniform_n100_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "e1801abf8e28aecaa7f617b4629c002bb81bac80b5900d9edf9375b75499131d",
+          "expected": "e1801abf8e28aecaa7f617b4629c002bb81bac80b5900d9edf9375b75499131d",
+          "file_hash_match": true,
+          "instance_id": "clustered_n30_r1",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/clustered_n30_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "7a441ef4cc7d68f673d4c865cc0aa3a17e0de2971621978aad61138b28badc1e",
+          "expected": "7a441ef4cc7d68f673d4c865cc0aa3a17e0de2971621978aad61138b28badc1e",
+          "file_hash_match": true,
+          "instance_id": "clustered_n30_r2",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/clustered_n30_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "d3245b19e602461b1953b82ba1eb49607097a35f92fdea156be57cb01eb09e2f",
+          "expected": "d3245b19e602461b1953b82ba1eb49607097a35f92fdea156be57cb01eb09e2f",
+          "file_hash_match": true,
+          "instance_id": "clustered_n60_r1",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/clustered_n60_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "f61a54912fb7336c294c52dd31511d1f9f5307524bbb8d06f2dbfeaff67e9e71",
+          "expected": "f61a54912fb7336c294c52dd31511d1f9f5307524bbb8d06f2dbfeaff67e9e71",
+          "file_hash_match": true,
+          "instance_id": "clustered_n60_r2",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/clustered_n60_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "140d4c142724329244c1fa59efebaa5e8957df029e1db7d30b6dbb3766f7e4fe",
+          "expected": "140d4c142724329244c1fa59efebaa5e8957df029e1db7d30b6dbb3766f7e4fe",
+          "file_hash_match": true,
+          "instance_id": "clustered_n100_r1",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/clustered_n100_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "c5ad01a76ebe43382fc83889693b58a58c717063f194b75fdaa47e58e01e0060",
+          "expected": "c5ad01a76ebe43382fc83889693b58a58c717063f194b75fdaa47e58e01e0060",
+          "file_hash_match": true,
+          "instance_id": "clustered_n100_r2",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/clustered_n100_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "bdc1fb5b338b8839d14a918f0b318a4fb393322a93560eea979e7ee097c62b11",
+          "expected": "bdc1fb5b338b8839d14a918f0b318a4fb393322a93560eea979e7ee097c62b11",
+          "file_hash_match": true,
+          "instance_id": "boundary_dense_n30_r1",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/boundary_dense_n30_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "8c2a4ceb39ea72213fd07e83d7f6383bf2812fc1326dd79596bb7920c87e43e8",
+          "expected": "8c2a4ceb39ea72213fd07e83d7f6383bf2812fc1326dd79596bb7920c87e43e8",
+          "file_hash_match": true,
+          "instance_id": "boundary_dense_n30_r2",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/boundary_dense_n30_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "f98c9b80b79b7529431706c91b7fbe1deaad5a4c4cbc212b8e679f7e315b0e8d",
+          "expected": "f98c9b80b79b7529431706c91b7fbe1deaad5a4c4cbc212b8e679f7e315b0e8d",
+          "file_hash_match": true,
+          "instance_id": "boundary_dense_n60_r1",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/boundary_dense_n60_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "dd55e5efab7dabeec4e6f59dc605cd188723a9bfdd7da0c84f7f84647878ecf1",
+          "expected": "dd55e5efab7dabeec4e6f59dc605cd188723a9bfdd7da0c84f7f84647878ecf1",
+          "file_hash_match": true,
+          "instance_id": "boundary_dense_n60_r2",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/boundary_dense_n60_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "3e51e2520f6c3140fb611d8afcd37fd84acf882950ad6851c1e6c2f229f267d4",
+          "expected": "3e51e2520f6c3140fb611d8afcd37fd84acf882950ad6851c1e6c2f229f267d4",
+          "file_hash_match": true,
+          "instance_id": "boundary_dense_n100_r1",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/boundary_dense_n100_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "c4f66095646fc3451d60b28dad6b6dae5bc3579199a3350ea4f8cc16c8186d2f",
+          "expected": "c4f66095646fc3451d60b28dad6b6dae5bc3579199a3350ea4f8cc16c8186d2f",
+          "file_hash_match": true,
+          "instance_id": "boundary_dense_n100_r2",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/boundary_dense_n100_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "e0ef99ae13b5e907d7bc8ddd97ae614f252397b56b744a9a87f5f7e3df619d60",
+          "expected": "e0ef99ae13b5e907d7bc8ddd97ae614f252397b56b744a9a87f5f7e3df619d60",
+          "file_hash_match": true,
+          "instance_id": "long_weld_rich_n30_r1",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/long_weld_rich_n30_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "17ef01e988932e6b13feff2660036f30d9327d146a453d8b996f8791537fc682",
+          "expected": "17ef01e988932e6b13feff2660036f30d9327d146a453d8b996f8791537fc682",
+          "file_hash_match": true,
+          "instance_id": "long_weld_rich_n30_r2",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/long_weld_rich_n30_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "51069b81fe5b505a5473b425f428154a0702d2aa0f9a71406dbbaab5f00b66f7",
+          "expected": "51069b81fe5b505a5473b425f428154a0702d2aa0f9a71406dbbaab5f00b66f7",
+          "file_hash_match": true,
+          "instance_id": "long_weld_rich_n60_r1",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/long_weld_rich_n60_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "c3f845ae20ccd6ab1e5387df2dcbc800ad550190f8a3457f6576cc660ae42196",
+          "expected": "c3f845ae20ccd6ab1e5387df2dcbc800ad550190f8a3457f6576cc660ae42196",
+          "file_hash_match": true,
+          "instance_id": "long_weld_rich_n60_r2",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/long_weld_rich_n60_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "035a48dccfaad93dd1df6a1a225a78c8287ad3e1db31884ee2a7233c1b6e466e",
+          "expected": "035a48dccfaad93dd1df6a1a225a78c8287ad3e1db31884ee2a7233c1b6e466e",
+          "file_hash_match": true,
+          "instance_id": "long_weld_rich_n100_r1",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/long_weld_rich_n100_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "37819bcfb873ef904e12b5a4315e635b9ed2ffc41f93cba1faa6ef49e8ec73a8",
+          "expected": "37819bcfb873ef904e12b5a4315e635b9ed2ffc41f93cba1faa6ef49e8ec73a8",
+          "file_hash_match": true,
+          "instance_id": "long_weld_rich_n100_r2",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/long_weld_rich_n100_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "b2acd3e290f395f4960b778c86a96cda8f1afa03f96ec97fa382e3a6b20af17b",
+          "expected": "b2acd3e290f395f4960b778c86a96cda8f1afa03f96ec97fa382e3a6b20af17b",
+          "file_hash_match": true,
+          "instance_id": "zero_travel_chain_n30_r1",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/zero_travel_chain_n30_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "8146f6a5424e139e20e5457a3f31a0608b04ca8835b531c6aeadb842423ecd60",
+          "expected": "8146f6a5424e139e20e5457a3f31a0608b04ca8835b531c6aeadb842423ecd60",
+          "file_hash_match": true,
+          "instance_id": "zero_travel_chain_n30_r2",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/zero_travel_chain_n30_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "ecc3bf725a11a7cd90de3ed41f0f950cb9b4d061e541f6df08fe2f3af066a26c",
+          "expected": "ecc3bf725a11a7cd90de3ed41f0f950cb9b4d061e541f6df08fe2f3af066a26c",
+          "file_hash_match": true,
+          "instance_id": "zero_travel_chain_n60_r1",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/zero_travel_chain_n60_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "66c4b8258e2f62caea464c1e5c2e97a97e82abc658894a9075da4f3309a7c31c",
+          "expected": "66c4b8258e2f62caea464c1e5c2e97a97e82abc658894a9075da4f3309a7c31c",
+          "file_hash_match": true,
+          "instance_id": "zero_travel_chain_n60_r2",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/zero_travel_chain_n60_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "58a82824b586ed37042b8f91afc1f5b70469eee9b039e87b6aaf51a6d9484a70",
+          "expected": "58a82824b586ed37042b8f91afc1f5b70469eee9b039e87b6aaf51a6d9484a70",
+          "file_hash_match": true,
+          "instance_id": "zero_travel_chain_n100_r1",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/zero_travel_chain_n100_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "0cb5f0cbbf68de0a5cde3b2096ca74113e6d2738099c586217fc331ef9fb1e47",
+          "expected": "0cb5f0cbbf68de0a5cde3b2096ca74113e6d2738099c586217fc331ef9fb1e47",
+          "file_hash_match": true,
+          "instance_id": "zero_travel_chain_n100_r2",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/zero_travel_chain_n100_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "2a61434b1ea77f343f8724656d1f5e8a0aaa688ea2bdce4c098239d5d8d3130c",
+          "expected": "2a61434b1ea77f343f8724656d1f5e8a0aaa688ea2bdce4c098239d5d8d3130c",
+          "file_hash_match": true,
+          "instance_id": "load_skewed_n30_r1",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/load_skewed_n30_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "5b011e5f16f3edbb86882cfa329df0b3679c2864b4c31da76b245cc58075ffaf",
+          "expected": "5b011e5f16f3edbb86882cfa329df0b3679c2864b4c31da76b245cc58075ffaf",
+          "file_hash_match": true,
+          "instance_id": "load_skewed_n30_r2",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/load_skewed_n30_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "6d8f574134fae270e9c84f6a3e2a45d7926898abc023f471247b450d78d923de",
+          "expected": "6d8f574134fae270e9c84f6a3e2a45d7926898abc023f471247b450d78d923de",
+          "file_hash_match": true,
+          "instance_id": "load_skewed_n60_r1",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/load_skewed_n60_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "2f6aadeff5fd00499637f3901cfd4d068b79fb73cbe5e738cab3a7ca7d8af13b",
+          "expected": "2f6aadeff5fd00499637f3901cfd4d068b79fb73cbe5e738cab3a7ca7d8af13b",
+          "file_hash_match": true,
+          "instance_id": "load_skewed_n60_r2",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/load_skewed_n60_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "1f9eb302c274698931a4bc4fc68d039d3053da045a88c554450dc40a495cec14",
+          "expected": "1f9eb302c274698931a4bc4fc68d039d3053da045a88c554450dc40a495cec14",
+          "file_hash_match": true,
+          "instance_id": "load_skewed_n100_r1",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/load_skewed_n100_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "23c7089c471ba1a34259d63088d90c6dca8a55ad2b403bb0655d0cc1be5cc9fa",
+          "expected": "23c7089c471ba1a34259d63088d90c6dca8a55ad2b403bb0655d0cc1be5cc9fa",
+          "file_hash_match": true,
+          "instance_id": "load_skewed_n100_r2",
+          "kind": "raw",
+          "path": "formal_atomic/instances/raw/load_skewed_n100_r2.json",
+          "semantic_hash_match": true
+        }
+      ],
+      "status": "exact_hash_pass"
+    },
+    {
+      "check": "09_39_atomic_instance_hashes",
+      "details": [
+        {
+          "actual": "85b652c990ad749f06e9d5bde03082b0c7b00d3751f4c730901990b710045283",
+          "expected": "85b652c990ad749f06e9d5bde03082b0c7b00d3751f4c730901990b710045283",
+          "file_hash_match": true,
+          "instance_id": "real_w30",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/real_w30_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "a513e87d54b35e495246e12f6376fe017d57586f47b9c879b4cf59634263ef17",
+          "expected": "a513e87d54b35e495246e12f6376fe017d57586f47b9c879b4cf59634263ef17",
+          "file_hash_match": true,
+          "instance_id": "real_w45",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/real_w45_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "e7b27009564b65115ada1a3ed6e1ee1f8d1bd08f0999a7daad04f07f9552a87a",
+          "expected": "e7b27009564b65115ada1a3ed6e1ee1f8d1bd08f0999a7daad04f07f9552a87a",
+          "file_hash_match": true,
+          "instance_id": "real_w60",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/real_w60_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "57b295e949aafa0647cbf57c063854c3f8da7c1baf7d95791e6436d6c4e2a79f",
+          "expected": "57b295e949aafa0647cbf57c063854c3f8da7c1baf7d95791e6436d6c4e2a79f",
+          "file_hash_match": true,
+          "instance_id": "uniform_n30_r1",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/uniform_n30_r1_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "2a3347dd9bfc27d99c3bf154062272036ba7fb041d60e0f24f60609c606de3e4",
+          "expected": "2a3347dd9bfc27d99c3bf154062272036ba7fb041d60e0f24f60609c606de3e4",
+          "file_hash_match": true,
+          "instance_id": "uniform_n30_r2",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/uniform_n30_r2_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "e62a2f268e282f5d11b9dc85a665808955a215a64babce826e088df8dfb6f7e2",
+          "expected": "e62a2f268e282f5d11b9dc85a665808955a215a64babce826e088df8dfb6f7e2",
+          "file_hash_match": true,
+          "instance_id": "uniform_n60_r1",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/uniform_n60_r1_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "b253bc44926f317361a99407e1bb39187e5941a23ca9ebf87028972684440459",
+          "expected": "b253bc44926f317361a99407e1bb39187e5941a23ca9ebf87028972684440459",
+          "file_hash_match": true,
+          "instance_id": "uniform_n60_r2",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/uniform_n60_r2_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "95fb4c530021c8133e7c7ca2e6a54912fbea7d7537b7009fbcde12b443d37f5f",
+          "expected": "95fb4c530021c8133e7c7ca2e6a54912fbea7d7537b7009fbcde12b443d37f5f",
+          "file_hash_match": true,
+          "instance_id": "uniform_n100_r1",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/uniform_n100_r1_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "564ada4e44374f7406ffce18368a334a7297fd6bb50a9ff621c38eab476f4d07",
+          "expected": "564ada4e44374f7406ffce18368a334a7297fd6bb50a9ff621c38eab476f4d07",
+          "file_hash_match": true,
+          "instance_id": "uniform_n100_r2",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/uniform_n100_r2_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "029fc3df8e8ddb37bb8f34de202f391fea5629ad202414f9eeada1c5f862c01d",
+          "expected": "029fc3df8e8ddb37bb8f34de202f391fea5629ad202414f9eeada1c5f862c01d",
+          "file_hash_match": true,
+          "instance_id": "clustered_n30_r1",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/clustered_n30_r1_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "ce22915164447774700f49ab5d6736101c4bb6076220555f09f7f6be7a3922ff",
+          "expected": "ce22915164447774700f49ab5d6736101c4bb6076220555f09f7f6be7a3922ff",
+          "file_hash_match": true,
+          "instance_id": "clustered_n30_r2",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/clustered_n30_r2_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "3598c62cf02a1102bff693ad558f959ecd4f23f04de9f6e68cea2ddf979e933f",
+          "expected": "3598c62cf02a1102bff693ad558f959ecd4f23f04de9f6e68cea2ddf979e933f",
+          "file_hash_match": true,
+          "instance_id": "clustered_n60_r1",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/clustered_n60_r1_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "894f436d5b96b39eca39a8377af1349fe211fd786b2a6a7346b7dcd4d0b88e5d",
+          "expected": "894f436d5b96b39eca39a8377af1349fe211fd786b2a6a7346b7dcd4d0b88e5d",
+          "file_hash_match": true,
+          "instance_id": "clustered_n60_r2",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/clustered_n60_r2_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "2a5808aad3a0cfe91cd0159e0a971df6f4ca9c2e5bd1ef54b9e3d85bf44563bd",
+          "expected": "2a5808aad3a0cfe91cd0159e0a971df6f4ca9c2e5bd1ef54b9e3d85bf44563bd",
+          "file_hash_match": true,
+          "instance_id": "clustered_n100_r1",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/clustered_n100_r1_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "0a9ce5665eb2be7eed93838c988f2b95e51728e1bfd7b5e5f3dbe3be490f0d1a",
+          "expected": "0a9ce5665eb2be7eed93838c988f2b95e51728e1bfd7b5e5f3dbe3be490f0d1a",
+          "file_hash_match": true,
+          "instance_id": "clustered_n100_r2",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/clustered_n100_r2_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "573b2721beb66ce478cb023eb672fccf818ccf57740c3bdb07a475d2537b9585",
+          "expected": "573b2721beb66ce478cb023eb672fccf818ccf57740c3bdb07a475d2537b9585",
+          "file_hash_match": true,
+          "instance_id": "boundary_dense_n30_r1",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/boundary_dense_n30_r1_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "0d144ae9ad364fbe2701aa62aaa98cc5b76ff43b1ffdfc764ad7353b065049bc",
+          "expected": "0d144ae9ad364fbe2701aa62aaa98cc5b76ff43b1ffdfc764ad7353b065049bc",
+          "file_hash_match": true,
+          "instance_id": "boundary_dense_n30_r2",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/boundary_dense_n30_r2_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "46f06cb47e161ab0f372a9545f71d686241bb8efb049c864236c85d2bd783d1a",
+          "expected": "46f06cb47e161ab0f372a9545f71d686241bb8efb049c864236c85d2bd783d1a",
+          "file_hash_match": true,
+          "instance_id": "boundary_dense_n60_r1",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/boundary_dense_n60_r1_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "4a5e02646d8bc32bc6fd2fe0677a655ee76eba856bc5fa398e62983a3fc6c8c9",
+          "expected": "4a5e02646d8bc32bc6fd2fe0677a655ee76eba856bc5fa398e62983a3fc6c8c9",
+          "file_hash_match": true,
+          "instance_id": "boundary_dense_n60_r2",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/boundary_dense_n60_r2_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "ba29b32b3e53fb9e5d5cf497e6705ca0b5cad6c706751538128dea7cc7a6cb38",
+          "expected": "ba29b32b3e53fb9e5d5cf497e6705ca0b5cad6c706751538128dea7cc7a6cb38",
+          "file_hash_match": true,
+          "instance_id": "boundary_dense_n100_r1",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/boundary_dense_n100_r1_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "9c182a086d33d6b0338629d66626d91da2814fabc67a066ddc729634606f4d6a",
+          "expected": "9c182a086d33d6b0338629d66626d91da2814fabc67a066ddc729634606f4d6a",
+          "file_hash_match": true,
+          "instance_id": "boundary_dense_n100_r2",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/boundary_dense_n100_r2_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "d825f044cd193fa444a7b50baf13dd6cca4e924b097e056061d80c7fceddc72c",
+          "expected": "d825f044cd193fa444a7b50baf13dd6cca4e924b097e056061d80c7fceddc72c",
+          "file_hash_match": true,
+          "instance_id": "long_weld_rich_n30_r1",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/long_weld_rich_n30_r1_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "3080a333dd2551edb341fd4e3b5a3cf166a35917599465477cdd77595f1c57f1",
+          "expected": "3080a333dd2551edb341fd4e3b5a3cf166a35917599465477cdd77595f1c57f1",
+          "file_hash_match": true,
+          "instance_id": "long_weld_rich_n30_r2",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/long_weld_rich_n30_r2_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "44b3a6add1ef8d6a40d6eba9eb9ad02a8d8b4cb8889201f8b6b7f4dc993764c6",
+          "expected": "44b3a6add1ef8d6a40d6eba9eb9ad02a8d8b4cb8889201f8b6b7f4dc993764c6",
+          "file_hash_match": true,
+          "instance_id": "long_weld_rich_n60_r1",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/long_weld_rich_n60_r1_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "fb1daefbb83abbfe99c9e908b7497d93ab23ff07432870f68b490f44d65263b1",
+          "expected": "fb1daefbb83abbfe99c9e908b7497d93ab23ff07432870f68b490f44d65263b1",
+          "file_hash_match": true,
+          "instance_id": "long_weld_rich_n60_r2",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/long_weld_rich_n60_r2_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "a5f18181fbdaeb0ec7f673b22ddd00c0cd1135682875a6614f4133a810cfb9d7",
+          "expected": "a5f18181fbdaeb0ec7f673b22ddd00c0cd1135682875a6614f4133a810cfb9d7",
+          "file_hash_match": true,
+          "instance_id": "long_weld_rich_n100_r1",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/long_weld_rich_n100_r1_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "9ac4801dfce13ad1ca96eb517c4b5f80f7948ff533baf3fbe9a01c8788a3a6df",
+          "expected": "9ac4801dfce13ad1ca96eb517c4b5f80f7948ff533baf3fbe9a01c8788a3a6df",
+          "file_hash_match": true,
+          "instance_id": "long_weld_rich_n100_r2",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/long_weld_rich_n100_r2_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "14149695a5918d0dc59c9e912c85efe6f066534a15899acf9377f989736b8bd3",
+          "expected": "14149695a5918d0dc59c9e912c85efe6f066534a15899acf9377f989736b8bd3",
+          "file_hash_match": true,
+          "instance_id": "zero_travel_chain_n30_r1",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/zero_travel_chain_n30_r1_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "b0ef12a0d7d036058b1cfc75c82c9d8783e97e1ade31e2f49a15f94094fd5b92",
+          "expected": "b0ef12a0d7d036058b1cfc75c82c9d8783e97e1ade31e2f49a15f94094fd5b92",
+          "file_hash_match": true,
+          "instance_id": "zero_travel_chain_n30_r2",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/zero_travel_chain_n30_r2_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "3d9080233fa30d18ae38ac52ea63e18c97bd2f632d1a730a90418fa534df7b94",
+          "expected": "3d9080233fa30d18ae38ac52ea63e18c97bd2f632d1a730a90418fa534df7b94",
+          "file_hash_match": true,
+          "instance_id": "zero_travel_chain_n60_r1",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/zero_travel_chain_n60_r1_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "c723943bb1ec4fd4a5cd3d61c31430ec658c0509bacfdd806c4ea39ddd687a34",
+          "expected": "c723943bb1ec4fd4a5cd3d61c31430ec658c0509bacfdd806c4ea39ddd687a34",
+          "file_hash_match": true,
+          "instance_id": "zero_travel_chain_n60_r2",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/zero_travel_chain_n60_r2_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "2165f2846390bc822fa8d5ebc4c48757bceddbf6d00231868dfe9b9734f94a94",
+          "expected": "2165f2846390bc822fa8d5ebc4c48757bceddbf6d00231868dfe9b9734f94a94",
+          "file_hash_match": true,
+          "instance_id": "zero_travel_chain_n100_r1",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/zero_travel_chain_n100_r1_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "e5978af23ca2c572dc9f778fd6dcf7533125191884ada878bf190d143e8c7b37",
+          "expected": "e5978af23ca2c572dc9f778fd6dcf7533125191884ada878bf190d143e8c7b37",
+          "file_hash_match": true,
+          "instance_id": "zero_travel_chain_n100_r2",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/zero_travel_chain_n100_r2_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "64431a6677294748dcd8aa5eeda72543e189ffb3d9dc388b1aa7dfb28d31375a",
+          "expected": "64431a6677294748dcd8aa5eeda72543e189ffb3d9dc388b1aa7dfb28d31375a",
+          "file_hash_match": true,
+          "instance_id": "load_skewed_n30_r1",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/load_skewed_n30_r1_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "973504ee0803c1f935d939443dd2f8d912040e48b12b779839b0a381884d84b1",
+          "expected": "973504ee0803c1f935d939443dd2f8d912040e48b12b779839b0a381884d84b1",
+          "file_hash_match": true,
+          "instance_id": "load_skewed_n30_r2",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/load_skewed_n30_r2_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "89e38af995d0172a264e3981c476fc6b8f8cc9d8b04de0e80549a59596cfdcaa",
+          "expected": "89e38af995d0172a264e3981c476fc6b8f8cc9d8b04de0e80549a59596cfdcaa",
+          "file_hash_match": true,
+          "instance_id": "load_skewed_n60_r1",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/load_skewed_n60_r1_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "72fa4cda72bb89ed5cb899316430b35215b337a9d57af502a5ea18feaeb78484",
+          "expected": "72fa4cda72bb89ed5cb899316430b35215b337a9d57af502a5ea18feaeb78484",
+          "file_hash_match": true,
+          "instance_id": "load_skewed_n60_r2",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/load_skewed_n60_r2_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "132ed9586c5040c2fd4c20df4c9bf238e894670e8a9980b38edcca3d2fa1a10b",
+          "expected": "132ed9586c5040c2fd4c20df4c9bf238e894670e8a9980b38edcca3d2fa1a10b",
+          "file_hash_match": true,
+          "instance_id": "load_skewed_n100_r1",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/load_skewed_n100_r1_atomic.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "c597dc9a4d5edd901978e865b6cfb4d7eed9087fa2359344ecf64a6d0e80a92a",
+          "expected": "c597dc9a4d5edd901978e865b6cfb4d7eed9087fa2359344ecf64a6d0e80a92a",
+          "file_hash_match": true,
+          "instance_id": "load_skewed_n100_r2",
+          "kind": "atomic",
+          "path": "formal_atomic/instances/atomic/load_skewed_n100_r2_atomic.json",
+          "semantic_hash_match": true
+        }
+      ],
+      "status": "exact_hash_pass"
+    },
+    {
+      "check": "10_39_normalization_instance_hashes",
+      "details": [
+        {
+          "actual": "44c81ae520c87b9249ffc0b6c8bcff7fbdfdd9fcced1139bc5a1df2cfa3607b2",
+          "expected": "44c81ae520c87b9249ffc0b6c8bcff7fbdfdd9fcced1139bc5a1df2cfa3607b2",
+          "file_hash_match": true,
+          "instance_id": "real_w30",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/real_w30.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "e42ee072ee2a1deb7b621b5f4b3122312c36ae0c3ac53c25c047dd37ed24d436",
+          "expected": "e42ee072ee2a1deb7b621b5f4b3122312c36ae0c3ac53c25c047dd37ed24d436",
+          "file_hash_match": true,
+          "instance_id": "real_w45",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/real_w45.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "99138e05715504ab4b6026604f6275a56444cf6dba35bb5fb3039b0c55c5c048",
+          "expected": "99138e05715504ab4b6026604f6275a56444cf6dba35bb5fb3039b0c55c5c048",
+          "file_hash_match": true,
+          "instance_id": "real_w60",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/real_w60.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "03134d173377ebbd51c6475071e4497dae3b6ead17037a8babd373128c12d2e2",
+          "expected": "03134d173377ebbd51c6475071e4497dae3b6ead17037a8babd373128c12d2e2",
+          "file_hash_match": true,
+          "instance_id": "uniform_n30_r1",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/uniform_n30_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "0dc069f8297e4fc591376f194dd960148dd839e8d550dfa6a0c211b2543051d0",
+          "expected": "0dc069f8297e4fc591376f194dd960148dd839e8d550dfa6a0c211b2543051d0",
+          "file_hash_match": true,
+          "instance_id": "uniform_n30_r2",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/uniform_n30_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "5b52224ee48c018e478a15d94a1be89d5765327da3b34397cc90fdc7e537ae12",
+          "expected": "5b52224ee48c018e478a15d94a1be89d5765327da3b34397cc90fdc7e537ae12",
+          "file_hash_match": true,
+          "instance_id": "uniform_n60_r1",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/uniform_n60_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "6dfe062269a36952b336199de06e3c7c8dd828cb9af31208c0a4a3186f7b89f0",
+          "expected": "6dfe062269a36952b336199de06e3c7c8dd828cb9af31208c0a4a3186f7b89f0",
+          "file_hash_match": true,
+          "instance_id": "uniform_n60_r2",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/uniform_n60_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "7ee9fadd1a4c1c8ee9f97c3136e34101b7c061122c9749827d1e9dccdd4b0f1a",
+          "expected": "7ee9fadd1a4c1c8ee9f97c3136e34101b7c061122c9749827d1e9dccdd4b0f1a",
+          "file_hash_match": true,
+          "instance_id": "uniform_n100_r1",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/uniform_n100_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "e0a8622757c38eccce9098c9d2439338a5d7c399b48e8fae330216e4fed183bf",
+          "expected": "e0a8622757c38eccce9098c9d2439338a5d7c399b48e8fae330216e4fed183bf",
+          "file_hash_match": true,
+          "instance_id": "uniform_n100_r2",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/uniform_n100_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "a6373b15c8eb65b7dfd6c5a9518b77963af7d008bbd073a061fe3ebdc31516fc",
+          "expected": "a6373b15c8eb65b7dfd6c5a9518b77963af7d008bbd073a061fe3ebdc31516fc",
+          "file_hash_match": true,
+          "instance_id": "clustered_n30_r1",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/clustered_n30_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "0a6d683c827371da80e48066d264c76eca2e46bc601eb6ba56639621f305adaf",
+          "expected": "0a6d683c827371da80e48066d264c76eca2e46bc601eb6ba56639621f305adaf",
+          "file_hash_match": true,
+          "instance_id": "clustered_n30_r2",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/clustered_n30_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "0fe41a3a06711474d4febe39b31a5433773d23418c3a7f6145f023be5454a858",
+          "expected": "0fe41a3a06711474d4febe39b31a5433773d23418c3a7f6145f023be5454a858",
+          "file_hash_match": true,
+          "instance_id": "clustered_n60_r1",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/clustered_n60_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "2171fb2782ab08751795962fe516ef0e15cc641c91b1ca991d356587d49be5a4",
+          "expected": "2171fb2782ab08751795962fe516ef0e15cc641c91b1ca991d356587d49be5a4",
+          "file_hash_match": true,
+          "instance_id": "clustered_n60_r2",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/clustered_n60_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "85a30e4e7da87a8774ead7ab60cdadc62fbb06049cf81e0c507794e13e2fe3c4",
+          "expected": "85a30e4e7da87a8774ead7ab60cdadc62fbb06049cf81e0c507794e13e2fe3c4",
+          "file_hash_match": true,
+          "instance_id": "clustered_n100_r1",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/clustered_n100_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "25f1fd3077b010326d47ab6bb3607f63541472e8cb29accebf98f4917d73dc58",
+          "expected": "25f1fd3077b010326d47ab6bb3607f63541472e8cb29accebf98f4917d73dc58",
+          "file_hash_match": true,
+          "instance_id": "clustered_n100_r2",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/clustered_n100_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "d8a771cb933296676a69c609eb1f9dd79082a933d45c954a6a73d8cfb62086d8",
+          "expected": "d8a771cb933296676a69c609eb1f9dd79082a933d45c954a6a73d8cfb62086d8",
+          "file_hash_match": true,
+          "instance_id": "boundary_dense_n30_r1",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/boundary_dense_n30_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "773991800cdd349830dbdb61f982a44629ddd8bc242a5aa1140813df1ab0624f",
+          "expected": "773991800cdd349830dbdb61f982a44629ddd8bc242a5aa1140813df1ab0624f",
+          "file_hash_match": true,
+          "instance_id": "boundary_dense_n30_r2",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/boundary_dense_n30_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "3a3c5cf174f265fb380c314f2228cb2762716fcdb36471b1f48eb3573e2db68a",
+          "expected": "3a3c5cf174f265fb380c314f2228cb2762716fcdb36471b1f48eb3573e2db68a",
+          "file_hash_match": true,
+          "instance_id": "boundary_dense_n60_r1",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/boundary_dense_n60_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "8d02944ca5007bc22688cf55be301805226b1445ea929f7d21b649ed0e622a26",
+          "expected": "8d02944ca5007bc22688cf55be301805226b1445ea929f7d21b649ed0e622a26",
+          "file_hash_match": true,
+          "instance_id": "boundary_dense_n60_r2",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/boundary_dense_n60_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "05fbd14dc26e564f7c74a42aa469479e215e504ff25a3ccfa4f3fbf45ab814a9",
+          "expected": "05fbd14dc26e564f7c74a42aa469479e215e504ff25a3ccfa4f3fbf45ab814a9",
+          "file_hash_match": true,
+          "instance_id": "boundary_dense_n100_r1",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/boundary_dense_n100_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "57168179a714190aadbc47345fd52307e154703ee289eecb33c2003125c874cd",
+          "expected": "57168179a714190aadbc47345fd52307e154703ee289eecb33c2003125c874cd",
+          "file_hash_match": true,
+          "instance_id": "boundary_dense_n100_r2",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/boundary_dense_n100_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "10fb1b5e454594b08ab1d4f88927485405960b0551c3fb12a5798ae3283123e1",
+          "expected": "10fb1b5e454594b08ab1d4f88927485405960b0551c3fb12a5798ae3283123e1",
+          "file_hash_match": true,
+          "instance_id": "long_weld_rich_n30_r1",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/long_weld_rich_n30_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "62cb048603ef0fba374ac66b42f5267c20f2a3d57543b9c2f7c50281df860ed1",
+          "expected": "62cb048603ef0fba374ac66b42f5267c20f2a3d57543b9c2f7c50281df860ed1",
+          "file_hash_match": true,
+          "instance_id": "long_weld_rich_n30_r2",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/long_weld_rich_n30_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "afb462adfef64d009649ebc8f012e565bdaaf3c5eb20e724f5ddf4d4d6d6ff65",
+          "expected": "afb462adfef64d009649ebc8f012e565bdaaf3c5eb20e724f5ddf4d4d6d6ff65",
+          "file_hash_match": true,
+          "instance_id": "long_weld_rich_n60_r1",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/long_weld_rich_n60_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "75a3b165638f779d9bb39c0eb7311c542d0c55e374d6477607acf4d7c9a0742f",
+          "expected": "75a3b165638f779d9bb39c0eb7311c542d0c55e374d6477607acf4d7c9a0742f",
+          "file_hash_match": true,
+          "instance_id": "long_weld_rich_n60_r2",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/long_weld_rich_n60_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "6770a5c057b1675fa849c60f9fcf5f8b57a513601c020d53afca430623297f8e",
+          "expected": "6770a5c057b1675fa849c60f9fcf5f8b57a513601c020d53afca430623297f8e",
+          "file_hash_match": true,
+          "instance_id": "long_weld_rich_n100_r1",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/long_weld_rich_n100_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "20b8785821f72e182970560a8eebd3488c4a7120ccfcc9b18839841ae4c6c729",
+          "expected": "20b8785821f72e182970560a8eebd3488c4a7120ccfcc9b18839841ae4c6c729",
+          "file_hash_match": true,
+          "instance_id": "long_weld_rich_n100_r2",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/long_weld_rich_n100_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "472a445858d083925f795f100a10e6266c888e8eeab026d101d24627ea5379d3",
+          "expected": "472a445858d083925f795f100a10e6266c888e8eeab026d101d24627ea5379d3",
+          "file_hash_match": true,
+          "instance_id": "zero_travel_chain_n30_r1",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/zero_travel_chain_n30_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "2011a5d68e5460acbe720b2c646f3d7cdce24a83a1daa4faefdec037c005260a",
+          "expected": "2011a5d68e5460acbe720b2c646f3d7cdce24a83a1daa4faefdec037c005260a",
+          "file_hash_match": true,
+          "instance_id": "zero_travel_chain_n30_r2",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/zero_travel_chain_n30_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "37c06c6369e239581d6d18077174e75e431c82919c1a9db9e92e740ece2bfd3c",
+          "expected": "37c06c6369e239581d6d18077174e75e431c82919c1a9db9e92e740ece2bfd3c",
+          "file_hash_match": true,
+          "instance_id": "zero_travel_chain_n60_r1",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/zero_travel_chain_n60_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "1ad9f86b0cdfa1019dcb6cfad9a3c97b5d62214f86b054fd1fec339e67af8827",
+          "expected": "1ad9f86b0cdfa1019dcb6cfad9a3c97b5d62214f86b054fd1fec339e67af8827",
+          "file_hash_match": true,
+          "instance_id": "zero_travel_chain_n60_r2",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/zero_travel_chain_n60_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "8875c601196058e36abbacc1abdaffcebd2a84f2edb12727f3fac074edbf1543",
+          "expected": "8875c601196058e36abbacc1abdaffcebd2a84f2edb12727f3fac074edbf1543",
+          "file_hash_match": true,
+          "instance_id": "zero_travel_chain_n100_r1",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/zero_travel_chain_n100_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "e8fc97239b7b608610be3820ede2b7815cdf05b841a437246c146a21f4d3db42",
+          "expected": "e8fc97239b7b608610be3820ede2b7815cdf05b841a437246c146a21f4d3db42",
+          "file_hash_match": true,
+          "instance_id": "zero_travel_chain_n100_r2",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/zero_travel_chain_n100_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "565aec31024a28de6fb50765e1137c425e683950534678c1019996f72f0a0baf",
+          "expected": "565aec31024a28de6fb50765e1137c425e683950534678c1019996f72f0a0baf",
+          "file_hash_match": true,
+          "instance_id": "load_skewed_n30_r1",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/load_skewed_n30_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "e31c506a25c5cc3f4b0f2786cb948b96e5308ae7311a6b44343b5e626da08bb0",
+          "expected": "e31c506a25c5cc3f4b0f2786cb948b96e5308ae7311a6b44343b5e626da08bb0",
+          "file_hash_match": true,
+          "instance_id": "load_skewed_n30_r2",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/load_skewed_n30_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "7350674834e23ed2dfddb9dad5296791b6485d42816edabba40f9e2533c9c55f",
+          "expected": "7350674834e23ed2dfddb9dad5296791b6485d42816edabba40f9e2533c9c55f",
+          "file_hash_match": true,
+          "instance_id": "load_skewed_n60_r1",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/load_skewed_n60_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "f15ce0a35a3860c3182a4248a8d93adb790625d651dfafa51dd2cf7bc1e32dea",
+          "expected": "f15ce0a35a3860c3182a4248a8d93adb790625d651dfafa51dd2cf7bc1e32dea",
+          "file_hash_match": true,
+          "instance_id": "load_skewed_n60_r2",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/load_skewed_n60_r2.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "4ca119f88732c7c9d8366c69dea118e6b39421b559984581f593e204b9a8155b",
+          "expected": "4ca119f88732c7c9d8366c69dea118e6b39421b559984581f593e204b9a8155b",
+          "file_hash_match": true,
+          "instance_id": "load_skewed_n100_r1",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/load_skewed_n100_r1.json",
+          "semantic_hash_match": true
+        },
+        {
+          "actual": "c3d8f2933927f9b02fdd4aa7c1df7012bf75628acb050c4c8e6d9ed7ec60bbb8",
+          "expected": "c3d8f2933927f9b02fdd4aa7c1df7012bf75628acb050c4c8e6d9ed7ec60bbb8",
+          "file_hash_match": true,
+          "instance_id": "load_skewed_n100_r2",
+          "kind": "normalization",
+          "path": "formal_atomic/instances/normalization/load_skewed_n100_r2.json",
+          "semantic_hash_match": true
+        }
+      ],
+      "status": "exact_hash_pass"
+    },
+    {
+      "check": "11_legacy_normalization_compatibility_audit",
+      "details": {
+        "audit_status": "legacy_float_compatibility_pass",
+        "maximum_absolute_difference": 9.094947017729282e-13,
+        "maximum_relative_difference": 1.4782098740360288e-15,
+        "waiver_errors": []
+      },
+      "status": "legacy_float_compatibility_pass"
+    },
+    {
+      "check": "12_formal_protocol_hash",
+      "details": {
+        "actual": "587815b238261b600c10f3164b56394d43fc3126aff810930000d0d04e4f1b16",
+        "expected": "587815b238261b600c10f3164b56394d43fc3126aff810930000d0d04e4f1b16",
+        "path": "formal_atomic/EPRK_ATOMIC_FORMAL_PROTOCOL.json"
+      },
+      "status": "exact_hash_pass"
+    },
+    {
+      "check": "13_formal_manifest_hash",
+      "details": {
+        "actual": "cc6cb7c4b395a985ca1f0c6fcb738d2dac79cc49e0ac9cbb3969501db25f15ce",
+        "expected": "cc6cb7c4b395a985ca1f0c6fcb738d2dac79cc49e0ac9cbb3969501db25f15ce",
+        "path": "formal_atomic/formal_manifest.json"
+      },
+      "status": "exact_hash_pass"
+    },
+    {
+      "check": "14_run_id_uniqueness",
+      "details": {
+        "command_hash_recomputed": true,
+        "command_hash_unique": true,
+        "execution_order_alternation_match": true,
+        "formal_execution_authorized": false,
+        "formal_seed_set": [
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          217,
+          218,
+          219,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230
+        ],
+        "manifest_status": "calibrated_full_matrix_locked_not_authorized",
+        "pair_group_count": 2340,
+        "parallel": true,
+        "protocol_hash_match": true,
+        "run_count": 4680,
+        "run_id_unique": true,
+        "seed_policy_match": true,
+        "sequential": true,
+        "solver_pairing_match": true
+      },
+      "status": "exact_hash_pass"
+    },
+    {
+      "check": "15_command_hash_uniqueness",
+      "details": {
+        "command_hash_recomputed": true,
+        "command_hash_unique": true,
+        "execution_order_alternation_match": true,
+        "formal_execution_authorized": false,
+        "formal_seed_set": [
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          217,
+          218,
+          219,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230
+        ],
+        "manifest_status": "calibrated_full_matrix_locked_not_authorized",
+        "pair_group_count": 2340,
+        "parallel": true,
+        "protocol_hash_match": true,
+        "run_count": 4680,
+        "run_id_unique": true,
+        "seed_policy_match": true,
+        "sequential": true,
+        "solver_pairing_match": true
+      },
+      "status": "exact_hash_pass"
+    },
+    {
+      "check": "16_seed_policy",
+      "details": {
+        "command_hash_recomputed": true,
+        "command_hash_unique": true,
+        "execution_order_alternation_match": true,
+        "formal_execution_authorized": false,
+        "formal_seed_set": [
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          217,
+          218,
+          219,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230
+        ],
+        "manifest_status": "calibrated_full_matrix_locked_not_authorized",
+        "pair_group_count": 2340,
+        "parallel": true,
+        "protocol_hash_match": true,
+        "run_count": 4680,
+        "run_id_unique": true,
+        "seed_policy_match": true,
+        "sequential": true,
+        "solver_pairing_match": true
+      },
+      "status": "exact_hash_pass"
+    },
+    {
+      "check": "17_solver_pairing",
+      "details": {
+        "command_hash_recomputed": true,
+        "command_hash_unique": true,
+        "execution_order_alternation_match": true,
+        "formal_execution_authorized": false,
+        "formal_seed_set": [
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          217,
+          218,
+          219,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230
+        ],
+        "manifest_status": "calibrated_full_matrix_locked_not_authorized",
+        "pair_group_count": 2340,
+        "parallel": true,
+        "protocol_hash_match": true,
+        "run_count": 4680,
+        "run_id_unique": true,
+        "seed_policy_match": true,
+        "sequential": true,
+        "solver_pairing_match": true
+      },
+      "status": "exact_hash_pass"
+    },
+    {
+      "check": "18_execution_order_alternation",
+      "details": {
+        "command_hash_recomputed": true,
+        "command_hash_unique": true,
+        "execution_order_alternation_match": true,
+        "formal_execution_authorized": false,
+        "formal_seed_set": [
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          216,
+          217,
+          218,
+          219,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          230
+        ],
+        "manifest_status": "calibrated_full_matrix_locked_not_authorized",
+        "pair_group_count": 2340,
+        "parallel": true,
+        "protocol_hash_match": true,
+        "run_count": 4680,
+        "run_id_unique": true,
+        "seed_policy_match": true,
+        "sequential": true,
+        "solver_pairing_match": true
+      },
+      "status": "exact_hash_pass"
+    },
+    {
+      "check": "19_collision_policy",
+      "details": {
+        "actual": "3ee3b42af179c470da7d87d81572c4effa5ff4dbd1d7c6a256112258fd066bd7",
+        "expected": "3ee3b42af179c470da7d87d81572c4effa5ff4dbd1d7c6a256112258fd066bd7",
+        "path": "formal_atomic/ATOMIC_COLLISION_POLICY.json",
+        "policy": {
+          "boundary_band_width_m": 0.5,
+          "collision_model_source": "collision_aware_schedule.py",
+          "collision_model_source_sha256": "d178756b498654da3c9761bed9b3bdddae4b728b715ed0d0f988c8afa16a4a00",
+          "collision_success_requires_zero_unresolved": true,
+          "included_in_algorithm_time": false,
+          "included_in_equal_time_limit": false,
+          "included_in_search_objective": false,
+          "included_in_solver_wall_clock_time": false,
+          "may_change_raw_fitness": false,
+          "may_change_routes_or_directions": false,
+          "motion_model_source": "MRTA_GA_ACO.py",
+          "motion_model_source_sha256": "842edd7cf89f30ea96a5de352651e269b2c8ed45b73cea673ba88b5a3efad4a2",
+          "policy_id": "atomic_collision_postprocess_v1",
+          "post_processing_only": true,
+          "raw_result_hash_must_remain_unchanged": true,
+          "required_outputs": [
+            "raw_makespan",
+            "collision_adjusted_makespan",
+            "added_waiting_time",
+            "conflict_count",
+            "unresolved_conflict_count",
+            "collision_audit_time_s",
+            "collision_audit_status"
+          ],
+          "safety_distance_m": 0.5,
+          "sampling_interval_s": 1.0,
+          "version": "1.0.0"
+        }
+      },
+      "status": "exact_hash_pass"
+    },
+    {
+      "check": "20_resume_policy",
+      "details": {
+        "checkpoint_frequency_runs": 100,
+        "collision_audit_during_solve": false,
+        "early_stopping": false,
+        "expected_optimization_run_count": 4680,
+        "failure_policy": "retain both attempts; never substitute another seed or silently exclude",
+        "hash_mismatch_policy": "move mismatched result to formal_atomic/quarantine",
+        "modes": [
+          "equal_primary",
+          "equal_time"
+        ],
+        "pair_order_rule": "SHA256(instance|seed|mode) parity; even EPRK then HGA, odd HGA then EPRK",
+        "parallel": false,
+        "resume_policy": "skip only successful matching protocol/source/profile/instance/normalization/command hashes",
+        "retry_limit_after_first_failure": 1,
+        "sequential": true
+      },
+      "status": "exact_hash_pass"
+    },
+    {
+      "check": "20b_legacy_exact_validator_expected_drift",
+      "details": {
+        "errors": [
+          "w30: normalization spec hash mismatch",
+          "w30: normalization values or baseline evidence mismatch",
+          "w45: normalization spec hash mismatch",
+          "w45: normalization values or baseline evidence mismatch",
+          "w60: normalization spec hash mismatch",
+          "w60: normalization values or baseline evidence mismatch"
+        ],
+        "exact_validator_passed": false
+      },
+      "status": "legacy_float_compatibility_pass"
+    },
+    {
+      "check": "21_unit_tests",
+      "details": {
+        "returncode": 0,
+        "stderr_log": "formal_atomic/remediation/unit_tests_stderr.log",
+        "stdout_log": "formal_atomic/remediation/unit_tests_stdout.log",
+        "test_count": 154
+      },
+      "status": "exact_hash_pass"
+    },
+    {
+      "check": "22_minimum_solver_smoke",
+      "details": {
+        "budget": 120,
+        "instance": "real_w30",
+        "results": [
+          {
+            "cross_validation_passed": true,
+            "fitness": 1.0213858465472976,
+            "primary_evaluations": 120,
+            "solver": "eprk",
+            "stop_reason": "objective_budget"
+          },
+          {
+            "cross_validation_passed": true,
+            "fitness": 1.1287952618137054,
+            "primary_evaluations": 120,
+            "solver": "hga_atomic",
+            "stop_reason": "objective_budget"
+          }
+        ],
+        "seed": 196
+      },
+      "status": "exact_hash_pass"
+    }
+  ],
+  "exact_hash_pass_count": 21,
+  "failure_count": 0,
+  "formal_execution_remains_unauthorized": true,
+  "formal_seeds_executed": false,
+  "full_4680_matrix_executed": false,
+  "generated_at": "2026-07-16T15:19:11.976548+00:00",
+  "legacy_float_compatibility_pass_count": 2,
+  "passed": true,
+  "schema_version": "2.0.0",
+  "source_repository_commit_sha": "b93bbe92063591bc187f70ae8f6d83b8cecdd9d1"
+}

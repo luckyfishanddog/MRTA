@@ -1,0 +1,271 @@
+{
+  "algorithm_time_s": 1.7508511999621987,
+  "atomic_instance_hash": "e88f368ce594e40ac6b5f52c9e1e7244b9914f072dbac1960dda6cb7130d88a0",
+  "best_trace": [
+    {
+      "elapsed_s": 0.053162400028668344,
+      "fitness": 1.4055409165085413,
+      "primary_evaluations": 1
+    },
+    {
+      "elapsed_s": 0.0823872999753803,
+      "fitness": 1.0483435239699093,
+      "primary_evaluations": 3
+    },
+    {
+      "elapsed_s": 0.13093330000992864,
+      "fitness": 1.0481458510709718,
+      "primary_evaluations": 6
+    },
+    {
+      "elapsed_s": 0.231252699973993,
+      "fitness": 1.0265038295887459,
+      "primary_evaluations": 12
+    },
+    {
+      "elapsed_s": 0.3778665999416262,
+      "fitness": 1.0218875923332829,
+      "primary_evaluations": 81
+    },
+    {
+      "elapsed_s": 0.40909349999856204,
+      "fitness": 1.0189029229617501,
+      "primary_evaluations": 348
+    },
+    {
+      "elapsed_s": 0.409624999971129,
+      "fitness": 1.018422577878418,
+      "primary_evaluations": 357
+    },
+    {
+      "elapsed_s": 0.4241724000312388,
+      "fitness": 1.017675264202559,
+      "primary_evaluations": 422
+    },
+    {
+      "elapsed_s": 0.4543610999826342,
+      "fitness": 1.0117524306115349,
+      "primary_evaluations": 695
+    },
+    {
+      "elapsed_s": 0.45496699993964285,
+      "fitness": 1.007481888001854,
+      "primary_evaluations": 721
+    },
+    {
+      "elapsed_s": 0.4777056999737397,
+      "fitness": 1.0071488473108463,
+      "primary_evaluations": 968
+    },
+    {
+      "elapsed_s": 0.4893734999932349,
+      "fitness": 1.0058613641504526,
+      "primary_evaluations": 1059
+    }
+  ],
+  "calibration_budget": 20000,
+  "calibration_time_cap_s": 300.0,
+  "cross_validation_errors": [],
+  "cross_validation_passed": true,
+  "crossover_primary_requests": 1531,
+  "direction_dp_calls": 327,
+  "direction_dp_per_primary": 0.01635,
+  "direction_flags": [
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "finished_at": "2026-07-16T15:01:31.947511+00:00",
+  "fitness": 1.0058613641504526,
+  "generations": 154,
+  "global_transition_table_builds": 1,
+  "idle_distance": 103.3219831124264,
+  "instance_id": "uniform_n60_r1",
+  "load_imbalance": 2317.6633228181554,
+  "local_search_primary_requests": 18449,
+  "lower_boundary_x": 7.728533332901,
+  "lower_event_index": 2,
+  "makespan": 4341.943788086684,
+  "normalization_hash": "1386b2a399d70dd11288e9ef7e2659f486c314370a8a00c75957e681bb01c416",
+  "normalized_components": {
+    "idle_distance": 1.0229406191431334,
+    "load_imbalance": 1.0021009624381705,
+    "makespan": 1.004495871069293
+  },
+  "phase": "formal_resource_calibration",
+  "phenotype_cache_hits": 18879,
+  "primary_evaluations": 20000,
+  "profile_hash": "86f82ba9dd8f3326d846a1446d28a074c66287ec7d78fb49f7ab8298aa7af8ae",
+  "requested_primary_budget": 20000,
+  "robot_total_times": [
+    4341.943788086684,
+    2126.601379084777,
+    2024.2804652685293,
+    2653.873670245646
+  ],
+  "route_cache_hits": 4156,
+  "route_evaluation_requests": 4484,
+  "route_evaluations_per_primary": 0.2242,
+  "routes": [
+    [
+      "uniform_n60_r1__weld_0022|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0021|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0004|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0053|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0048|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0008|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0023|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0035|half=upper|part=2of2|seg=1of1",
+      "uniform_n60_r1__weld_0019|half=upper|part=2of2|seg=1of1",
+      "uniform_n60_r1__weld_0052|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0041|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0040|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0057|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0045|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0020|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0007|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0044|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0036|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0003|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0042|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0027|half=upper|part=2of2|seg=1of1",
+      "uniform_n60_r1__weld_0013|half=upper|part=1of1|seg=1of1"
+    ],
+    [
+      "uniform_n60_r1__weld_0018|half=upper|part=2of2|seg=1of1",
+      "uniform_n60_r1__weld_0006|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0010|half=upper|part=2of2|seg=1of1",
+      "uniform_n60_r1__weld_0058|half=upper|part=2of2|seg=1of1",
+      "uniform_n60_r1__weld_0054|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0015|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0034|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0055|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0005|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0024|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0026|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0039|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0012|half=upper|part=2of2|seg=1of1",
+      "uniform_n60_r1__weld_0037|half=upper|part=2of2|seg=1of1",
+      "uniform_n60_r1__weld_0011|half=upper|part=1of1|seg=1of1"
+    ],
+    [
+      "uniform_n60_r1__weld_0038|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0025|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0019|half=lower|part=1of2|seg=1of1",
+      "uniform_n60_r1__weld_0056|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0035|half=lower|part=1of2|seg=1of1",
+      "uniform_n60_r1__weld_0046|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0051|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0000|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0059|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0047|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0029|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0033|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0027|half=lower|part=1of2|seg=1of1"
+    ],
+    [
+      "uniform_n60_r1__weld_0043|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0014|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0049|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0001|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0028|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0016|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0009|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0031|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0032|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0017|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0002|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0050|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0010|half=lower|part=1of2|seg=1of1",
+      "uniform_n60_r1__weld_0058|half=lower|part=1of2|seg=1of1",
+      "uniform_n60_r1__weld_0018|half=lower|part=1of2|seg=1of1",
+      "uniform_n60_r1__weld_0030|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0012|half=lower|part=1of2|seg=1of1",
+      "uniform_n60_r1__weld_0037|half=lower|part=1of2|seg=1of1"
+    ]
+  ],
+  "rss_mb": NaN,
+  "seed": 192,
+  "solver": "Paper-Aligned-HGA-Atomic-Control",
+  "solver_id": "hga_atomic",
+  "solver_version": "HGA-Atomic-Control-v0.1-development",
+  "solver_wall_clock_time_s": 1.7508670999668539,
+  "started_at": "2026-07-16T15:01:30.139825+00:00",
+  "status": "success",
+  "stop_reason": "objective_budget",
+  "upper_boundary_x": 11.225000291688,
+  "upper_event_index": 1
+}

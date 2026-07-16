@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-07-16T15:05:59.167248+00:00",
+  "interrupted_after_completed_runs": 5,
+  "snapshot": [
+    {
+      "mtime_ns": 1784214297723736800,
+      "result_path": "formal_atomic/remediation/smoke_results/equal_primary/real_w30/hga_atomic/seed_194/attempt_001/result.json",
+      "run_id": "smoke__equal_primary__real_w30__hga_atomic__seed_194",
+      "sha256": "7602a56579d27cd4ef99fe4fbdfbc62e9c8a20e23044e09e268411ce06db37cd"
+    },
+    {
+      "mtime_ns": 1784214298419796200,
+      "result_path": "formal_atomic/remediation/smoke_results/equal_primary/real_w30/eprk/seed_194/attempt_001/result.json",
+      "run_id": "smoke__equal_primary__real_w30__eprk__seed_194",
+      "sha256": "da969ffc3a685f28d7899e07beffa6e755e0413e17add27d2225aca384957059"
+    },
+    {
+      "mtime_ns": 1784214328495015600,
+      "result_path": "formal_atomic/remediation/smoke_results/equal_time/real_w30/hga_atomic/seed_194/attempt_001/result.json",
+      "run_id": "smoke__equal_time__real_w30__hga_atomic__seed_194",
+      "sha256": "0463f7ab37062dff979898baa7f703659896ab46078fda78bd3879fa41603a8a"
+    },
+    {
+      "mtime_ns": 1784214358572706000,
+      "result_path": "formal_atomic/remediation/smoke_results/equal_time/real_w30/eprk/seed_194/attempt_001/result.json",
+      "run_id": "smoke__equal_time__real_w30__eprk__seed_194",
+      "sha256": "6077220efa436920d12b762eb6030c30ac977684223fa9d905f3965fe971d696"
+    },
+    {
+      "mtime_ns": 1784214359056710500,
+      "result_path": "formal_atomic/remediation/smoke_results/equal_primary/real_w30/eprk/seed_195/attempt_001/result.json",
+      "run_id": "smoke__equal_primary__real_w30__eprk__seed_195",
+      "sha256": "8c51c68af1f57e14bdf108f3b237fea5985f09661c2cb886a84b394a27b3145f"
+    }
+  ]
+}

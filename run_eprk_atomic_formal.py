@@ -49,9 +49,11 @@ except ImportError:  # pragma: no cover
 
 ROOT = Path(__file__).resolve().parent
 BENCHMARK_PATH = OUT / "atomic_benchmark_manifest.json"
-CALIBRATION_DIR = OUT / "calibration"
-CALIBRATION_SUMMARY_PATH = OUT / "calibration_summary.json"
-PREFLIGHT_PATH = OUT / "preflight_summary.json"
+REMEDIATION_DIR = OUT / "remediation"
+CALIBRATION_DIR = REMEDIATION_DIR / "calibration"
+CALIBRATION_SUMMARY_PATH = REMEDIATION_DIR / "calibration_summary.json"
+CALIBRATION_RUNS_PATH = REMEDIATION_DIR / "calibration_runs.csv"
+PREFLIGHT_PATH = REMEDIATION_DIR / "preflight_summary_v2.json"
 RUNS_DIR = OUT / "runs"
 QUARANTINE_DIR = OUT / "quarantine"
 CHECKPOINT_DIR = OUT / "checkpoints"
@@ -294,7 +296,19 @@ def calibrate() -> dict[str, Any]:
             order = ("eprk", "hga_atomic") if int(hashlib.sha256(f"{instance}|{seed}|calibration".encode()).hexdigest(), 16) % 2 == 0 else ("hga_atomic", "eprk")
             for solver in order:
                 all_rows.append(calibration_one(20000, instance, solver, seed))
-    if any(int(row["primary_evaluations"]) != 20000 or row["stop_reason"] != "objective_budget" for row in all_rows):
+    time_cap_exceeded = any(
+        row.get("stop_reason") == "time_limit"
+        or float(row.get("solver_wall_clock_time_s", 0.0)) > 300.0
+        for row in all_rows
+    )
+    non_time_failures = [
+        row for row in all_rows
+        if (not row.get("cross_validation_passed")
+            or row.get("stop_reason") not in ("objective_budget", "time_limit"))
+    ]
+    if non_time_failures:
+        raise RuntimeError("20000-budget calibration had a non-time failure; fallback is forbidden")
+    if time_cap_exceeded:
         selected_budget = 10000
         all_rows = []
         for seed in CALIBRATION_SEEDS:
@@ -335,6 +349,21 @@ def calibrate() -> dict[str, Any]:
             "time_limit_seconds": reference_limits[reference]["time_limit_seconds"],
         })
     write_csv(TIME_LIMITS_PATH, limit_rows, list(limit_rows[0]))
+    csv_rows = []
+    for row in all_rows:
+        csv_rows.append({
+            "instance_id": row["instance_id"],
+            "solver_id": row["solver_id"],
+            "seed": row["seed"],
+            "calibration_budget": row["calibration_budget"],
+            "primary_evaluations": row["primary_evaluations"],
+            "stop_reason": row["stop_reason"],
+            "solver_wall_clock_time_s": row["solver_wall_clock_time_s"],
+            "fitness": row["fitness"],
+            "cross_validation_passed": row["cross_validation_passed"],
+            "resumed_existing_result": row.get("resumed_existing_result", False),
+        })
+    write_csv(CALIBRATION_RUNS_PATH, csv_rows, list(csv_rows[0]))
     summary = {
         "completed": True,
         "initial_primary_budget": 20000,
@@ -346,7 +375,8 @@ def calibrate() -> dict[str, Any]:
         "all_cross_validation_passed": all(row["cross_validation_passed"] for row in all_rows),
         "reference_time_limits": reference_limits,
         "time_limit_mapping_policy": "real instances self-reference; synthetic instances use family n60 replicate1",
-        "time_limits_path": "formal_atomic/time_limits_by_instance.csv",
+        "time_limits_path": "formal_atomic/remediation/time_limits_by_instance.csv",
+        "calibration_runs_path": "formal_atomic/remediation/calibration_runs.csv",
         "environment": environment_evidence(),
         "rows": all_rows,
     }
@@ -365,7 +395,26 @@ def calibrate() -> dict[str, Any]:
     ]
     for instance, value in reference_limits.items():
         lines.append(f"| {instance} | {value['median_paired_max_wall_seconds']:.6f} | {value['raw_time_limit_seconds']:.6f} | {value['time_limit_seconds']} |")
-    (OUT / "time_limit_calibration_report.md").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    clean_lines = [
+        "# EPRK-MA / HGA-Atomic 资源校准报告",
+        "",
+        f"- 选定 equal-primary 预算：`{selected_budget}`",
+        f"- 是否因任一 20000-budget 运行超过 300 秒而全局回退：`{selected_budget == 10000}`",
+        f"- 选定预算的校准运行数：`{len(all_rows)}`",
+        "- 校准仅决定资源限制，不修改算法参数。",
+        "- 真实实例使用自身校准；合成实例使用同 family 的 n60/replicate1 校准时间。",
+        "",
+        "| reference | median max wall (s) | raw T (s) | frozen T (s) |",
+        "|---|---:|---:|---:|",
+    ]
+    for instance, value in reference_limits.items():
+        clean_lines.append(
+            f"| {instance} | {value['median_paired_max_wall_seconds']:.6f} | "
+            f"{value['raw_time_limit_seconds']:.6f} | {value['time_limit_seconds']} |"
+        )
+    (REMEDIATION_DIR / "ATOMIC_FORMAL_RESOURCE_CALIBRATION_REPORT.md").write_text(
+        "\n".join(clean_lines) + "\n", encoding="utf-8"
+    )
     print(json.dumps({
         "selected_equal_primary_budget": selected_budget,
         "calibration_run_count": len(all_rows),

@@ -1,0 +1,343 @@
+{
+  "algorithm_time_s": 0.9038281999528408,
+  "assignment_cache_size": 33,
+  "atomic_instance_hash": "415cd8bac4d064479c994d7c3931fd0d9b1453ca37c13f18d3ec0743c6746673",
+  "best_trace": [
+    {
+      "elapsed_s": 0.02816079999320209,
+      "fitness": 3.3391855845171676,
+      "primary_evaluations": 1
+    },
+    {
+      "elapsed_s": 0.02869850001297891,
+      "fitness": 3.156493153430305,
+      "primary_evaluations": 4
+    },
+    {
+      "elapsed_s": 0.029384299996308982,
+      "fitness": 1.6196977201237677,
+      "primary_evaluations": 8
+    },
+    {
+      "elapsed_s": 0.02998190000653267,
+      "fitness": 1.346007904760791,
+      "primary_evaluations": 11
+    },
+    {
+      "elapsed_s": 0.030203399946913123,
+      "fitness": 1.3142812222441504,
+      "primary_evaluations": 12
+    },
+    {
+      "elapsed_s": 0.030417699948884547,
+      "fitness": 1.2690943057999884,
+      "primary_evaluations": 13
+    },
+    {
+      "elapsed_s": 0.03158830001484603,
+      "fitness": 1.0383019027131986,
+      "primary_evaluations": 15
+    },
+    {
+      "elapsed_s": 0.06806520000100136,
+      "fitness": 1.038264599372578,
+      "primary_evaluations": 130
+    },
+    {
+      "elapsed_s": 0.08630049997009337,
+      "fitness": 1.0355581780922136,
+      "primary_evaluations": 462
+    },
+    {
+      "elapsed_s": 0.10261699999682605,
+      "fitness": 1.0333247754131487,
+      "primary_evaluations": 675
+    },
+    {
+      "elapsed_s": 0.1036529999691993,
+      "fitness": 1.0291385880319688,
+      "primary_evaluations": 692
+    },
+    {
+      "elapsed_s": 0.12750900001265109,
+      "fitness": 1.0263876434459844,
+      "primary_evaluations": 1137
+    },
+    {
+      "elapsed_s": 0.13794819999020547,
+      "fitness": 1.0251446120043002,
+      "primary_evaluations": 1392
+    },
+    {
+      "elapsed_s": 0.15880219999235123,
+      "fitness": 1.0215258485224394,
+      "primary_evaluations": 1833
+    },
+    {
+      "elapsed_s": 0.2123019000282511,
+      "fitness": 1.0213177103791307,
+      "primary_evaluations": 2988
+    },
+    {
+      "elapsed_s": 0.21925219998229295,
+      "fitness": 1.0194302322066195,
+      "primary_evaluations": 3188
+    },
+    {
+      "elapsed_s": 0.26551679999101907,
+      "fitness": 1.017018786934432,
+      "primary_evaluations": 4226
+    },
+    {
+      "elapsed_s": 0.29373709997162223,
+      "fitness": 1.0166162749390717,
+      "primary_evaluations": 4687
+    },
+    {
+      "elapsed_s": 0.2943723000353202,
+      "fitness": 1.0149168218346467,
+      "primary_evaluations": 4695
+    },
+    {
+      "elapsed_s": 0.3107211999595165,
+      "fitness": 1.0145143098392866,
+      "primary_evaluations": 5130
+    },
+    {
+      "elapsed_s": 0.31170830002520233,
+      "fitness": 1.0138915002192805,
+      "primary_evaluations": 5154
+    },
+    {
+      "elapsed_s": 0.33391789998859167,
+      "fitness": 1.0117895351194954,
+      "primary_evaluations": 5593
+    },
+    {
+      "elapsed_s": 0.3448424000525847,
+      "fitness": 1.01042240225892,
+      "primary_evaluations": 5817
+    },
+    {
+      "elapsed_s": 0.4138094000518322,
+      "fitness": 1.0094155658934882,
+      "primary_evaluations": 7637
+    },
+    {
+      "elapsed_s": 0.4530170999933034,
+      "fitness": 1.0046611398872816,
+      "primary_evaluations": 8561
+    },
+    {
+      "elapsed_s": 0.5085133999818936,
+      "fitness": 1.0032576204244894,
+      "primary_evaluations": 9801
+    },
+    {
+      "elapsed_s": 0.5191456000320613,
+      "fitness": 1.0027628292981636,
+      "primary_evaluations": 10033
+    },
+    {
+      "elapsed_s": 0.5299087000312284,
+      "fitness": 1.0022507840590578,
+      "primary_evaluations": 10278
+    },
+    {
+      "elapsed_s": 0.8525904000271112,
+      "fitness": 1.001978768308134,
+      "primary_evaluations": 18592
+    }
+  ],
+  "calibration_budget": 20000,
+  "calibration_time_cap_s": 300.0,
+  "cross_validation_errors": [],
+  "cross_validation_passed": true,
+  "direction_dp_calls": 2337,
+  "direction_dp_per_primary": 0.11685,
+  "direction_flags": [
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "finished_at": "2026-07-16T15:02:06.981418+00:00",
+  "fitness": 1.001978768308134,
+  "generations": 87,
+  "global_transition_table_builds": 1,
+  "idle_distance": 78.19665271347942,
+  "instance_id": "boundary_dense_n60_r1",
+  "load_imbalance": 1578.6737527937066,
+  "local_search_primary_requests": 14004,
+  "lower_boundary_x": 6.361360029947,
+  "lower_event_index": 2,
+  "makespan": 2840.2577543603293,
+  "migrations": 2,
+  "normalization_hash": "874f552c21f21ee0c7213c025faa408844836c8030378cf2da7bc159e72f8d82",
+  "normalized_components": {
+    "idle_distance": 1.0274224325413488,
+    "load_imbalance": 0.9954336960848188,
+    "makespan": 1.0002139797671934
+  },
+  "phase": "formal_resource_calibration",
+  "phenotype_cache_hits": 17703,
+  "phenotype_cache_size": 2297,
+  "primary_evaluations": 20000,
+  "profile_hash": "de75ad629aeeff608cab96097fe96aed091237348b9f1fe3e6f94c68442771f2",
+  "requested_primary_budget": 20000,
+  "restarts": 0,
+  "robot_total_times": [
+    2840.2577543603293,
+    1848.314776567301,
+    1261.5840015666226,
+    2706.391463500405
+  ],
+  "route_cache_hits": 6850,
+  "route_evaluation_requests": 9188,
+  "route_evaluations_per_primary": 0.4594,
+  "routes": [
+    [
+      "boundary_dense_n60_r1__weld_0013|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0019|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0059|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0007|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0055|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0021|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0009|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0003|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0039|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0027|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0025|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0001|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0015|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0049|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0043|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0031|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0037|half=upper|part=1of1|seg=1of1"
+    ],
+    [
+      "boundary_dense_n60_r1__weld_0005|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0029|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0035|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0033|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0047|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0011|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0057|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0017|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0051|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0045|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0023|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0041|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0053|half=upper|part=1of1|seg=1of1"
+    ],
+    [
+      "boundary_dense_n60_r1__weld_0012|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0000|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0042|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0038|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0024|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0006|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0018|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0050|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0046|half=lower|part=1of1|seg=1of1"
+    ],
+    [
+      "boundary_dense_n60_r1__weld_0020|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0002|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0044|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0054|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0008|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0058|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0032|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0026|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0040|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0014|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0034|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0036|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0010|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0048|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0056|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0052|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0004|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0016|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0022|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0030|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0028|half=lower|part=1of1|seg=1of1"
+    ]
+  ],
+  "rss_mb": NaN,
+  "seed": 193,
+  "solver": "EPRK-MA",
+  "solver_id": "eprk",
+  "solver_version": "EPRK-MA-v0.1-development",
+  "solver_wall_clock_time_s": 0.9044894999824464,
+  "started_at": "2026-07-16T15:02:06.030268+00:00",
+  "status": "success",
+  "stop_reason": "objective_budget",
+  "upper_boundary_x": 10.049106578329,
+  "upper_event_index": 4
+}

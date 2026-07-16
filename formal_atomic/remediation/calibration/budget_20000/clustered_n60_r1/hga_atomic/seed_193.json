@@ -1,0 +1,277 @@
+{
+  "algorithm_time_s": 1.6185886000748724,
+  "atomic_instance_hash": "36ce29b4e9aafad1ae1cd24533d23fbded742d4df3157850c823ebbe110c079b",
+  "best_trace": [
+    {
+      "elapsed_s": 0.04363490000832826,
+      "fitness": 4.367738014936666,
+      "primary_evaluations": 1
+    },
+    {
+      "elapsed_s": 0.052658700034953654,
+      "fitness": 1.631784262453749,
+      "primary_evaluations": 2
+    },
+    {
+      "elapsed_s": 0.06035610008984804,
+      "fitness": 1.337710165095784,
+      "primary_evaluations": 3
+    },
+    {
+      "elapsed_s": 0.2895952999824658,
+      "fitness": 1.0684682191847494,
+      "primary_evaluations": 20
+    },
+    {
+      "elapsed_s": 0.3197065000422299,
+      "fitness": 1.0667672535014499,
+      "primary_evaluations": 252
+    },
+    {
+      "elapsed_s": 0.31986130005680025,
+      "fitness": 1.0666238636749945,
+      "primary_evaluations": 254
+    },
+    {
+      "elapsed_s": 0.319918500026688,
+      "fitness": 1.0644659316452219,
+      "primary_evaluations": 255
+    },
+    {
+      "elapsed_s": 0.3200395000167191,
+      "fitness": 1.0600242388803192,
+      "primary_evaluations": 259
+    },
+    {
+      "elapsed_s": 0.36237500002607703,
+      "fitness": 1.0353066498450492,
+      "primary_evaluations": 609
+    },
+    {
+      "elapsed_s": 0.3635301000904292,
+      "fitness": 1.0301698840726858,
+      "primary_evaluations": 622
+    },
+    {
+      "elapsed_s": 0.42178259999491274,
+      "fitness": 1.0297016056440524,
+      "primary_evaluations": 1143
+    },
+    {
+      "elapsed_s": 0.42298929998651147,
+      "fitness": 1.0296266465629413,
+      "primary_evaluations": 1182
+    },
+    {
+      "elapsed_s": 0.4238711000652984,
+      "fitness": 1.0293700854292829,
+      "primary_evaluations": 1221
+    },
+    {
+      "elapsed_s": 0.4362567000789568,
+      "fitness": 1.029071518458805,
+      "primary_evaluations": 1299
+    },
+    {
+      "elapsed_s": 0.4458574000746012,
+      "fitness": 1.0272955936943942,
+      "primary_evaluations": 1403
+    },
+    {
+      "elapsed_s": 0.4664926000405103,
+      "fitness": 1.027039032560736,
+      "primary_evaluations": 1728
+    }
+  ],
+  "calibration_budget": 20000,
+  "calibration_time_cap_s": 300.0,
+  "cross_validation_errors": [],
+  "cross_validation_passed": true,
+  "crossover_primary_requests": 1524,
+  "direction_dp_calls": 342,
+  "direction_dp_per_primary": 0.0171,
+  "direction_flags": [
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ]
+  ],
+  "finished_at": "2026-07-16T15:02:04.307381+00:00",
+  "fitness": 1.027039032560736,
+  "generations": 153,
+  "global_transition_table_builds": 1,
+  "idle_distance": 76.90706717580383,
+  "instance_id": "clustered_n60_r1",
+  "load_imbalance": 599.4409030590134,
+  "local_search_primary_requests": 18456,
+  "lower_boundary_x": 10.530562103554,
+  "lower_event_index": 2,
+  "makespan": 2396.8625512358954,
+  "normalization_hash": "face562a709cc8622cb679658545b8f48cdefeef6246fbffa054df93569df7b3",
+  "normalized_components": {
+    "idle_distance": 1.1270572537159775,
+    "load_imbalance": 1.0038427391805618,
+    "makespan": 1.01937822764718
+  },
+  "phase": "formal_resource_calibration",
+  "phenotype_cache_hits": 18703,
+  "primary_evaluations": 20000,
+  "profile_hash": "86f82ba9dd8f3326d846a1446d28a074c66287ec7d78fb49f7ab8298aa7af8ae",
+  "requested_primary_budget": 20000,
+  "robot_total_times": [
+    2396.8625512358954,
+    1797.421648176882,
+    1920.5022189313613,
+    1964.143737597751
+  ],
+  "route_cache_hits": 4845,
+  "route_evaluation_requests": 5188,
+  "route_evaluations_per_primary": 0.2594,
+  "routes": [
+    [
+      "clustered_n60_r1__weld_0053|half=upper|part=2of2|seg=1of1",
+      "clustered_n60_r1__weld_0001|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0013|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0029|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0045|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0005|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0021|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0037|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0041|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0056|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0017|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0025|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0055|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0033|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0009|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0057|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0049|half=upper|part=1of1|seg=1of1"
+    ],
+    [
+      "clustered_n60_r1__weld_0003|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0015|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0031|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0047|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0023|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0039|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0019|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0043|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0027|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0035|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0007|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0011|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0048|half=upper|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0051|half=upper|part=1of1|seg=1of1"
+    ],
+    [
+      "clustered_n60_r1__weld_0024|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0000|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0036|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0040|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0044|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0016|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0012|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0032|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0058|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0020|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0028|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0004|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0008|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0052|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0053|half=lower|part=1of2|seg=1of1"
+    ],
+    [
+      "clustered_n60_r1__weld_0054|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0018|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0046|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0030|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0026|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0006|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0010|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0014|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0002|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0042|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0034|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0022|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0050|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0038|half=lower|part=1of1|seg=1of1",
+      "clustered_n60_r1__weld_0059|half=lower|part=1of1|seg=1of1"
+    ]
+  ],
+  "rss_mb": NaN,
+  "seed": 193,
+  "solver": "Paper-Aligned-HGA-Atomic-Control",
+  "solver_id": "hga_atomic",
+  "solver_version": "HGA-Atomic-Control-v0.1-development",
+  "solver_wall_clock_time_s": 1.6186064999783412,
+  "started_at": "2026-07-16T15:02:02.640275+00:00",
+  "status": "success",
+  "stop_reason": "objective_budget",
+  "upper_boundary_x": 8.855589631368,
+  "upper_event_index": 2
+}

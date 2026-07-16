@@ -1,0 +1,333 @@
+{
+  "algorithm_time_s": 0.8775937999598682,
+  "assignment_cache_size": 35,
+  "atomic_instance_hash": "415cd8bac4d064479c994d7c3931fd0d9b1453ca37c13f18d3ec0743c6746673",
+  "best_trace": [
+    {
+      "elapsed_s": 0.02839469991158694,
+      "fitness": 3.1315403393532746,
+      "primary_evaluations": 1
+    },
+    {
+      "elapsed_s": 0.029743799939751625,
+      "fitness": 1.3948778756218425,
+      "primary_evaluations": 9
+    },
+    {
+      "elapsed_s": 0.03009849996306002,
+      "fitness": 1.3124455294247606,
+      "primary_evaluations": 11
+    },
+    {
+      "elapsed_s": 0.03050909994635731,
+      "fitness": 1.3017198386406885,
+      "primary_evaluations": 13
+    },
+    {
+      "elapsed_s": 0.03149009996559471,
+      "fitness": 1.0383019027131986,
+      "primary_evaluations": 15
+    },
+    {
+      "elapsed_s": 0.07648940000217408,
+      "fitness": 1.038264599372578,
+      "primary_evaluations": 130
+    },
+    {
+      "elapsed_s": 0.12418829998932779,
+      "fitness": 1.0249848229605716,
+      "primary_evaluations": 1125
+    },
+    {
+      "elapsed_s": 0.14398039993830025,
+      "fitness": 1.02392152730551,
+      "primary_evaluations": 1580
+    },
+    {
+      "elapsed_s": 0.24369149992708117,
+      "fitness": 1.021137512009913,
+      "primary_evaluations": 3888
+    },
+    {
+      "elapsed_s": 0.2506412999937311,
+      "fitness": 1.0191671012993035,
+      "primary_evaluations": 4095
+    },
+    {
+      "elapsed_s": 0.25395199994090945,
+      "fitness": 1.0170714849834839,
+      "primary_evaluations": 4118
+    },
+    {
+      "elapsed_s": 0.2834038999862969,
+      "fitness": 1.0167563336626777,
+      "primary_evaluations": 4781
+    },
+    {
+      "elapsed_s": 0.33561909990385175,
+      "fitness": 1.01536860203082,
+      "primary_evaluations": 6047
+    },
+    {
+      "elapsed_s": 0.4169973999960348,
+      "fitness": 1.013885033361964,
+      "primary_evaluations": 8098
+    },
+    {
+      "elapsed_s": 0.4557252998929471,
+      "fitness": 1.0117894170461441,
+      "primary_evaluations": 9009
+    },
+    {
+      "elapsed_s": 0.4746537999017164,
+      "fitness": 1.011654001511961,
+      "primary_evaluations": 9460
+    },
+    {
+      "elapsed_s": 0.4959236999275163,
+      "fitness": 1.0090384724601593,
+      "primary_evaluations": 10019
+    },
+    {
+      "elapsed_s": 0.5334878999274224,
+      "fitness": 1.008903056925976,
+      "primary_evaluations": 10926
+    },
+    {
+      "elapsed_s": 0.5439049999695271,
+      "fitness": 1.0071647155778876,
+      "primary_evaluations": 11161
+    },
+    {
+      "elapsed_s": 0.5556863999227062,
+      "fitness": 1.0070293000437045,
+      "primary_evaluations": 11403
+    },
+    {
+      "elapsed_s": 0.7512300999369472,
+      "fitness": 1.0066086112800632,
+      "primary_evaluations": 16742
+    },
+    {
+      "elapsed_s": 0.8092833999544382,
+      "fitness": 1.0060965660409573,
+      "primary_evaluations": 18343
+    },
+    {
+      "elapsed_s": 0.8175482999067754,
+      "fitness": 1.0047348543977916,
+      "primary_evaluations": 18565
+    },
+    {
+      "elapsed_s": 0.8294202999677509,
+      "fitness": 1.0042228091586858,
+      "primary_evaluations": 18806
+    },
+    {
+      "elapsed_s": 0.8336471999064088,
+      "fitness": 1.0012720678345717,
+      "primary_evaluations": 18925
+    },
+    {
+      "elapsed_s": 0.8497882999945432,
+      "fitness": 1.0007600225954658,
+      "primary_evaluations": 19361
+    },
+    {
+      "elapsed_s": 0.8616439999314025,
+      "fitness": 0.9998013534029264,
+      "primary_evaluations": 19599
+    }
+  ],
+  "calibration_budget": 20000,
+  "calibration_time_cap_s": 300.0,
+  "cross_validation_errors": [],
+  "cross_validation_passed": true,
+  "direction_dp_calls": 2164,
+  "direction_dp_per_primary": 0.1082,
+  "direction_flags": [
+    [
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "finished_at": "2026-07-16T15:01:38.526067+00:00",
+  "fitness": 0.9998013534029264,
+  "generations": 87,
+  "global_transition_table_builds": 1,
+  "idle_distance": 77.68989712754373,
+  "instance_id": "boundary_dense_n60_r1",
+  "load_imbalance": 1579.6588816507794,
+  "local_search_primary_requests": 14004,
+  "lower_boundary_x": 6.361360029947,
+  "lower_event_index": 2,
+  "makespan": 2838.410471219895,
+  "migrations": 2,
+  "normalization_hash": "874f552c21f21ee0c7213c025faa408844836c8030378cf2da7bc159e72f8d82",
+  "normalized_components": {
+    "idle_distance": 1.0207641928502755,
+    "load_imbalance": 0.996054869685495,
+    "makespan": 0.9978770859725713
+  },
+  "phase": "formal_resource_calibration",
+  "phenotype_cache_hits": 17918,
+  "phenotype_cache_size": 2082,
+  "primary_evaluations": 20000,
+  "profile_hash": "de75ad629aeeff608cab96097fe96aed091237348b9f1fe3e6f94c68442771f2",
+  "requested_primary_budget": 20000,
+  "restarts": 0,
+  "robot_total_times": [
+    2838.410471219895,
+    1849.1832177345393,
+    1258.7515895691156,
+    2707.674331164549
+  ],
+  "route_cache_hits": 6163,
+  "route_evaluation_requests": 8328,
+  "route_evaluations_per_primary": 0.4164,
+  "routes": [
+    [
+      "boundary_dense_n60_r1__weld_0013|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0019|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0059|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0025|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0001|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0007|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0055|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0009|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0039|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0027|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0003|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0021|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0015|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0049|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0043|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0031|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0037|half=upper|part=1of1|seg=1of1"
+    ],
+    [
+      "boundary_dense_n60_r1__weld_0005|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0029|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0035|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0033|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0047|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0011|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0057|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0023|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0051|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0045|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0017|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0041|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0053|half=upper|part=1of1|seg=1of1"
+    ],
+    [
+      "boundary_dense_n60_r1__weld_0000|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0042|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0012|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0038|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0024|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0006|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0018|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0050|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0046|half=lower|part=1of1|seg=1of1"
+    ],
+    [
+      "boundary_dense_n60_r1__weld_0002|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0026|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0044|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0054|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0008|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0058|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0032|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0020|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0040|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0014|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0034|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0036|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0010|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0048|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0056|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0052|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0004|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0016|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0022|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0030|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0028|half=lower|part=1of1|seg=1of1"
+    ]
+  ],
+  "rss_mb": NaN,
+  "seed": 192,
+  "solver": "EPRK-MA",
+  "solver_id": "eprk",
+  "solver_version": "EPRK-MA-v0.1-development",
+  "solver_wall_clock_time_s": 0.8782950000604615,
+  "started_at": "2026-07-16T15:01:37.605387+00:00",
+  "status": "success",
+  "stop_reason": "objective_budget",
+  "upper_boundary_x": 10.049106578329,
+  "upper_event_index": 4
+}

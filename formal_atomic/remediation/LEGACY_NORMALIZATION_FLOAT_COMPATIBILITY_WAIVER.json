@@ -1,0 +1,125 @@
+{
+  "absolute_tolerance": 1e-12,
+  "approved_purpose": "legacy protocol validation compatibility audit only",
+  "audit_file_path": "formal_atomic/remediation/legacy_normalization_field_diff.json",
+  "audit_file_sha256": "10fe82777948fa97840b63fd1c6589c0b77dba052fd7544bcb10f78fee0778fa",
+  "compatibility_match": true,
+  "environment": {
+    "float_representation": "Python shortest-round-trip repr; float.hex recorded per difference",
+    "json_serializer": "Python stdlib json",
+    "locale": null,
+    "numpy_version": "2.3.5",
+    "openpyxl_version": "3.1.5",
+    "operating_system": "Windows-10-10.0.19045-SP0",
+    "pandas_version": "3.0.3",
+    "protocol_newline": "CRLF",
+    "python_executable": "C:\\Users\\Renjl\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "python_version": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+    "recomputed_artifact_newline": "LF",
+    "serializer_ensure_ascii": false,
+    "serializer_separators_for_hash": [
+      ",",
+      ":"
+    ],
+    "serializer_sort_keys": true
+  },
+  "exact_hash_match": false,
+  "forbidden_uses": [
+    "atomic normalization",
+    "EPRK profile",
+    "algorithm results",
+    "instance files",
+    "formal statistics",
+    "any file not explicitly listed in scope"
+  ],
+  "generated_at": "2026-07-16T14:49:54.236869+00:00",
+  "git_commit_sha": "b93bbe92063591bc187f70ae8f6d83b8cecdd9d1",
+  "instances": [
+    {
+      "frozen_sha256": "e9e221a5db62c86aed76061099db5eaeb9b8c63708fbd05e33328b1811a38df4",
+      "instance": "w30",
+      "instance_sha256": "08cef2ad688e45e447e5d579ee6f423edee0699279cc15d2ba281e94efdb96c3",
+      "maximum_absolute_difference": 2.2737367544323206e-13,
+      "maximum_relative_difference": 1.4782098740360288e-15,
+      "recomputed_sha256": "a126e0c5092aa1ace588fe819c00d1ef6d342f82cfc16eeb3da90ab629fde1cd",
+      "scope": "UNIFIED_EXPERIMENT_PROTOCOL.json#/instances/w30/normalization",
+      "status": "legacy_float_compatibility_pass"
+    },
+    {
+      "frozen_sha256": "aaa71d5ade10b8e0312112f8c3bf00aa189c8283c0c92760a58443974d8ff017",
+      "instance": "w45",
+      "instance_sha256": "e148c1b49112183d56683a9a80083d042398a1225718339221e039e96f396df5",
+      "maximum_absolute_difference": 4.547473508864641e-13,
+      "maximum_relative_difference": 1.2975199743586879e-15,
+      "recomputed_sha256": "d30e7d05d8e2bc0e7d1dd79cd0b99f097d58050d0487b13fbb6c9558b91c7242",
+      "scope": "UNIFIED_EXPERIMENT_PROTOCOL.json#/instances/w45/normalization",
+      "status": "legacy_float_compatibility_pass"
+    },
+    {
+      "frozen_sha256": "2c969355974b9b9ca210a0a87655fdd5a442787654bfbbde0be740237b302940",
+      "instance": "w60",
+      "instance_sha256": "c3749ff85c43410ea9e38f4ae856f5e65e07055e4340f12b936f60b7197f8bb2",
+      "maximum_absolute_difference": 9.094947017729282e-13,
+      "maximum_relative_difference": 1.0064057603219346e-15,
+      "recomputed_sha256": "409d4415f98f42388ff8020fa34aab9cc792079fb097e2f4e88afad900609202",
+      "scope": "UNIFIED_EXPERIMENT_PROTOCOL.json#/instances/w60/normalization",
+      "status": "legacy_float_compatibility_pass"
+    }
+  ],
+  "protected_files_modified": false,
+  "relative_tolerance": 1e-12,
+  "scientific_field_consistency_checks": [
+    {
+      "all_numeric_differences_within_tolerance": true,
+      "baseline_construction_policy_match": true,
+      "derived_baseline_hash_fields_present": true,
+      "field_sets_match": true,
+      "historical_metric_replay_match": true,
+      "instance_hash_match": true,
+      "list_order_match": true,
+      "load_floor_policy_match": true,
+      "no_nan_inf_or_sign_change": true,
+      "normalization_algorithm_and_version_match": true,
+      "numeric_fields_only": true,
+      "scope_allowed": true,
+      "weights_match": true
+    },
+    {
+      "all_numeric_differences_within_tolerance": true,
+      "baseline_construction_policy_match": true,
+      "derived_baseline_hash_fields_present": true,
+      "field_sets_match": true,
+      "historical_metric_replay_match": true,
+      "instance_hash_match": true,
+      "list_order_match": true,
+      "load_floor_policy_match": true,
+      "no_nan_inf_or_sign_change": true,
+      "normalization_algorithm_and_version_match": true,
+      "numeric_fields_only": true,
+      "scope_allowed": true,
+      "weights_match": true
+    },
+    {
+      "all_numeric_differences_within_tolerance": true,
+      "baseline_construction_policy_match": true,
+      "derived_baseline_hash_fields_present": true,
+      "field_sets_match": true,
+      "historical_metric_replay_match": true,
+      "instance_hash_match": true,
+      "list_order_match": true,
+      "load_floor_policy_match": true,
+      "no_nan_inf_or_sign_change": true,
+      "normalization_algorithm_and_version_match": true,
+      "numeric_fields_only": true,
+      "scope_allowed": true,
+      "weights_match": true
+    }
+  ],
+  "scope": [
+    "UNIFIED_EXPERIMENT_PROTOCOL.json#/instances/w30/normalization",
+    "UNIFIED_EXPERIMENT_PROTOCOL.json#/instances/w45/normalization",
+    "UNIFIED_EXPERIMENT_PROTOCOL.json#/instances/w60/normalization"
+  ],
+  "status": "approved_for_legacy_validation_only",
+  "waiver_version": "1.0.0"
+}

@@ -1,0 +1,290 @@
+{
+  "algorithm_time_s": 1.6217248999746516,
+  "atomic_instance_hash": "415cd8bac4d064479c994d7c3931fd0d9b1453ca37c13f18d3ec0743c6746673",
+  "best_trace": [
+    {
+      "elapsed_s": 0.04076010000426322,
+      "fitness": 3.0969105366332275,
+      "primary_evaluations": 1
+    },
+    {
+      "elapsed_s": 0.053786000004038215,
+      "fitness": 2.417038280898107,
+      "primary_evaluations": 2
+    },
+    {
+      "elapsed_s": 0.11381909996271133,
+      "fitness": 2.218325044507832,
+      "primary_evaluations": 7
+    },
+    {
+      "elapsed_s": 0.12487029994372278,
+      "fitness": 2.213061876232892,
+      "primary_evaluations": 8
+    },
+    {
+      "elapsed_s": 0.19090169994160533,
+      "fitness": 2.128823828022461,
+      "primary_evaluations": 13
+    },
+    {
+      "elapsed_s": 0.2428901999955997,
+      "fitness": 1.2024364234879286,
+      "primary_evaluations": 17
+    },
+    {
+      "elapsed_s": 0.28277589997742325,
+      "fitness": 1.0368881108279597,
+      "primary_evaluations": 20
+    },
+    {
+      "elapsed_s": 0.331289800000377,
+      "fitness": 1.0361949854923744,
+      "primary_evaluations": 428
+    },
+    {
+      "elapsed_s": 0.331472699996084,
+      "fitness": 1.035961029767437,
+      "primary_evaluations": 430
+    },
+    {
+      "elapsed_s": 0.3315679000224918,
+      "fitness": 1.0357205878884999,
+      "primary_evaluations": 431
+    },
+    {
+      "elapsed_s": 0.33238459995482117,
+      "fitness": 1.0355221091468825,
+      "primary_evaluations": 442
+    },
+    {
+      "elapsed_s": 0.3332741999765858,
+      "fitness": 1.0340155083547862,
+      "primary_evaluations": 452
+    },
+    {
+      "elapsed_s": 0.3333701000083238,
+      "fitness": 1.0287869558517693,
+      "primary_evaluations": 453
+    },
+    {
+      "elapsed_s": 0.3340976999606937,
+      "fitness": 1.022658821193489,
+      "primary_evaluations": 462
+    },
+    {
+      "elapsed_s": 0.33492829999886453,
+      "fitness": 1.0225304356875942,
+      "primary_evaluations": 471
+    },
+    {
+      "elapsed_s": 0.33565449994057417,
+      "fitness": 1.0197213340937838,
+      "primary_evaluations": 477
+    },
+    {
+      "elapsed_s": 0.409387500025332,
+      "fitness": 1.017027177683585,
+      "primary_evaluations": 1127
+    },
+    {
+      "elapsed_s": 0.4557638999540359,
+      "fitness": 1.0162199218535677,
+      "primary_evaluations": 1570
+    },
+    {
+      "elapsed_s": 0.4659022999694571,
+      "fitness": 1.0147119387082901,
+      "primary_evaluations": 1648
+    }
+  ],
+  "calibration_budget": 20000,
+  "calibration_time_cap_s": 300.0,
+  "cross_validation_errors": [],
+  "cross_validation_passed": true,
+  "crossover_primary_requests": 1493,
+  "direction_dp_calls": 680,
+  "direction_dp_per_primary": 0.034,
+  "direction_flags": [
+    [
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true
+    ],
+    [
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "finished_at": "2026-07-16T15:02:06.004847+00:00",
+  "fitness": 1.0147119387082901,
+  "generations": 150,
+  "global_transition_table_builds": 1,
+  "idle_distance": 84.13423023846345,
+  "instance_id": "boundary_dense_n60_r1",
+  "load_imbalance": 1582.207272620498,
+  "local_search_primary_requests": 18487,
+  "lower_boundary_x": 6.361360029947,
+  "lower_event_index": 2,
+  "makespan": 2845.3238702537237,
+  "normalization_hash": "874f552c21f21ee0c7213c025faa408844836c8030378cf2da7bc159e72f8d82",
+  "normalized_components": {
+    "idle_distance": 1.1054360064276176,
+    "load_imbalance": 0.9976617591631765,
+    "makespan": 1.0066228374755615
+  },
+  "phase": "formal_resource_calibration",
+  "phenotype_cache_hits": 18432,
+  "primary_evaluations": 20000,
+  "profile_hash": "86f82ba9dd8f3326d846a1446d28a074c66287ec7d78fb49f7ab8298aa7af8ae",
+  "requested_primary_budget": 20000,
+  "robot_total_times": [
+    2845.3238702537237,
+    1862.8335909116365,
+    1263.1165976332256,
+    2714.9618248209918
+  ],
+  "route_cache_hits": 5591,
+  "route_evaluation_requests": 6272,
+  "route_evaluations_per_primary": 0.3136,
+  "routes": [
+    [
+      "boundary_dense_n60_r1__weld_0055|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0021|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0009|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0039|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0003|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0027|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0001|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0025|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0007|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0059|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0019|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0013|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0015|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0049|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0031|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0043|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0037|half=upper|part=1of1|seg=1of1"
+    ],
+    [
+      "boundary_dense_n60_r1__weld_0035|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0029|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0005|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0045|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0051|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0023|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0011|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0047|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0057|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0017|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0033|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0041|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0053|half=upper|part=1of1|seg=1of1"
+    ],
+    [
+      "boundary_dense_n60_r1__weld_0012|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0042|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0038|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0000|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0024|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0018|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0006|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0050|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0046|half=lower|part=1of1|seg=1of1"
+    ],
+    [
+      "boundary_dense_n60_r1__weld_0028|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0030|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0056|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0048|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0022|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0034|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0014|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0040|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0036|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0010|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0052|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0004|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0016|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0044|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0002|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0020|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0026|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0054|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0008|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0032|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0058|half=lower|part=1of1|seg=1of1"
+    ]
+  ],
+  "rss_mb": NaN,
+  "seed": 193,
+  "solver": "Paper-Aligned-HGA-Atomic-Control",
+  "solver_id": "hga_atomic",
+  "solver_version": "HGA-Atomic-Control-v0.1-development",
+  "solver_wall_clock_time_s": 1.6217418999876827,
+  "started_at": "2026-07-16T15:02:04.337447+00:00",
+  "status": "success",
+  "stop_reason": "objective_budget",
+  "upper_boundary_x": 10.049106578329,
+  "upper_event_index": 4
+}

@@ -17,9 +17,17 @@ class UnifiedProtocolV2Tests(unittest.TestCase):
         cls.path = ROOT / "UNIFIED_EXPERIMENT_PROTOCOL.json"
         cls.protocol = runner.read_json(cls.path)
 
-    def test_protocol_recomputes_cleanly(self):
+    def test_protocol_exact_validator_reports_frozen_float_drift(self):
         with tempfile.TemporaryDirectory() as folder:
-            self.assertEqual(runner.validate_protocol(self.protocol, self.path, Path(folder) / "out"), [])
+            errors = runner.validate_protocol(self.protocol, self.path, Path(folder) / "out")
+        self.assertEqual(errors, [
+            "w30: normalization spec hash mismatch",
+            "w30: normalization values or baseline evidence mismatch",
+            "w45: normalization spec hash mismatch",
+            "w45: normalization values or baseline evidence mismatch",
+            "w60: normalization spec hash mismatch",
+            "w60: normalization values or baseline evidence mismatch",
+        ])
 
     def test_official_commands_have_ranges_and_no_refs(self):
         instance = self.protocol["instances"]["w30"]

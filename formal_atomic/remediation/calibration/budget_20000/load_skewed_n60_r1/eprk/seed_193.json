@@ -1,0 +1,338 @@
+{
+  "algorithm_time_s": 0.990613600006327,
+  "assignment_cache_size": 12,
+  "atomic_instance_hash": "096cf387aa942fb103724b2a61dddc659bf65b8c85b4d2cbba1442e759092ae6",
+  "best_trace": [
+    {
+      "elapsed_s": 0.03252899996004999,
+      "fitness": 1.3379486058421326,
+      "primary_evaluations": 1
+    },
+    {
+      "elapsed_s": 0.033825900056399405,
+      "fitness": 1.3103257217518092,
+      "primary_evaluations": 5
+    },
+    {
+      "elapsed_s": 0.03410090005490929,
+      "fitness": 1.2986531897008802,
+      "primary_evaluations": 6
+    },
+    {
+      "elapsed_s": 0.0348738000029698,
+      "fitness": 1.1767386690071227,
+      "primary_evaluations": 9
+    },
+    {
+      "elapsed_s": 0.03789340006187558,
+      "fitness": 1.0158966890885541,
+      "primary_evaluations": 15
+    },
+    {
+      "elapsed_s": 0.08838670002296567,
+      "fitness": 1.0153010698694744,
+      "primary_evaluations": 285
+    },
+    {
+      "elapsed_s": 0.09145509998779744,
+      "fitness": 1.0143444678890416,
+      "primary_evaluations": 327
+    },
+    {
+      "elapsed_s": 0.092056900030002,
+      "fitness": 1.0139137135582466,
+      "primary_evaluations": 340
+    },
+    {
+      "elapsed_s": 0.09280139999464154,
+      "fitness": 1.0134829379209145,
+      "primary_evaluations": 355
+    },
+    {
+      "elapsed_s": 0.09324179997202009,
+      "fitness": 1.0117491021539653,
+      "primary_evaluations": 364
+    },
+    {
+      "elapsed_s": 0.09623330004978925,
+      "fitness": 1.0114763546680254,
+      "primary_evaluations": 377
+    },
+    {
+      "elapsed_s": 0.11809250002261251,
+      "fitness": 1.0108234554727278,
+      "primary_evaluations": 752
+    },
+    {
+      "elapsed_s": 0.13138769997749478,
+      "fitness": 1.009015436541601,
+      "primary_evaluations": 979
+    },
+    {
+      "elapsed_s": 0.14950820000376552,
+      "fitness": 1.0087956491622698,
+      "primary_evaluations": 1375
+    },
+    {
+      "elapsed_s": 0.14962070004548877,
+      "fitness": 1.0072687907249709,
+      "primary_evaluations": 1377
+    },
+    {
+      "elapsed_s": 0.17103299999143928,
+      "fitness": 1.0066768911062984,
+      "primary_evaluations": 1799
+    },
+    {
+      "elapsed_s": 0.21644660003948957,
+      "fitness": 1.005901776670418,
+      "primary_evaluations": 2794
+    },
+    {
+      "elapsed_s": 0.2504067999543622,
+      "fitness": 1.0058609262161002,
+      "primary_evaluations": 3633
+    },
+    {
+      "elapsed_s": 0.2818569999653846,
+      "fitness": 1.0049977307366091,
+      "primary_evaluations": 4432
+    },
+    {
+      "elapsed_s": 0.3577246000058949,
+      "fitness": 1.0047835590363623,
+      "primary_evaluations": 6075
+    },
+    {
+      "elapsed_s": 0.38823929999489337,
+      "fitness": 1.0046043861439078,
+      "primary_evaluations": 6677
+    },
+    {
+      "elapsed_s": 0.3982444000430405,
+      "fitness": 1.002896592754083,
+      "primary_evaluations": 6896
+    },
+    {
+      "elapsed_s": 0.42298460006713867,
+      "fitness": 1.0027174198616284,
+      "primary_evaluations": 7488
+    },
+    {
+      "elapsed_s": 0.47425359999760985,
+      "fitness": 1.0025791156815236,
+      "primary_evaluations": 8619
+    },
+    {
+      "elapsed_s": 0.5205571000697091,
+      "fitness": 1.0013541304856666,
+      "primary_evaluations": 9648
+    },
+    {
+      "elapsed_s": 0.5434528000187129,
+      "fitness": 0.9992211752620522,
+      "primary_evaluations": 10061
+    },
+    {
+      "elapsed_s": 0.9211874000029638,
+      "fitness": 0.9990216433653492,
+      "primary_evaluations": 18509
+    },
+    {
+      "elapsed_s": 0.9420492000645027,
+      "fitness": 0.9987588363702372,
+      "primary_evaluations": 19013
+    }
+  ],
+  "calibration_budget": 20000,
+  "calibration_time_cap_s": 300.0,
+  "cross_validation_errors": [],
+  "cross_validation_passed": true,
+  "direction_dp_calls": 2291,
+  "direction_dp_per_primary": 0.11455,
+  "direction_flags": [
+    [
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      true
+    ]
+  ],
+  "finished_at": "2026-07-16T15:02:19.746163+00:00",
+  "fitness": 0.9987588363702372,
+  "generations": 98,
+  "global_transition_table_builds": 1,
+  "idle_distance": 69.72605723105964,
+  "instance_id": "load_skewed_n60_r1",
+  "load_imbalance": 5110.9431084710395,
+  "local_search_primary_requests": 13290,
+  "lower_boundary_x": 7.588811708105,
+  "lower_event_index": 2,
+  "makespan": 5697.815337415462,
+  "migrations": 2,
+  "normalization_hash": "5ff217323ad4dd17355a9d25cfc9617e5cea3b64edb404571658f124fc4859cc",
+  "normalized_components": {
+    "idle_distance": 0.9944171450073532,
+    "load_imbalance": 0.9981676653143214,
+    "makespan": 0.9995479840094823
+  },
+  "phase": "formal_resource_calibration",
+  "phenotype_cache_hits": 17910,
+  "phenotype_cache_size": 2090,
+  "primary_evaluations": 20000,
+  "profile_hash": "de75ad629aeeff608cab96097fe96aed091237348b9f1fe3e6f94c68442771f2",
+  "requested_primary_budget": 20000,
+  "restarts": 0,
+  "robot_total_times": [
+    5697.815337415462,
+    1717.3773346969058,
+    586.8722289444219,
+    2899.0296925144244
+  ],
+  "route_cache_hits": 6068,
+  "route_evaluation_requests": 8360,
+  "route_evaluations_per_primary": 0.418,
+  "routes": [
+    [
+      "load_skewed_n60_r1__weld_0023|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0029|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0001|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0003|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0008|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0014|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0007|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0016|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0034|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0009|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0028|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0022|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0018|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0026|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0002|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0006|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0031|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0019|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0033|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0021|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0027|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0032|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0024|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0013|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0017|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0011|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0012|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0004|half=upper|part=1of1|seg=1of1"
+    ],
+    [
+      "load_skewed_n60_r1__weld_0000|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0030|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0015|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0025|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0035|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0020|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0010|half=upper|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0005|half=upper|part=1of1|seg=1of1"
+    ],
+    [
+      "load_skewed_n60_r1__weld_0040|half=lower|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0045|half=lower|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0055|half=lower|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0050|half=lower|part=1of1|seg=1of1"
+    ],
+    [
+      "load_skewed_n60_r1__weld_0049|half=lower|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0036|half=lower|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0041|half=lower|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0054|half=lower|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0037|half=lower|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0042|half=lower|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0047|half=lower|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0053|half=lower|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0059|half=lower|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0046|half=lower|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0044|half=lower|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0051|half=lower|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0038|half=lower|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0057|half=lower|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0039|half=lower|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0058|half=lower|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0056|half=lower|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0043|half=lower|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0048|half=lower|part=1of1|seg=1of1",
+      "load_skewed_n60_r1__weld_0052|half=lower|part=1of1|seg=1of1"
+    ]
+  ],
+  "rss_mb": NaN,
+  "seed": 193,
+  "solver": "EPRK-MA",
+  "solver_id": "eprk",
+  "solver_version": "EPRK-MA-v0.1-development",
+  "solver_wall_clock_time_s": 0.9913764999946579,
+  "started_at": "2026-07-16T15:02:18.691553+00:00",
+  "status": "success",
+  "stop_reason": "objective_budget",
+  "upper_boundary_x": 8.397360440101,
+  "upper_event_index": 1
+}

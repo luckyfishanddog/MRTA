@@ -1,0 +1,338 @@
+{
+  "algorithm_time_s": 0.7860682000173256,
+  "assignment_cache_size": 44,
+  "atomic_instance_hash": "f5acbb125c9d9c8e1165f45b8107b7de2573681bf1182ea3ea48b09dfe521f63",
+  "best_trace": [
+    {
+      "elapsed_s": 0.036427299957722425,
+      "fitness": 4.562083054754957,
+      "primary_evaluations": 1
+    },
+    {
+      "elapsed_s": 0.036615499993786216,
+      "fitness": 3.3078940788680917,
+      "primary_evaluations": 2
+    },
+    {
+      "elapsed_s": 0.03809019993059337,
+      "fitness": 1.4148208108708806,
+      "primary_evaluations": 11
+    },
+    {
+      "elapsed_s": 0.03940010000951588,
+      "fitness": 1.0129720111879392,
+      "primary_evaluations": 15
+    },
+    {
+      "elapsed_s": 0.06817380001302809,
+      "fitness": 1.0126974172480223,
+      "primary_evaluations": 109
+    },
+    {
+      "elapsed_s": 0.08875150000676513,
+      "fitness": 1.0110291742595163,
+      "primary_evaluations": 550
+    },
+    {
+      "elapsed_s": 0.10533639998175204,
+      "fitness": 1.0109365777291635,
+      "primary_evaluations": 1000
+    },
+    {
+      "elapsed_s": 0.1507050999207422,
+      "fitness": 1.010812630465452,
+      "primary_evaluations": 2269
+    },
+    {
+      "elapsed_s": 0.19134609994944185,
+      "fitness": 1.0102992734569847,
+      "primary_evaluations": 3530
+    },
+    {
+      "elapsed_s": 0.22025210002902895,
+      "fitness": 1.009046055704976,
+      "primary_evaluations": 4099
+    },
+    {
+      "elapsed_s": 0.24986759992316365,
+      "fitness": 1.0080767522710072,
+      "primary_evaluations": 4787
+    },
+    {
+      "elapsed_s": 0.2677910999627784,
+      "fitness": 1.0056162914376432,
+      "primary_evaluations": 5219
+    },
+    {
+      "elapsed_s": 0.2682037999620661,
+      "fitness": 1.004993903144725,
+      "primary_evaluations": 5229
+    },
+    {
+      "elapsed_s": 0.35085439996328205,
+      "fitness": 1.004239512409102,
+      "primary_evaluations": 7405
+    },
+    {
+      "elapsed_s": 0.3676090999506414,
+      "fitness": 1.003602208136923,
+      "primary_evaluations": 7835
+    },
+    {
+      "elapsed_s": 0.3752894999925047,
+      "fitness": 1.0007798005436153,
+      "primary_evaluations": 8066
+    },
+    {
+      "elapsed_s": 0.37584659992717206,
+      "fitness": 0.9995500555766719,
+      "primary_evaluations": 8082
+    },
+    {
+      "elapsed_s": 0.424391399952583,
+      "fitness": 0.9993335117826077,
+      "primary_evaluations": 9544
+    },
+    {
+      "elapsed_s": 0.4247514000162482,
+      "fitness": 0.9985606739421016,
+      "primary_evaluations": 9552
+    },
+    {
+      "elapsed_s": 0.4251076999353245,
+      "fitness": 0.9977068258758583,
+      "primary_evaluations": 9559
+    },
+    {
+      "elapsed_s": 0.43445790000259876,
+      "fitness": 0.9976142293455056,
+      "primary_evaluations": 9784
+    },
+    {
+      "elapsed_s": 0.5513562000123784,
+      "fitness": 0.9918530871314465,
+      "primary_evaluations": 13109
+    },
+    {
+      "elapsed_s": 0.5576138999313116,
+      "fitness": 0.9903065503630369,
+      "primary_evaluations": 13308
+    },
+    {
+      "elapsed_s": 0.557658499921672,
+      "fitness": 0.9769285278478212,
+      "primary_evaluations": 13309
+    },
+    {
+      "elapsed_s": 0.56667590001598,
+      "fitness": 0.9753819910794116,
+      "primary_evaluations": 13547
+    },
+    {
+      "elapsed_s": 0.7178158999886364,
+      "fitness": 0.973738416846785,
+      "primary_evaluations": 18340
+    },
+    {
+      "elapsed_s": 0.721845299936831,
+      "fitness": 0.9736627086423096,
+      "primary_evaluations": 18460
+    },
+    {
+      "elapsed_s": 0.729998099966906,
+      "fitness": 0.9734461648482453,
+      "primary_evaluations": 18670
+    }
+  ],
+  "calibration_budget": 20000,
+  "calibration_time_cap_s": 300.0,
+  "cross_validation_errors": [],
+  "cross_validation_passed": true,
+  "direction_dp_calls": 1988,
+  "direction_dp_per_primary": 0.0994,
+  "direction_flags": [
+    [
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true
+    ],
+    [
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "finished_at": "2026-07-16T15:01:47.274205+00:00",
+  "fitness": 0.9734461648482453,
+  "generations": 88,
+  "global_transition_table_builds": 1,
+  "idle_distance": 67.69599896953244,
+  "instance_id": "zero_travel_chain_n60_r1",
+  "load_imbalance": 735.1931595024312,
+  "local_search_primary_requests": 13970,
+  "lower_boundary_x": 9.34640622086,
+  "lower_event_index": 6,
+  "makespan": 2569.0998298465856,
+  "migrations": 2,
+  "normalization_hash": "b326a31e95452a81abc0211b7631c27f7d468357d79991b47a425a8796370c89",
+  "normalized_components": {
+    "idle_distance": 0.9840570557976313,
+    "load_imbalance": 0.9735480872824566,
+    "makespan": 0.9719012025885585
+  },
+  "phase": "formal_resource_calibration",
+  "phenotype_cache_hits": 18049,
+  "phenotype_cache_size": 1951,
+  "primary_evaluations": 20000,
+  "profile_hash": "de75ad629aeeff608cab96097fe96aed091237348b9f1fe3e6f94c68442771f2",
+  "requested_primary_budget": 20000,
+  "restarts": 0,
+  "robot_total_times": [
+    1833.9066703441545,
+    1843.6611386884601,
+    1948.7250657020136,
+    2569.0998298465856
+  ],
+  "route_cache_hits": 5815,
+  "route_evaluation_requests": 7804,
+  "route_evaluations_per_primary": 0.3902,
+  "routes": [
+    [
+      "zero_travel_chain_n60_r1__weld_0000|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0001|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0002|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0045|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0055|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0025|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0037|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0049|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0023|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0027|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0041|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0043|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0031|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0033|half=upper|part=1of1|seg=1of1"
+    ],
+    [
+      "zero_travel_chain_n60_r1__weld_0003|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0004|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0005|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0006|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0035|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0053|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0029|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0021|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0039|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0057|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0047|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0051|half=upper|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0059|half=upper|part=1of1|seg=1of1"
+    ],
+    [
+      "zero_travel_chain_n60_r1__weld_0052|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0007|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0008|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0009|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0010|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0011|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0058|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0024|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0022|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0050|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0040|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0046|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0048|half=lower|part=1of1|seg=1of1"
+    ],
+    [
+      "zero_travel_chain_n60_r1__weld_0012|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0013|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0014|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0015|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0016|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0017|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0018|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0019|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0056|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0044|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0020|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0038|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0028|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0030|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0054|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0042|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0036|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0034|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0026|half=lower|part=1of1|seg=1of1",
+      "zero_travel_chain_n60_r1__weld_0032|half=lower|part=1of1|seg=1of1"
+    ]
+  ],
+  "rss_mb": NaN,
+  "seed": 192,
+  "solver": "EPRK-MA",
+  "solver_id": "eprk",
+  "solver_version": "EPRK-MA-v0.1-development",
+  "solver_wall_clock_time_s": 0.7868167000124231,
+  "started_at": "2026-07-16T15:01:46.444943+00:00",
+  "status": "success",
+  "stop_reason": "objective_budget",
+  "upper_boundary_x": 10.73424383924,
+  "upper_event_index": 4
+}

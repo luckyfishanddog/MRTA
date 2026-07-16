@@ -1,0 +1,318 @@
+{
+  "algorithm_time_s": 0.9483973999740556,
+  "assignment_cache_size": 36,
+  "atomic_instance_hash": "415cd8bac4d064479c994d7c3931fd0d9b1453ca37c13f18d3ec0743c6746673",
+  "best_trace": [
+    {
+      "elapsed_s": 0.030641500023193657,
+      "fitness": 3.0909613463806433,
+      "primary_evaluations": 1
+    },
+    {
+      "elapsed_s": 0.03156669996678829,
+      "fitness": 1.2827704157681359,
+      "primary_evaluations": 4
+    },
+    {
+      "elapsed_s": 0.03465879999566823,
+      "fitness": 1.0383019027131986,
+      "primary_evaluations": 15
+    },
+    {
+      "elapsed_s": 0.07527899998240173,
+      "fitness": 1.038264599372578,
+      "primary_evaluations": 130
+    },
+    {
+      "elapsed_s": 0.10778029996436089,
+      "fitness": 1.0350387634579188,
+      "primary_evaluations": 580
+    },
+    {
+      "elapsed_s": 0.14998620003461838,
+      "fitness": 1.034080331788657,
+      "primary_evaluations": 1496
+    },
+    {
+      "elapsed_s": 0.17410040006507188,
+      "fitness": 1.0302843374517128,
+      "primary_evaluations": 1920
+    },
+    {
+      "elapsed_s": 0.1795409000478685,
+      "fitness": 1.0249848229605716,
+      "primary_evaluations": 2038
+    },
+    {
+      "elapsed_s": 0.19088220002595335,
+      "fitness": 1.0233837674933381,
+      "primary_evaluations": 2288
+    },
+    {
+      "elapsed_s": 0.2416413000319153,
+      "fitness": 1.0186293414871315,
+      "primary_evaluations": 3646
+    },
+    {
+      "elapsed_s": 0.39643369999248534,
+      "fitness": 1.0173863100454472,
+      "primary_evaluations": 7081
+    },
+    {
+      "elapsed_s": 0.39983250002842396,
+      "fitness": 1.0142068198007195,
+      "primary_evaluations": 7166
+    },
+    {
+      "elapsed_s": 0.40193739999085665,
+      "fitness": 1.01406254931747,
+      "primary_evaluations": 7205
+    },
+    {
+      "elapsed_s": 0.42047939996700734,
+      "fitness": 1.0113116047314854,
+      "primary_evaluations": 7658
+    },
+    {
+      "elapsed_s": 0.5016713000368327,
+      "fitness": 1.0102364754505995,
+      "primary_evaluations": 9599
+    },
+    {
+      "elapsed_s": 0.5141520999604836,
+      "fitness": 1.0089934440089152,
+      "primary_evaluations": 9829
+    },
+    {
+      "elapsed_s": 0.5293887000298128,
+      "fitness": 1.0089614710470434,
+      "primary_evaluations": 10131
+    },
+    {
+      "elapsed_s": 0.532138800015673,
+      "fitness": 1.008510054593568,
+      "primary_evaluations": 10201
+    },
+    {
+      "elapsed_s": 0.604549300041981,
+      "fitness": 1.0084534660222966,
+      "primary_evaluations": 11788
+    },
+    {
+      "elapsed_s": 0.7265734999673441,
+      "fitness": 1.0078650053269644,
+      "primary_evaluations": 14645
+    },
+    {
+      "elapsed_s": 0.7426923000020906,
+      "fitness": 1.0068795779262496,
+      "primary_evaluations": 15090
+    },
+    {
+      "elapsed_s": 0.7794201000360772,
+      "fitness": 1.0065758442592154,
+      "primary_evaluations": 15997
+    },
+    {
+      "elapsed_s": 0.8893659999594092,
+      "fitness": 1.0063442767089728,
+      "primary_evaluations": 18511
+    },
+    {
+      "elapsed_s": 0.9200149000389501,
+      "fitness": 1.0062088611747897,
+      "primary_evaluations": 19293
+    }
+  ],
+  "calibration_budget": 20000,
+  "calibration_time_cap_s": 300.0,
+  "cross_validation_errors": [],
+  "cross_validation_passed": true,
+  "direction_dp_calls": 2331,
+  "direction_dp_per_primary": 0.11655,
+  "direction_flags": [
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false
+    ]
+  ],
+  "finished_at": "2026-07-16T15:01:10.588634+00:00",
+  "fitness": 1.0062088611747897,
+  "generations": 87,
+  "global_transition_table_builds": 1,
+  "idle_distance": 80.8584222282835,
+  "instance_id": "boundary_dense_n60_r1",
+  "load_imbalance": 1578.2687082379744,
+  "local_search_primary_requests": 14013,
+  "lower_boundary_x": 6.361360029947,
+  "lower_event_index": 2,
+  "makespan": 2841.1429701777924,
+  "migrations": 2,
+  "normalization_hash": "874f552c21f21ee0c7213c025faa408844836c8030378cf2da7bc159e72f8d82",
+  "normalized_components": {
+    "idle_distance": 1.0623953068891148,
+    "load_imbalance": 0.9951782949935686,
+    "makespan": 1.001333816410235
+  },
+  "phase": "formal_resource_calibration",
+  "phenotype_cache_hits": 17725,
+  "phenotype_cache_size": 2275,
+  "primary_evaluations": 20000,
+  "profile_hash": "de75ad629aeeff608cab96097fe96aed091237348b9f1fe3e6f94c68442771f2",
+  "requested_primary_budget": 20000,
+  "restarts": 0,
+  "robot_total_times": [
+    2841.1429701777924,
+    1849.1832177345393,
+    1262.874261939818,
+    2716.6617853396483
+  ],
+  "route_cache_hits": 6768,
+  "route_evaluation_requests": 9100,
+  "route_evaluations_per_primary": 0.455,
+  "routes": [
+    [
+      "boundary_dense_n60_r1__weld_0019|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0013|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0007|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0001|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0055|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0021|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0009|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0003|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0039|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0027|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0025|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0059|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0015|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0049|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0043|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0031|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0037|half=upper|part=1of1|seg=1of1"
+    ],
+    [
+      "boundary_dense_n60_r1__weld_0005|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0029|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0035|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0033|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0047|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0011|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0057|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0023|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0051|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0045|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0017|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0041|half=upper|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0053|half=upper|part=1of1|seg=1of1"
+    ],
+    [
+      "boundary_dense_n60_r1__weld_0000|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0012|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0038|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0042|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0024|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0018|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0006|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0050|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0046|half=lower|part=1of1|seg=1of1"
+    ],
+    [
+      "boundary_dense_n60_r1__weld_0044|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0020|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0002|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0026|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0054|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0008|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0058|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0032|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0040|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0014|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0034|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0036|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0010|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0048|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0056|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0016|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0022|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0004|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0052|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0030|half=lower|part=1of1|seg=1of1",
+      "boundary_dense_n60_r1__weld_0028|half=lower|part=1of1|seg=1of1"
+    ]
+  ],
+  "rss_mb": NaN,
+  "seed": 191,
+  "solver": "EPRK-MA",
+  "solver_id": "eprk",
+  "solver_version": "EPRK-MA-v0.1-development",
+  "solver_wall_clock_time_s": 0.9494080999866128,
+  "started_at": "2026-07-16T15:01:09.582166+00:00",
+  "status": "success",
+  "stop_reason": "objective_budget",
+  "upper_boundary_x": 10.049106578329,
+  "upper_event_index": 4
+}

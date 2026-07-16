@@ -1,0 +1,359 @@
+{
+  "algorithm_time_s": 1.0410205000080168,
+  "assignment_cache_size": 26,
+  "atomic_instance_hash": "e88f368ce594e40ac6b5f52c9e1e7244b9914f072dbac1960dda6cb7130d88a0",
+  "best_trace": [
+    {
+      "elapsed_s": 0.04096629994455725,
+      "fitness": 1.3052388535858663,
+      "primary_evaluations": 1
+    },
+    {
+      "elapsed_s": 0.043115500011481345,
+      "fitness": 1.2510877375053924,
+      "primary_evaluations": 11
+    },
+    {
+      "elapsed_s": 0.04495469992980361,
+      "fitness": 1.0324544107030782,
+      "primary_evaluations": 15
+    },
+    {
+      "elapsed_s": 0.08924040000420064,
+      "fitness": 1.027321147628748,
+      "primary_evaluations": 125
+    },
+    {
+      "elapsed_s": 0.1478341999463737,
+      "fitness": 1.0247343207072637,
+      "primary_evaluations": 1061
+    },
+    {
+      "elapsed_s": 0.16842280002310872,
+      "fitness": 1.0242937009254363,
+      "primary_evaluations": 1511
+    },
+    {
+      "elapsed_s": 0.17636949999723583,
+      "fitness": 1.023767274428367,
+      "primary_evaluations": 1725
+    },
+    {
+      "elapsed_s": 0.19190289999824017,
+      "fitness": 1.0233266546465396,
+      "primary_evaluations": 1954
+    },
+    {
+      "elapsed_s": 0.19964679994154721,
+      "fitness": 1.02201084300206,
+      "primary_evaluations": 2056
+    },
+    {
+      "elapsed_s": 0.223900799988769,
+      "fitness": 1.021483619364892,
+      "primary_evaluations": 2487
+    },
+    {
+      "elapsed_s": 0.2359109999379143,
+      "fitness": 1.0212135099319744,
+      "primary_evaluations": 2707
+    },
+    {
+      "elapsed_s": 0.2453018999658525,
+      "fitness": 1.018710142192604,
+      "primary_evaluations": 2935
+    },
+    {
+      "elapsed_s": 0.24549499992281199,
+      "fitness": 1.018440032759686,
+      "primary_evaluations": 2939
+    },
+    {
+      "elapsed_s": 0.2755436999723315,
+      "fitness": 1.0174376620913477,
+      "primary_evaluations": 3473
+    },
+    {
+      "elapsed_s": 0.27576370001770556,
+      "fitness": 1.0174009484106055,
+      "primary_evaluations": 3478
+    },
+    {
+      "elapsed_s": 0.28940249991137534,
+      "fitness": 1.0170115402499476,
+      "primary_evaluations": 3706
+    },
+    {
+      "elapsed_s": 0.30271279998123646,
+      "fitness": 1.0169748265692053,
+      "primary_evaluations": 3920
+    },
+    {
+      "elapsed_s": 0.3121519999112934,
+      "fitness": 1.0151413828063542,
+      "primary_evaluations": 4157
+    },
+    {
+      "elapsed_s": 0.3260156000033021,
+      "fitness": 1.0146141591691862,
+      "primary_evaluations": 4376
+    },
+    {
+      "elapsed_s": 0.33721639995928854,
+      "fitness": 1.0145774454884442,
+      "primary_evaluations": 4573
+    },
+    {
+      "elapsed_s": 0.3607950999867171,
+      "fitness": 1.0143440497362686,
+      "primary_evaluations": 5036
+    },
+    {
+      "elapsed_s": 0.43690779991447926,
+      "fitness": 1.0066087233976506,
+      "primary_evaluations": 6669
+    },
+    {
+      "elapsed_s": 0.4461392000084743,
+      "fitness": 1.0059120191406035,
+      "primary_evaluations": 6880
+    },
+    {
+      "elapsed_s": 0.5549276999663562,
+      "fitness": 1.002711726886838,
+      "primary_evaluations": 8970
+    },
+    {
+      "elapsed_s": 0.5780649000080302,
+      "fitness": 1.0026458066331165,
+      "primary_evaluations": 9422
+    },
+    {
+      "elapsed_s": 0.8046826999634504,
+      "fitness": 1.0026310932760782,
+      "primary_evaluations": 14806
+    },
+    {
+      "elapsed_s": 0.8233501999638975,
+      "fitness": 1.002290051554403,
+      "primary_evaluations": 15251
+    },
+    {
+      "elapsed_s": 0.8988916999660432,
+      "fitness": 1.0015229550772893,
+      "primary_evaluations": 17016
+    },
+    {
+      "elapsed_s": 0.940355799975805,
+      "fitness": 1.0014616150486724,
+      "primary_evaluations": 18007
+    }
+  ],
+  "calibration_budget": 20000,
+  "calibration_time_cap_s": 300.0,
+  "cross_validation_errors": [],
+  "cross_validation_passed": true,
+  "direction_dp_calls": 2542,
+  "direction_dp_per_primary": 0.1271,
+  "direction_flags": [
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true
+    ],
+    [
+      true,
+      false,
+      true,
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "finished_at": "2026-07-16T15:01:33.077336+00:00",
+  "fitness": 1.0014616150486724,
+  "generations": 91,
+  "global_transition_table_builds": 1,
+  "idle_distance": 107.7015001947241,
+  "instance_id": "uniform_n60_r1",
+  "load_imbalance": 2288.75881699365,
+  "local_search_primary_requests": 13768,
+  "lower_boundary_x": 7.728533332901,
+  "lower_event_index": 2,
+  "makespan": 4326.834537881717,
+  "migrations": 2,
+  "normalization_hash": "1386b2a399d70dd11288e9ef7e2659f486c314370a8a00c75957e681bb01c416",
+  "normalized_components": {
+    "idle_distance": 1.0663000841936523,
+    "load_imbalance": 0.9896033607285674,
+    "makespan": 0.9955870492622767
+  },
+  "phase": "formal_resource_calibration",
+  "phenotype_cache_hits": 17512,
+  "phenotype_cache_size": 2488,
+  "primary_evaluations": 20000,
+  "profile_hash": "de75ad629aeeff608cab96097fe96aed091237348b9f1fe3e6f94c68442771f2",
+  "requested_primary_budget": 20000,
+  "restarts": 0,
+  "robot_total_times": [
+    4326.834537881717,
+    2146.057008239982,
+    2038.0757208880668,
+    2657.6296210873593
+  ],
+  "route_cache_hits": 7409,
+  "route_evaluation_requests": 9952,
+  "route_evaluations_per_primary": 0.4976,
+  "routes": [
+    [
+      "uniform_n60_r1__weld_0007|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0020|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0003|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0036|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0044|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0042|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0027|half=upper|part=2of2|seg=1of1",
+      "uniform_n60_r1__weld_0045|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0057|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0040|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0013|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0041|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0052|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0035|half=upper|part=2of2|seg=1of1",
+      "uniform_n60_r1__weld_0023|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0021|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0022|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0053|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0048|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0008|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0004|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0019|half=upper|part=2of2|seg=1of1"
+    ],
+    [
+      "uniform_n60_r1__weld_0005|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0055|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0034|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0054|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0058|half=upper|part=2of2|seg=1of1",
+      "uniform_n60_r1__weld_0006|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0010|half=upper|part=2of2|seg=1of1",
+      "uniform_n60_r1__weld_0024|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0039|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0026|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0012|half=upper|part=2of2|seg=1of1",
+      "uniform_n60_r1__weld_0037|half=upper|part=2of2|seg=1of1",
+      "uniform_n60_r1__weld_0011|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0015|half=upper|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0018|half=upper|part=2of2|seg=1of1"
+    ],
+    [
+      "uniform_n60_r1__weld_0038|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0000|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0027|half=lower|part=1of2|seg=1of1",
+      "uniform_n60_r1__weld_0059|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0047|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0029|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0033|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0051|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0046|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0025|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0019|half=lower|part=1of2|seg=1of1",
+      "uniform_n60_r1__weld_0056|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0035|half=lower|part=1of2|seg=1of1"
+    ],
+    [
+      "uniform_n60_r1__weld_0001|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0028|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0016|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0049|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0014|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0043|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0050|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0030|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0012|half=lower|part=1of2|seg=1of1",
+      "uniform_n60_r1__weld_0037|half=lower|part=1of2|seg=1of1",
+      "uniform_n60_r1__weld_0002|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0031|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0009|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0032|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0017|half=lower|part=1of1|seg=1of1",
+      "uniform_n60_r1__weld_0010|half=lower|part=1of2|seg=1of1",
+      "uniform_n60_r1__weld_0058|half=lower|part=1of2|seg=1of1",
+      "uniform_n60_r1__weld_0018|half=lower|part=1of2|seg=1of1"
+    ]
+  ],
+  "rss_mb": NaN,
+  "seed": 192,
+  "solver": "EPRK-MA",
+  "solver_id": "eprk",
+  "solver_version": "EPRK-MA-v0.1-development",
+  "solver_wall_clock_time_s": 1.0423743000719696,
+  "started_at": "2026-07-16T15:01:31.974179+00:00",
+  "status": "success",
+  "stop_reason": "objective_budget",
+  "upper_boundary_x": 11.225000291688,
+  "upper_event_index": 1
+}

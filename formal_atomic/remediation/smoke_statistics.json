@@ -1,0 +1,59 @@
+{
+  "bootstrap_executed": true,
+  "groups": [
+    {
+      "bootstrap_mean_delta_ci_high": -0.04533272638453245,
+      "bootstrap_mean_delta_ci_low": -0.04665771880256653,
+      "bootstrap_resamples": 10000,
+      "eprk_win_count_lower_is_better": 2,
+      "instance_id": "long_weld_rich_n60_r1",
+      "mean_fitness_delta_eprk_minus_hga": -0.04599522259354949,
+      "mode": "equal_primary",
+      "paired_seed_count": 2,
+      "wilcoxon_p_holm": 1.0,
+      "wilcoxon_p_raw": 0.5
+    },
+    {
+      "bootstrap_mean_delta_ci_high": -0.05749575594486145,
+      "bootstrap_mean_delta_ci_low": -0.06153139158222731,
+      "bootstrap_resamples": 10000,
+      "eprk_win_count_lower_is_better": 2,
+      "instance_id": "long_weld_rich_n60_r1",
+      "mean_fitness_delta_eprk_minus_hga": -0.05951357376354438,
+      "mode": "equal_time",
+      "paired_seed_count": 2,
+      "wilcoxon_p_holm": 1.0,
+      "wilcoxon_p_raw": 0.5
+    },
+    {
+      "bootstrap_mean_delta_ci_high": 0.008615041372554089,
+      "bootstrap_mean_delta_ci_low": 0.005667624788875725,
+      "bootstrap_resamples": 10000,
+      "eprk_win_count_lower_is_better": 0,
+      "instance_id": "real_w30",
+      "mean_fitness_delta_eprk_minus_hga": 0.007141333080714907,
+      "mode": "equal_primary",
+      "paired_seed_count": 2,
+      "wilcoxon_p_holm": 1.0,
+      "wilcoxon_p_raw": 0.5
+    },
+    {
+      "bootstrap_mean_delta_ci_high": 0.002653237128643293,
+      "bootstrap_mean_delta_ci_low": -0.002139946415387839,
+      "bootstrap_resamples": 10000,
+      "eprk_win_count_lower_is_better": 1,
+      "instance_id": "real_w30",
+      "mean_fitness_delta_eprk_minus_hga": 0.00025664535662772714,
+      "mode": "equal_time",
+      "paired_seed_count": 2,
+      "wilcoxon_p_holm": 1.0,
+      "wilcoxon_p_raw": 1.0
+    }
+  ],
+  "holm_correction_executed": true,
+  "paired_statistics_executed": true,
+  "plot_script_executed": true,
+  "qualification_use_forbidden": true,
+  "status": "tool_smoke_passed",
+  "wilcoxon_executed": true
+}

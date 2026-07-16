@@ -1,0 +1,192 @@
+{
+  "algorithm_time_s": 0.8805323999840766,
+  "atomic_instance_hash": "d461ffdaad8f8af10d6882c1f5fbb1fc491a080b72738154a694595b80c647e0",
+  "best_trace": [
+    {
+      "elapsed_s": 0.008193699992261827,
+      "fitness": 1.395445392948984,
+      "primary_evaluations": 1
+    },
+    {
+      "elapsed_s": 0.03560329996980727,
+      "fitness": 1.3936473077060199,
+      "primary_evaluations": 8
+    },
+    {
+      "elapsed_s": 0.049002000014297664,
+      "fitness": 1.1251659469158528,
+      "primary_evaluations": 14
+    },
+    {
+      "elapsed_s": 0.06457109993789345,
+      "fitness": 1.1247739728418675,
+      "primary_evaluations": 57
+    },
+    {
+      "elapsed_s": 0.10778359998948872,
+      "fitness": 1.0059370340477727,
+      "primary_evaluations": 593
+    },
+    {
+      "elapsed_s": 0.11670080001931638,
+      "fitness": 1.003774150227366,
+      "primary_evaluations": 793
+    },
+    {
+      "elapsed_s": 0.11693389993160963,
+      "fitness": 0.997055528533968,
+      "primary_evaluations": 806
+    },
+    {
+      "elapsed_s": 0.12507589999586344,
+      "fitness": 0.9963972104934238,
+      "primary_evaluations": 919
+    },
+    {
+      "elapsed_s": 0.1371690999949351,
+      "fitness": 0.9911581727498842,
+      "primary_evaluations": 1099
+    },
+    {
+      "elapsed_s": 0.15692360000684857,
+      "fitness": 0.9889952889294775,
+      "primary_evaluations": 1569
+    },
+    {
+      "elapsed_s": 0.18867419997695833,
+      "fitness": 0.9887270509793037,
+      "primary_evaluations": 2154
+    }
+  ],
+  "calibration_budget": 20000,
+  "calibration_time_cap_s": 300.0,
+  "cross_validation_errors": [],
+  "cross_validation_passed": true,
+  "crossover_primary_requests": 1515,
+  "direction_dp_calls": 434,
+  "direction_dp_per_primary": 0.0217,
+  "direction_flags": [
+    [
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      true,
+      false
+    ],
+    [
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      false,
+      true,
+      true
+    ]
+  ],
+  "finished_at": "2026-07-16T15:01:24.749134+00:00",
+  "fitness": 0.9887270509793037,
+  "generations": 152,
+  "global_transition_table_builds": 1,
+  "idle_distance": 59.091994841893296,
+  "instance_id": "real_w30",
+  "load_imbalance": 837.2515191960082,
+  "local_search_primary_requests": 18465,
+  "lower_boundary_x": 11.254076975942,
+  "lower_event_index": 3,
+  "makespan": 1554.3564338868275,
+  "normalization_hash": "a94ff0571cb153c6a2bc11cbce7a60f82cf9585e93c38a7e65659df8d69d04ee",
+  "normalized_components": {
+    "idle_distance": 0.9714459422949451,
+    "load_imbalance": 0.9943872508976491,
+    "makespan": 0.9895785808146847
+  },
+  "phase": "formal_resource_calibration",
+  "phenotype_cache_hits": 18812,
+  "primary_evaluations": 20000,
+  "profile_hash": "86f82ba9dd8f3326d846a1446d28a074c66287ec7d78fb49f7ab8298aa7af8ae",
+  "requested_primary_budget": 20000,
+  "robot_total_times": [
+    1184.0631536565922,
+    1294.7060770891958,
+    717.1049146908193,
+    1554.3564338868275
+  ],
+  "route_cache_hits": 4317,
+  "route_evaluation_requests": 4752,
+  "route_evaluations_per_primary": 0.2376,
+  "routes": [
+    [
+      "inst0020|group=145-LB17A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0022|group=143-FR76A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0012|group=804-FR315A.dxf|row=0001|half=upper|part=1of1|seg=1of1",
+      "inst0012|group=804-FR315A.dxf|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0012|group=804-FR315A.dxf|row=0002|half=upper|part=1of1|seg=1of1",
+      "inst0004|group=642-BL14A.dxf|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0015|group=165-SR1A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0024|group=642-BL14A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0009|group=642-BL14A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0014|group=804-FR314A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0019|group=183-CM2B.dxf|row=0000|half=upper|part=1of1|seg=1of1"
+    ],
+    [
+      "inst0017|group=143-FR76A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0010|group=804-FR314A|row=0000|half=upper|part=2of2|seg=1of1",
+      "inst0021|group=145-LB20A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0002|group=143-FR65A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0023|group=801-FR322A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0007|group=143-GR14A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0008|group=145-LB20A|row=0000|half=upper|part=1of1|seg=1of1",
+      "inst0003|group=804-FR315A|row=0000|half=upper|part=1of1|seg=1of1"
+    ],
+    [
+      "inst0011|group=804-FR313A.dxf|row=0000|half=lower|part=1of1|seg=1of1",
+      "inst0006|group=312-GR2C|row=0000|half=lower|part=1of1|seg=1of1",
+      "inst0018|group=826BK312A|row=0000|half=lower|part=1of1|seg=1of1",
+      "inst0000|group=804-FR313A|row=0000|half=lower|part=1of1|seg=1of1",
+      "inst0001|group=804-FR313A|row=0000|half=lower|part=1of1|seg=1of1"
+    ],
+    [
+      "inst0010|group=804-FR314A|row=0000|half=lower|part=1of2|seg=1of1",
+      "inst0013|group=143-GR14A|row=0000|half=lower|part=1of1|seg=1of1",
+      "inst0016|group=642-BL14A.dxf|row=0000|half=lower|part=1of1|seg=1of1",
+      "inst0005|group=143-FR69B.dxf|row=0003|half=lower|part=1of1|seg=1of1",
+      "inst0005|group=143-FR69B.dxf|row=0000|half=lower|part=1of1|seg=1of1",
+      "inst0005|group=143-FR69B.dxf|row=0002|half=lower|part=1of1|seg=1of1",
+      "inst0005|group=143-FR69B.dxf|row=0001|half=lower|part=1of1|seg=1of1"
+    ]
+  ],
+  "rss_mb": NaN,
+  "seed": 192,
+  "solver": "Paper-Aligned-HGA-Atomic-Control",
+  "solver_id": "hga_atomic",
+  "solver_version": "HGA-Atomic-Control-v0.1-development",
+  "solver_wall_clock_time_s": 0.8805569000542164,
+  "started_at": "2026-07-16T15:01:23.845823+00:00",
+  "status": "success",
+  "stop_reason": "objective_budget",
+  "upper_boundary_x": 10.620140509319,
+  "upper_event_index": 7
+}

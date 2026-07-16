@@ -1,0 +1,461 @@
+{
+  "absolute_tolerance": 1e-12,
+  "all_compatibility_match": true,
+  "all_exact_hash_match": false,
+  "environment": {
+    "float_representation": "Python shortest-round-trip repr; float.hex recorded per difference",
+    "json_serializer": "Python stdlib json",
+    "locale": null,
+    "numpy_version": "2.3.5",
+    "openpyxl_version": "3.1.5",
+    "operating_system": "Windows-10-10.0.19045-SP0",
+    "pandas_version": "3.0.3",
+    "protocol_newline": "CRLF",
+    "python_executable": "C:\\Users\\Renjl\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "python_version": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+    "recomputed_artifact_newline": "LF",
+    "serializer_ensure_ascii": false,
+    "serializer_separators_for_hash": [
+      ",",
+      ":"
+    ],
+    "serializer_sort_keys": true
+  },
+  "generated_at": "2026-07-16T14:49:54.236869+00:00",
+  "input_fingerprint": "613b82f7ad9f5c50ccb65f4defd4ef74d3f9ff1817581fc14f143494e0c69502",
+  "instances": [
+    {
+      "baseline_construction_policy": "workload_balanced_cut_cheapest_insertion_2opt_dp_v1",
+      "comparison": {
+        "all_numeric_differences_within_tolerance": true,
+        "extra_fields": [],
+        "field_sets_match": true,
+        "list_order_match": true,
+        "maximum_absolute_difference": 2.2737367544323206e-13,
+        "maximum_relative_difference": 1.4782098740360288e-15,
+        "missing_fields": [],
+        "non_finite_fields": [],
+        "non_numeric_differences": [],
+        "numeric_differences": [
+          {
+            "absolute_difference": 2.2737367544323206e-13,
+            "frozen_float_hex": "0x1.33a2420d92588p+7",
+            "frozen_value": 153.81691019450614,
+            "path": "$/baseline/metrics/load_imbalance",
+            "recomputed_float_hex": "0x1.33a2420d92580p+7",
+            "recomputed_value": 153.8169101945059,
+            "relative_difference": 1.4782098740360288e-15,
+            "within_absolute_tolerance": true,
+            "within_relative_tolerance": true
+          },
+          {
+            "absolute_difference": 2.2737367544323206e-13,
+            "frozen_float_hex": "0x1.3c85fa845645cp+10",
+            "frozen_value": 1266.0934153406624,
+            "path": "$/baseline/metrics/makespan",
+            "recomputed_float_hex": "0x1.3c85fa845645bp+10",
+            "recomputed_value": 1266.0934153406622,
+            "relative_difference": 1.7958680827832405e-16,
+            "within_absolute_tolerance": true,
+            "within_relative_tolerance": true
+          },
+          {
+            "absolute_difference": 2.2737367544323206e-13,
+            "frozen_float_hex": "0x1.3c85fa845645cp+10",
+            "frozen_value": 1266.0934153406624,
+            "path": "$/baseline/robot_total_times/0",
+            "recomputed_float_hex": "0x1.3c85fa845645bp+10",
+            "recomputed_value": 1266.0934153406622,
+            "relative_difference": 1.7958680827832405e-16,
+            "within_absolute_tolerance": true,
+            "within_relative_tolerance": true
+          },
+          {
+            "absolute_difference": 2.2737367544323206e-13,
+            "frozen_float_hex": "0x1.31c198e2d332bp+10",
+            "frozen_value": 1223.0249564230423,
+            "path": "$/baseline/robot_total_times/1",
+            "recomputed_float_hex": "0x1.31c198e2d332cp+10",
+            "recomputed_value": 1223.0249564230426,
+            "relative_difference": 1.8591090414722808e-16,
+            "within_absolute_tolerance": true,
+            "within_relative_tolerance": true
+          },
+          {
+            "absolute_difference": 2.2737367544323206e-13,
+            "frozen_float_hex": "0x1.33a2420d92588p+7",
+            "frozen_value": 153.81691019450614,
+            "path": "$/scale/load_imbalance",
+            "recomputed_float_hex": "0x1.33a2420d92580p+7",
+            "recomputed_value": 153.8169101945059,
+            "relative_difference": 1.4782098740360288e-15,
+            "within_absolute_tolerance": true,
+            "within_relative_tolerance": true
+          },
+          {
+            "absolute_difference": 2.2737367544323206e-13,
+            "frozen_float_hex": "0x1.40f6ae852b8e8p+7",
+            "frozen_value": 160.48180023342798,
+            "path": "$/scale/makespan",
+            "recomputed_float_hex": "0x1.40f6ae852b8e0p+7",
+            "recomputed_value": 160.48180023342775,
+            "relative_difference": 1.4168190730195377e-15,
+            "within_absolute_tolerance": true,
+            "within_relative_tolerance": true
+          }
+        ],
+        "numeric_only": true,
+        "sign_changes": []
+      },
+      "compatibility_match": true,
+      "conditions": {
+        "all_numeric_differences_within_tolerance": true,
+        "baseline_construction_policy_match": true,
+        "derived_baseline_hash_fields_present": true,
+        "field_sets_match": true,
+        "historical_metric_replay_match": true,
+        "instance_hash_match": true,
+        "list_order_match": true,
+        "load_floor_policy_match": true,
+        "no_nan_inf_or_sign_change": true,
+        "normalization_algorithm_and_version_match": true,
+        "numeric_fields_only": true,
+        "scope_allowed": true,
+        "weights_match": true
+      },
+      "derived_integrity_differences": [
+        {
+          "frozen_value": "49046c513cbc2d864ef7714411008e8fa00585e00855ed1a79ed2b194ba7d24c",
+          "path": "$/baseline/baseline_hash",
+          "reason": "digest_of_payload_containing_compatible_float_drift",
+          "recomputed_value": "74dc3e7dfc7fe6b258dd7cab92020076867786754c2ef1bfc4cf19388197f1ab"
+        }
+      ],
+      "exact_hash_match": false,
+      "exact_match": false,
+      "frozen_container_path": "UNIFIED_EXPERIMENT_PROTOCOL.json",
+      "frozen_container_sha256": "5fb8fec80189731e702186e13567ea8cb1d16c707b06446f9ab1e705c76291dc",
+      "frozen_extract_path": "formal_atomic/remediation/legacy_w30_normalization_frozen_extract.json",
+      "frozen_extract_sha256": "b6876b9c2c3d17761afe9ff013be8733d085ac9c569612d7e384b5771a963f30",
+      "frozen_normalization_spec_hash": "e9e221a5db62c86aed76061099db5eaeb9b8c63708fbd05e33328b1811a38df4",
+      "historical_metric_evidence_path": "unified_experiments/abma_final_candidate_protocol_e1e474e2f7ecbce1957c864e318944543a14f13b8bdaf3947cbfd12a76c17f20/abma_optimization_benchmark/w30/incremental_multifidelity/abma/seed_42/attempt_001/unified_metrics.json",
+      "historical_metric_replay_absolute_difference": 0.0,
+      "historical_metric_replayed_fitness": 0.7693792672243321,
+      "historical_metric_stored_fitness": 0.7693792672243321,
+      "instance": "w30",
+      "instance_hash": "2fab0e3e566477294710c7f5296eae3f19fffdaf771928347daa371758bb2a62",
+      "normalization_algorithm": "ideal_baseline_range_v1",
+      "normalization_algorithm_version": "1.0.0",
+      "objective_weights": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "recomputed_file_sha256": "1763599d1a8e3ba02777699f9560168d243d5a21dbcb84fbaea2aefe1b9b806c",
+      "recomputed_normalization_spec_hash": "a126e0c5092aa1ace588fe819c00d1ef6d342f82cfc16eeb3da90ab629fde1cd",
+      "recomputed_path": "formal_atomic/remediation/legacy_w30_normalization_recomputed.json",
+      "scope": "UNIFIED_EXPERIMENT_PROTOCOL.json#/instances/w30/normalization",
+      "source_instance_path": "data/instances/selected/instance_w30.xlsx",
+      "source_instance_sha256": "08cef2ad688e45e447e5d579ee6f423edee0699279cc15d2ba281e94efdb96c3",
+      "status": "legacy_float_compatibility_pass"
+    },
+    {
+      "baseline_construction_policy": "workload_balanced_cut_cheapest_insertion_2opt_dp_v1",
+      "comparison": {
+        "all_numeric_differences_within_tolerance": true,
+        "extra_fields": [],
+        "field_sets_match": true,
+        "list_order_match": true,
+        "maximum_absolute_difference": 4.547473508864641e-13,
+        "maximum_relative_difference": 1.2975199743586879e-15,
+        "missing_fields": [],
+        "non_finite_fields": [],
+        "non_numeric_differences": [],
+        "numeric_differences": [
+          {
+            "absolute_difference": 1.4210854715202004e-14,
+            "frozen_float_hex": "0x1.58c4fc83dd71fp+6",
+            "frozen_value": 86.19236951865285,
+            "path": "$/baseline/metrics/idle_distance",
+            "recomputed_float_hex": "0x1.58c4fc83dd720p+6",
+            "recomputed_value": 86.19236951865287,
+            "relative_difference": 1.6487369815406497e-16,
+            "within_absolute_tolerance": true,
+            "within_relative_tolerance": true
+          },
+          {
+            "absolute_difference": 2.2737367544323206e-13,
+            "frozen_float_hex": "0x1.8682144e914a1p+10",
+            "frozen_value": 1562.0324894350854,
+            "path": "$/baseline/robot_total_times/0",
+            "recomputed_float_hex": "0x1.8682144e914a2p+10",
+            "recomputed_value": 1562.0324894350856,
+            "relative_difference": 1.4556270562942166e-16,
+            "within_absolute_tolerance": true,
+            "within_relative_tolerance": true
+          },
+          {
+            "absolute_difference": 4.235164736271502e-22,
+            "frozen_float_hex": "0x1.b691c500ea64ep-20",
+            "frozen_value": 1.6337983767912516e-06,
+            "path": "$/floors/epsilon_makespan",
+            "recomputed_float_hex": "0x1.b691c500ea64cp-20",
+            "recomputed_value": 1.6337983767912511e-06,
+            "relative_difference": 2.5922199436807393e-16,
+            "within_absolute_tolerance": true,
+            "within_relative_tolerance": true
+          },
+          {
+            "absolute_difference": 2.842170943040401e-14,
+            "frozen_float_hex": "0x1.46c27a1593432p+6",
+            "frozen_value": 81.68991883956258,
+            "path": "$/floors/load_imbalance",
+            "recomputed_float_hex": "0x1.46c27a1593430p+6",
+            "recomputed_value": 81.68991883956255,
+            "relative_difference": 3.479218713171168e-16,
+            "within_absolute_tolerance": true,
+            "within_relative_tolerance": true
+          },
+          {
+            "absolute_difference": 4.547473508864641e-13,
+            "frozen_float_hex": "0x1.9873189af813ep+10",
+            "frozen_value": 1633.7983767912515,
+            "path": "$/ideal/makespan",
+            "recomputed_float_hex": "0x1.9873189af813cp+10",
+            "recomputed_value": 1633.798376791251,
+            "relative_difference": 2.7833749705369347e-16,
+            "within_absolute_tolerance": true,
+            "within_relative_tolerance": true
+          },
+          {
+            "absolute_difference": 1.4210854715202004e-14,
+            "frozen_float_hex": "0x1.58c4fc83dd71fp+6",
+            "frozen_value": 86.19236951865285,
+            "path": "$/scale/idle_distance",
+            "recomputed_float_hex": "0x1.58c4fc83dd720p+6",
+            "recomputed_value": 86.19236951865287,
+            "relative_difference": 1.6487369815406497e-16,
+            "within_absolute_tolerance": true,
+            "within_relative_tolerance": true
+          },
+          {
+            "absolute_difference": 4.547473508864641e-13,
+            "frozen_float_hex": "0x1.5e79690116edcp+8",
+            "frozen_value": 350.4742584877947,
+            "path": "$/scale/makespan",
+            "recomputed_float_hex": "0x1.5e79690116ee4p+8",
+            "recomputed_value": 350.47425848779517,
+            "relative_difference": 1.2975199743586879e-15,
+            "within_absolute_tolerance": true,
+            "within_relative_tolerance": true
+          }
+        ],
+        "numeric_only": true,
+        "sign_changes": []
+      },
+      "compatibility_match": true,
+      "conditions": {
+        "all_numeric_differences_within_tolerance": true,
+        "baseline_construction_policy_match": true,
+        "derived_baseline_hash_fields_present": true,
+        "field_sets_match": true,
+        "historical_metric_replay_match": true,
+        "instance_hash_match": true,
+        "list_order_match": true,
+        "load_floor_policy_match": true,
+        "no_nan_inf_or_sign_change": true,
+        "normalization_algorithm_and_version_match": true,
+        "numeric_fields_only": true,
+        "scope_allowed": true,
+        "weights_match": true
+      },
+      "derived_integrity_differences": [
+        {
+          "frozen_value": "9e85178021dbdafb170cb7afebcfab68a8676a34efcb4e5036ba9f5de8549ce7",
+          "path": "$/baseline/baseline_hash",
+          "reason": "digest_of_payload_containing_compatible_float_drift",
+          "recomputed_value": "4621704e78c7189c83f9a6c9c85ab72adc55144db71aeaab3b80f0190800e6b1"
+        }
+      ],
+      "exact_hash_match": false,
+      "exact_match": false,
+      "frozen_container_path": "UNIFIED_EXPERIMENT_PROTOCOL.json",
+      "frozen_container_sha256": "5fb8fec80189731e702186e13567ea8cb1d16c707b06446f9ab1e705c76291dc",
+      "frozen_extract_path": "formal_atomic/remediation/legacy_w45_normalization_frozen_extract.json",
+      "frozen_extract_sha256": "58734bb68d055b21eb7dbb6ebf5a79f04706168d052003cf851f7277fcb36a24",
+      "frozen_normalization_spec_hash": "aaa71d5ade10b8e0312112f8c3bf00aa189c8283c0c92760a58443974d8ff017",
+      "historical_metric_evidence_path": "unified_experiments/protocol_19084d42c77dd61803f622f7dd3792c50fea0f387106740c6f6d6bcedc437202/scale_pilot/w45/abma/seed_42/attempt_001/unified_metrics.json",
+      "historical_metric_replay_absolute_difference": 0.0,
+      "historical_metric_replayed_fitness": 0.9660429077456851,
+      "historical_metric_stored_fitness": 0.9660429077456851,
+      "instance": "w45",
+      "instance_hash": "3b50059c27eb07cf6d40c8c36c0507257890c74fc956278aeedb8318f04e3c38",
+      "normalization_algorithm": "ideal_baseline_range_v1",
+      "normalization_algorithm_version": "1.0.0",
+      "objective_weights": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "recomputed_file_sha256": "c47979d7a3c0b280194bb61f3da4c3bafb79dc5ddcf73ae0bee7e0f5582bc37b",
+      "recomputed_normalization_spec_hash": "d30e7d05d8e2bc0e7d1dd79cd0b99f097d58050d0487b13fbb6c9558b91c7242",
+      "recomputed_path": "formal_atomic/remediation/legacy_w45_normalization_recomputed.json",
+      "scope": "UNIFIED_EXPERIMENT_PROTOCOL.json#/instances/w45/normalization",
+      "source_instance_path": "data/instances/selected/instance_w45.xlsx",
+      "source_instance_sha256": "e148c1b49112183d56683a9a80083d042398a1225718339221e039e96f396df5",
+      "status": "legacy_float_compatibility_pass"
+    },
+    {
+      "baseline_construction_policy": "workload_balanced_cut_cheapest_insertion_2opt_dp_v1",
+      "comparison": {
+        "all_numeric_differences_within_tolerance": true,
+        "extra_fields": [],
+        "field_sets_match": true,
+        "list_order_match": true,
+        "maximum_absolute_difference": 9.094947017729282e-13,
+        "maximum_relative_difference": 1.0064057603219346e-15,
+        "missing_fields": [],
+        "non_finite_fields": [],
+        "non_numeric_differences": [],
+        "numeric_differences": [
+          {
+            "absolute_difference": 1.4210854715202004e-14,
+            "frozen_float_hex": "0x1.9b0b81778ff82p+6",
+            "frozen_value": 102.76123606506556,
+            "path": "$/baseline/metrics/idle_distance",
+            "recomputed_float_hex": "0x1.9b0b81778ff83p+6",
+            "recomputed_value": 102.76123606506557,
+            "relative_difference": 1.3829003288948454e-16,
+            "within_absolute_tolerance": true,
+            "within_relative_tolerance": true
+          },
+          {
+            "absolute_difference": 2.2737367544323206e-13,
+            "frozen_float_hex": "0x1.bb338250ef7d7p+10",
+            "frozen_value": 1772.8048288668413,
+            "path": "$/baseline/robot_total_times/0",
+            "recomputed_float_hex": "0x1.bb338250ef7d8p+10",
+            "recomputed_value": 1772.8048288668415,
+            "relative_difference": 1.282564621558296e-16,
+            "within_absolute_tolerance": true,
+            "within_relative_tolerance": true
+          },
+          {
+            "absolute_difference": 8.470329472543003e-22,
+            "frozen_float_hex": "0x1.3a88a2a6b7b48p-19",
+            "frozen_value": 2.343458919681395e-06,
+            "path": "$/floors/epsilon_makespan",
+            "recomputed_float_hex": "0x1.3a88a2a6b7b46p-19",
+            "recomputed_value": 2.3434589196813942e-06,
+            "relative_difference": 3.614456136357017e-16,
+            "within_absolute_tolerance": true,
+            "within_relative_tolerance": true
+          },
+          {
+            "absolute_difference": 4.263256414560601e-14,
+            "frozen_float_hex": "0x1.d4b118c086377p+6",
+            "frozen_value": 117.17294598406976,
+            "path": "$/floors/load_imbalance",
+            "recomputed_float_hex": "0x1.d4b118c086374p+6",
+            "recomputed_value": 117.17294598406971,
+            "relative_difference": 3.638430679331227e-16,
+            "within_absolute_tolerance": true,
+            "within_relative_tolerance": true
+          },
+          {
+            "absolute_difference": 9.094947017729282e-13,
+            "frozen_float_hex": "0x1.24eeaf7853e2ap+11",
+            "frozen_value": 2343.458919681395,
+            "path": "$/ideal/makespan",
+            "recomputed_float_hex": "0x1.24eeaf7853e28p+11",
+            "recomputed_value": 2343.458919681394,
+            "relative_difference": 3.880992724619976e-16,
+            "within_absolute_tolerance": true,
+            "within_relative_tolerance": true
+          },
+          {
+            "absolute_difference": 1.4210854715202004e-14,
+            "frozen_float_hex": "0x1.9b0b81778ff82p+6",
+            "frozen_value": 102.76123606506556,
+            "path": "$/scale/idle_distance",
+            "recomputed_float_hex": "0x1.9b0b81778ff83p+6",
+            "recomputed_value": 102.76123606506557,
+            "relative_difference": 1.3829003288948454e-16,
+            "within_absolute_tolerance": true,
+            "within_relative_tolerance": true
+          },
+          {
+            "absolute_difference": 9.094947017729282e-13,
+            "frozen_float_hex": "0x1.c3da56f8a008cp+9",
+            "frozen_value": 903.7057791501443,
+            "path": "$/scale/makespan",
+            "recomputed_float_hex": "0x1.c3da56f8a0094p+9",
+            "recomputed_value": 903.7057791501452,
+            "relative_difference": 1.0064057603219346e-15,
+            "within_absolute_tolerance": true,
+            "within_relative_tolerance": true
+          }
+        ],
+        "numeric_only": true,
+        "sign_changes": []
+      },
+      "compatibility_match": true,
+      "conditions": {
+        "all_numeric_differences_within_tolerance": true,
+        "baseline_construction_policy_match": true,
+        "derived_baseline_hash_fields_present": true,
+        "field_sets_match": true,
+        "historical_metric_replay_match": true,
+        "instance_hash_match": true,
+        "list_order_match": true,
+        "load_floor_policy_match": true,
+        "no_nan_inf_or_sign_change": true,
+        "normalization_algorithm_and_version_match": true,
+        "numeric_fields_only": true,
+        "scope_allowed": true,
+        "weights_match": true
+      },
+      "derived_integrity_differences": [
+        {
+          "frozen_value": "26d3fb3c5c15c91b68a38235438bb2d55f358ece8888cc550528756afbc040d5",
+          "path": "$/baseline/baseline_hash",
+          "reason": "digest_of_payload_containing_compatible_float_drift",
+          "recomputed_value": "eea32a07cb886de8acd281703e4c0084737ff59586edd46b942715525fd3b002"
+        }
+      ],
+      "exact_hash_match": false,
+      "exact_match": false,
+      "frozen_container_path": "UNIFIED_EXPERIMENT_PROTOCOL.json",
+      "frozen_container_sha256": "5fb8fec80189731e702186e13567ea8cb1d16c707b06446f9ab1e705c76291dc",
+      "frozen_extract_path": "formal_atomic/remediation/legacy_w60_normalization_frozen_extract.json",
+      "frozen_extract_sha256": "89b1df209c54efa76fd6be364d0879e0eae7b3f170c0e309e00594d50f7f1172",
+      "frozen_normalization_spec_hash": "2c969355974b9b9ca210a0a87655fdd5a442787654bfbbde0be740237b302940",
+      "historical_metric_evidence_path": "unified_experiments/protocol_19084d42c77dd61803f622f7dd3792c50fea0f387106740c6f6d6bcedc437202/scale_pilot/w60/abma/seed_42/attempt_001/unified_metrics.json",
+      "historical_metric_replay_absolute_difference": 0.0,
+      "historical_metric_replayed_fitness": 0.9831890142931694,
+      "historical_metric_stored_fitness": 0.9831890142931694,
+      "instance": "w60",
+      "instance_hash": "e7b7409b555e581a0ceea770b7e2c511bacdced8f3172021729319bd352f76d2",
+      "normalization_algorithm": "ideal_baseline_range_v1",
+      "normalization_algorithm_version": "1.0.0",
+      "objective_weights": [
+        0.7,
+        0.2,
+        0.1
+      ],
+      "recomputed_file_sha256": "f6875ede501fcb62e4650ea52a94e8e827f688ae2c10854443aa4fe3651b3cc9",
+      "recomputed_normalization_spec_hash": "409d4415f98f42388ff8020fa34aab9cc792079fb097e2f4e88afad900609202",
+      "recomputed_path": "formal_atomic/remediation/legacy_w60_normalization_recomputed.json",
+      "scope": "UNIFIED_EXPERIMENT_PROTOCOL.json#/instances/w60/normalization",
+      "source_instance_path": "data/instances/selected/instance_w60.xlsx",
+      "source_instance_sha256": "c3749ff85c43410ea9e38f4ae856f5e65e07055e4340f12b936f60b7197f8bb2",
+      "status": "legacy_float_compatibility_pass"
+    }
+  ],
+  "maximum_absolute_difference": 9.094947017729282e-13,
+  "maximum_relative_difference": 1.4782098740360288e-15,
+  "overall_status": "legacy_float_compatibility_pass",
+  "relative_tolerance": 1e-12,
+  "schema_version": "1.0.0",
+  "source_repository_commit_sha": "b93bbe92063591bc187f70ae8f6d83b8cecdd9d1"
+}
