@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "executed_at": "2026-07-15T00:00:00+08:00",
+  "workspace": "D:/pybullet_test/MRTA_GA",
+  "policy": "conservative_evidence_preserving_cleanup",
+  "before_inventory": "repository_inventory_before.json",
+  "after_inventory": "repository_inventory_after.json",
+  "before_file_count": 793,
+  "after_file_count": 931,
+  "deleted_file_count": 20,
+  "archived_copy_count": 1,
+  "deleted_files": [
+    "__pycache__/MRTA_ABMA.cpython-311.pyc",
+    "__pycache__/MRTA_DE_LKH.cpython-311.pyc",
+    "__pycache__/MRTA_GA_ACO.cpython-311.pyc",
+    "__pycache__/MRTA_HGA_PAPER_ALIGNED_CONTROL.cpython-311.pyc",
+    "__pycache__/collision_aware_schedule.cpython-311.pyc",
+    "__pycache__/generate_welds.cpython-311.pyc",
+    "__pycache__/mrta_problem_core.cpython-311.pyc",
+    "__pycache__/objective_normalization.cpython-311.pyc",
+    "__pycache__/route_local_search.cpython-311.pyc",
+    "__pycache__/run_unified_experiments.cpython-311.pyc",
+    "__pycache__/solver_output_metrics.cpython-311.pyc",
+    "__pycache__/test_abma_exact_fast_equivalence.cpython-311.pyc",
+    "__pycache__/test_abma_incremental_multifidelity.cpython-311.pyc",
+    "__pycache__/test_frozen_instances.cpython-311.pyc",
+    "__pycache__/test_hga_abma_budget_regression.cpython-311.pyc",
+    "__pycache__/test_hga_paper_aligned.cpython-311.pyc",
+    "__pycache__/test_objective_normalization.cpython-311.pyc",
+    "__pycache__/test_solver_output_metrics.cpython-311.pyc",
+    "__pycache__/test_unified_protocol_v2.cpython-311.pyc",
+    "__pycache__/update_word_abma_section.cpython-311.pyc"
+  ],
+  "archived_copies": [
+    {
+      "source": "双滑轨四悬臂机器人任务分配及焊缝排序.docx",
+      "destination": "archive/stage_reports/双滑轨四悬臂机器人任务分配及焊缝排序_before_protocol_2.5.docx",
+      "reason": "preserve the pre-protocol-2.5 thesis text before the authorized wording update"
+    }
+  ],
+  "retained_in_place": {
+    "historical_results": 474,
+    "reason": "immutable evidence contains embedded repository-relative paths; moving it would weaken reproducibility",
+    "historical_de_lkh_sources": ["MRTA_DE_LKH.py", "route_local_search.py"],
+    "unknown_binary_documents": "retained pending explicit review"
+  },
+  "active_de_lkh_registration_removed": true,
+  "numbered_active_file_copies_found": 0,
+  "remaining_pyc_files": 0
+}

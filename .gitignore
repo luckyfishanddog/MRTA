@@ -1,0 +1,45 @@
+# Python caches and test/tool state
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Editors and operating-system metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+~$*
+
+# Local agent state and temporary files
+.agents/
+tmp/
+*.tmp
+*.bak
+
+# Regenerable diagnostics, smoke runs, and development outputs
+diagnostics/
+abma_budget_control_smoke/
+normalization_smoke_*/
+output_schema_smoke_*/
+eprk_development_outputs/
+*.log
+*.pstats
+
+# Large generated repository inventories
+repository_inventory_before.json
+repository_inventory_after.json
+
+# Local reference material and unnamed draft
+1-s2.0-S0957417425009212-main.pdf
+新建 DOCX 文档.docx

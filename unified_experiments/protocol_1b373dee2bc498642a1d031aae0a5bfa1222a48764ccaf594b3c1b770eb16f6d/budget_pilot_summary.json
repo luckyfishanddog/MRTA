@@ -1,0 +1,82 @@
+{
+  "all_budgets_exact": false,
+  "all_runs_successful": false,
+  "common_requested_budget": null,
+  "instance": "w30",
+  "max_observed_solver_wall_clock_time": 4506.032310399925,
+  "observed_requested_budgets": [
+    5000,
+    16000
+  ],
+  "ranking_performed": false,
+  "recommended_primary_budget": null,
+  "recommended_wall_clock_safety_timeout": 21600,
+  "remaining_scale_risk_for_w45_w60": "unresolved; independent scale pilots are required",
+  "run_class": "budget_pilot",
+  "runs": [
+    {
+      "algorithm_time": 4503.17279624939,
+      "evaluations_per_second": 3.5530504211000093,
+      "objective_budget_exhausted": true,
+      "output_cross_validation_status": "success",
+      "postprocess_time": 0.1306462000356987,
+      "realized_objective_evaluations": 16000,
+      "requested_objective_evaluations": 16000,
+      "run_directory": "unified_experiments/protocol_1b373dee2bc498642a1d031aae0a5bfa1222a48764ccaf594b3c1b770eb16f6d/budget_pilot/w30/ga_aco/seed_42/attempt_001",
+      "seconds_per_evaluation": 0.28144829976558683,
+      "solver": "GA+ACO",
+      "solver_wall_clock_time": 4506.032310399925,
+      "stop_reason": "objective_budget",
+      "total_run_wall_clock_time": 4506.1959772000555
+    },
+    {
+      "algorithm_time": 0.0,
+      "evaluations_per_second": null,
+      "objective_budget_exhausted": null,
+      "output_cross_validation_status": "interrupted",
+      "postprocess_time": null,
+      "realized_objective_evaluations": null,
+      "requested_objective_evaluations": 16000,
+      "run_directory": "unified_experiments\\protocol_1b373dee2bc498642a1d031aae0a5bfa1222a48764ccaf594b3c1b770eb16f6d\\budget_pilot\\w30\\de_lkh\\seed_42\\attempt_001",
+      "seconds_per_evaluation": null,
+      "solver": "DE-LKH-Hybrid",
+      "solver_wall_clock_time": null,
+      "stop_reason": "user_interrupted_after_attempt_launch",
+      "total_run_wall_clock_time": null
+    },
+    {
+      "algorithm_time": 3.6371128000319004,
+      "evaluations_per_second": 1374.7167808367522,
+      "objective_budget_exhausted": true,
+      "output_cross_validation_status": "success",
+      "postprocess_time": 0.3653927999548614,
+      "realized_objective_evaluations": 5000,
+      "requested_objective_evaluations": 5000,
+      "run_directory": "unified_experiments/protocol_1b373dee2bc498642a1d031aae0a5bfa1222a48764ccaf594b3c1b770eb16f6d/budget_pilot/w30/user_override_reduced_5000/paper_aligned_hga/seed_42/attempt_001",
+      "seconds_per_evaluation": 0.0007274225600063801,
+      "solver": "Paper-Aligned-HGA-XCut-Control",
+      "solver_wall_clock_time": 5.406524599995464,
+      "stop_reason": "objective_budget",
+      "total_run_wall_clock_time": 5.807546199997887
+    },
+    {
+      "algorithm_time": 411.0012116000289,
+      "evaluations_per_second": 12.165414258841198,
+      "objective_budget_exhausted": true,
+      "output_cross_validation_status": "success",
+      "postprocess_time": 0.05009439995046705,
+      "realized_objective_evaluations": 5000,
+      "requested_objective_evaluations": 5000,
+      "run_directory": "unified_experiments/protocol_1b373dee2bc498642a1d031aae0a5bfa1222a48764ccaf594b3c1b770eb16f6d/budget_pilot/w30/user_override_reduced_5000/abma/seed_42/attempt_001",
+      "seconds_per_evaluation": 0.08220024232000578,
+      "solver": "ABMA",
+      "solver_wall_clock_time": 412.79514479998033,
+      "stop_reason": "objective_budget",
+      "total_run_wall_clock_time": 412.8647735998966
+    }
+  ],
+  "safety_margin_ratio_21600_over_max_wall": 4.793574149512241,
+  "solver_seed": 42,
+  "uniform_common_budget": false,
+  "w30_budget_pilot_completed": false
+}

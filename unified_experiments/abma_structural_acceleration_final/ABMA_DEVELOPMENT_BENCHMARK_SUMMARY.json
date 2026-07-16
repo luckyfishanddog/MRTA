@@ -1,0 +1,57 @@
+{
+  "all_exact_equivalent": true,
+  "all_runs_successful": true,
+  "formal": false,
+  "median_speedup": 4.05498763421614,
+  "rows": [
+    {
+      "budget": 2000,
+      "candidate_fitness": 0.7636335952485163,
+      "candidate_run_status": "success",
+      "candidate_solver_wall_clock_time": 105.64539389999118,
+      "candidate_variant": "legacy_exact_fast",
+      "equivalence_errors": "",
+      "exact_equivalence": true,
+      "fitness_degradation": 0.0,
+      "legacy_fitness": 0.7636335952485163,
+      "legacy_run_status": "success",
+      "legacy_solver_wall_clock_time": 450.32593579997774,
+      "legacy_variant": "legacy",
+      "seed": 42,
+      "speedup": 4.262617793126666
+    },
+    {
+      "budget": 2000,
+      "candidate_fitness": 0.7635318767512952,
+      "candidate_run_status": "success",
+      "candidate_solver_wall_clock_time": 113.88164610008243,
+      "candidate_variant": "legacy_exact_fast",
+      "equivalence_errors": "",
+      "exact_equivalence": true,
+      "fitness_degradation": 0.0,
+      "legacy_fitness": 0.7635318767512952,
+      "legacy_run_status": "success",
+      "legacy_solver_wall_clock_time": 461.788666700013,
+      "legacy_variant": "legacy",
+      "seed": 43,
+      "speedup": 4.05498763421614
+    },
+    {
+      "budget": 2000,
+      "candidate_fitness": 0.763515327117662,
+      "candidate_run_status": "success",
+      "candidate_solver_wall_clock_time": 114.17102379992139,
+      "candidate_variant": "legacy_exact_fast",
+      "equivalence_errors": "",
+      "exact_equivalence": true,
+      "fitness_degradation": 0.0,
+      "legacy_fitness": 0.763515327117662,
+      "legacy_run_status": "success",
+      "legacy_solver_wall_clock_time": 430.140644100029,
+      "legacy_variant": "legacy",
+      "seed": 44,
+      "speedup": 3.767511490952621
+    }
+  ],
+  "run_class": "abma_development_benchmark"
+}

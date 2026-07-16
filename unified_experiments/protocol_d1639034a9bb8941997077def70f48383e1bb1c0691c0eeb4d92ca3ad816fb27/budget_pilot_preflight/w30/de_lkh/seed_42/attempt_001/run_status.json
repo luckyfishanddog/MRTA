@@ -1,0 +1,33 @@
+{
+  "command_hash": "6bf60a3175f3ba30204665497e4ee0f3af9f602fe06e1633b42406417f825c82",
+  "error": "",
+  "finished_at": "2026-07-14T12:15:08.790444+00:00",
+  "postprocess_time": 0.07757069997023791,
+  "protocol_hash": "d1639034a9bb8941997077def70f48383e1bb1c0691c0eeb4d92ca3ad816fb27",
+  "return_code": 0,
+  "run_class": "budget_pilot_preflight",
+  "run_id": "budget_pilot_preflight__w30__de_lkh__seed_42__attempt_001",
+  "run_status": "success",
+  "solver_wall_clock_time": 1730.2665552999824,
+  "source_hashes": {
+    "MRTA_ABMA.py": "5c25dd71e22148083b8cad72f4259237c9f3ab70ce20e39d0ed26f18db1b4d02",
+    "MRTA_DE_LKH.py": "6715f72c6fc1df0a42f32455e7fa44927f4b82ac6a2e90ccee23cf47f33c369a",
+    "MRTA_GA_ACO.py": "842edd7cf89f30ea96a5de352651e269b2c8ed45b73cea673ba88b5a3efad4a2",
+    "MRTA_HGA_PAPER_ALIGNED_CONTROL.py": "6c34ef8d00240587c5a9f10dd09702e3a68a6a4f0aa4bf664a07e521a240e36e",
+    "UNIFIED_EXPERIMENT_PROTOCOL.json": "d1639034a9bb8941997077def70f48383e1bb1c0691c0eeb4d92ca3ad816fb27",
+    "collision_aware_schedule.py": "9a62e5606f89c19270614d5c01baa9133b49ea6e45c1c1adb48a3c8025de6bf4",
+    "generate_welds.py": "d781e20970dc8e95e9ae0a86ee535afd4d2efe25a73e17c6fe103ff96475dcd7",
+    "mrta_problem_core.py": "92cd6da3c50ee7bcbbf029134ddd371dd876370f829f6e11205a8175cf1371b5",
+    "objective_normalization.py": "7465a04016897a4a51847bcae8b04c704bab01269220aaa21e0efeef99b18a83",
+    "paper_aligned_hga_control_defaults.json": "37f7d6e94bed6dde65d71a9e62028ea5b01de9d7dd72f8533f7f6747e332319a",
+    "route_local_search.py": "846d58771cd36c5b9f32a772bb04844e217df6137cd93996d58383c5b3d6e7f7",
+    "run_unified_experiments.py": "37e1aae5d89e07818de58928365fd35d8f71a789b1168c6ccf5d97854fa72d16",
+    "solver_output_metrics.py": "cff0eb192e7f0f63c6b9af08487a14205161867d135fc3b80ba900026797b9de",
+    "双滑轨四悬臂机器人任务分配及焊缝排序.docx": "c87e435db7f03b0e72e993a5bb193957ca948167261727eec943d34de2b0d2c0",
+    "理想点范围归一化阶段_AI交接报告_2026-07-14.md": "93e4500bdcc70e790727f8d033623262310e221b5cd76e1391343d55640a32c8"
+  },
+  "started_at": "2026-07-14T11:46:18.430902+00:00",
+  "total_run_wall_clock_time": 1730.3592383000068,
+  "validation_errors": [],
+  "wall_clock_time": 1730.2665552999824
+}

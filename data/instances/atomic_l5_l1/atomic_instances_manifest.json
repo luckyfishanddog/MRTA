@@ -1,0 +1,41 @@
+{
+  "instances": [
+    {
+      "atomic_instance_hash": "d461ffdaad8f8af10d6882c1f5fbb1fc491a080b72738154a694595b80c647e0",
+      "atomic_json": "data\\instances\\atomic_l5_l1\\instance_w30_atomic.json",
+      "atomic_weld_count": 31,
+      "instance": "w30",
+      "long_split_atomic_count": 0,
+      "lower_event_count": 5,
+      "source_instance_hash": "2fab0e3e566477294710c7f5296eae3f19fffdaf771928347daa371758bb2a62",
+      "source_weld_count": 30,
+      "upper_event_count": 11,
+      "y6_split_atomic_count": 2
+    },
+    {
+      "atomic_instance_hash": "abedd292f6159ecfb055a97368af7dc78540dd90ac520896c67cfec97a5502aa",
+      "atomic_json": "data\\instances\\atomic_l5_l1\\instance_w45_atomic.json",
+      "atomic_weld_count": 48,
+      "instance": "w45",
+      "long_split_atomic_count": 0,
+      "lower_event_count": 8,
+      "source_instance_hash": "3b50059c27eb07cf6d40c8c36c0507257890c74fc956278aeedb8318f04e3c38",
+      "source_weld_count": 45,
+      "upper_event_count": 10,
+      "y6_split_atomic_count": 6
+    },
+    {
+      "atomic_instance_hash": "8c68b7ebffee767c6ab1b79abd2d541452127cac4190fb02fef5bc4dccf989c8",
+      "atomic_json": "data\\instances\\atomic_l5_l1\\instance_w60_atomic.json",
+      "atomic_weld_count": 74,
+      "instance": "w60",
+      "long_split_atomic_count": 12,
+      "lower_event_count": 7,
+      "source_instance_hash": "e7b7409b555e581a0ceea770b7e2c511bacdced8f3172021729319bd352f76d2",
+      "source_weld_count": 60,
+      "upper_event_count": 11,
+      "y6_split_atomic_count": 6
+    }
+  ],
+  "model_id": "atomic_weld_partition_routing_v1"
+}

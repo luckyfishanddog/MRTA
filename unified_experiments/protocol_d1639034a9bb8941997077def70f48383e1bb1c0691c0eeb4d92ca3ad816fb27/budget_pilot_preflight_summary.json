@@ -1,0 +1,79 @@
+{
+  "all_budgets_exact": true,
+  "all_runs_successful": true,
+  "instance": "w30",
+  "preflight_deterministic_blocker": false,
+  "projected_max_wall_clock_at_50000": 43256.66388249956,
+  "projected_wall_clock_at_50000": {
+    "ABMA": 11056.93163999822,
+    "DE-LKH-Hybrid": 43256.66388249956,
+    "GA+ACO": 14996.669497500989,
+    "Paper-Aligned-HGA-XCut-Control": 80.57279500062577
+  },
+  "ranking_performed": false,
+  "requested_objective_evaluations": 2000,
+  "run_class": "budget_pilot_preflight",
+  "runs": [
+    {
+      "algorithm_time": 597.0635650157928,
+      "evaluations_per_second": 3.349727093039245,
+      "objective_budget_exhausted": true,
+      "output_cross_validation_status": "success",
+      "postprocess_time": 0.05569349997676909,
+      "realized_objective_evaluations": 2000,
+      "requested_objective_evaluations": 2000,
+      "run_directory": "unified_experiments/protocol_d1639034a9bb8941997077def70f48383e1bb1c0691c0eeb4d92ca3ad816fb27/budget_pilot_preflight/w30/ga_aco/seed_42/attempt_001",
+      "seconds_per_evaluation": 0.2985317825078964,
+      "solver": "GA+ACO",
+      "solver_wall_clock_time": 599.8667799000395,
+      "stop_reason": "objective_budget",
+      "total_run_wall_clock_time": 599.9620488000801
+    },
+    {
+      "algorithm_time": 1728.508146762848,
+      "evaluations_per_second": 1.157067152819385,
+      "objective_budget_exhausted": true,
+      "output_cross_validation_status": "success",
+      "postprocess_time": 0.07578920002561063,
+      "realized_objective_evaluations": 2000,
+      "requested_objective_evaluations": 2000,
+      "run_directory": "unified_experiments/protocol_d1639034a9bb8941997077def70f48383e1bb1c0691c0eeb4d92ca3ad816fb27/budget_pilot_preflight/w30/de_lkh/seed_42/attempt_001",
+      "seconds_per_evaluation": 0.8642540733814239,
+      "solver": "DE-LKH-Hybrid",
+      "solver_wall_clock_time": 1730.2665552999824,
+      "stop_reason": "objective_budget",
+      "total_run_wall_clock_time": 1730.3574557000538
+    },
+    {
+      "algorithm_time": 1.3945845999987796,
+      "evaluations_per_second": 1434.1188049844736,
+      "objective_budget_exhausted": true,
+      "output_cross_validation_status": "success",
+      "postprocess_time": 0.35607270000036806,
+      "realized_objective_evaluations": 2000,
+      "requested_objective_evaluations": 2000,
+      "run_directory": "unified_experiments/protocol_d1639034a9bb8941997077def70f48383e1bb1c0691c0eeb4d92ca3ad816fb27/budget_pilot_preflight/w30/paper_aligned_hga/seed_42/attempt_002",
+      "seconds_per_evaluation": 0.0006972922999993898,
+      "solver": "Paper-Aligned-HGA-XCut-Control",
+      "solver_wall_clock_time": 3.222911800025031,
+      "stop_reason": "objective_budget",
+      "total_run_wall_clock_time": 3.6127691000001505
+    },
+    {
+      "algorithm_time": 440.45200440008193,
+      "evaluations_per_second": 4.54078987045161,
+      "objective_budget_exhausted": true,
+      "output_cross_validation_status": "success",
+      "postprocess_time": 0.07093700009863824,
+      "realized_objective_evaluations": 2000,
+      "requested_objective_evaluations": 2000,
+      "run_directory": "unified_experiments/protocol_d1639034a9bb8941997077def70f48383e1bb1c0691c0eeb4d92ca3ad816fb27/budget_pilot_preflight/w30/abma/seed_42/attempt_002",
+      "seconds_per_evaluation": 0.22022600220004096,
+      "solver": "ABMA",
+      "solver_wall_clock_time": 442.2772655999288,
+      "stop_reason": "objective_budget",
+      "total_run_wall_clock_time": 442.36371809989214
+    }
+  ],
+  "solver_seed": 42
+}

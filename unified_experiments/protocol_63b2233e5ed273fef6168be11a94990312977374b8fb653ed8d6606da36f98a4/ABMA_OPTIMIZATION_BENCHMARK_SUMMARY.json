@@ -1,0 +1,39 @@
+{
+  "all_runs_successful": true,
+  "formal": false,
+  "rows": [
+    {
+      "algorithm_time": 959.5914650999475,
+      "fitness": 0.7636335952485163,
+      "objective_evaluation_count": 2000,
+      "seed": 42,
+      "variant": "legacy",
+      "wall_time": null
+    },
+    {
+      "algorithm_time": 643.492638100055,
+      "fitness": 0.7665415273262902,
+      "objective_evaluation_count": 2000,
+      "seed": 42,
+      "variant": "incremental_only",
+      "wall_time": null
+    },
+    {
+      "algorithm_time": 430.6665421000216,
+      "fitness": 0.7635590856807171,
+      "objective_evaluation_count": 2000,
+      "seed": 42,
+      "variant": "multifidelity_only",
+      "wall_time": null
+    },
+    {
+      "algorithm_time": 369.84284739999566,
+      "fitness": 0.7836773510943742,
+      "objective_evaluation_count": 2000,
+      "seed": 42,
+      "variant": "incremental_multifidelity",
+      "wall_time": null
+    }
+  ],
+  "run_class": "abma_optimization_benchmark"
+}

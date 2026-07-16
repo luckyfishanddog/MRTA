@@ -1,0 +1,15 @@
+{
+  "all_runs_successful": true,
+  "formal": false,
+  "rows": [
+    {
+      "algorithm_time": 505.5101751999464,
+      "fitness": 0.7693792672243321,
+      "objective_evaluation_count": 2000,
+      "seed": 42,
+      "variant": "incremental_multifidelity",
+      "wall_time": null
+    }
+  ],
+  "run_class": "abma_optimization_benchmark"
+}

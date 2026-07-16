@@ -1,0 +1,14 @@
+{
+  "packages": {
+    "matplotlib": "3.10.9",
+    "numpy": "2.4.6",
+    "openpyxl": "3.1.5",
+    "pandas": "3.0.3"
+  },
+  "platform": "Windows-10-10.0.19045-SP0",
+  "python_executable": "D:\\pybullet_test\\.venv\\Scripts\\python.exe",
+  "python_version": "3.11.9",
+  "recorded_at": "2026-07-15T13:45:39.022417+00:00",
+  "runner_python_executable": "D:\\pybullet_test\\.venv\\Scripts\\python.exe",
+  "working_directory": "D:\\pybullet_test\\MRTA_GA"
+}

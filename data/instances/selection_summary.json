@@ -1,0 +1,18 @@
+{
+  "common_seed_mean_scores": {
+    "41": 0.7491296296296296,
+    "50": 0.26362962962962966
+  },
+  "independent_per_scale_best": {
+    "30": 41,
+    "45": 45,
+    "60": 41
+  },
+  "recommended_common_seed": 41,
+  "selected_for_formal_experiments": {
+    "30": 41,
+    "45": 41,
+    "60": 41
+  },
+  "selected_scheme": "recommended_common_seed"
+}

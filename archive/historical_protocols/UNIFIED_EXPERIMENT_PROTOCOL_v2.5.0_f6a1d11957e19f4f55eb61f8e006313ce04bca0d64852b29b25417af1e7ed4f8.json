@@ -1,0 +1,1224 @@
+{
+  "protocol_name": "MRTA Three-Solver Unified Fair Experiment Protocol",
+  "protocol_version": "2.5.0",
+  "status": "three_solver_w30_uniform_16000_pilot_passed_formal_user_approval_pending_fail_closed",
+  "formal_run_approved": false,
+  "created_at": "2026-07-14T00:00:00+08:00",
+  "project_model": "dual-rail four-cantilever-robot welding; fixed y=6 m split; optimized upper/lower x cuts; split cross-boundary welds; open routes; exact two-state direction decoding",
+  "official_solvers": [
+    "ga_aco",
+    "paper_aligned_hga",
+    "abma"
+  ],
+  "historical_excluded_solvers": {
+    "de_lkh": {
+      "status": "historical_exploration_excluded_from_final_paper",
+      "reason": "removed by research-design decision",
+      "source_retained": true,
+      "historical_results_retained": true,
+      "eligible_for_official_summary": false,
+      "retained_source_files": ["MRTA_DE_LKH.py", "route_local_search.py"]
+    }
+  },
+  "rationale": {
+    "seed_policy": "Thirty deterministic solver seeds (42-71) are recommended. Thirty paired repetitions per frozen instance support stable distribution summaries and paired non-parametric comparisons while keeping every solver on identical seeds.",
+    "budget_policy": "The primary budget is the number of complete four-robot system candidate evaluations. Every solver now exposes a non-invasive maximum and reports the realized count. Wall-clock is only a safety timeout.",
+    "reference_policy": "Official comparisons use a theoretical ideal point and one deterministic, solver-independent baseline range per frozen instance. Legacy ratio references are historical compatibility only.",
+    "approval_policy": "The w30 common-budget pilot has passed; formal execution remains fail-closed until the user explicitly approves the protocol.",
+    "normalization_policy": "Raw makespan, load imbalance, and idle distance remain primary. Normalized components are unbounded above and use no clipping."
+  },
+  "known_limitations": [
+    "The deterministic baseline is a common heuristic anchor, not an optimum or nadir point.",
+    "The 0.05*C_ideal load-imbalance floor is a pre-fixed numerical-stability convention, not an industrial standard.",
+    "Weight, baseline-construction, and load-floor sensitivity analyses are required before drawing robust scientific conclusions.",
+    "Results produced with legacy_ratio_refs_v1 are not numerically comparable with ideal_baseline_range_v1 and are excluded from official summaries.",
+    "Equal complete-system objective-evaluation counts equalize outer scientific observations, not CPU instructions or internal neighborhood checks.",
+    "W30 supports the calibrated common budget and timeout, but w45/w60 timing remains uncalibrated and formal execution still requires explicit user approval."
+  ],
+  "approval_gates": {
+    "normalization_baselines_computed_and_hashed": true,
+    "normalization_unit_tests_passed": true,
+    "abma_development_gate_passed": true,
+    "abma_final_candidate_frozen": true,
+    "abma_validation_completed": true,
+    "three_solver_cross_validation_completed": true,
+    "w30_budget_pilot_completed": true,
+    "user_approved_formal_execution": false
+  },
+  "abma_development_outcome": {
+    "status": "legacy_exact_fast_frozen_after_exact_equivalence_and_speed_gates",
+    "completed_seeds": [42, 43, 44],
+    "candidate": "legacy_exact_fast",
+    "budget_2000_median_speedup": 4.05498763421614,
+    "per_seed_fitness_degradation": {"42": 0.0, "43": 0.0, "44": 0.0},
+    "false_rejection_rate": null,
+    "validation_seeds_touched": false,
+    "candidate_frozen": true,
+    "validation_authorized": true,
+    "three_solver_pilot_authorized": false
+  },
+  "abma_exact_fast_policy": {
+    "candidate": "legacy_exact_fast",
+    "search_semantics": "bitwise_stable_legacy_outer_and_inner_search",
+    "required_legacy_inner_budget": {"alns_iterations": 80, "vnd_iterations": 3},
+    "allowed_changes": [
+      "mutation_isolated_copy_reduction",
+      "exact_route_signature_cache",
+      "exact_direction_dp_cache",
+      "exact_incremental_system_aggregation",
+      "immutable_precomputation",
+      "hot_loop_serialization_reduction"
+    ],
+    "prohibited_changes": [
+      "rng_stream_or_draw_order", "candidate_generation", "acceptance_rule",
+      "inner_budget_reduction", "objective_budget_reduction", "direction_dp_skip",
+      "approximate_cost", "normalization_or_instance_change", "parallel_execution"
+    ],
+    "equivalence_tolerance_fitness": 1e-12,
+    "required_exact_outputs": true
+  },
+  "abma_profile_profiling_evidence": {
+    "status": "complete",
+    "instance": "w30", "seed": 42, "maximum_budget": 200,
+    "cprofile_default_enabled": false,
+    "required_outputs": [
+      "abma_profile_summary.json", "abma_profile_functions.txt",
+      "abma_profile_stage_times.csv"
+    ]
+  },
+  "abma_development_gate_evidence": {
+    "status": "passed",
+    "gate_9_1": {"seeds": [42], "budget": 100, "exact_equivalence_required": true},
+    "gate_9_2": {"seeds": [42, 43], "budget": 500, "minimum_per_seed_speedup": 1.5},
+    "gate_9_3": {"seeds": [42, 43, 44], "budget": 2000, "minimum_median_speedup": 2.0},
+    "budget_2000_median_speedup": 4.05498763421614,
+    "validation_seeds_authorized_next_stage": true,
+    "validation_seeds_executed_this_stage": false
+  },
+  "abma_final_profile_status": {
+    "status": "frozen",
+    "profile_hash": "631b2d675e7531d04a3c019cc8013158223944074da3e42d489a5745addee1d3",
+    "profile_path": "abma_final_profile.json",
+    "validation_authorized_next_stage": true,
+    "validation_executed_this_stage": true,
+    "formal_authorized": false
+  },
+  "abma_candidate_freeze": {
+    "solver_name": "ABMA",
+    "algorithm_name": "ABMA-Legacy-Exact-Fast-v1",
+    "variant": "legacy_exact_fast",
+    "frozen": true,
+    "profile_path": "abma_final_profile.json",
+    "profile_hash": "631b2d675e7531d04a3c019cc8013158223944074da3e42d489a5745addee1d3",
+    "validation_seeds_touched": true,
+    "formal_eligible_after_validation_only": true
+  },
+  "abma_independent_validation": {
+    "status": "passed",
+    "instance": "w30",
+    "seeds": [45, 46, 47],
+    "budget": 2000,
+    "variants": ["legacy", "legacy_exact_fast"],
+    "all_runs_successful": true,
+    "all_exact_equivalent": true,
+    "all_budgets_exact": true,
+    "median_speedup": 3.8411590938843863,
+    "minimum_per_seed_speedup": 3.825791347114875,
+    "profile_hash_exact": true,
+    "profile_hash": "631b2d675e7531d04a3c019cc8013158223944074da3e42d489a5745addee1d3",
+    "raw_output_root": "unified_experiments/abma_independent_validation_2026-07-15",
+    "runs_csv": "abma_validation_runs.csv",
+    "summary_json": "abma_validation_summary.json",
+    "report": "ABMA_INDEPENDENT_VALIDATION_REPORT.md",
+    "ranking_performed": false
+  },
+  "three_solver_w30_preflight": {
+    "status": "passed",
+    "instance": "w30",
+    "solver_seed": 42,
+    "budget": 2000,
+    "solvers": ["ga_aco", "paper_aligned_hga", "abma"],
+    "all_runs_successful": true,
+    "all_budgets_exact": true,
+    "preflight_deterministic_blocker": false,
+    "projected_wall_clock_at_16000": {
+      "GA+ACO": 3526.3600567998365,
+      "Paper-Aligned-HGA-XCut-Control": 23.95707040000707,
+      "ABMA": 920.2059392007068
+    },
+    "raw_output_root": "unified_experiments/three_solver_w30_protocol25_2026-07-15",
+    "runs_csv": "three_solver_w30_preflight_runs.csv",
+    "ranking_performed": false
+  },
+  "official_abma_profile": {
+    "algorithm_name": "ABMA-Legacy-Exact-Fast-v1",
+    "variant": "legacy_exact_fast",
+    "frozen": true,
+    "outer_search": "SHADE",
+    "alns_iterations": 80,
+    "vnd_iterations": 3,
+    "direction_decoding": "exact_two_state_dynamic_programming",
+    "acceleration_scope": "structurally_equivalent_precomputation_cache_and_hot_path_only",
+    "profile_path": "abma_final_profile.json",
+    "profile_hash": "631b2d675e7531d04a3c019cc8013158223944074da3e42d489a5745addee1d3"
+  },
+  "abma_equivalence_reference": {
+    "variant": "legacy",
+    "formal_eligible": false,
+    "purpose": "validation-only exact-equivalence reference",
+    "alns_iterations": 80,
+    "vnd_iterations": 3
+  },
+  "historical_rejected_abma_variants": {
+    "status": "retained_for_historical_reproducibility_only",
+    "eligible_for_official_summary": false,
+    "variants": {
+    "incremental_only": {
+      "candidate_name": "ABMA-incremental-only",
+      "incremental_repair": true,
+      "multifidelity": false,
+      "alns_iterations": 80,
+      "vnd_iterations": 3
+    },
+    "multifidelity_only": {
+      "candidate_name": "ABMA-multifidelity-only",
+      "incremental_repair": false,
+      "multifidelity": true
+    },
+    "incremental_multifidelity": {
+      "candidate_name": "ABMA-Incremental-MultiFidelity-v2-development-rejected",
+      "solver_name": "ABMA",
+      "incremental_repair": true,
+      "multifidelity": true
+    }
+    },
+    "fidelity_policy": {
+      "low": {"alns_iterations": 10, "vnd_iterations": 0, "robot_scope": "boundary_affected"},
+      "mid": {"alns_iterations": 30, "vnd_iterations": 1, "robot_scope": "affected_plus_max_min_load"},
+      "high": {"alns_iterations": 60, "vnd_iterations": 3, "robot_scope": "all"}
+    },
+    "screening_policy": {
+      "mode": "audited_conservative_quantile_v1",
+      "quantile": 0.95,
+      "minimum_audit_samples": 50,
+      "warmup_low_margin": 0.05,
+      "warmup_mid_margin": 0.03,
+      "rejected_audit_interval": 20,
+      "near_target_margin": 0.0,
+      "small_boundary_delta": 0.0,
+      "large_boundary_delta": 100.0,
+      "high_preserved_task_ratio": 1.0,
+      "high_affected_task_ratio": 1.0,
+      "low_population_diversity": 0.01,
+      "maximum_false_rejection_rate": 0.05,
+      "population_archive_best_final_require_high_certification": true
+    },
+    "incremental_policy": {
+      "identity": "parent_id_plus_canonical_geometry",
+      "repair": "deterministic_regret2_direction_dp",
+      "unaffected_half_reuse": true
+    }
+  },
+  "hga_diagnostics_policy": {
+    "complete_candidate_counts": true,
+    "assignment_cache_counts": true,
+    "route_cache_counts": true,
+    "budget_behavior_regression_required": true
+  },
+  "instances": {
+    "w30": {
+      "path": "data/instances/selected/instance_w30.xlsx",
+      "weld_count": 30,
+      "expected_original_weld_count": 30,
+      "instance_seed": 41,
+      "instance_hash": "2fab0e3e566477294710c7f5296eae3f19fffdaf771928347daa371758bb2a62",
+      "normalization": {
+        "mode": "ideal_baseline_range_v1",
+        "ideal": {
+          "makespan": 1105.6116151072345,
+          "load_imbalance": 0.0,
+          "idle_distance": 0.0
+        },
+        "baseline": {
+          "algorithm": "workload_balanced_cut_cheapest_insertion_2opt_dp_v1",
+          "algorithm_version": "1.0.0",
+          "instance_hash": "2fab0e3e566477294710c7f5296eae3f19fffdaf771928347daa371758bb2a62",
+          "scientific_model_hash": "2d43fde39b82342a6c387ef379b2faa249a26c027f2e2ff7869f025725a08ab3",
+          "boundaries": {
+            "fixed_y": 6.0,
+            "x_up": 11.124509023430956,
+            "x_low": 13.732039329014828
+          },
+          "metrics": {
+            "makespan": 1266.0934153406624,
+            "load_imbalance": 153.81691019450614,
+            "idle_distance": 65.19580361771983
+          },
+          "robot_total_times": [
+            1266.0934153406624,
+            1223.0249564230423,
+            1184.2306016076755,
+            1112.2765051461563
+          ],
+          "routes": [
+            [
+              "inst0019|group=183-CM2B.dxf|row=0000",
+              "inst0014|group=804-FR314A|row=0000",
+              "inst0009|group=642-BL14A|row=0000",
+              "inst0024|group=642-BL14A|row=0000",
+              "inst0015|group=165-SR1A|row=0000",
+              "inst0004|group=642-BL14A.dxf|row=0000",
+              "inst0012|group=804-FR315A.dxf|row=0001",
+              "inst0020|group=145-LB17A|row=0000",
+              "inst0017|group=143-FR76A|row=0000_seg1",
+              "inst0022|group=143-FR76A|row=0000",
+              "inst0012|group=804-FR315A.dxf|row=0000",
+              "inst0012|group=804-FR315A.dxf|row=0002",
+              "inst0007|group=143-GR14A|row=0000_seg1"
+            ],
+            [
+              "inst0010|group=804-FR314A|row=0000_seg1",
+              "inst0017|group=143-FR76A|row=0000_seg0",
+              "inst0007|group=143-GR14A|row=0000_seg0",
+              "inst0023|group=801-FR322A|row=0000",
+              "inst0002|group=143-FR65A|row=0000",
+              "inst0021|group=145-LB20A|row=0000",
+              "inst0008|group=145-LB20A|row=0000",
+              "inst0003|group=804-FR315A|row=0000"
+            ],
+            [
+              "inst0010|group=804-FR314A|row=0000_seg0",
+              "inst0001|group=804-FR313A|row=0000",
+              "inst0005|group=143-FR69B.dxf|row=0000_seg1",
+              "inst0005|group=143-FR69B.dxf|row=0002_seg1",
+              "inst0000|group=804-FR313A|row=0000",
+              "inst0018|group=826BK312A|row=0000",
+              "inst0006|group=312-GR2C|row=0000",
+              "inst0011|group=804-FR313A.dxf|row=0000"
+            ],
+            [
+              "inst0005|group=143-FR69B.dxf|row=0001",
+              "inst0005|group=143-FR69B.dxf|row=0000_seg0",
+              "inst0005|group=143-FR69B.dxf|row=0002_seg0",
+              "inst0005|group=143-FR69B.dxf|row=0003",
+              "inst0016|group=642-BL14A.dxf|row=0000",
+              "inst0013|group=143-GR14A|row=0000"
+            ]
+          ],
+          "direction_flags": [
+            [
+              true,
+              false,
+              true,
+              true,
+              false,
+              true,
+              false,
+              true,
+              false,
+              false,
+              false,
+              false,
+              true
+            ],
+            [
+              true,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              false
+            ],
+            [
+              true,
+              true,
+              true,
+              false,
+              false,
+              false,
+              false,
+              false
+            ],
+            [
+              false,
+              false,
+              true,
+              true,
+              true,
+              true
+            ]
+          ],
+          "assignment_stats": {
+            "assignment_mode": "split_complete_segment",
+            "original_weld_count": 30,
+            "subweld_count": 35,
+            "split_weld_count": 5,
+            "cross_region_weld_count": 5,
+            "boundary_overlap_count": 0,
+            "zero_length_subweld_count": 0,
+            "short_subweld_count": 0,
+            "discarded_short_subweld_count": 0,
+            "max_length_error": 0.0,
+            "sum_length_error": 0.0,
+            "assigned_subweld_count": 35,
+            "unassigned_subweld_count": 0,
+            "unassigned_subweld_ids": [],
+            "parent_id_count": 30,
+            "split_segment_count": 10,
+            "robot_0_task_count": 13,
+            "robot_1_task_count": 8,
+            "robot_2_task_count": 8,
+            "robot_3_task_count": 6
+          },
+          "baseline_hash": "49046c513cbc2d864ef7714411008e8fa00585e00855ed1a79ed2b194ba7d24c"
+        },
+        "scale": {
+          "makespan": 160.48180023342798,
+          "load_imbalance": 153.81691019450614,
+          "idle_distance": 65.19580361771983
+        },
+        "floors": {
+          "epsilon_makespan": 1.1056116151072345e-06,
+          "load_imbalance": 55.280580755361726,
+          "epsilon_idle_distance": 2.3323807579381206e-08
+        },
+        "weights": [
+          0.7,
+          0.2,
+          0.1
+        ],
+        "normalization_spec_hash": "e9e221a5db62c86aed76061099db5eaeb9b8c63708fbd05e33328b1811a38df4"
+      }
+    },
+    "w45": {
+      "path": "data/instances/selected/instance_w45.xlsx",
+      "weld_count": 45,
+      "expected_original_weld_count": 45,
+      "instance_seed": 41,
+      "instance_hash": "3b50059c27eb07cf6d40c8c36c0507257890c74fc956278aeedb8318f04e3c38",
+      "normalization": {
+        "mode": "ideal_baseline_range_v1",
+        "ideal": {
+          "makespan": 1633.7983767912515,
+          "load_imbalance": 0.0,
+          "idle_distance": 0.0
+        },
+        "baseline": {
+          "algorithm": "workload_balanced_cut_cheapest_insertion_2opt_dp_v1",
+          "algorithm_version": "1.0.0",
+          "instance_hash": "3b50059c27eb07cf6d40c8c36c0507257890c74fc956278aeedb8318f04e3c38",
+          "scientific_model_hash": "2d43fde39b82342a6c387ef379b2faa249a26c027f2e2ff7869f025725a08ab3",
+          "boundaries": {
+            "fixed_y": 6.0,
+            "x_up": 11.398258557123661,
+            "x_low": 11.189271094686667
+          },
+          "metrics": {
+            "makespan": 1984.2726352790462,
+            "load_imbalance": 472.256703984355,
+            "idle_distance": 86.19236951865285
+          },
+          "robot_total_times": [
+            1562.0324894350854,
+            1512.0159312946912,
+            1984.2726352790462,
+            1965.325865884418
+          ],
+          "routes": [
+            [
+              "inst0019|group=183-CM2B.dxf|row=0000",
+              "inst0014|group=804-FR314A|row=0000",
+              "inst0009|group=642-BL14A|row=0000",
+              "inst0024|group=642-BL14A|row=0000",
+              "inst0015|group=165-SR1A|row=0000",
+              "inst0004|group=642-BL14A.dxf|row=0000",
+              "inst0012|group=804-FR315A.dxf|row=0001",
+              "inst0020|group=145-LB17A|row=0000",
+              "inst0022|group=143-FR76A|row=0000",
+              "inst0017|group=143-FR76A|row=0000",
+              "inst0035|group=143-FR69B|row=0000_seg1",
+              "inst0028|group=183-CM2B.dxf|row=0000_seg1",
+              "inst0025|group=804-FR314A|row=0000_seg1",
+              "inst0012|group=804-FR315A.dxf|row=0000",
+              "inst0012|group=804-FR315A.dxf|row=0002",
+              "inst0026|group=143-FR76A|row=0000",
+              "inst0007|group=143-GR14A|row=0000_seg1"
+            ],
+            [
+              "inst0003|group=804-FR315A|row=0000",
+              "inst0008|group=145-LB20A|row=0000",
+              "inst0007|group=143-GR14A|row=0000_seg0",
+              "inst0023|group=801-FR322A|row=0000",
+              "inst0002|group=143-FR65A|row=0000",
+              "inst0021|group=145-LB20A|row=0000",
+              "inst0030|group=642-BL14A|row=0000_seg0",
+              "inst0010|group=804-FR314A|row=0000_seg1",
+              "inst0035|group=143-FR69B|row=0000_seg0",
+              "inst0028|group=183-CM2B.dxf|row=0000_seg0"
+            ],
+            [
+              "inst0011|group=804-FR313A.dxf|row=0000",
+              "inst0006|group=312-GR2C|row=0000",
+              "inst0018|group=826BK312A|row=0000",
+              "inst0000|group=804-FR313A|row=0000",
+              "inst0032|group=312-GR2C|row=0000",
+              "inst0027|group=801-FR322A.dxf|row=0002",
+              "inst0027|group=801-FR322A.dxf|row=0004",
+              "inst0027|group=801-FR322A.dxf|row=0003",
+              "inst0027|group=801-FR322A.dxf|row=0000",
+              "inst0027|group=801-FR322A.dxf|row=0001",
+              "inst0029|group=143-FR69B|row=0000",
+              "inst0025|group=804-FR314A|row=0000_seg0",
+              "inst0001|group=804-FR313A|row=0000_seg1"
+            ],
+            [
+              "inst0033|group=143-FR65A|row=0000",
+              "inst0001|group=804-FR313A|row=0000_seg0",
+              "inst0010|group=804-FR314A|row=0000_seg0",
+              "inst0013|group=143-GR14A|row=0000",
+              "inst0034|group=183-CM2B.dxf|row=0000",
+              "inst0031|group=183-CM2B.dxf|row=0000",
+              "inst0005|group=143-FR69B.dxf|row=0001",
+              "inst0005|group=143-FR69B.dxf|row=0000",
+              "inst0005|group=143-FR69B.dxf|row=0002",
+              "inst0005|group=143-FR69B.dxf|row=0003",
+              "inst0016|group=642-BL14A.dxf|row=0000",
+              "inst0030|group=642-BL14A|row=0000_seg1"
+            ]
+          ],
+          "direction_flags": [
+            [
+              true,
+              false,
+              true,
+              true,
+              false,
+              true,
+              false,
+              true,
+              true,
+              true,
+              true,
+              false,
+              false,
+              false,
+              false,
+              true,
+              true
+            ],
+            [
+              true,
+              false,
+              false,
+              true,
+              false,
+              true,
+              false,
+              true,
+              false,
+              true
+            ],
+            [
+              true,
+              true,
+              true,
+              true,
+              false,
+              false,
+              false,
+              false,
+              false,
+              true,
+              false,
+              false,
+              true
+            ],
+            [
+              true,
+              false,
+              false,
+              true,
+              false,
+              false,
+              false,
+              false,
+              true,
+              true,
+              true,
+              true
+            ]
+          ],
+          "assignment_stats": {
+            "assignment_mode": "split_complete_segment",
+            "original_weld_count": 45,
+            "subweld_count": 52,
+            "split_weld_count": 7,
+            "cross_region_weld_count": 7,
+            "boundary_overlap_count": 0,
+            "zero_length_subweld_count": 0,
+            "short_subweld_count": 0,
+            "discarded_short_subweld_count": 0,
+            "max_length_error": 0.0,
+            "sum_length_error": 0.0,
+            "assigned_subweld_count": 52,
+            "unassigned_subweld_count": 0,
+            "unassigned_subweld_ids": [],
+            "parent_id_count": 45,
+            "split_segment_count": 14,
+            "robot_0_task_count": 17,
+            "robot_1_task_count": 10,
+            "robot_2_task_count": 13,
+            "robot_3_task_count": 12
+          },
+          "baseline_hash": "9e85178021dbdafb170cb7afebcfab68a8676a34efcb4e5036ba9f5de8549ce7"
+        },
+        "scale": {
+          "makespan": 350.4742584877947,
+          "load_imbalance": 472.256703984355,
+          "idle_distance": 86.19236951865285
+        },
+        "floors": {
+          "epsilon_makespan": 1.6337983767912516e-06,
+          "load_imbalance": 81.68991883956258,
+          "epsilon_idle_distance": 2.3323807579381206e-08
+        },
+        "weights": [
+          0.7,
+          0.2,
+          0.1
+        ],
+        "normalization_spec_hash": "aaa71d5ade10b8e0312112f8c3bf00aa189c8283c0c92760a58443974d8ff017"
+      }
+    },
+    "w60": {
+      "path": "data/instances/selected/instance_w60.xlsx",
+      "weld_count": 60,
+      "expected_original_weld_count": 60,
+      "instance_seed": 41,
+      "instance_hash": "e7b7409b555e581a0ceea770b7e2c511bacdced8f3172021729319bd352f76d2",
+      "normalization": {
+        "mode": "ideal_baseline_range_v1",
+        "ideal": {
+          "makespan": 2343.458919681395,
+          "load_imbalance": 0.0,
+          "idle_distance": 0.0
+        },
+        "baseline": {
+          "algorithm": "workload_balanced_cut_cheapest_insertion_2opt_dp_v1",
+          "algorithm_version": "1.0.0",
+          "instance_hash": "e7b7409b555e581a0ceea770b7e2c511bacdced8f3172021729319bd352f76d2",
+          "scientific_model_hash": "2d43fde39b82342a6c387ef379b2faa249a26c027f2e2ff7869f025725a08ab3",
+          "boundaries": {
+            "fixed_y": 6.0,
+            "x_up": 11.218257141921946,
+            "x_low": 9.52904726930366
+          },
+          "metrics": {
+            "makespan": 3247.164698831539,
+            "load_imbalance": 1526.7617123867246,
+            "idle_distance": 102.76123606506556
+          },
+          "robot_total_times": [
+            1772.8048288668413,
+            1720.4029864448146,
+            3228.6651814776706,
+            3247.164698831539
+          ],
+          "routes": [
+            [
+              "inst0015|group=165-SR1A|row=0000",
+              "inst0024|group=642-BL14A|row=0000",
+              "inst0019|group=183-CM2B.dxf|row=0000",
+              "inst0014|group=804-FR314A|row=0000",
+              "inst0009|group=642-BL14A|row=0000",
+              "inst0039|group=165-SR2A.dxf|row=0000",
+              "inst0039|group=165-SR2A.dxf|row=0002",
+              "inst0039|group=165-SR2A.dxf|row=0001",
+              "inst0004|group=642-BL14A.dxf|row=0000",
+              "inst0012|group=804-FR315A.dxf|row=0001",
+              "inst0020|group=145-LB17A|row=0000",
+              "inst0017|group=143-FR76A|row=0000",
+              "inst0035|group=143-FR69B|row=0000_seg1",
+              "inst0028|group=183-CM2B.dxf|row=0000_seg1",
+              "inst0022|group=143-FR76A|row=0000",
+              "inst0025|group=804-FR314A|row=0000_seg1",
+              "inst0012|group=804-FR315A.dxf|row=0000",
+              "inst0012|group=804-FR315A.dxf|row=0002",
+              "inst0026|group=143-FR76A|row=0000",
+              "inst0007|group=143-GR14A|row=0000_seg1"
+            ],
+            [
+              "inst0047|group=685-BK21A.dxf|row=0000",
+              "inst0030|group=642-BL14A|row=0000_seg0",
+              "inst0010|group=804-FR314A|row=0000_seg1",
+              "inst0028|group=183-CM2B.dxf|row=0000_seg0",
+              "inst0035|group=143-FR69B|row=0000_seg0",
+              "inst0021|group=145-LB20A|row=0000",
+              "inst0002|group=143-FR65A|row=0000",
+              "inst0023|group=801-FR322A|row=0000",
+              "inst0007|group=143-GR14A|row=0000_seg0",
+              "inst0008|group=145-LB20A|row=0000",
+              "inst0003|group=804-FR315A|row=0000"
+            ],
+            [
+              "inst0027|group=801-FR322A.dxf|row=0002_seg0",
+              "inst0027|group=801-FR322A.dxf|row=0003_seg1",
+              "inst0027|group=801-FR322A.dxf|row=0000",
+              "inst0027|group=801-FR322A.dxf|row=0001",
+              "inst0027|group=801-FR322A.dxf|row=0004_seg0",
+              "inst0042|group=165-SR1A|row=0000_seg1",
+              "inst0029|group=143-FR69B|row=0000",
+              "inst0032|group=312-GR2C|row=0000",
+              "inst0000|group=804-FR313A|row=0000",
+              "inst0046|group=312-GR2C|row=0000",
+              "inst0040|group=145-LB17A|row=0000",
+              "inst0045|group=642-BL14A.dxf|row=0000",
+              "inst0011|group=804-FR313A.dxf|row=0000",
+              "inst0041|group=165-SR2A|row=0000",
+              "inst0018|group=826BK312A|row=0000",
+              "inst0006|group=312-GR2C|row=0000",
+              "inst0048|group=144-DK1B.dxf|row=0000_seg1",
+              "inst0043|group=801-FR322A|row=0000_seg0",
+              "inst0025|group=804-FR314A|row=0000_seg0"
+            ],
+            [
+              "inst0027|group=801-FR322A.dxf|row=0003_seg0",
+              "inst0027|group=801-FR322A.dxf|row=0002_seg1",
+              "inst0027|group=801-FR322A.dxf|row=0004_seg1",
+              "inst0042|group=165-SR1A|row=0000_seg0",
+              "inst0001|group=804-FR313A|row=0000",
+              "inst0043|group=801-FR322A|row=0000_seg1",
+              "inst0048|group=144-DK1B.dxf|row=0000_seg0",
+              "inst0010|group=804-FR314A|row=0000_seg0",
+              "inst0037|group=145-LB20A|row=0000",
+              "inst0030|group=642-BL14A|row=0000_seg1",
+              "inst0016|group=642-BL14A.dxf|row=0000",
+              "inst0031|group=183-CM2B.dxf|row=0000",
+              "inst0038|group=642-BL14A.dxf|row=0000",
+              "inst0034|group=183-CM2B.dxf|row=0000",
+              "inst0013|group=143-GR14A|row=0000",
+              "inst0036|group=888-BK304A|row=0000",
+              "inst0005|group=143-FR69B.dxf|row=0003",
+              "inst0005|group=143-FR69B.dxf|row=0001",
+              "inst0005|group=143-FR69B.dxf|row=0002",
+              "inst0005|group=143-FR69B.dxf|row=0000",
+              "inst0033|group=143-FR65A|row=0000",
+              "inst0044|group=801-FR322A|row=0000"
+            ]
+          ],
+          "direction_flags": [
+            [
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              false,
+              false,
+              false,
+              true,
+              false,
+              false,
+              true,
+              true
+            ],
+            [
+              false,
+              true,
+              true,
+              false,
+              true,
+              false,
+              true,
+              false,
+              true,
+              true,
+              false
+            ],
+            [
+              false,
+              false,
+              false,
+              true,
+              true,
+              false,
+              false,
+              false,
+              false,
+              true,
+              false,
+              false,
+              true,
+              true,
+              false,
+              false,
+              true,
+              true,
+              true
+            ],
+            [
+              true,
+              false,
+              true,
+              true,
+              false,
+              true,
+              true,
+              false,
+              true,
+              false,
+              false,
+              true,
+              true,
+              true,
+              false,
+              true,
+              false,
+              false,
+              false,
+              true,
+              true,
+              true
+            ]
+          ],
+          "assignment_stats": {
+            "assignment_mode": "split_complete_segment",
+            "original_weld_count": 60,
+            "subweld_count": 72,
+            "split_weld_count": 12,
+            "cross_region_weld_count": 12,
+            "boundary_overlap_count": 0,
+            "zero_length_subweld_count": 0,
+            "short_subweld_count": 0,
+            "discarded_short_subweld_count": 0,
+            "max_length_error": 2.220446049250313e-16,
+            "sum_length_error": 2.220446049250313e-16,
+            "assigned_subweld_count": 72,
+            "unassigned_subweld_count": 0,
+            "unassigned_subweld_ids": [],
+            "parent_id_count": 60,
+            "split_segment_count": 24,
+            "robot_0_task_count": 20,
+            "robot_1_task_count": 11,
+            "robot_2_task_count": 19,
+            "robot_3_task_count": 22
+          },
+          "baseline_hash": "26d3fb3c5c15c91b68a38235438bb2d55f358ece8888cc550528756afbc040d5"
+        },
+        "scale": {
+          "makespan": 903.7057791501443,
+          "load_imbalance": 1526.7617123867246,
+          "idle_distance": 102.76123606506556
+        },
+        "floors": {
+          "epsilon_makespan": 2.343458919681395e-06,
+          "load_imbalance": 117.17294598406976,
+          "epsilon_idle_distance": 2.3323807579381206e-08
+        },
+        "weights": [
+          0.7,
+          0.2,
+          0.1
+        ],
+        "normalization_spec_hash": "2c969355974b9b9ca210a0a87655fdd5a442787654bfbbde0be740237b302940"
+      }
+    }
+  },
+  "scientific_model": {
+    "weights": [
+      0.7,
+      0.2,
+      0.1
+    ],
+    "weld_speed": 0.0108,
+    "travel_speed": 0.2,
+    "acceleration": 0.5,
+    "safe_z": 0.3,
+    "weld_z": 0.1,
+    "time_model": "corrected",
+    "assignment_mode": "split",
+    "split_timing_mode": "parent_aware",
+    "direction_mode": "bidirectional",
+    "route_type": "open",
+    "include_initial_positioning": false,
+    "include_final_return": false,
+    "setup_time": 0.0,
+    "post_time": 0.0,
+    "normalization_mode": "ideal_baseline_range_v1",
+    "normalization_weights": [
+      0.7,
+      0.2,
+      0.1
+    ]
+  },
+  "solver_seeds": {
+    "abma_development": [42, 43, 44],
+    "abma_validation": [45, 46, 47],
+    "formal": [
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71
+    ],
+    "formal_repetitions_per_instance": 30,
+    "smoke": [
+      42
+    ]
+  },
+  "budget": {
+    "primary_budget_type": "complete_system_objective_evaluations",
+    "primary_budget_value": 16000,
+    "pilot_candidate_budget": 16000,
+    "wall_clock_safety_timeout": 21600,
+    "historical_pilot_evidence": {
+      "preflight_summary": "unified_experiments/protocol_d1639034a9bb8941997077def70f48383e1bb1c0691c0eeb4d92ca3ad816fb27/budget_pilot_preflight_summary.json",
+      "partial_pilot_summary": "unified_experiments/protocol_1b373dee2bc498642a1d031aae0a5bfa1222a48764ccaf594b3c1b770eb16f6d/budget_pilot_summary.json",
+      "partial_pilot_runs": "unified_experiments/protocol_1b373dee2bc498642a1d031aae0a5bfa1222a48764ccaf594b3c1b770eb16f6d/budget_pilot_runs.csv",
+      "partial_checkpoint_trace": "unified_experiments/protocol_1b373dee2bc498642a1d031aae0a5bfa1222a48764ccaf594b3c1b770eb16f6d/budget_pilot_checkpoint_trace.csv",
+      "human_report": "unified_experiments/protocol_1b373dee2bc498642a1d031aae0a5bfa1222a48764ccaf594b3c1b770eb16f6d/W30_UNIFIED_BUDGET_PILOT_REPORT.md",
+      "preflight_completed": true,
+      "uniform_common_budget_completed": false,
+      "user_override": "After GA+ACO completed 16000 evaluations, DE-LKH was stopped and HGA/ABMA were run at a reduced 5000-evaluation budget.",
+      "ranking_performed": false
+    },
+    "current_three_solver_pilot_evidence": {
+      "status": "passed",
+      "preflight_budget": 2000,
+      "pilot_budget": 16000,
+      "instance": "w30",
+      "solver_seed": 42,
+      "solvers": ["ga_aco", "paper_aligned_hga", "abma"],
+      "all_runs_successful": true,
+      "all_budgets_exact": true,
+      "uniform_common_budget": true,
+      "max_observed_solver_wall_clock_time": 3864.62586619996,
+      "safety_margin_ratio_21600_over_max_wall": 5.589156815647725,
+      "recommended_primary_budget": 16000,
+      "recommended_wall_clock_safety_timeout": 21600,
+      "raw_output_root": "unified_experiments/three_solver_w30_protocol25_2026-07-15",
+      "preflight_runs": "three_solver_w30_preflight_runs.csv",
+      "pilot_runs": "three_solver_w30_pilot_runs.csv",
+      "pilot_summary": "three_solver_w30_pilot_summary.json",
+      "checkpoint_trace": "three_solver_w30_checkpoint_trace.csv",
+      "report": "THREE_SOLVER_W30_BUDGET_PILOT_REPORT.md",
+      "ranking_performed": false
+    },
+    "calibration_method": "protocol_2.5_preflight_linear_projection_followed_by_actual_uniform_16000_three_solver_validation",
+    "calibrated_on_instance": "w30",
+    "calibrated_on_solver_seed": 42,
+    "recommended_primary_budget": 16000,
+    "provisional_common_candidate_budget": 16000,
+    "recommended_wall_clock_safety_timeout": 21600,
+    "w45_w60_timeout_status": "uncalibrated; independent scale pilots remain required",
+    "early_stopping_policy": "disabled_for_formal_profiles",
+    "formal_budget_implementation_status": "w30_uniform_16000_validated_with_documented_internal_work_asymmetry",
+    "solver_cli_mapping": {
+      "ga_aco": "--max-objective-evaluations",
+      "paper_aligned_hga": "--max-objective-evaluations",
+      "abma": "--max-objective-evaluations"
+    },
+    "formal_solver_controls": {
+      "ga_aco": {
+        "pop_size": 20,
+        "max_gen": 100000
+      },
+      "paper_aligned_hga": {
+        "mu": 20,
+        "lambda": 10,
+        "max_generations": 0,
+        "max_offspring": 200000,
+        "max_local_search_moves": 200000,
+        "max_neighbor_checks": 300,
+        "no_improve_limit": 0,
+        "time_limit_s": 0.0,
+        "vnd_mode": "full"
+      },
+      "abma": {
+        "abma_variant": "legacy_exact_fast",
+        "population_size": 12,
+        "generations": 100000,
+        "alns_iterations": 80,
+        "vnd_iterations": 3,
+        "early_stop_patience": 0,
+        "route_time_limit_s": 0.0
+      }
+    },
+    "smoke_solver_controls": {
+      "ga_aco": {
+        "pop_size": 4,
+        "max_gen": 1,
+        "max_objective_evaluations": 8
+      },
+      "paper_aligned_hga": {
+        "mu": 2,
+        "lambda": 1,
+        "max_offspring": 1,
+        "max_local_search_moves": 30,
+        "max_neighbor_checks": 20,
+        "alpha_neighbors": 5,
+        "vnd_mode": "bounded",
+        "max_objective_evaluations": 2500
+      },
+      "abma": {
+        "abma_variant": "legacy_exact_fast",
+        "population_size": 4,
+        "generations": 1,
+        "alns_iterations": 4,
+        "vnd_iterations": 1,
+        "early_stop_patience": 0,
+        "max_objective_evaluations": 8
+      }
+    }
+  },
+  "collision_audit": {
+    "enabled_for_smoke": true,
+    "enabled_for_formal": true,
+    "post_processing_only": true,
+    "included_in_primary_objective": false,
+    "may_change_boundaries_routes_or_directions": false,
+    "safety_distance": 0.5,
+    "boundary_band_width": 0.5,
+    "sampling_interval": 1.0,
+    "output_policy": "save collision_metrics.json separately; never overwrite original makespan"
+  },
+  "output_schema": {
+    "robot_order": [
+      "upper_left",
+      "upper_right",
+      "lower_left",
+      "lower_right"
+    ],
+    "robot_required_fields": [
+      "robot_id",
+      "region_name",
+      "task_count",
+      "route_task_ids",
+      "direction_flags",
+      "total_weld_time",
+      "total_travel_time",
+      "total_time",
+      "total_idle_distance"
+    ],
+    "system_required_fields": [
+      "makespan",
+      "load_imbalance",
+      "total_weld_time",
+      "total_travel_time",
+      "total_idle_distance",
+      "sum_robot_total_time",
+      "fitness"
+    ],
+    "runtime_required_fields": [
+      "algorithm_time",
+      "solver_wall_clock_time",
+      "postprocess_time",
+      "total_run_wall_clock_time"
+    ],
+    "wall_clock_time_compatibility_alias": "solver_wall_clock_time",
+    "runner_validation": "independent frozen-instance split, route-ID/direction reconstruction, and public motion-model recomputation; mismatch marks run invalid",
+    "numeric_tolerance": 1e-08
+  },
+  "outputs": {
+    "default_root": "unified_experiments",
+    "per_run_files": [
+      "command.json",
+      "protocol_snapshot.json",
+      "metrics.csv",
+      "result.json",
+      "stdout.log",
+      "stderr.log",
+      "run_status.json",
+      "source_hashes.json",
+      "environment.json",
+      "unified_metrics.json",
+      "collision_metrics.json"
+    ],
+    "run_status_values": [
+      "success",
+      "failed",
+      "timeout",
+      "invalid",
+      "protocol_validation_failed",
+      "interrupted",
+      "corrupt",
+      "skipped_resume"
+    ],
+    "missing_metric_policy": "mark invalid; never impute for protocol validation or formal summaries",
+    "retry_policy": "never overwrite; create the next attempt_NNN directory after preserving and classifying the prior attempt",
+    "raw_records_immutable": true,
+    "smoke_in_formal_summary": false,
+    "failed_runs_retained": true,
+    "protocol_hash_output_isolation": true,
+    "cross_mode_comparison_policy": "exclude; never merge legacy and official normalization modes"
+  },
+  "statistics": {
+    "descriptive": [
+      "count",
+      "mean",
+      "sample_standard_deviation",
+      "median",
+      "minimum",
+      "maximum"
+    ],
+    "paired_by": [
+      "instance_hash",
+      "solver_seed"
+    ],
+    "paired_comparison": "paired differences and exact two-sided sign test; Wilcoxon signed-rank may be added only with a declared tested dependency",
+    "effect_size": "paired standardized mean difference plus paired median difference",
+    "multiple_comparison_correction": "Holm",
+    "ranking_policy": "only protocol-valid successful formal runs; no smoke or ablation ranking; this stage produces no scientific ranking conclusion"
+  },
+  "gaaco_ablation": {
+    "methods": {
+      "original_legacy_midpoint_fixed": [
+        "legacy",
+        "midpoint",
+        "conservative",
+        "fixed"
+      ],
+      "corrected_midpoint_fixed": [
+        "corrected",
+        "midpoint",
+        "conservative",
+        "fixed"
+      ],
+      "split_conservative_fixed": [
+        "corrected",
+        "split",
+        "conservative",
+        "fixed"
+      ],
+      "split_parent_fixed": [
+        "corrected",
+        "split",
+        "parent_aware",
+        "fixed"
+      ],
+      "split_conservative_bidir": [
+        "corrected",
+        "split",
+        "conservative",
+        "bidirectional"
+      ],
+      "proposed_split_parent_bidir": [
+        "corrected",
+        "split",
+        "parent_aware",
+        "bidirectional"
+      ]
+    },
+    "run_class": "gaaco_ablation",
+    "included_in_formal_comparison": false,
+    "default_pop_size": 20,
+    "default_max_gen": 30
+  },
+  "source_evidence_files": [
+    "generate_welds.py",
+    "mrta_problem_core.py",
+    "MRTA_GA_ACO.py",
+    "MRTA_ABMA.py",
+    "MRTA_HGA_PAPER_ALIGNED_CONTROL.py",
+    "paper_aligned_hga_control_defaults.json",
+    "collision_aware_schedule.py",
+    "UNIFIED_EXPERIMENT_PROTOCOL.json",
+    "run_unified_experiments.py",
+    "objective_normalization.py",
+    "solver_output_metrics.py",
+    "test_solver_output_metrics.py",
+    "test_hga_paper_aligned.py",
+    "test_unified_protocol_v2.py",
+    "THREE_SOLVER_W30_PILOT_REPORT.md",
+    "test_abma_incremental_multifidelity.py",
+    "test_abma_exact_fast_equivalence.py",
+    "abma_final_profile.json",
+    "abma_final_profile.sha256",
+    "ABMA_STRUCTURAL_ACCELERATION_REPORT.md",
+    "ABMA结构性等价加速与开发门禁复验阶段_AI交接报告_2026-07-15.md",
+    "test_hga_abma_budget_regression.py",
+    "ABMA_FINAL_CANDIDATE_REPORT.md",
+    "三算法实验重构与ABMA最终候选冻结阶段_AI交接报告_2026-07-15.md",
+    "双滑轨四悬臂机器人任务分配及焊缝排序.docx",
+    "repository_inventory_before.json",
+    "REPOSITORY_CLEANUP_PLAN.md",
+    "build_repository_inventory.py",
+    "update_paper_protocol25_docx.py",
+    "repository_inventory_after.json",
+    "repository_cleanup_manifest.json",
+    "REPOSITORY_CLEANUP_REPORT.md",
+    "abma_validation_runs.csv",
+    "abma_validation_summary.json",
+    "ABMA_INDEPENDENT_VALIDATION_REPORT.md",
+    "three_solver_w30_preflight_runs.csv",
+    "three_solver_w30_pilot_runs.csv",
+    "three_solver_w30_pilot_summary.json",
+    "three_solver_w30_checkpoint_trace.csv",
+    "THREE_SOLVER_W30_BUDGET_PILOT_REPORT.md",
+    "仓库清理_ABMA独立验证与三算法预算Pilot阶段_AI交接报告_2026-07-15.md"
+  ],
+  "historical_compatibility": {
+    "mode": "legacy_ratio_refs_v1",
+    "official_comparison_eligible": false,
+    "note": "Archived v1.0.0 ratio references; retained only to reproduce historical runs.",
+    "refs_by_instance": {
+      "w30": {
+        "makespan": 1105.6116151072342,
+        "load": 1105.6116151072342,
+        "distance": 616.8189970639112
+      },
+      "w45": {
+        "makespan": 1633.798376791251,
+        "load": 1633.798376791251,
+        "distance": 972.6761107546292
+      },
+      "w60": {
+        "makespan": 2343.458919681394,
+        "load": 2343.458919681394,
+        "distance": 1328.5332244453473
+      }
+    }
+  },
+  "normalization_smoke_evidence": {
+    "profile": "w30_seed42_four_solver_tiny_budget",
+    "source_protocol_hash": "5dff143cb560ad049af0da0a16629b3b46fb3023b02f2f42db5c2a1365edabb9",
+    "report_path": "normalization_smoke_2026-07-14/smoke_cross_validation.json",
+    "cross_validation_passed": true,
+    "ranking_performed": false,
+    "formal_summary_included": false
+  }
+}

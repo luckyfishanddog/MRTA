@@ -1,0 +1,25 @@
+{
+  "all_exact_equivalent": true,
+  "all_runs_successful": true,
+  "formal": false,
+  "median_speedup": 4.025136265251658,
+  "rows": [
+    {
+      "budget": 100,
+      "candidate_fitness": 0.9700959727549139,
+      "candidate_run_status": "success",
+      "candidate_solver_wall_clock_time": 16.213045000098646,
+      "candidate_variant": "legacy_exact_fast",
+      "equivalence_errors": "",
+      "exact_equivalence": true,
+      "fitness_degradation": 0.0,
+      "legacy_fitness": 0.9700959727549139,
+      "legacy_run_status": "success",
+      "legacy_solver_wall_clock_time": 65.25971540005412,
+      "legacy_variant": "legacy",
+      "seed": 42,
+      "speedup": 4.025136265251658
+    }
+  ],
+  "run_class": "abma_exact_equivalence_benchmark"
+}

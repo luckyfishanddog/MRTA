@@ -1,0 +1,4 @@
+﻿seed,legacy_variant,candidate_variant,budget,legacy_fitness,candidate_fitness,fitness_degradation,legacy_solver_wall_clock_time,candidate_solver_wall_clock_time,speedup,exact_equivalence,equivalence_errors,legacy_run_status,candidate_run_status
+42,legacy,legacy_exact_fast,2000,0.7636335952485163,0.7636335952485163,0.0,450.32593579997774,105.64539389999118,4.262617793126666,True,,success,success
+43,legacy,legacy_exact_fast,2000,0.7635318767512952,0.7635318767512952,0.0,461.788666700013,113.88164610008243,4.05498763421614,True,,success,success
+44,legacy,legacy_exact_fast,2000,0.763515327117662,0.763515327117662,0.0,430.140644100029,114.17102379992139,3.767511490952621,True,,success,success
