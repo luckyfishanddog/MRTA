@@ -1,0 +1,4 @@
+﻿instance,original_weld_count,fixed_weld_count,y6_split_parent_count,long_split_parent_count,long_split_fixed_weld_count,upper_boundary_count,lower_boundary_count,preprocessing_hash,file
+w30,30,31,1,0,0,27,9,32dbca55f5a35931252e0e456a5ccaf5bb0fd8a3b4b4c94387df81322956f223,D:\pybullet_test\MRTA_GA\data\instances\fixed_presplit\w30_fixed_presplit.json
+w45,45,48,3,0,0,24,16,b164f198a9e59341b74f172c9cc170eed4c2029a5aec1aed186254e96ddffa51,D:\pybullet_test\MRTA_GA\data\instances\fixed_presplit\w45_fixed_presplit.json
+w60,60,74,3,1,12,27,6,7308379325cb733de579cf759e76a988aaba803e47921292f52e97826190056a,D:\pybullet_test\MRTA_GA\data\instances\fixed_presplit\w60_fixed_presplit.json

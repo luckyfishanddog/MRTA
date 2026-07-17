@@ -1,0 +1,47 @@
+{
+  "manifest_version": "fixed-presplit-hashes-v1",
+  "protocol_sha256": "591e10e9f71099c05e723b3348b27b2e167819ccecfaae0ec962f68b86430634",
+  "protocol": "UNIFIED_EXPERIMENT_PROTOCOL_FIXED_PRESPLIT_DEV.json",
+  "protected_files": {
+    "MRTA_ABMA.py": "7f6f09a030543f6e4e14d2bd837791c90896da3bb1e395f409c33d6eaef20df9",
+    "MRTA_HGA_PAPER_ALIGNED_CONTROL.py": "db2557a2c96606f0b7f933808f9efb6b26468240073405697aa54304be26f2e7",
+    "mrta_problem_core.py": "92cd6da3c50ee7bcbbf029134ddd371dd876370f829f6e11205a8175cf1371b5",
+    "objective_normalization.py": "7465a04016897a4a51847bcae8b04c704bab01269220aaa21e0efeef99b18a83",
+    "abma_final_profile.json": "631b2d675e7531d04a3c019cc8013158223944074da3e42d489a5745addee1d3",
+    "abma_final_profile.sha256": "63d8d943691164c9251206f4c09e44c32cde455738d3347ed33ca0a4172a50f3",
+    "UNIFIED_EXPERIMENT_PROTOCOL.json": "5fb8fec80189731e702186e13567ea8cb1d16c707b06446f9ab1e705c76291dc",
+    "formal_experiment_manifest.json": "c4f3e53e87a13c151cfebe77ef9de6398e6038638f18087892b6958444cc877e"
+  },
+  "implementation_files": {
+    "weld_fixed_presplit.py": "18c79ee7f4ca2675db824e5327736ad417679bbe09f8807bd1a945482dab624d",
+    "MRTA_ABMA_FIXED_PRESPLIT.py": "2e58386869d8c96683e80f630ce0d05e556a669b831bac46ebfbf77a613fcb8b",
+    "build_fixed_presplit_normalization.py": "b6a0411351897976e70243d2d2fc9c779e1eda33c92923a8325183a0d4aa2b00",
+    "run_fixed_presplit_experiments.py": "ddbbee4bb2aff8ebbb1373896c8aa13f782f53d54f23e9e60f147a30a9205b52",
+    "fixed_presplit_normalization.json": "51266a5b9433b684db6d0259571993d49db26235157eb34c842f102194bc5478"
+  },
+  "fixed_instances": {
+    "data/instances/fixed_presplit/w30_fixed_presplit.json": "512ebe0060fc10df2228777f3a84f8cb9c354208cd12bf57412b24e7b391a246",
+    "data/instances/fixed_presplit/w45_fixed_presplit.json": "bf2cc43f2c187b5efe99f24cb3505061c6262565aa4df4050d3f6b625167cf53",
+    "data/instances/fixed_presplit/w60_fixed_presplit.json": "1ebd19b015e9b2f81ce88aae882c5208557cb077db1c101a27684be055608723"
+  },
+  "result_files": {
+    "fixed_presplit_equivalence_results.csv": "40f1c2b89ae7581330790a3a3e712d2a67375ea58666fce024476bb3bd484e09",
+    "fixed_presplit_runtime_runs.csv": "ba0f52fa60863231bf746b022914be229ef1ca868890afcf67bb88a95e1a1593",
+    "fixed_presplit_runtime_summary.json": "e41917c54dc7daa7550c123a2653d1183c3deac6dc3dea7483c6215ccf4e1031",
+    "fixed_presplit_work_amplification.csv": "84191120cf20c7bcfa86bd725534d5c3851f2187671dcc74f2bb650cdb78fbd2",
+    "fixed_presplit_conditional_2000_summary.csv": "14dc7a73957819ea21dccf4d4717c38e843cde63837d97825d3e8c559873ff10"
+  },
+  "reports": {
+    "FIXED_PRESPLIT_MODEL_SPECIFICATION.md": "acd8af30726f9b4d966666bcb6059466974718284fe7797f4aac661bee156aaa",
+    "ABMA_FIXED_PRESPLIT_IMPLEMENTATION_REPORT.md": "cbe7c9d41abcc2cc8a874fee747bdd6e8805576399dd3f5d0ff06b2e1f223990",
+    "ABMA_FIXED_PRESPLIT_RUNTIME_DIAGNOSIS_REPORT.md": "7d90e3ff69d0ef3ccfaac9ab76054bf7cf02834d559bd198b214b2918a6481b0",
+    "ABMA固定预切分任务表示与零空走转移开发阶段_AI交接报告_2026-07-16.md": "aa99b6f2b488cc3086e10ac62b8eaa31f3a6bd78d85a48098e8b95003de385a2"
+  },
+  "tests": {
+    "test_fixed_presplit_welds.py": "86e8f7abe8cd6b870d267137e28db8bfad4fe72c3125ae74460f9f8a603ab58f",
+    "test_fixed_presplit_boundaries.py": "7e81d80f145d3e11115da2428d44fdff1f78c522bdfd333ccd97b073e13891c4",
+    "test_fixed_presplit_zero_travel.py": "661a74ff1afb39b4e3ab4e5b2f96407462855dd8e1d44fc0cac81d3e1cbe5c2f",
+    "test_abma_fixed_presplit_equivalence.py": "beddd3b7f2472bc63514508d08f4dafe23a273c0f096e739958309325ea16e08",
+    "test_fixed_presplit_protocol.py": "f9332b37ad5c5703d1fbd62d138c3cad0227816544679ec63febeabf4e34bd97"
+  }
+}
