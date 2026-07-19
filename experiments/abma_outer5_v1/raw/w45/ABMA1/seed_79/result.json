@@ -1,0 +1,1916 @@
+{
+  "solver_name": "ABMA1",
+  "instance_hash": "3b50059c27eb07cf6d40c8c36c0507257890c74fc956278aeedb8318f04e3c38",
+  "solver_seed": 79,
+  "solution": {
+    "x_up": 11.564618784296872,
+    "x_low": 11.641555686277787,
+    "robots": [
+      {
+        "robot_id": 0,
+        "region_name": "upper_left",
+        "task_count": 17,
+        "route_task_ids": [
+          "inst0022|group=143-FR76A|row=0000",
+          "inst0020|group=145-LB17A|row=0000",
+          "inst0017|group=143-FR76A|row=0000",
+          "inst0035|group=143-FR69B|row=0000_seg1",
+          "inst0028|group=183-CM2B.dxf|row=0000_seg1",
+          "inst0025|group=804-FR314A|row=0000_seg1",
+          "inst0012|group=804-FR315A.dxf|row=0000",
+          "inst0012|group=804-FR315A.dxf|row=0001",
+          "inst0012|group=804-FR315A.dxf|row=0002",
+          "inst0007|group=143-GR14A|row=0000_seg1",
+          "inst0026|group=143-FR76A|row=0000",
+          "inst0015|group=165-SR1A|row=0000",
+          "inst0004|group=642-BL14A.dxf|row=0000",
+          "inst0009|group=642-BL14A|row=0000",
+          "inst0024|group=642-BL14A|row=0000",
+          "inst0014|group=804-FR314A|row=0000",
+          "inst0019|group=183-CM2B.dxf|row=0000"
+        ],
+        "direction_flags": [
+          false,
+          true,
+          true,
+          true,
+          false,
+          false,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false
+        ],
+        "total_weld_time": 1457.1165758480179,
+        "total_travel_time": 161.81364017579185,
+        "total_time": 1618.9302160238096,
+        "total_idle_distance": 28.522728035158366
+      },
+      {
+        "robot_id": 1,
+        "region_name": "upper_right",
+        "task_count": 10,
+        "route_task_ids": [
+          "inst0007|group=143-GR14A|row=0000_seg0",
+          "inst0023|group=801-FR322A|row=0000",
+          "inst0003|group=804-FR315A|row=0000",
+          "inst0008|group=145-LB20A|row=0000",
+          "inst0002|group=143-FR65A|row=0000",
+          "inst0021|group=145-LB20A|row=0000",
+          "inst0030|group=642-BL14A|row=0000_seg0",
+          "inst0010|group=804-FR314A|row=0000_seg1",
+          "inst0035|group=143-FR69B|row=0000_seg0",
+          "inst0028|group=183-CM2B.dxf|row=0000_seg0"
+        ],
+        "direction_flags": [
+          true,
+          true,
+          true,
+          false,
+          false,
+          true,
+          false,
+          true,
+          false,
+          true
+        ],
+        "total_weld_time": 1364.6942274185071,
+        "total_travel_time": 128.1764654446855,
+        "total_time": 1492.8706928631927,
+        "total_idle_distance": 23.475293088937104
+      },
+      {
+        "robot_id": 2,
+        "region_name": "lower_left",
+        "task_count": 13,
+        "route_task_ids": [
+          "inst0025|group=804-FR314A|row=0000_seg0",
+          "inst0001|group=804-FR313A|row=0000",
+          "inst0027|group=801-FR322A.dxf|row=0004",
+          "inst0027|group=801-FR322A.dxf|row=0003",
+          "inst0027|group=801-FR322A.dxf|row=0002",
+          "inst0027|group=801-FR322A.dxf|row=0000",
+          "inst0027|group=801-FR322A.dxf|row=0001",
+          "inst0029|group=143-FR69B|row=0000",
+          "inst0032|group=312-GR2C|row=0000",
+          "inst0000|group=804-FR313A|row=0000",
+          "inst0018|group=826BK312A|row=0000",
+          "inst0006|group=312-GR2C|row=0000",
+          "inst0011|group=804-FR313A.dxf|row=0000"
+        ],
+        "direction_flags": [
+          false,
+          true,
+          false,
+          false,
+          true,
+          false,
+          true,
+          false,
+          false,
+          false,
+          false,
+          false,
+          false
+        ],
+        "total_weld_time": 1864.6421466489119,
+        "total_travel_time": 127.22607734551009,
+        "total_time": 1991.868223994422,
+        "total_idle_distance": 22.58690204210745
+      },
+      {
+        "robot_id": 3,
+        "region_name": "lower_right",
+        "task_count": 11,
+        "route_task_ids": [
+          "inst0030|group=642-BL14A|row=0000_seg1",
+          "inst0016|group=642-BL14A.dxf|row=0000",
+          "inst0005|group=143-FR69B.dxf|row=0003",
+          "inst0005|group=143-FR69B.dxf|row=0001",
+          "inst0031|group=183-CM2B.dxf|row=0000",
+          "inst0034|group=183-CM2B.dxf|row=0000",
+          "inst0013|group=143-GR14A|row=0000",
+          "inst0010|group=804-FR314A|row=0000_seg0",
+          "inst0033|group=143-FR65A|row=0000",
+          "inst0005|group=143-FR69B.dxf|row=0000",
+          "inst0005|group=143-FR69B.dxf|row=0002"
+        ],
+        "direction_flags": [
+          false,
+          false,
+          false,
+          true,
+          true,
+          true,
+          false,
+          true,
+          false,
+          true,
+          false
+        ],
+        "total_weld_time": 1848.7405572495672,
+        "total_travel_time": 101.71485402976786,
+        "total_time": 1950.455411279335,
+        "total_idle_distance": 17.94297080595357
+      }
+    ]
+  },
+  "system_metrics": {
+    "makespan": 1991.868223994422,
+    "load_imbalance": 498.99753113122915,
+    "total_weld_time": 6535.193507165004,
+    "total_travel_time": 518.9310369957553,
+    "total_idle_distance": 92.52789397215649,
+    "sum_robot_total_time": 7054.124544160759,
+    "fitness": 1.0338457677475463
+  },
+  "runtime_metrics": {
+    "algorithm_time": 78.06939049996436
+  },
+  "metrics": {
+    "solver_name": "ABMA1",
+    "seed": 79,
+    "weld_count": 45,
+    "x_up": 11.564618784296872,
+    "x_low": 11.641555686277787,
+    "fitness": 1.0338457677475463,
+    "makespan": 1991.868223994422,
+    "load_imbalance": 498.99753113122915,
+    "total_idle_distance": 92.52789397215649,
+    "total_travel_time": 518.9310369957553,
+    "total_weld_time": 6535.193507165004,
+    "reversed_weld_count": 21,
+    "subweld_count": 51,
+    "split_weld_count": 6,
+    "short_subweld_count": 0,
+    "unassigned_subweld_count": 0,
+    "max_length_error": 0.0,
+    "population_size": 12,
+    "max_generations": 5,
+    "generations_completed": 5,
+    "early_stopped": false,
+    "alns_iterations": 80,
+    "elapsed_time": 78.06939049996436,
+    "weld_speed": 0.0108,
+    "travel_speed": 0.2,
+    "acceleration": 0.5,
+    "safe_z": 0.3,
+    "weight_makespan": 0.7000000000000001,
+    "weight_load": 0.20000000000000004,
+    "weight_distance": 0.10000000000000002,
+    "time_model": "corrected",
+    "assignment_mode": "split",
+    "split_timing_mode": "parent_aware",
+    "direction_mode": "bidirectional",
+    "route_type": "open",
+    "partition_cache_hits": 0,
+    "partition_cache_misses": 72,
+    "partition_cache_hit_rate": 0.0,
+    "assignment_cache_hits": 0,
+    "assignment_cache_misses": 0,
+    "assignment_cache_hit_rate": 0.0,
+    "warm_archive_size": 48,
+    "shade_memory_f": [
+      0.8644798197036354,
+      0.7002941004417572,
+      0.539494143622562,
+      0.8656065131600765,
+      0.9073696051745905,
+      0.5
+    ],
+    "shade_memory_cr": [
+      0.4297868672174147,
+      0.4722488852031217,
+      0.4465131585846148,
+      0.44857266477024843,
+      0.5141820420593904,
+      0.5
+    ],
+    "no_improve_generations": 4,
+    "partition_evaluations": 72,
+    "objective_evaluation_count": 72,
+    "max_objective_evaluations": 0,
+    "objective_budget_exhausted": false,
+    "stop_reason": "generation_limit",
+    "checkpoint_trace": [
+      {
+        "objective_evaluation_count": 1,
+        "best_fitness": 1.2478480393509215,
+        "best_makespan": 2030.218783274917,
+        "best_load_imbalance": 830.6548562425514,
+        "best_total_idle_distance": 89.89779296111202,
+        "elapsed_algorithm_time": 0.3574461000971496
+      },
+      {
+        "objective_evaluation_count": 2,
+        "best_fitness": 1.0674790617179437,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 593.6340660758933,
+        "best_total_idle_distance": 86.97267899088841,
+        "elapsed_algorithm_time": 0.6680437999311835
+      },
+      {
+        "objective_evaluation_count": 3,
+        "best_fitness": 1.0674790617179437,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 593.6340660758933,
+        "best_total_idle_distance": 86.97267899088841,
+        "elapsed_algorithm_time": 2.4678374000359327
+      },
+      {
+        "objective_evaluation_count": 4,
+        "best_fitness": 1.0674790617179437,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 593.6340660758933,
+        "best_total_idle_distance": 86.97267899088841,
+        "elapsed_algorithm_time": 3.679458800004795
+      },
+      {
+        "objective_evaluation_count": 5,
+        "best_fitness": 1.0674790617179437,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 593.6340660758933,
+        "best_total_idle_distance": 86.97267899088841,
+        "elapsed_algorithm_time": 6.371880300110206
+      },
+      {
+        "objective_evaluation_count": 6,
+        "best_fitness": 1.0674790617179437,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 593.6340660758933,
+        "best_total_idle_distance": 86.97267899088841,
+        "elapsed_algorithm_time": 7.191286399960518
+      },
+      {
+        "objective_evaluation_count": 7,
+        "best_fitness": 1.0674790617179437,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 593.6340660758933,
+        "best_total_idle_distance": 86.97267899088841,
+        "elapsed_algorithm_time": 7.696830400032923
+      },
+      {
+        "objective_evaluation_count": 8,
+        "best_fitness": 1.0674790617179437,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 593.6340660758933,
+        "best_total_idle_distance": 86.97267899088841,
+        "elapsed_algorithm_time": 8.77077200007625
+      },
+      {
+        "objective_evaluation_count": 9,
+        "best_fitness": 1.0674790617179437,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 593.6340660758933,
+        "best_total_idle_distance": 86.97267899088841,
+        "elapsed_algorithm_time": 11.098512599943206
+      },
+      {
+        "objective_evaluation_count": 10,
+        "best_fitness": 1.0674790617179437,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 593.6340660758933,
+        "best_total_idle_distance": 86.97267899088841,
+        "elapsed_algorithm_time": 12.76243510004133
+      },
+      {
+        "objective_evaluation_count": 11,
+        "best_fitness": 1.0674790617179437,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 593.6340660758933,
+        "best_total_idle_distance": 86.97267899088841,
+        "elapsed_algorithm_time": 14.453659899998456
+      },
+      {
+        "objective_evaluation_count": 12,
+        "best_fitness": 1.0674790617179437,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 593.6340660758933,
+        "best_total_idle_distance": 86.97267899088841,
+        "elapsed_algorithm_time": 16.390786499949172
+      },
+      {
+        "objective_evaluation_count": 13,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 17.192343400092795
+      },
+      {
+        "objective_evaluation_count": 14,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 18.217708900105208
+      },
+      {
+        "objective_evaluation_count": 15,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 20.154624599963427
+      },
+      {
+        "objective_evaluation_count": 16,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 20.86099199997261
+      },
+      {
+        "objective_evaluation_count": 17,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 22.631095400080085
+      },
+      {
+        "objective_evaluation_count": 18,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 24.178696600021794
+      },
+      {
+        "objective_evaluation_count": 19,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 25.754697399912402
+      },
+      {
+        "objective_evaluation_count": 20,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 27.014155900105834
+      },
+      {
+        "objective_evaluation_count": 21,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 28.294756300048903
+      },
+      {
+        "objective_evaluation_count": 22,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 29.087923699989915
+      },
+      {
+        "objective_evaluation_count": 23,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 30.344370200065896
+      },
+      {
+        "objective_evaluation_count": 24,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 31.563034099992365
+      },
+      {
+        "objective_evaluation_count": 25,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 32.13336339988746
+      },
+      {
+        "objective_evaluation_count": 26,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 33.05418589990586
+      },
+      {
+        "objective_evaluation_count": 27,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 34.256625700043514
+      },
+      {
+        "objective_evaluation_count": 28,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 34.65122350002639
+      },
+      {
+        "objective_evaluation_count": 29,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 35.92454780009575
+      },
+      {
+        "objective_evaluation_count": 30,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 36.4810122998897
+      },
+      {
+        "objective_evaluation_count": 31,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 38.15978530002758
+      },
+      {
+        "objective_evaluation_count": 32,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 39.28676260006614
+      },
+      {
+        "objective_evaluation_count": 33,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 40.43232630006969
+      },
+      {
+        "objective_evaluation_count": 34,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 40.81812640000135
+      },
+      {
+        "objective_evaluation_count": 35,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 43.03620749991387
+      },
+      {
+        "objective_evaluation_count": 36,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 44.53687430010177
+      },
+      {
+        "objective_evaluation_count": 37,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 44.90287339990027
+      },
+      {
+        "objective_evaluation_count": 38,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 46.53755749994889
+      },
+      {
+        "objective_evaluation_count": 39,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 48.32911890000105
+      },
+      {
+        "objective_evaluation_count": 40,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 49.51191910007037
+      },
+      {
+        "objective_evaluation_count": 41,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 51.32316970010288
+      },
+      {
+        "objective_evaluation_count": 42,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 52.091020700056106
+      },
+      {
+        "objective_evaluation_count": 43,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 52.555414099944755
+      },
+      {
+        "objective_evaluation_count": 44,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 53.46386949997395
+      },
+      {
+        "objective_evaluation_count": 45,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 54.39042440010235
+      },
+      {
+        "objective_evaluation_count": 46,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 55.225126300007105
+      },
+      {
+        "objective_evaluation_count": 47,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 56.58934099995531
+      },
+      {
+        "objective_evaluation_count": 48,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 58.231791799888015
+      },
+      {
+        "objective_evaluation_count": 49,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 59.0939720000606
+      },
+      {
+        "objective_evaluation_count": 50,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 59.5361583000049
+      },
+      {
+        "objective_evaluation_count": 51,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 61.13937860005535
+      },
+      {
+        "objective_evaluation_count": 52,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 62.0202993999701
+      },
+      {
+        "objective_evaluation_count": 53,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 63.334321399917826
+      },
+      {
+        "objective_evaluation_count": 54,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 64.21076630009338
+      },
+      {
+        "objective_evaluation_count": 55,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 65.46701000002213
+      },
+      {
+        "objective_evaluation_count": 56,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 66.86302469996735
+      },
+      {
+        "objective_evaluation_count": 57,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 67.64862410002388
+      },
+      {
+        "objective_evaluation_count": 58,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 68.26760370004922
+      },
+      {
+        "objective_evaluation_count": 59,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 68.57873450010084
+      },
+      {
+        "objective_evaluation_count": 60,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 69.32203319994733
+      },
+      {
+        "objective_evaluation_count": 61,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 70.3484896000009
+      },
+      {
+        "objective_evaluation_count": 62,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 71.19582440005615
+      },
+      {
+        "objective_evaluation_count": 63,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 71.98760069999844
+      },
+      {
+        "objective_evaluation_count": 64,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 72.43292109994218
+      },
+      {
+        "objective_evaluation_count": 65,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 73.08076100004837
+      },
+      {
+        "objective_evaluation_count": 66,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 74.07589680003002
+      },
+      {
+        "objective_evaluation_count": 67,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 74.82965350011364
+      },
+      {
+        "objective_evaluation_count": 68,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 75.13554739998654
+      },
+      {
+        "objective_evaluation_count": 69,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 75.8318755000364
+      },
+      {
+        "objective_evaluation_count": 70,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 76.24739879998378
+      },
+      {
+        "objective_evaluation_count": 71,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 77.21878060000017
+      },
+      {
+        "objective_evaluation_count": 72,
+        "best_fitness": 1.0338457677475463,
+        "best_makespan": 1991.868223994422,
+        "best_load_imbalance": 498.99753113122915,
+        "best_total_idle_distance": 92.52789397215649,
+        "elapsed_algorithm_time": 78.06902800011449
+      }
+    ],
+    "shade_adaptation_enabled": true,
+    "alns_adaptation_enabled": true,
+    "inner_acceptance_scope": "joint_four_robot_system_objective",
+    "direction_decoder_objective": "minimum_route_time",
+    "reference_source": "externally_fixed_unified_protocol",
+    "abma_variant": "legacy_exact_fast",
+    "candidate_name": "ABMA-legacy_exact_fast",
+    "incremental_repair_enabled": false,
+    "multifidelity_enabled": false,
+    "fidelity_evaluation_counts": {
+      "low": 0,
+      "mid": 0,
+      "high": 0
+    },
+    "promotion_counts": {
+      "low_to_mid": 0,
+      "mid_to_high": 0
+    },
+    "screened_rejection_count": 0,
+    "audited_rejection_count": 0,
+    "false_rejection_count": 0,
+    "false_rejection_rate": 0.0,
+    "promotion_decision_count": 0,
+    "gray_zone_promotion_count": 0,
+    "adaptive_promotion": {
+      "mode": "audited_conservative_quantile_v1",
+      "quantile_probability": 0.95,
+      "minimum_audit_samples": 50,
+      "valid_audit_sample_count": 0,
+      "low_audit_sample_count": 0,
+      "mid_audit_sample_count": 0,
+      "q_low": 0.0,
+      "q_mid": 0.0,
+      "model_ready": false,
+      "records": []
+    },
+    "high_certification_invariant": true,
+    "repair_diagnostic_totals": {},
+    "outer_rng_stream": "python_random_seeded_by_solver_seed",
+    "inner_rng_stream": "blake2b_solver_seed_and_partition_key",
+    "candidate_sequence_hash": "d1e203ed2bab0a5b1aa064967793967d399bdf1b8e2e07caf4fa5a4af1bd9333",
+    "candidate_acceptance_hash": "abf54b2d2c720e6d3733c0d07c7ae71b5e9490cf7ca7d39f90ab077dc7765b90",
+    "outer_rng_final_state_hash": "528695d2a15764c25a584b7906e5fb93a350dba93712c833c9a8afe5ee21edc3",
+    "inner_rng_final_state_hash": "11b207d79f149fce2e3e02a1d36ff578664cd7e3be0980d38484273ec35aec82",
+    "abma_final_profile": {
+      "algorithm_version": "ABMA-Incremental-MultiFidelity-v2",
+      "variant": "legacy_exact_fast",
+      "fidelity_budgets": {
+        "low": [
+          15,
+          0
+        ],
+        "mid": [
+          50,
+          1
+        ],
+        "high": [
+          100,
+          3
+        ]
+      },
+      "promotion_policy": {
+        "mode": "audited_conservative_quantile_v1",
+        "enabled": true,
+        "quantile": 0.95,
+        "minimum_audit_samples": 50,
+        "audit_interval": 20,
+        "tolerance": 1e-12,
+        "near_target_margin": 0.01,
+        "small_boundary_delta": 0.1,
+        "large_boundary_delta": 5.0,
+        "high_preserved_task_ratio": 0.8,
+        "high_affected_task_ratio": 0.4,
+        "low_population_diversity": 0.01
+      },
+      "incremental_policy": {
+        "enabled": false,
+        "identity": "parent_id_plus_canonical_geometry",
+        "repair": "deterministic_regret2_direction_dp",
+        "assignment_cache": true,
+        "unchanged_robot_route_cache_inheritance": true
+      },
+      "rng_policy": "separate_outer_and_partition_derived_inner_streams",
+      "normalization_mode": "ideal_baseline_range_v1"
+    },
+    "profile_hash": "14bf08ce914821607a50c907649976ac4c14188a8ebf88325d3db376bec700e9",
+    "trial_decision_count": 60,
+    "accepted_trial_count": 21,
+    "instance_path": "D:\\pybullet_test\\MRTA_GA\\data\\instances\\selected\\instance_w45.xlsx",
+    "instance_seed": 41,
+    "solver_seed": 79,
+    "instance_hash": "3b50059c27eb07cf6d40c8c36c0507257890c74fc956278aeedb8318f04e3c38",
+    "target_weld_count": 45,
+    "requested_group_count": 36,
+    "placed_group_count": 36,
+    "actual_weld_count": 45,
+    "original_weld_count": 45,
+    "total_original_weld_length": 70.58008987738205,
+    "normalization_mode": "ideal_baseline_range_v1",
+    "normalization_source": "externally_fixed_unified_protocol",
+    "normalized_makespan": 1.0216723155308145,
+    "normalized_load_imbalance": 1.0566234992987205,
+    "normalized_idle_distance": 1.0735044701623218,
+    "normalization": {
+      "mode": "ideal_baseline_range_v1",
+      "ideal": {
+        "makespan": 1633.7983767912515,
+        "load_imbalance": 0.0,
+        "idle_distance": 0.0
+      },
+      "baseline": {
+        "algorithm": "workload_balanced_cut_cheapest_insertion_2opt_dp_v1",
+        "metrics": {
+          "makespan": 1984.2726352790462,
+          "load_imbalance": 472.256703984355,
+          "idle_distance": 86.19236951865285
+        }
+      },
+      "scale": {
+        "makespan": 350.4742584877947,
+        "load_imbalance": 472.256703984355,
+        "idle_distance": 86.19236951865285
+      },
+      "floors": {},
+      "weights": [
+        0.7,
+        0.2,
+        0.1
+      ]
+    },
+    "robot_0_total_weld_time": 1457.1165758480179,
+    "robot_0_total_travel_time": 161.81364017579185,
+    "robot_0_total_time": 1618.9302160238096,
+    "robot_0_total_idle_distance": 28.522728035158366,
+    "robot_0_task_count": 17,
+    "robot_1_total_weld_time": 1364.6942274185071,
+    "robot_1_total_travel_time": 128.1764654446855,
+    "robot_1_total_time": 1492.8706928631927,
+    "robot_1_total_idle_distance": 23.475293088937104,
+    "robot_1_task_count": 10,
+    "robot_2_total_weld_time": 1864.6421466489119,
+    "robot_2_total_travel_time": 127.22607734551009,
+    "robot_2_total_time": 1991.868223994422,
+    "robot_2_total_idle_distance": 22.58690204210745,
+    "robot_2_task_count": 13,
+    "robot_3_total_weld_time": 1848.7405572495672,
+    "robot_3_total_travel_time": 101.71485402976786,
+    "robot_3_total_time": 1950.455411279335,
+    "robot_3_total_idle_distance": 17.94297080595357,
+    "robot_3_task_count": 11,
+    "sum_robot_total_time": 7054.124544160759,
+    "algorithm_time": 78.06939049996436,
+    "config_vnd_iterations": 3,
+    "algorithm_name": "ABMA-Outer5-v1",
+    "variant": "outer5_legacy_exact_fast",
+    "source_abma_variant": "legacy_exact_fast",
+    "outer_generations_requested": 5,
+    "outer_generations_completed": 5,
+    "expected_primary_evaluations": 72,
+    "realized_primary_evaluations": 72,
+    "source_abma_file": "MRTA_ABMA.py",
+    "source_abma_sha256": "7f6f09a030543f6e4e14d2bd837791c90896da3bb1e395f409c33d6eaef20df9",
+    "abma1_wrapper_sha256": "223325235ef76ff67733cee711b480a6a308b4a8b93219c2d6e9f11c414fc622",
+    "abma1_profile_hash": "bd378ecc89ea09e2ad679d3174c802a575490e51078535a6a8154d08019a123d"
+  },
+  "config": {
+    "seed": 79,
+    "population_size": 12,
+    "generations": 5,
+    "max_objective_evaluations": 0,
+    "memory_size": 6,
+    "p_best_rate": 0.25,
+    "archive_rate": 1.5,
+    "boundary_margin": 0.0,
+    "early_stop_patience": 0,
+    "early_stop_min_delta": 1e-06,
+    "alns_iterations": 80,
+    "alns_segment_length": 10,
+    "destroy_fraction_min": 0.1,
+    "destroy_fraction_max": 0.35,
+    "reaction_factor": 0.2,
+    "initial_temperature_ratio": 0.03,
+    "cooling_rate": 0.97,
+    "critical_robot_rate": 0.65,
+    "vnd_iterations": 3,
+    "max_move_checks_per_operator": 80,
+    "route_time_limit_s": 0.0,
+    "weight_makespan": 0.7000000000000001,
+    "weight_load": 0.20000000000000004,
+    "weight_distance": 0.10000000000000002,
+    "reference_makespan": null,
+    "reference_load": null,
+    "reference_distance": null,
+    "normalization_mode": "ideal_baseline_range_v1",
+    "normalization_spec": {
+      "mode": "ideal_baseline_range_v1",
+      "ideal": {
+        "makespan": 1633.7983767912515,
+        "load_imbalance": 0.0,
+        "idle_distance": 0.0
+      },
+      "baseline": {
+        "algorithm": "workload_balanced_cut_cheapest_insertion_2opt_dp_v1",
+        "metrics": {
+          "makespan": 1984.2726352790462,
+          "load_imbalance": 472.256703984355,
+          "idle_distance": 86.19236951865285
+        }
+      },
+      "scale": {
+        "makespan": 350.4742584877947,
+        "load_imbalance": 472.256703984355,
+        "idle_distance": 86.19236951865285
+      },
+      "floors": {},
+      "weights": [
+        0.7,
+        0.2,
+        0.1
+      ]
+    },
+    "partition_cache_decimals": 6,
+    "enable_partition_cache": true,
+    "enable_warm_start": true,
+    "enable_shade_adaptation": true,
+    "enable_alns_adaptation": true,
+    "use_problem_informed_initialization": true,
+    "verbose": false,
+    "abma_variant": "legacy_exact_fast",
+    "low_alns_iterations": 15,
+    "mid_alns_iterations": 50,
+    "high_alns_iterations": 100,
+    "low_vnd_iterations": 0,
+    "mid_vnd_iterations": 1,
+    "high_vnd_iterations": 3,
+    "low_promotion_margin": 0.03,
+    "mid_promotion_margin": 0.03,
+    "rejected_audit_interval": 20,
+    "adaptive_promotion_enabled": true,
+    "audit_quantile": 0.95,
+    "minimum_audit_samples": 50,
+    "promotion_tolerance": 1e-12,
+    "near_target_margin": 0.01,
+    "small_boundary_delta": 0.1,
+    "large_boundary_delta": 5.0,
+    "high_preserved_task_ratio": 0.8,
+    "high_affected_task_ratio": 0.4,
+    "low_population_diversity": 0.01,
+    "weld_speed": 0.0108,
+    "travel_speed": 0.2,
+    "acceleration": 0.5,
+    "safe_z": 0.3,
+    "split_epsilon": 1e-09,
+    "geometry_tolerance": 1e-08,
+    "min_subweld_length": 1e-06,
+    "direction_mode": "bidirectional"
+  },
+  "history": [
+    1.0674790617179437,
+    1.0338457677475463,
+    1.0338457677475463,
+    1.0338457677475463,
+    1.0338457677475463,
+    1.0338457677475463
+  ],
+  "checkpoint_trace": [
+    {
+      "objective_evaluation_count": 1,
+      "best_fitness": 1.2478480393509215,
+      "best_makespan": 2030.218783274917,
+      "best_load_imbalance": 830.6548562425514,
+      "best_total_idle_distance": 89.89779296111202,
+      "elapsed_algorithm_time": 0.3574461000971496
+    },
+    {
+      "objective_evaluation_count": 2,
+      "best_fitness": 1.0674790617179437,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 593.6340660758933,
+      "best_total_idle_distance": 86.97267899088841,
+      "elapsed_algorithm_time": 0.6680437999311835
+    },
+    {
+      "objective_evaluation_count": 3,
+      "best_fitness": 1.0674790617179437,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 593.6340660758933,
+      "best_total_idle_distance": 86.97267899088841,
+      "elapsed_algorithm_time": 2.4678374000359327
+    },
+    {
+      "objective_evaluation_count": 4,
+      "best_fitness": 1.0674790617179437,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 593.6340660758933,
+      "best_total_idle_distance": 86.97267899088841,
+      "elapsed_algorithm_time": 3.679458800004795
+    },
+    {
+      "objective_evaluation_count": 5,
+      "best_fitness": 1.0674790617179437,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 593.6340660758933,
+      "best_total_idle_distance": 86.97267899088841,
+      "elapsed_algorithm_time": 6.371880300110206
+    },
+    {
+      "objective_evaluation_count": 6,
+      "best_fitness": 1.0674790617179437,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 593.6340660758933,
+      "best_total_idle_distance": 86.97267899088841,
+      "elapsed_algorithm_time": 7.191286399960518
+    },
+    {
+      "objective_evaluation_count": 7,
+      "best_fitness": 1.0674790617179437,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 593.6340660758933,
+      "best_total_idle_distance": 86.97267899088841,
+      "elapsed_algorithm_time": 7.696830400032923
+    },
+    {
+      "objective_evaluation_count": 8,
+      "best_fitness": 1.0674790617179437,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 593.6340660758933,
+      "best_total_idle_distance": 86.97267899088841,
+      "elapsed_algorithm_time": 8.77077200007625
+    },
+    {
+      "objective_evaluation_count": 9,
+      "best_fitness": 1.0674790617179437,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 593.6340660758933,
+      "best_total_idle_distance": 86.97267899088841,
+      "elapsed_algorithm_time": 11.098512599943206
+    },
+    {
+      "objective_evaluation_count": 10,
+      "best_fitness": 1.0674790617179437,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 593.6340660758933,
+      "best_total_idle_distance": 86.97267899088841,
+      "elapsed_algorithm_time": 12.76243510004133
+    },
+    {
+      "objective_evaluation_count": 11,
+      "best_fitness": 1.0674790617179437,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 593.6340660758933,
+      "best_total_idle_distance": 86.97267899088841,
+      "elapsed_algorithm_time": 14.453659899998456
+    },
+    {
+      "objective_evaluation_count": 12,
+      "best_fitness": 1.0674790617179437,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 593.6340660758933,
+      "best_total_idle_distance": 86.97267899088841,
+      "elapsed_algorithm_time": 16.390786499949172
+    },
+    {
+      "objective_evaluation_count": 13,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 17.192343400092795
+    },
+    {
+      "objective_evaluation_count": 14,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 18.217708900105208
+    },
+    {
+      "objective_evaluation_count": 15,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 20.154624599963427
+    },
+    {
+      "objective_evaluation_count": 16,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 20.86099199997261
+    },
+    {
+      "objective_evaluation_count": 17,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 22.631095400080085
+    },
+    {
+      "objective_evaluation_count": 18,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 24.178696600021794
+    },
+    {
+      "objective_evaluation_count": 19,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 25.754697399912402
+    },
+    {
+      "objective_evaluation_count": 20,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 27.014155900105834
+    },
+    {
+      "objective_evaluation_count": 21,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 28.294756300048903
+    },
+    {
+      "objective_evaluation_count": 22,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 29.087923699989915
+    },
+    {
+      "objective_evaluation_count": 23,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 30.344370200065896
+    },
+    {
+      "objective_evaluation_count": 24,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 31.563034099992365
+    },
+    {
+      "objective_evaluation_count": 25,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 32.13336339988746
+    },
+    {
+      "objective_evaluation_count": 26,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 33.05418589990586
+    },
+    {
+      "objective_evaluation_count": 27,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 34.256625700043514
+    },
+    {
+      "objective_evaluation_count": 28,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 34.65122350002639
+    },
+    {
+      "objective_evaluation_count": 29,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 35.92454780009575
+    },
+    {
+      "objective_evaluation_count": 30,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 36.4810122998897
+    },
+    {
+      "objective_evaluation_count": 31,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 38.15978530002758
+    },
+    {
+      "objective_evaluation_count": 32,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 39.28676260006614
+    },
+    {
+      "objective_evaluation_count": 33,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 40.43232630006969
+    },
+    {
+      "objective_evaluation_count": 34,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 40.81812640000135
+    },
+    {
+      "objective_evaluation_count": 35,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 43.03620749991387
+    },
+    {
+      "objective_evaluation_count": 36,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 44.53687430010177
+    },
+    {
+      "objective_evaluation_count": 37,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 44.90287339990027
+    },
+    {
+      "objective_evaluation_count": 38,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 46.53755749994889
+    },
+    {
+      "objective_evaluation_count": 39,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 48.32911890000105
+    },
+    {
+      "objective_evaluation_count": 40,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 49.51191910007037
+    },
+    {
+      "objective_evaluation_count": 41,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 51.32316970010288
+    },
+    {
+      "objective_evaluation_count": 42,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 52.091020700056106
+    },
+    {
+      "objective_evaluation_count": 43,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 52.555414099944755
+    },
+    {
+      "objective_evaluation_count": 44,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 53.46386949997395
+    },
+    {
+      "objective_evaluation_count": 45,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 54.39042440010235
+    },
+    {
+      "objective_evaluation_count": 46,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 55.225126300007105
+    },
+    {
+      "objective_evaluation_count": 47,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 56.58934099995531
+    },
+    {
+      "objective_evaluation_count": 48,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 58.231791799888015
+    },
+    {
+      "objective_evaluation_count": 49,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 59.0939720000606
+    },
+    {
+      "objective_evaluation_count": 50,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 59.5361583000049
+    },
+    {
+      "objective_evaluation_count": 51,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 61.13937860005535
+    },
+    {
+      "objective_evaluation_count": 52,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 62.0202993999701
+    },
+    {
+      "objective_evaluation_count": 53,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 63.334321399917826
+    },
+    {
+      "objective_evaluation_count": 54,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 64.21076630009338
+    },
+    {
+      "objective_evaluation_count": 55,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 65.46701000002213
+    },
+    {
+      "objective_evaluation_count": 56,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 66.86302469996735
+    },
+    {
+      "objective_evaluation_count": 57,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 67.64862410002388
+    },
+    {
+      "objective_evaluation_count": 58,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 68.26760370004922
+    },
+    {
+      "objective_evaluation_count": 59,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 68.57873450010084
+    },
+    {
+      "objective_evaluation_count": 60,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 69.32203319994733
+    },
+    {
+      "objective_evaluation_count": 61,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 70.3484896000009
+    },
+    {
+      "objective_evaluation_count": 62,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 71.19582440005615
+    },
+    {
+      "objective_evaluation_count": 63,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 71.98760069999844
+    },
+    {
+      "objective_evaluation_count": 64,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 72.43292109994218
+    },
+    {
+      "objective_evaluation_count": 65,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 73.08076100004837
+    },
+    {
+      "objective_evaluation_count": 66,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 74.07589680003002
+    },
+    {
+      "objective_evaluation_count": 67,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 74.82965350011364
+    },
+    {
+      "objective_evaluation_count": 68,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 75.13554739998654
+    },
+    {
+      "objective_evaluation_count": 69,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 75.8318755000364
+    },
+    {
+      "objective_evaluation_count": 70,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 76.24739879998378
+    },
+    {
+      "objective_evaluation_count": 71,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 77.21878060000017
+    },
+    {
+      "objective_evaluation_count": 72,
+      "best_fitness": 1.0338457677475463,
+      "best_makespan": 1991.868223994422,
+      "best_load_imbalance": 498.99753113122915,
+      "best_total_idle_distance": 92.52789397215649,
+      "elapsed_algorithm_time": 78.06902800011449
+    }
+  ],
+  "robot_order_ids": [
+    [
+      "inst0022|group=143-FR76A|row=0000",
+      "inst0020|group=145-LB17A|row=0000",
+      "inst0017|group=143-FR76A|row=0000",
+      "inst0035|group=143-FR69B|row=0000_seg1",
+      "inst0028|group=183-CM2B.dxf|row=0000_seg1",
+      "inst0025|group=804-FR314A|row=0000_seg1",
+      "inst0012|group=804-FR315A.dxf|row=0000",
+      "inst0012|group=804-FR315A.dxf|row=0001",
+      "inst0012|group=804-FR315A.dxf|row=0002",
+      "inst0007|group=143-GR14A|row=0000_seg1",
+      "inst0026|group=143-FR76A|row=0000",
+      "inst0015|group=165-SR1A|row=0000",
+      "inst0004|group=642-BL14A.dxf|row=0000",
+      "inst0009|group=642-BL14A|row=0000",
+      "inst0024|group=642-BL14A|row=0000",
+      "inst0014|group=804-FR314A|row=0000",
+      "inst0019|group=183-CM2B.dxf|row=0000"
+    ],
+    [
+      "inst0007|group=143-GR14A|row=0000_seg0",
+      "inst0023|group=801-FR322A|row=0000",
+      "inst0003|group=804-FR315A|row=0000",
+      "inst0008|group=145-LB20A|row=0000",
+      "inst0002|group=143-FR65A|row=0000",
+      "inst0021|group=145-LB20A|row=0000",
+      "inst0030|group=642-BL14A|row=0000_seg0",
+      "inst0010|group=804-FR314A|row=0000_seg1",
+      "inst0035|group=143-FR69B|row=0000_seg0",
+      "inst0028|group=183-CM2B.dxf|row=0000_seg0"
+    ],
+    [
+      "inst0025|group=804-FR314A|row=0000_seg0",
+      "inst0001|group=804-FR313A|row=0000",
+      "inst0027|group=801-FR322A.dxf|row=0004",
+      "inst0027|group=801-FR322A.dxf|row=0003",
+      "inst0027|group=801-FR322A.dxf|row=0002",
+      "inst0027|group=801-FR322A.dxf|row=0000",
+      "inst0027|group=801-FR322A.dxf|row=0001",
+      "inst0029|group=143-FR69B|row=0000",
+      "inst0032|group=312-GR2C|row=0000",
+      "inst0000|group=804-FR313A|row=0000",
+      "inst0018|group=826BK312A|row=0000",
+      "inst0006|group=312-GR2C|row=0000",
+      "inst0011|group=804-FR313A.dxf|row=0000"
+    ],
+    [
+      "inst0030|group=642-BL14A|row=0000_seg1",
+      "inst0016|group=642-BL14A.dxf|row=0000",
+      "inst0005|group=143-FR69B.dxf|row=0003",
+      "inst0005|group=143-FR69B.dxf|row=0001",
+      "inst0031|group=183-CM2B.dxf|row=0000",
+      "inst0034|group=183-CM2B.dxf|row=0000",
+      "inst0013|group=143-GR14A|row=0000",
+      "inst0010|group=804-FR314A|row=0000_seg0",
+      "inst0033|group=143-FR65A|row=0000",
+      "inst0005|group=143-FR69B.dxf|row=0000",
+      "inst0005|group=143-FR69B.dxf|row=0002"
+    ]
+  ],
+  "robot_orders": [
+    [
+      11,
+      10,
+      8,
+      16,
+      15,
+      13,
+      3,
+      4,
+      5,
+      1,
+      14,
+      7,
+      0,
+      2,
+      12,
+      6,
+      9
+    ],
+    [
+      2,
+      6,
+      1,
+      3,
+      0,
+      5,
+      8,
+      4,
+      9,
+      7
+    ],
+    [
+      5,
+      1,
+      10,
+      9,
+      8,
+      6,
+      7,
+      11,
+      12,
+      0,
+      4,
+      2,
+      3
+    ],
+    [
+      7,
+      6,
+      3,
+      1,
+      8,
+      10,
+      5,
+      4,
+      9,
+      0,
+      2
+    ]
+  ],
+  "robot_direction_flags": [
+    [
+      false,
+      true,
+      true,
+      true,
+      false,
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false
+    ],
+    [
+      true,
+      true,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      true
+    ],
+    [
+      false,
+      true,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    [
+      false,
+      false,
+      false,
+      true,
+      true,
+      true,
+      false,
+      true,
+      false,
+      true,
+      false
+    ]
+  ],
+  "assignment_stats": {
+    "assignment_mode": "split_complete_segment",
+    "original_weld_count": 45,
+    "subweld_count": 51,
+    "split_weld_count": 6,
+    "cross_region_weld_count": 6,
+    "boundary_overlap_count": 0,
+    "zero_length_subweld_count": 0,
+    "short_subweld_count": 0,
+    "discarded_short_subweld_count": 0,
+    "max_length_error": 0.0,
+    "sum_length_error": 0.0,
+    "assigned_subweld_count": 51,
+    "unassigned_subweld_count": 0,
+    "unassigned_subweld_ids": [],
+    "parent_id_count": 45,
+    "split_segment_count": 12,
+    "robot_0_task_count": 17,
+    "robot_1_task_count": 10,
+    "robot_2_task_count": 13,
+    "robot_3_task_count": 11
+  },
+  "alns_stats": [
+    {
+      "scope": "joint_four_robot",
+      "acceptance_objective": "system_weighted_fitness",
+      "direction_decoder_objective": "minimum_route_time",
+      "iterations": 80,
+      "accepted_moves": 77,
+      "improving_moves": 9,
+      "global_improving_moves": 1,
+      "route_eval_count": 9664,
+      "route_cache_hit_count": 3380,
+      "route_cache_hit_rate": 0.34975165562913907,
+      "destroy_weights": {
+        "random": 1.0573440000000003,
+        "worst": 1.1572864,
+        "related": 1.4216832000000001,
+        "boundary": 1.4418048000000003,
+        "parent": 1.2301098666666668
+      },
+      "repair_weights": {
+        "greedy": 1.1429386666666668,
+        "regret2": 1.5593124571428574,
+        "regret3": 1.0
+      },
+      "final_inner_fitness": 1.0338457677475463,
+      "final_makespan": 1991.868223994422,
+      "final_load_imbalance": 498.99753113122915,
+      "final_idle_distance": 92.52789397215649,
+      "elapsed_time": 0.7785837999545038
+    }
+  ],
+  "algorithm_name": "ABMA-Outer5-v1",
+  "variant": "outer5_legacy_exact_fast",
+  "source_abma_variant": "legacy_exact_fast",
+  "outer_generations_requested": 5,
+  "outer_generations_completed": 5,
+  "population_size": 12,
+  "expected_primary_evaluations": 72,
+  "realized_primary_evaluations": 72,
+  "source_abma_file": "MRTA_ABMA.py",
+  "source_abma_sha256": "7f6f09a030543f6e4e14d2bd837791c90896da3bb1e395f409c33d6eaef20df9",
+  "abma1_wrapper_sha256": "223325235ef76ff67733cee711b480a6a308b4a8b93219c2d6e9f11c414fc622",
+  "abma1_profile_hash": "bd378ecc89ea09e2ad679d3174c802a575490e51078535a6a8154d08019a123d",
+  "source_solver_identity": {
+    "solver_name": "ABMA",
+    "variant": "legacy_exact_fast",
+    "source_abma_profile_hash": "14bf08ce914821607a50c907649976ac4c14188a8ebf88325d3db376bec700e9"
+  }
+}
