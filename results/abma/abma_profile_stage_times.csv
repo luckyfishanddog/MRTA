@@ -1,0 +1,14 @@
+﻿stage,seconds,count
+time_outer_de,385.82523479964584,
+time_partition_assignment,0.2895495999837294,200
+time_subweld_identity_mapping,0.005081500508822501,
+time_incremental_repair,0.0,
+time_regret_insertion,306.57796140154824,
+time_route_evaluation,330.0714554451406,1185400
+time_direction_dp,324.84284634678625,633232
+time_alns,306.94023119902704,
+time_vnd,70.85736579878721,
+time_system_aggregation,2.2282164697535336,
+time_state_copy,0.00699849973898381,
+time_cache_lookup,2.901811026618816,
+time_result_serialization,0.010554500040598214,

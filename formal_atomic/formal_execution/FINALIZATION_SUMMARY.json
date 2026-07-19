@@ -1,0 +1,7 @@
+{
+  "error": "formal runner checkpoint stale for 3343.4 seconds",
+  "error_type": "RuntimeError",
+  "failed_at": "2026-07-17T11:41:24.806294+00:00",
+  "started_at": "2026-07-17T05:15:53.468652+00:00",
+  "status": "failed"
+}

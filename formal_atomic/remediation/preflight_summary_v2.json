@@ -1,13 +1,13 @@
 {
   "atomic_formal_preflight_passed": true,
-  "branch": "fix/atomic-formal-preflight-normalization-waiver",
+  "branch": "experiment/eprk-hga-atomic-formal-comparison",
   "checks": [
     {
       "check": "01_git_worktree_state",
       "details": {
-        "branch": "fix/atomic-formal-preflight-normalization-waiver",
+        "branch": "experiment/eprk-hga-atomic-formal-comparison",
         "dirty_allowed_before_commit": true,
-        "dirty_entry_count": 17
+        "dirty_entry_count": 8
       },
       "status": "exact_hash_pass"
     },
@@ -1542,7 +1542,7 @@
         "returncode": 0,
         "stderr_log": "formal_atomic/remediation/unit_tests_stderr.log",
         "stdout_log": "formal_atomic/remediation/unit_tests_stdout.log",
-        "test_count": 154
+        "test_count": 163
       },
       "status": "exact_hash_pass"
     },
@@ -1577,9 +1577,9 @@
   "formal_execution_remains_unauthorized": true,
   "formal_seeds_executed": false,
   "full_4680_matrix_executed": false,
-  "generated_at": "2026-07-16T15:19:11.976548+00:00",
+  "generated_at": "2026-07-17T04:59:59.659000+00:00",
   "legacy_float_compatibility_pass_count": 2,
   "passed": true,
   "schema_version": "2.0.0",
-  "source_repository_commit_sha": "b93bbe92063591bc187f70ae8f6d83b8cecdd9d1"
+  "source_repository_commit_sha": "02491f127a32e2f497efa973ae4a6752c5a18f0d"
 }
