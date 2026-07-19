@@ -36,10 +36,19 @@ eprk_development_outputs/
 *.log
 *.pstats
 
+# Formal execution raw payloads are retained locally and indexed by SHA-256.
+formal_atomic/runs/
+formal_atomic/formal_execution/raw_runs.csv
+formal_atomic/formal_execution/formal_raw_results.zip
+formal_atomic/formal_execution/formal_raw_results.zip.part*
+
 # Large generated repository inventories
 repository_inventory_before.json
 repository_inventory_after.json
+results/inventory/repository_inventory_before.json
+results/inventory/repository_inventory_after.json
 
-# Local reference material and unnamed draft
+# Local third-party reference material and unnamed draft
 1-s2.0-S0957417425009212-main.pdf
+references/papers/*.pdf
 新建 DOCX 文档.docx

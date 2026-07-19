@@ -1,0 +1,39 @@
+{
+  "generated_at": "2026-07-16T00:55:30+00:00",
+  "formal_execution_authorized": false,
+  "selection_status": "pending_user_selection_between_A_and_B",
+  "rounding_multiple": 1000,
+  "validated_instance_budgets": {
+    "w30": 16000,
+    "w45": 16000,
+    "w60": 11000
+  },
+  "option_A_global_budget": 11000,
+  "option_A_rule": "minimum validated instance budget, rounded down to 1000",
+  "option_B_per_instance_budgets": {
+    "w30": 16000,
+    "w45": 16000,
+    "w60": 11000
+  },
+  "option_B_rule": "validated per-instance budget shared by all three official solvers within each instance",
+  "max_observed_solver_wall_seconds": {
+    "w30": 3864.62586619996,
+    "w45": 10019.285029400024,
+    "w60": 13669.840594200068
+  },
+  "timeout_formula": "ceil_to_300(max(21600, 1.5*max_observed_solver_wall_seconds+300))",
+  "timeout_options": {
+    "global_seconds": 21600,
+    "per_instance_seconds": {
+      "w30": 21600,
+      "w45": 21600,
+      "w60": 21600
+    }
+  },
+  "ranking_performed": false,
+  "notes": [
+    "Option A is operationally simpler and uses the most conservative validated common budget.",
+    "Option B preserves the higher validated budget on w30 and w45 while retaining within-instance solver fairness.",
+    "No option is selected automatically; formal execution remains fail-closed."
+  ]
+}

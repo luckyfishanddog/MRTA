@@ -1,0 +1,76 @@
+{
+  "status": "frozen_development_validated_validation_not_started",
+  "algorithm_name": "ABMA-Legacy-Exact-Fast-v1",
+  "variant": "legacy_exact_fast",
+  "protocol_version": "2.4.0",
+  "search_semantics": {
+    "outer_algorithm": "legacy_SHADE_exact",
+    "population_size": 12,
+    "outer_candidate_budget": 2000,
+    "alns_iterations_per_partition": 80,
+    "vnd_iterations_per_partition": 3,
+    "inner_acceptance_scope": "joint_four_robot_system_objective",
+    "direction_decoder": "exact_two_state_minimum_route_time_dp",
+    "rng_policy": "legacy_outer_stream_plus_blake2b_partition_inner_stream",
+    "candidate_generation_changed": false,
+    "acceptance_changed": false
+  },
+  "exact_acceleration_policy": {
+    "immutable_per_partition_weld_time_precomputation": true,
+    "exact_four_direction_pair_transition_time_cache": true,
+    "exact_four_direction_pair_transition_distance_cache": true,
+    "route_order_cache": "legacy_partition_local_exact_tuple_cache",
+    "copy_policy": "mutation_isolated_shallow_four_robot_stat_containers",
+    "normalization_policy": "prevalidated_exact_formula_same_operation_order",
+    "parallelism": false,
+    "profiling_default_enabled": false
+  },
+  "scientific_model": {
+    "weights": [0.7, 0.2, 0.1],
+    "weld_speed": 0.0108,
+    "travel_speed": 0.2,
+    "acceleration": 0.5,
+    "safe_z": 0.3,
+    "assignment_mode": "split",
+    "split_timing_mode": "parent_aware",
+    "direction_mode": "bidirectional",
+    "route_type": "open",
+    "normalization_mode": "ideal_baseline_range_v1"
+  },
+  "development_gate": {
+    "instance": "w30",
+    "instance_hash": "2fab0e3e566477294710c7f5296eae3f19fffdaf771928347daa371758bb2a62",
+    "exact_equivalence_budget_100_seed_42": true,
+    "budget_500_seed_speedups": {"42": 3.965399497998977, "43": 4.029128065180893},
+    "budget_2000_seed_speedups": {
+      "42": 4.262617793126666,
+      "43": 4.05498763421614,
+      "44": 3.767511490952621
+    },
+    "budget_2000_median_speedup": 4.05498763421614,
+    "per_seed_fitness_degradation": {"42": 0.0, "43": 0.0, "44": 0.0},
+    "false_rejection_rate": null,
+    "all_high_certified": true,
+    "independent_result_reconstruction_passed": true,
+    "all_objective_budgets_exact": true,
+    "all_candidate_acceptance_rng_hashes_exact": true,
+    "all_scientific_checkpoint_traces_exact": true
+  },
+  "source_hashes": {
+    "MRTA_ABMA.py": "7f6f09a030543f6e4e14d2bd837791c90896da3bb1e395f409c33d6eaef20df9",
+    "mrta_problem_core.py": "92cd6da3c50ee7bcbbf029134ddd371dd876370f829f6e11205a8175cf1371b5",
+    "objective_normalization.py": "7465a04016897a4a51847bcae8b04c704bab01269220aaa21e0efeef99b18a83",
+    "run_unified_experiments.py": "83c749784c304f7cf20416232cc47036196b76e56bb3d94114c84fbf33f07ed4",
+    "test_abma_exact_fast_equivalence.py": "e4223f119f6c5dedbf2a7aee0a9fdb69ea32e5f85a7b9f3e9c7292681128d278"
+  },
+  "evidence": {
+    "profile_summary_sha256": "22ae6ba2d08ba2558bd1cc92569cdea264e90e7920b06b8c59dcc7d652f2b5df",
+    "exact_equivalence_csv_sha256": "a95225f7c62e55b8659703eb4a657118679333442fe68bd2f1828c280e72c8d3",
+    "development_results_csv_sha256": "ad43ca413ee242b6a607b0c81b56fe6dc768e84d6c2592f547525d64bc321c91"
+  },
+  "validation_seeds_touched": false,
+  "validation_authorized_next_stage": true,
+  "validation_executed_this_stage": false,
+  "three_solver_pilot_executed_this_stage": false,
+  "formal_execution_approved": false
+}
