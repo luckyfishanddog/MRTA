@@ -1,0 +1,13 @@
+{
+  "created_at": "2026-07-19T09:07:06.088524+00:00",
+  "files": {
+    "MRTA_ABMA.py": "7f6f09a030543f6e4e14d2bd837791c90896da3bb1e395f409c33d6eaef20df9",
+    "MRTA_HGA_PAPER_ALIGNED_CONTROL.py": "db2557a2c96606f0b7f933808f9efb6b26468240073405697aa54304be26f2e7",
+    "UNIFIED_EXPERIMENT_PROTOCOL.json": "5fb8fec80189731e702186e13567ea8cb1d16c707b06446f9ab1e705c76291dc",
+    "abma_final_profile.json": "631b2d675e7531d04a3c019cc8013158223944074da3e42d489a5745addee1d3",
+    "formal_experiment_manifest.json": "c4f3e53e87a13c151cfebe77ef9de6398e6038638f18087892b6958444cc877e",
+    "mrta_problem_core.py": "92cd6da3c50ee7bcbbf029134ddd371dd876370f829f6e11205a8175cf1371b5",
+    "objective_normalization.py": "7465a04016897a4a51847bcae8b04c704bab01269220aaa21e0efeef99b18a83"
+  },
+  "match": true
+}
