@@ -1,0 +1,10 @@
+{
+  "completed_manifest_entries": 1500,
+  "counts": {
+    "collision": 1500,
+    "failed_attempts": 2,
+    "success": 1500
+  },
+  "created_at": "2026-07-17T14:31:46.163479+00:00",
+  "last_run_id": "equal_time__clustered_n60_r2__hga_atomic__seed_215"
+}

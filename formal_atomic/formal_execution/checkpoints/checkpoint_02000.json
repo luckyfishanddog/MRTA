@@ -1,0 +1,10 @@
+{
+  "completed_manifest_entries": 2000,
+  "counts": {
+    "collision": 2000,
+    "failed_attempts": 2,
+    "success": 2000
+  },
+  "created_at": "2026-07-17T17:32:01.895535+00:00",
+  "last_run_id": "equal_time__boundary_dense_n30_r2__eprk__seed_220"
+}

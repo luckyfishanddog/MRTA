@@ -1,0 +1,10 @@
+{
+  "completed_manifest_entries": 1200,
+  "counts": {
+    "collision": 1200,
+    "failed_attempts": 2,
+    "success": 1200
+  },
+  "created_at": "2026-07-17T12:47:00.378770+00:00",
+  "last_run_id": "equal_time__clustered_n30_r1__eprk__seed_230"
+}

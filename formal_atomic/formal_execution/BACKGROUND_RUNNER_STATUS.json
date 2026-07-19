@@ -1,0 +1,18 @@
+{
+  "command": [
+    "C:\\Users\\Renjl\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+    "run_eprk_atomic_formal.py",
+    "run-manifest",
+    "--protocol",
+    "formal_atomic/EPRK_ATOMIC_FORMAL_PROTOCOL.json",
+    "--authorization",
+    "formal_atomic/formal_execution/FORMAL_EXECUTION_AUTHORIZATION.json",
+    "--manifest",
+    "formal_atomic/formal_manifest.json",
+    "--resume"
+  ],
+  "completed_at": "2026-07-18T14:50:30.515885+00:00",
+  "returncode": 0,
+  "started_at": "2026-07-17T05:15:53.402214+00:00",
+  "status": "passed"
+}
