@@ -1,0 +1,15 @@
+{
+  "solver_name": "Paper-Aligned-HGA-XCut-Control",
+  "instance_hash": "e7b7409b555e581a0ceea770b7e2c511bacdced8f3172021729319bd352f76d2",
+  "actual_weld_count": 60,
+  "x_up": 10.0,
+  "x_low": 10.0,
+  "fitness": 1.28871204729149,
+  "makespan": 3520.518813801758,
+  "load_imbalance": 2064.397995976846,
+  "total_idle_distance": 109.48881749487849,
+  "subweld_count": 69,
+  "unassigned_subweld_count": 0,
+  "sum_length_error": 0.0,
+  "offspring_generated": 0
+}

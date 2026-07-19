@@ -1,0 +1,31 @@
+{
+  "abma1_all_primary_72": true,
+  "abma20_all_primary_252": true,
+  "all_runs_successful": true,
+  "decision": {
+    "abma1_better_than_hga72_by_instance": {
+      "w30": true,
+      "w45": true,
+      "w60": true
+    },
+    "abma20_final_best_within_generation5_count": 0,
+    "case_A": false,
+    "case_B": true,
+    "case_C": false,
+    "conclusion": "固定 5 代过度削弱外层分区搜索，不能作为主算法。",
+    "median_abma1_fitness_advantage_over_hga72": 0.20189813113613578,
+    "median_abma1_fitness_degradation": 0.16173118216168866,
+    "median_abma1_hga72_wall_ratio": 24.40553972959526,
+    "median_abma20_over_abma1_speedup": 2.2765470300695343,
+    "selected_case": "B"
+  },
+  "formal": false,
+  "formal_run_approved": false,
+  "generated_at": "2026-07-19T09:07:06.095177+00:00",
+  "hga_all_exact_budget": true,
+  "historical_context_count": 6,
+  "matrix_run_count": 36,
+  "protected_hashes_match": true,
+  "statistics_policy": "exploratory only; n=3; not inferential evidence",
+  "user_approved_formal_execution": false
+}

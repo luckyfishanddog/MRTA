@@ -1,0 +1,31 @@
+{
+  "formal_run_approved": false,
+  "generated_at": "2026-07-19T09:07:06.090469+00:00",
+  "instance_hashes": {
+    "w30": "2fab0e3e566477294710c7f5296eae3f19fffdaf771928347daa371758bb2a62",
+    "w45": "3b50059c27eb07cf6d40c8c36c0507257890c74fc956278aeedb8318f04e3c38",
+    "w60": "e7b7409b555e581a0ceea770b7e2c511bacdced8f3172021729319bd352f76d2"
+  },
+  "new_files": {
+    "MRTA_ABMA1.py": "223325235ef76ff67733cee711b480a6a308b4a8b93219c2d6e9f11c414fc622",
+    "run_abma_outer5_cold_entry.py": "fb4bdab1d981ffa658d227f9ef444c5f5fd1d81298fb47b00a95e170caa4b71d",
+    "run_abma_outer5_comparison.py": "a5d8dd23286909918c4ad82046ec28bceedc9df49783151feea54aafdbab51a3",
+    "test_mrta_abma1_outer5.py": "26ef926757d297cc90db01be04e0b60998240e0daa15438d65fca997c893b546"
+  },
+  "normalization_hashes": {
+    "w30": "e9e221a5db62c86aed76061099db5eaeb9b8c63708fbd05e33328b1811a38df4",
+    "w45": "aaa71d5ade10b8e0312112f8c3bf00aa189c8283c0c92760a58443974d8ff017",
+    "w60": "2c969355974b9b9ca210a0a87655fdd5a442787654bfbbde0be740237b302940"
+  },
+  "protected_files": {
+    "MRTA_ABMA.py": "7f6f09a030543f6e4e14d2bd837791c90896da3bb1e395f409c33d6eaef20df9",
+    "MRTA_HGA_PAPER_ALIGNED_CONTROL.py": "db2557a2c96606f0b7f933808f9efb6b26468240073405697aa54304be26f2e7",
+    "UNIFIED_EXPERIMENT_PROTOCOL.json": "5fb8fec80189731e702186e13567ea8cb1d16c707b06446f9ab1e705c76291dc",
+    "abma_final_profile.json": "631b2d675e7531d04a3c019cc8013158223944074da3e42d489a5745addee1d3",
+    "formal_experiment_manifest.json": "c4f3e53e87a13c151cfebe77ef9de6398e6038638f18087892b6958444cc877e",
+    "mrta_problem_core.py": "92cd6da3c50ee7bcbbf029134ddd371dd876370f829f6e11205a8175cf1371b5",
+    "objective_normalization.py": "7465a04016897a4a51847bcae8b04c704bab01269220aaa21e0efeef99b18a83"
+  },
+  "scientific_model_hash": "0f950019e8c081f4cf0d745eabed2b5c6d0ea477e588356f1e592cb7253f3de2",
+  "user_approved_formal_execution": false
+}
