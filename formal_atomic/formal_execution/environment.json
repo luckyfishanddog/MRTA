@@ -1,0 +1,23 @@
+{
+  "authorization_sha256": "8f28aa519dd87c507a4922d51089d59505472ed52145d88d3765d8ec039a7790",
+  "cpu": "Intel64 Family 6 Model 140 Stepping 1, GenuineIntel",
+  "cpu_affinity": null,
+  "environment_variables": {
+    "MKL_NUM_THREADS": null,
+    "OMP_NUM_THREADS": null,
+    "OPENBLAS_NUM_THREADS": null,
+    "PYTHONHASHSEED": null
+  },
+  "execution_branch": "experiment/eprk-hga-atomic-formal-comparison",
+  "formal_execution_started_at": "2026-07-17T05:00:25.900266+00:00",
+  "logical_cpu_count": 8,
+  "operating_system": "Windows-10-10.0.19045-SP0",
+  "parallel": false,
+  "pr_head_sha": "02491f127a32e2f497efa973ae4a6752c5a18f0d",
+  "python_executable": "C:\\Users\\Renjl\\AppData\\Local\\Programs\\Python\\Python313\\python.exe",
+  "python_version": "3.13.5 (tags/v3.13.5:6cb20a2, Jun 11 2025, 16:15:46) [MSC v.1943 64 bit (AMD64)]",
+  "sequential": true,
+  "source_branch": "fix/atomic-formal-preflight-normalization-waiver",
+  "source_repository_commit_sha": "02491f127a32e2f497efa973ae4a6752c5a18f0d",
+  "total_memory_bytes": null
+}

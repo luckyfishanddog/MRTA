@@ -1,0 +1,10 @@
+{
+  "completed_manifest_entries": 3600,
+  "counts": {
+    "collision": 3600,
+    "failed_attempts": 3,
+    "success": 3600
+  },
+  "created_at": "2026-07-18T09:58:41.641128+00:00",
+  "last_run_id": "equal_time__zero_travel_chain_n60_r1__eprk__seed_230"
+}

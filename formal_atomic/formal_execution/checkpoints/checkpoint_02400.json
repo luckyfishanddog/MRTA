@@ -1,0 +1,10 @@
+{
+  "completed_manifest_entries": 2400,
+  "counts": {
+    "collision": 2400,
+    "failed_attempts": 3,
+    "success": 2400
+  },
+  "created_at": "2026-07-17T20:00:15.708248+00:00",
+  "last_run_id": "equal_time__boundary_dense_n100_r1__hga_atomic__seed_230"
+}

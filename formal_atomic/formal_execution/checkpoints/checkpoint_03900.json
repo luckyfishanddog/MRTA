@@ -1,0 +1,10 @@
+{
+  "completed_manifest_entries": 3900,
+  "counts": {
+    "collision": 3900,
+    "failed_attempts": 3,
+    "success": 3900
+  },
+  "created_at": "2026-07-18T11:20:35.420827+00:00",
+  "last_run_id": "equal_time__zero_travel_chain_n100_r2__hga_atomic__seed_215"
+}

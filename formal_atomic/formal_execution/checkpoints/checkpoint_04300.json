@@ -1,0 +1,10 @@
+{
+  "completed_manifest_entries": 4300,
+  "counts": {
+    "collision": 4300,
+    "failed_attempts": 3,
+    "success": 4300
+  },
+  "created_at": "2026-07-18T13:06:06.248239+00:00",
+  "last_run_id": "equal_time__load_skewed_n60_r1__eprk__seed_225"
+}
