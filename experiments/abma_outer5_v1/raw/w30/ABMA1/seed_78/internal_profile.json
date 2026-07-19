@@ -1,0 +1,30 @@
+{
+  "stage_times": {
+    "time_outer_de": 20.984134699916467,
+    "time_partition_assignment": 0.051172499312087893,
+    "time_subweld_identity_mapping": 0.0010264995507895947,
+    "time_incremental_repair": 0.0,
+    "time_regret_insertion": 15.569760210579261,
+    "time_route_evaluation": 12.753935283515602,
+    "time_direction_dp": 11.682800967246294,
+    "time_alns": 16.098757898667827,
+    "time_vnd": 3.786551602417603,
+    "time_system_aggregation": 0.3528840185608715,
+    "time_state_copy": 0.00422260002233088,
+    "time_cache_lookup": 0.5034626056440175,
+    "time_result_serialization": 0.018103000009432435
+  },
+  "counts": {
+    "partition_assignment_count": 72,
+    "route_evaluation_count": 443938,
+    "direction_dp_count": 243826,
+    "system_objective_count": 86483,
+    "deepcopy_count": 175,
+    "inner_state_clone_count": 0,
+    "route_cache_hit_count": 200112,
+    "route_cache_miss_count": 243826,
+    "assignment_cache_hit_count": 0,
+    "assignment_cache_miss_count": 0,
+    "high_fidelity_promotion_count": 0
+  }
+}
