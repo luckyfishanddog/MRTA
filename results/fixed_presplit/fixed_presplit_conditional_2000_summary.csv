@@ -1,0 +1,4 @@
+instance,variant,seed,budget,elapsed_time_s,fitness,partition_evaluations,partition_cache_hits,direction_dp_count,route_evaluation_count,route_cache_miss_rate_percent,recorded_rss_mb
+w30,fixed_presplit_exact_fast,72,2000,7.885163500206545,0.9967505663566631,65,1935,139881,378855,36.92230536748888,186.6953125
+w45,fixed_presplit_exact_fast,72,2000,51.15094899991527,0.9977782579099398,86,1914,815883,1372233,59.456666615654925,733.421875
+w60,fixed_presplit_exact_fast,72,2000,377.8467059000395,0.9982814894314073,59,1941,3068022,3746103,81.8990561658342,1622.7734375
