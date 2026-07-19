@@ -1,0 +1,14 @@
+{
+  "algorithm_name": "ABMA-Outer5-v1",
+  "solver_name": "ABMA1",
+  "variant": "outer5_legacy_exact_fast",
+  "outer_generations_requested": 5,
+  "outer_generations_completed": 5,
+  "population_size": 12,
+  "expected_primary_evaluations": 72,
+  "realized_primary_evaluations": 72,
+  "source_abma_file": "MRTA_ABMA.py",
+  "source_abma_sha256": "7f6f09a030543f6e4e14d2bd837791c90896da3bb1e395f409c33d6eaef20df9",
+  "abma1_wrapper_sha256": "223325235ef76ff67733cee711b480a6a308b4a8b93219c2d6e9f11c414fc622",
+  "abma1_profile_hash": "bd378ecc89ea09e2ad679d3174c802a575490e51078535a6a8154d08019a123d"
+}
