@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "seed": 20260719,
+  "iterations_per_instance": 200,
+  "timing_clock": "time.perf_counter_ns",
+  "read_only": true,
+  "rows": [
+    {
+      "instance": "w30",
+      "iterations": 200,
+      "original_weld_count": 30,
+      "lineage_count": 31,
+      "reachable_side_key_count": 62,
+      "reachable_side_pruning_ratio": 0.0,
+      "lineage_preprocessing_ms": 46.0415,
+      "mean_active_decode_ms": 2.794748,
+      "mean_route_sort_ms": 0.580946,
+      "mean_direction_dp_ms": 5.9839155,
+      "mean_aggregation_ms": 0.1028955,
+      "mean_cplr_total_ms": 9.472849,
+      "mean_standard_total_ms": 11.8945965,
+      "peak_memory_bytes": 7657414,
+      "cplr_over_standard_ratio": 0.796399356632232
+    },
+    {
+      "instance": "w45",
+      "iterations": 200,
+      "original_weld_count": 45,
+      "lineage_count": 48,
+      "reachable_side_key_count": 96,
+      "reachable_side_pruning_ratio": 0.0,
+      "lineage_preprocessing_ms": 169.6932,
+      "mean_active_decode_ms": 5.458165,
+      "mean_route_sort_ms": 1.1633355,
+      "mean_direction_dp_ms": 11.147552,
+      "mean_aggregation_ms": 0.114688,
+      "mean_cplr_total_ms": 17.9005405,
+      "mean_standard_total_ms": 22.1746075,
+      "peak_memory_bytes": 8234695,
+      "cplr_over_standard_ratio": 0.8072539953638413
+    },
+    {
+      "instance": "w60",
+      "iterations": 200,
+      "original_weld_count": 60,
+      "lineage_count": 63,
+      "reachable_side_key_count": 126,
+      "reachable_side_pruning_ratio": 0.0,
+      "lineage_preprocessing_ms": 196.3722,
+      "mean_active_decode_ms": 4.990725,
+      "mean_route_sort_ms": 0.988757,
+      "mean_direction_dp_ms": 9.9310935,
+      "mean_aggregation_ms": 0.082288,
+      "mean_cplr_total_ms": 16.0030475,
+      "mean_standard_total_ms": 20.027712,
+      "peak_memory_bytes": 8405326,
+      "cplr_over_standard_ratio": 0.799045217946014
+    }
+  ],
+  "interpretation": "CPLR speedup is not required in phase 1; ratios are descriptive only."
+}

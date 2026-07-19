@@ -1,0 +1,4 @@
+﻿instance,iterations,original_weld_count,lineage_count,reachable_side_key_count,reachable_side_pruning_ratio,lineage_preprocessing_ms,mean_active_decode_ms,mean_route_sort_ms,mean_direction_dp_ms,mean_aggregation_ms,mean_cplr_total_ms,mean_standard_total_ms,peak_memory_bytes,cplr_over_standard_ratio
+w30,200,30,31,62,0.0,46.0415,2.794748,0.580946,5.9839155,0.1028955,9.472849,11.8945965,7657414,0.796399356632232
+w45,200,45,48,96,0.0,169.6932,5.458165,1.1633355,11.147552,0.114688,17.9005405,22.1746075,8234695,0.8072539953638413
+w60,200,60,63,126,0.0,196.3722,4.990725,0.988757,9.9310935,0.082288,16.0030475,20.027712,8405326,0.799045217946014

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "instances": [
+    {
+      "instance": "w30",
+      "instance_hash": "2fab0e3e566477294710c7f5296eae3f19fffdaf771928347daa371758bb2a62",
+      "original_weld_count": 30,
+      "lineage_count": 31,
+      "horizontal_split_parent_count": 1,
+      "original_total_length": 47.762421772632536,
+      "lineage_total_length": 47.76242177263252,
+      "length_error": 1.4210854715202004e-14,
+      "unpruned_side_key_count": 62,
+      "reachable_side_key_count": 62,
+      "pruned_side_key_count": 0,
+      "pruning_ratio": 0.0
+    },
+    {
+      "instance": "w45",
+      "instance_hash": "3b50059c27eb07cf6d40c8c36c0507257890c74fc956278aeedb8318f04e3c38",
+      "original_weld_count": 45,
+      "lineage_count": 48,
+      "horizontal_split_parent_count": 3,
+      "original_total_length": 70.58008987738206,
+      "lineage_total_length": 70.58008987738205,
+      "length_error": 1.4210854715202004e-14,
+      "unpruned_side_key_count": 96,
+      "reachable_side_key_count": 96,
+      "pruned_side_key_count": 0,
+      "pruning_ratio": 0.0
+    },
+    {
+      "instance": "w60",
+      "instance_hash": "e7b7409b555e581a0ceea770b7e2c511bacdced8f3172021729319bd352f76d2",
+      "original_weld_count": 60,
+      "lineage_count": 63,
+      "horizontal_split_parent_count": 3,
+      "original_total_length": 101.23742533023626,
+      "lineage_total_length": 101.23742533023625,
+      "length_error": 1.4210854715202004e-14,
+      "unpruned_side_key_count": 126,
+      "reachable_side_key_count": 126,
+      "pruned_side_key_count": 0,
+      "pruning_ratio": 0.0
+    }
+  ]
+}
